@@ -5,7 +5,7 @@ import { SITE } from '@/lib/siteData';
 export const metadata: Metadata = {
   title: 'שכפול מפתח לרכב לפי דגם - כל סוגי המפתחות | מפתח עכשיו',
   description: 'שכפול מפתח לכל דגמי הרכב: טויוטה, יונדאי, מאזדה, ניסאן, שברולט, פורד ועוד. ציוד מתקדם, הגעה עד אליכם, מחירים שקופים.',
-  alternates: { canonical: `${SITE.url}/key-types/` },
+  alternates: { canonical: 'https://carkeynow.co.il/%D7%A1%D7%95%D7%92%D7%99-%D7%9E%D7%A4%D7%AA%D7%97%D7%95%D7%AA/' },
 };
 
 const BRANDS = [

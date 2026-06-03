@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 const HERO_SERVICES = [
   { label: 'שכפול מפתחות לאופנוע', href: '/שחזור-מפתח-לאופנוע' },
-  { label: 'סוגי מפתחות',          href: '/key-types' },
+  { label: 'סוגי מפתחות',          href: '/סוגי-מפתחות' },
   { label: 'התקנת קודנים לרכב',    href: '/התקנת-קודן-לרכב' },
-  { label: 'אזורים',               href: '/service-areas' },
+  { label: 'אזורים',               href: '/אזורי-שירות' },
   { label: 'פורץ רכבים',           href: '/פורץ-רכבים' },
   { label: 'אבד מפתח לרכב',        href: '/אבד-מפתח-לרכב' },
 ];
@@ -167,7 +167,7 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center justify-between mb-4">
           <h2 className="section-title mb-0">אזורי שירות</h2>
-          <Link href="/service-areas" className="text-sm font-semibold hover:underline"
+          <Link href="/אזורי-שירות" className="text-sm font-semibold hover:underline"
             style={{ color: 'var(--accent)' }}>
             כל האזורים
           </Link>
@@ -186,7 +186,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between mb-4">
             <h2 className="section-title mb-0">שכפול מפתח לפי דגם רכב</h2>
-            <Link href="/key-types" className="text-sm font-semibold hover:underline"
+            <Link href="/סוגי-מפתחות" className="text-sm font-semibold hover:underline"
               style={{ color: 'var(--accent)' }}>
               כל הדגמים
             </Link>

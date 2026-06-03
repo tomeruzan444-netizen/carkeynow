@@ -5,7 +5,7 @@ import { SITE } from '@/lib/siteData';
 export const metadata: Metadata = {
   title: 'אזורי שירות - מנעולן רכב בכל הארץ | מפתח עכשיו',
   description: 'שירותי מנעולן רכב בכל רחבי הארץ. שכפול מפתח, פורץ רכבים, קודן לרכב - בתל אביב, חיפה, ירושלים, באר שבע ועוד.',
-  alternates: { canonical: `${SITE.url}/service-areas/` },
+  alternates: { canonical: 'https://carkeynow.co.il/%D7%90%D7%96%D7%95%D7%A8%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA/' },
 };
 
 const KEY_CITIES = [

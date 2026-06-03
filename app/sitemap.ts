@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const home: MetadataRoute.Sitemap = [
     { url: `${SITE.url}/`,               lastModified: now, changeFrequency: 'weekly',  priority: 1.0 },
-    { url: `${SITE.url}/service-areas/`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${SITE.url}/אזורי-שירות/`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
   ];
 
   const dynamic: MetadataRoute.Sitemap = WP_PAGES.map((page) => ({

@@ -142,7 +142,7 @@ export default function Header() {
                 <div className="absolute top-full right-0 bg-white text-gray-800 shadow-2xl rounded-b-lg border border-gray-100 z-50 min-w-[240px]">
                   {/* See all link */}
                   {key === 'cities' && (
-                    <Link href="/service-areas" onClick={close}
+                    <Link href="/אזורי-שירות" onClick={close}
                       className="flex items-center justify-between px-4 py-2.5 font-bold text-sm border-b"
                       style={{ color: 'var(--primary)', borderColor: 'var(--border)' }}>
                       כל אזורי השירות
@@ -152,7 +152,7 @@ export default function Header() {
                     </Link>
                   )}
                   {key === 'brands' && (
-                    <Link href="/key-types" onClick={close}
+                    <Link href="/סוגי-מפתחות" onClick={close}
                       className="flex items-center justify-between px-4 py-2.5 font-bold text-sm border-b"
                       style={{ color: 'var(--primary)', borderColor: 'var(--border)' }}>
                       כל סוגי המפתחות
