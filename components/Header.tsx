@@ -44,18 +44,15 @@ export default function Header() {
       {/* ── Top bar ── */}
       <div style={{ background: 'var(--primary)' }} className="text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-4">
-          <Link href="/" className="flex items-center gap-3 shrink-0" onClick={close}>
+          <Link href="/" className="flex items-center shrink-0" onClick={close}>
             <Image
-              src="/wp-images/מפתח-עכשיו-לוגו.webp"
+              src="/logo.svg"
               alt={SITE.name}
-              width={120}
-              height={40}
-              className="h-9 w-auto object-contain"
+              width={180}
+              height={48}
+              className="h-10 w-auto object-contain"
               priority
             />
-            <span className="hidden sm:block text-xs opacity-60 border-r border-white/30 pr-2">
-              {SITE.tagline}
-            </span>
           </Link>
 
           <div className="hidden sm:flex items-center gap-2">

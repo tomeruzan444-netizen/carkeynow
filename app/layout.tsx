@@ -54,8 +54,8 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
   },
   icons: {
-    icon: '/wp-images/מפתח-עכשיו-פאביקון.webp',
-    apple: '/wp-images/מפתח-עכשיו-פאביקון.webp',
+    icon: '/logo.svg',
+    apple: '/logo.svg',
   },
   verification: {
     // Add Google Search Console verification token here when ready
