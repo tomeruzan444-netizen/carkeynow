@@ -1,16 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // On Linux server: .next works fine (no OneDrive locking)
-  // Locally on Windows/OneDrive: use .build junction — see README
+  // Static export — all 96 pages are SSG, no Node.js needed on server
+  output: 'export',
+  trailingSlash: true,
+
   distDir: process.env.NEXT_DIST_DIR ?? ".next",
 
-  // Image optimization
+  // Disable image optimization (not supported with static export)
   images: {
-    formats: ['image/webp', 'image/avif'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    minimumCacheTTL: 86400,
+    unoptimized: true,
   },
 
   // Security & performance headers

@@ -1,4 +1,4 @@
-name: Deploy to Hostinger
+name: Build & Deploy to Hostinger
 
 on:
   push:
@@ -6,9 +6,9 @@ on:
 
 jobs:
   deploy:
-    name: Build & Deploy
+    name: Build Static Site & Deploy
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Checkout code
@@ -23,21 +23,30 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
+      - name: Build static site
         run: npm run build
+        # Generates static HTML in /out folder (no Node.js needed on server)
 
-      - name: Deploy to server via SSH
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: ${{ secrets.SSH_PORT }}
-          script: |
-            cd ${{ secrets.APP_DIR }}
-            git pull origin main
-            npm ci --omit=dev
-            npm run build
-            pm2 reload carkeynow --update-env || pm2 start ecosystem.config.js
-            pm2 save
-            echo "✅ Deploy complete: $(date)"
+      - name: Setup SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Deploy static files to server
+        run: |
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/deploy_key -p ${{ secrets.SSH_PORT }} -o StrictHostKeyChecking=no" \
+            out/ \
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.APP_DIR }}/
+
+      - name: Deploy .htaccess
+        run: |
+          scp -i ~/.ssh/deploy_key -P ${{ secrets.SSH_PORT }} \
+            -o StrictHostKeyChecking=no \
+            .htaccess \
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.APP_DIR }}/.htaccess
+
+      - name: Done
+        run: echo "✅ Deployed successfully at $(date)"
