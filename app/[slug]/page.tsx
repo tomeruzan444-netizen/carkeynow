@@ -6,6 +6,11 @@ import ContactForm from '@/components/ContactForm';
 import WpContent from '@/components/WpContent';
 import FaqAccordion from '@/components/FaqAccordion';
 import Sidebar, { detectGroup } from '@/components/Sidebar';
+import {
+  ProcessSteps, FeatureCards, ComparisonTable, StatsBanner,
+  CaseStudyTabs, ToolGrid,
+} from '@/components/VisualBlocks';
+import { getVisualSections } from '@/lib/visualData';
 import { SITE } from '@/lib/siteData';
 import { getFaqsForSlug } from '@/lib/faqData';
 
@@ -64,6 +69,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
 
   const group = detectGroup(page.slug);
   const faqItems = getFaqsForSlug(page.slug);
+  const visualSections = getVisualSections(page.slug);
   const displayTitle = page.title
     .replace(/\s*\|.*$/, '')
     .replace(/&#8211;/g, '–')
@@ -143,6 +149,33 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
               <div className="card p-6 md:p-8">
                 <WpContent html={page.content} />
               </div>
+
+              {/* Visual enhancement blocks */}
+              {visualSections.map((section, i) => {
+                if (section.type === 'process') {
+                  const d = section.data as Parameters<typeof ProcessSteps>[0]['steps'];
+                  return <ProcessSteps key={i} heading={section.heading ?? 'תהליך העבודה שלנו'} steps={d} />;
+                }
+                if (section.type === 'features') {
+                  const d = section.data as { cards: Parameters<typeof FeatureCards>[0]['cards']; cols?: 2 | 3 };
+                  return <FeatureCards key={i} heading={section.heading ?? ''} cards={d.cards} cols={d.cols} />;
+                }
+                if (section.type === 'comparison') {
+                  const d = section.data as { colUs: string; colAlt: string; rows: Parameters<typeof ComparisonTable>[0]['rows'] };
+                  return <ComparisonTable key={i} heading={section.heading ?? ''} colUs={d.colUs} colAlt={d.colAlt} rows={d.rows} />;
+                }
+                if (section.type === 'stats') {
+                  return <StatsBanner key={i} stats={section.data as Parameters<typeof StatsBanner>[0]['stats']} />;
+                }
+                if (section.type === 'tabs') {
+                  return <CaseStudyTabs key={i} heading={section.heading ?? 'מקרה שימוש'} tabs={section.data as Parameters<typeof CaseStudyTabs>[0]['tabs']} />;
+                }
+                if (section.type === 'tools') {
+                  return <ToolGrid key={i} heading={section.heading ?? ''} sub={section.sub} tools={section.data as Parameters<typeof ToolGrid>[0]['tools']} />;
+                }
+                return null;
+              })}
+
               {faqItems.length > 0 && (
                 <div className="mt-6">
                   <FaqAccordion items={faqItems} />
