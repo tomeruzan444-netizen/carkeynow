@@ -54,8 +54,13 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
   },
   icons: {
-    icon: '/logo.svg',
-    apple: '/logo.svg',
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-48.png', sizes: '48x48', type: 'image/png' },
+    ],
+    apple: { url: '/favicon-192.png', sizes: '192x192' },
+    shortcut: '/favicon-48.png',
   },
   verification: {
     // Add Google Search Console verification token here when ready
