@@ -23,20 +23,23 @@ if (empty($name) || empty($phone)) {
     exit;
 }
 
-$subject = "פנייה חדשה מהאתר - {$name}";
+$subject = "🔑 ליד חדש | מפתח עכשיו | {$name} | {$phone}";
 
-$body  = "פנייה חדשה מאתר מפתח עכשיו\n";
-$body .= "================================\n\n";
-$body .= "שם: {$name}\n";
-$body .= "טלפון: {$phone}\n";
-if ($city)    $body .= "עיר: {$city}\n";
-if ($service) $body .= "שירות: {$service}\n";
-if ($message) $body .= "הודעה: {$message}\n";
-$body .= "\n--------------------------------\n";
-$body .= "נשלח מ: " . ($_SERVER['HTTP_REFERER'] ?? 'לא ידוע') . "\n";
-$body .= "זמן: " . date('d/m/Y H:i:s') . "\n";
+$body  = "================================================\n";
+$body .= "   ליד חדש מאתר מפתח עכשיו - carkeynow.co.il  \n";
+$body .= "================================================\n\n";
+$body .= "שם:      {$name}\n";
+$body .= "טלפון:   {$phone}\n";
+if ($city)    $body .= "עיר:     {$city}\n";
+if ($service) $body .= "שירות:   {$service}\n";
+if ($message) $body .= "הודעה:   {$message}\n";
+$body .= "\n------------------------------------------------\n";
+$body .= "מקור:    carkeynow.co.il\n";
+$body .= "עמוד:    " . ($_SERVER['HTTP_REFERER'] ?? 'לא ידוע') . "\n";
+$body .= "זמן:     " . date('d/m/Y H:i:s') . "\n";
+$body .= "================================================\n";
 
-$headers  = "From: noreply@carkeynow.co.il\r\n";
+$headers  = "From: =?UTF-8?B?" . base64_encode("מפתח עכשיו") . "?= <noreply@carkeynow.co.il>\r\n";
 $headers .= "Reply-To: noreply@carkeynow.co.il\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 $headers .= "X-Mailer: PHP/" . phpversion();
