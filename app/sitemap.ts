@@ -2,6 +2,8 @@ import type { MetadataRoute } from 'next';
 import { WP_PAGES } from '@/lib/wp-pages';
 import { SITE } from '@/lib/siteData';
 
+export const dynamic = 'force-static';
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
 
