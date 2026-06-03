@@ -1,41 +1,35 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Dependencies
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+# Build outputs
+.next/
+.next-build/
+.build/
+out/
 
-# testing
-/coverage
+# Environment files
+.env
+.env.local
+.env*.local
 
-# next.js
-/.next/
-/out/
+# Raw WordPress data (large, regenerated via scripts)
+lib/wp-pages-raw.json
+lib/wp-media-raw.json
+lib/home.html
+lib/wp-nav.json
 
-# production
-/build
-
-# misc
+# OS
 .DS_Store
-*.pem
+Thumbs.db
 
-# debug
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
-
-# typescript
+# TypeScript incremental
 *.tsbuildinfo
 next-env.d.ts
