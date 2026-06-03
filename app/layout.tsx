@@ -3,6 +3,7 @@ import { Rubik } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import FloatingContact from '@/components/FloatingContact';
 import { SITE } from '@/lib/siteData';
 
 const rubik = Rubik({
@@ -115,8 +116,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="font-sans antialiased bg-gray-50 text-gray-900 min-h-screen flex flex-col">
         <Header />
-        <main className="flex-1">{children}</main>
+        {/* pb-14 = space for floating contact bar */}
+        <main className="flex-1 pb-14">{children}</main>
         <Footer />
+        <FloatingContact />
       </body>
     </html>
   );
