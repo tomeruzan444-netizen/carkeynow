@@ -12,12 +12,11 @@ export const metadata: Metadata = {
 
 const HERO_SERVICES = [
   { label: 'שכפול מפתחות לאופנוע', href: '/שחזור-מפתח-לאופנוע' },
-  { label: 'סוגי מפתחות',          href: '/שכפול-מפתח-לרכב' },
+  { label: 'סוגי מפתחות',          href: '/key-types' },
   { label: 'התקנת קודנים לרכב',    href: '/התקנת-קודן-לרכב' },
-  { label: 'אזורים',               href: '/שכפול-מפתח-לרכב-בתל-אביב' },
-  { label: 'מידע מקצועי',          href: '/בלוג' },
-  { label: 'מנעולן רכב',           href: '/שחזור-מפתח-לרכב' },
+  { label: 'אזורים',               href: '/service-areas' },
   { label: 'פורץ רכבים',           href: '/פורץ-רכבים' },
+  { label: 'אבד מפתח לרכב',        href: '/אבד-מפתח-לרכב' },
 ];
 
 const SERVICES_GRID = [
@@ -166,7 +165,13 @@ export default function HomePage() {
 
       {/* ── Cities ── */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="section-title">אזורי שירות</h2>
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="section-title mb-0">אזורי שירות</h2>
+          <Link href="/service-areas" className="text-sm font-semibold hover:underline"
+            style={{ color: 'var(--accent)' }}>
+            כל האזורים
+          </Link>
+        </div>
         <div className="flex flex-wrap gap-2">
           {NAV_CITIES.map((c) => (
             <Link key={c.href} href={c.href} className="pill-primary">
@@ -179,7 +184,13 @@ export default function HomePage() {
       {/* ── Brands ── */}
       <section style={{ background: '#f0f4f9' }} className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="section-title">שכפול מפתח לפי דגם רכב</h2>
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="section-title mb-0">שכפול מפתח לפי דגם רכב</h2>
+            <Link href="/key-types" className="text-sm font-semibold hover:underline"
+              style={{ color: 'var(--accent)' }}>
+              כל הדגמים
+            </Link>
+          </div>
           <div className="flex flex-wrap gap-2">
             {NAV_BRANDS.map((b) => (
               <Link key={b.href} href={b.href} className="pill-brand">

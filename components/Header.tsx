@@ -152,7 +152,7 @@ export default function Header() {
                     </Link>
                   )}
                   {key === 'brands' && (
-                    <Link href="/שכפול-מפתח-לרכב" onClick={close}
+                    <Link href="/key-types" onClick={close}
                       className="flex items-center justify-between px-4 py-2.5 font-bold text-sm border-b"
                       style={{ color: 'var(--primary)', borderColor: 'var(--border)' }}>
                       כל סוגי המפתחות
