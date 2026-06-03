@@ -3,6 +3,7 @@ name: Build & Deploy to Hostinger
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -25,28 +26,30 @@ jobs:
 
       - name: Build static site
         run: npm run build
-        # Generates static HTML in /out folder (no Node.js needed on server)
 
-      - name: Setup SSH key
+      - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts 2>/dev/null
+          ssh-keyscan -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts 2>/dev/null || true
 
-      - name: Deploy static files to server
+      - name: Upload to server via tar+SSH
         run: |
-          rsync -avz --delete \
-            -e "ssh -i ~/.ssh/deploy_key -p ${{ secrets.SSH_PORT }} -o StrictHostKeyChecking=no" \
-            out/ \
-            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.APP_DIR }}/
+          cd out
+          tar czf - . | ssh -i ~/.ssh/deploy_key \
+            -p ${{ secrets.SSH_PORT }} \
+            -o StrictHostKeyChecking=no \
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
+            "cd ${{ secrets.APP_DIR }} && rm -rf ./* .htaccess 2>/dev/null; tar xzf - && echo 'Deployed: '$(ls | wc -l)' items'"
 
-      - name: Deploy .htaccess
+      - name: Upload .htaccess
         run: |
-          scp -i ~/.ssh/deploy_key -P ${{ secrets.SSH_PORT }} \
+          scp -i ~/.ssh/deploy_key \
+            -P ${{ secrets.SSH_PORT }} \
             -o StrictHostKeyChecking=no \
             .htaccess \
             ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.APP_DIR }}/.htaccess
 
       - name: Done
-        run: echo "✅ Deployed successfully at $(date)"
+        run: echo "✅ Live at https://carkeynow.co.il — $(date)"
