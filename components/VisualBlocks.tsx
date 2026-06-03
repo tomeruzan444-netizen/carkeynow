@@ -5,7 +5,7 @@ import { useState } from 'react';
 // ─── Types ────────────────────────────────────────────────────────────
 
 export interface Step     { num?: number; title: string; desc: string; duration?: string }
-export interface FeatCard { icon: string;  title: string; desc: string }
+export interface FeatCard { icon?: string; title: string; desc: string }
 export interface CompRow  { criterion: string; us: string; usColor?: string; alt: string; altColor?: string }
 export interface Stat     { value: string; label: string; sub?: string }
 export interface TabItem  { label: string; content: string }
@@ -53,14 +53,11 @@ export function FeatureCards({ heading, cards, cols = 3 }: { heading: string; ca
       <div className={`grid ${grid} gap-4`}>
         {cards.map((c, i) => (
           <div key={i} className="card p-5 flex flex-col gap-3">
-            <div className="w-10 h-10 rounded-xl flex items-center justify-center text-xl"
-              style={{ background: '#fef3e8' }}>
-              {c.icon}
+            <div className="flex items-center gap-2">
+              <div className="w-1 h-6 rounded shrink-0" style={{ background: 'var(--accent)' }} />
+              <h3 className="font-bold text-sm" style={{ color: 'var(--primary)' }}>{c.title}</h3>
             </div>
-            <div>
-              <h3 className="font-bold text-sm mb-1" style={{ color: 'var(--primary)' }}>{c.title}</h3>
-              <p className="text-xs text-gray-500 leading-relaxed">{c.desc}</p>
-            </div>
+            <p className="text-xs text-gray-500 leading-relaxed">{c.desc}</p>
           </div>
         ))}
       </div>
@@ -186,14 +183,14 @@ export function ToolGrid({ heading, sub, tools }: { heading: string; sub?: strin
 
 export function AlertBox({ type, title, body }: { type: 'warning' | 'tip' | 'info'; title: string; body: string }) {
   const styles = {
-    warning: { bg: '#fffbeb', border: '#f59e0b', icon: '⚠️' },
-    tip:     { bg: '#f0fdf4', border: '#22c55e', icon: '💡' },
-    info:    { bg: '#eff6ff', border: '#3b82f6', icon: 'ℹ️' },
+    warning: { bg: '#fffbeb', border: '#f59e0b' },
+    tip:     { bg: '#f0fdf4', border: '#22c55e' },
+    info:    { bg: '#eff6ff', border: '#3b82f6' },
   }[type];
   return (
     <div className="my-6 rounded-xl p-4 border-r-4 text-sm" dir="rtl"
       style={{ background: styles.bg, borderColor: styles.border }}>
-      <div className="font-bold mb-1">{styles.icon} {title}</div>
+      <div className="font-bold mb-1">{title}</div>
       <div className="text-gray-600 leading-relaxed">{body}</div>
     </div>
   );

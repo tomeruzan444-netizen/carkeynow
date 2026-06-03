@@ -99,8 +99,7 @@ export default function Header() {
       <div className="hidden sm:flex items-center justify-center gap-6 py-1.5 text-xs font-medium"
         style={{ background: '#f0f4f9', color: 'var(--primary)', borderBottom: '1px solid var(--border)' }}>
         <span className="flex items-center gap-1.5">
-          <span className="text-yellow-500 text-sm">★★★★★</span>
-          <span className="font-bold">4.7</span>
+          <span className="font-bold">דירוג 4.7</span>
           <span className="opacity-60">| 418 דירוגים</span>
         </span>
         <span className="w-px h-3 bg-gray-300" />
