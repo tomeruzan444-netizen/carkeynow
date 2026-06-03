@@ -55,7 +55,7 @@ const KEY_TYPES = [
   },
   {
     title: 'Smart Key / Keyless',
-    desc: 'כניסה והצתה ללא הכנסת מפתח. תקשורת Keyless Entry/Go. דורש ציוד תכנות מתקדם.',
+    desc: 'כניסה והצתה ללא הכנסת מפתח. תקשורת Keyless Entry/Go. דורש ציוד קידוד מתקדם.',
     price: '₪800–₪1,500',
     time: '40–60 דק׳',
   },
