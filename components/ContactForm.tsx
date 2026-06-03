@@ -9,23 +9,73 @@ interface Props {
   compact?: boolean;
 }
 
-export default function ContactForm({ heading = 'הזמן מנעולן רכב', compact = false }: Props) {
-  const [sent, setSent] = useState(false);
+type Status = 'idle' | 'loading' | 'success' | 'error';
 
-  if (sent) {
+const SERVICES = [
+  'שכפול מפתח לרכב',
+  'שחזור מפתח לרכב',
+  'תיקון סוויץ לרכב',
+  'פתיחת רכב נעול',
+  'התקנת קודן לרכב',
+  'תיקון/ניתוק קודן',
+  'תיקון שלט לרכב',
+  'שחזור מפתח לאופנוע',
+  'אחר',
+];
+
+export default function ContactForm({ heading = 'הזמן מנעולן רכב', compact = false }: Props) {
+  const [status, setStatus] = useState<Status>('idle');
+  const [error, setError] = useState('');
+  const [form, setForm] = useState({ name: '', phone: '', city: '', service: '', message: '' });
+
+  function set(field: string, value: string) {
+    setForm(prev => ({ ...prev, [field]: value }));
+  }
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setStatus('loading');
+    setError('');
+
+    try {
+      const body = new FormData();
+      Object.entries(form).forEach(([k, v]) => body.append(k, v));
+
+      const res = await fetch('/form-handler.php', { method: 'POST', body });
+      const data = await res.json().catch(() => ({}));
+
+      if (res.ok && data.success) {
+        setStatus('success');
+      } else {
+        setError(data.error || 'שגיאה בשליחה — נסו שוב או התקשרו ישירות.');
+        setStatus('error');
+      }
+    } catch {
+      setError('שגיאת רשת — בדקו חיבור אינטרנט ונסו שוב.');
+      setStatus('error');
+    }
+  }
+
+  // Success state
+  if (status === 'success') {
     return (
-      <div className="card p-6 text-center" dir="rtl">
-        <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3"
-          style={{ background: '#e8f5e9' }}>
-          <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
-          </svg>
+      <div className="card overflow-hidden" dir="rtl">
+        <div className="px-5 py-3 text-white text-sm font-bold" style={{ background: 'var(--primary)' }}>
+          {heading}
         </div>
-        <p className="font-bold text-lg mb-1" style={{ color: 'var(--primary)' }}>תודה! קיבלנו את פרטיכם</p>
-        <p className="text-sm text-gray-500 mb-4">נחזור אליכם בהקדם האפשרי</p>
-        <a href={`tel:${SITE.phone}`} className="btn-primary text-sm">
-          {SITE.phoneDisplay}
-        </a>
+        <div className="p-8 text-center">
+          <div className="w-14 h-14 rounded-full mx-auto mb-4 flex items-center justify-center"
+            style={{ background: '#f0fdf4' }}>
+            <svg className="w-7 h-7 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <h3 className="font-bold text-lg mb-1" style={{ color: 'var(--primary)' }}>הפנייה התקבלה!</h3>
+          <p className="text-sm text-gray-500 mb-5">נחזור אליכם בהקדם האפשרי</p>
+          <a href={`tel:${SITE.phone}`} className="btn-primary text-sm px-6">
+            {SITE.phoneDisplay}
+          </a>
+        </div>
       </div>
     );
   }
@@ -33,82 +83,119 @@ export default function ContactForm({ heading = 'הזמן מנעולן רכב', 
   return (
     <div className="card overflow-hidden" dir="rtl">
       {/* Header */}
-      <div className="px-5 py-3 flex items-center gap-2" style={{ background: 'var(--primary)' }}>
-        <svg className="w-4 h-4 text-orange-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <div className="px-5 py-3 flex items-center gap-2 text-white" style={{ background: 'var(--primary)' }}>
+        <svg className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
             d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
         </svg>
-        <span className="text-white font-bold text-sm">{heading}</span>
+        <span className="font-bold text-sm">{heading}</span>
       </div>
 
       {!compact && (
-        <div className="px-5 py-3 text-xs text-gray-500 border-b" style={{ borderColor: 'var(--border)' }}>
-          שלחו את פרטי העבודה הדרושה לכם וקבלו הצעות מחיר במהירות.
+        <div className="px-5 pt-4 pb-0 text-xs text-gray-500 leading-relaxed">
+          שלחו את הפרטים וטכנאי יחזור אליכם תוך דקות
         </div>
       )}
 
-      <form onSubmit={(e) => { e.preventDefault(); setSent(true); }} className="p-5 space-y-3">
-        <div className="relative">
-          <svg className="absolute top-2.5 right-3 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-          </svg>
-          <input type="text" required placeholder="שם מלא..."
-            className="w-full border rounded-md py-2 pr-9 pl-3 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
-            style={{ borderColor: 'var(--border)' }} />
+      <form onSubmit={handleSubmit} className="p-5 space-y-3">
+
+        {/* Name + Phone row */}
+        <div className={compact ? 'space-y-3' : 'grid grid-cols-2 gap-3'}>
+          <div>
+            <label className="block text-xs font-semibold text-gray-600 mb-1">שם מלא *</label>
+            <input
+              type="text" required value={form.name}
+              onChange={e => set('name', e.target.value)}
+              placeholder="ישראל ישראלי"
+              className="w-full border rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 transition"
+              style={{ borderColor: 'var(--border)' }}
+              onFocus={e => e.target.style.borderColor = 'var(--accent)'}
+              onBlur={e => e.target.style.borderColor = 'var(--border)'}
+            />
+          </div>
+          <div>
+            <label className="block text-xs font-semibold text-gray-600 mb-1">טלפון נייד *</label>
+            <input
+              type="tel" required value={form.phone}
+              onChange={e => set('phone', e.target.value)}
+              placeholder="050-0000000"
+              className="w-full border rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 transition"
+              style={{ borderColor: 'var(--border)' }}
+              onFocus={e => e.target.style.borderColor = 'var(--accent)'}
+              onBlur={e => e.target.style.borderColor = 'var(--border)'}
+            />
+          </div>
         </div>
 
-        <div className="relative">
-          <svg className="absolute top-2.5 right-3 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-          </svg>
-          <input type="tel" required placeholder="טלפון נייד..."
-            className="w-full border rounded-md py-2 pr-9 pl-3 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
-            style={{ borderColor: 'var(--border)' }} />
+        {/* City */}
+        <div>
+          <label className="block text-xs font-semibold text-gray-600 mb-1">עיר / אזור</label>
+          <input
+            type="text" value={form.city}
+            onChange={e => set('city', e.target.value)}
+            placeholder="תל אביב, חיפה, ירושלים..."
+            className="w-full border rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 transition"
+            style={{ borderColor: 'var(--border)' }}
+            onFocus={e => e.target.style.borderColor = 'var(--accent)'}
+            onBlur={e => e.target.style.borderColor = 'var(--border)'}
+          />
         </div>
 
-        <div className="relative">
-          <svg className="absolute top-2.5 right-3 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-          </svg>
-          <input type="text" placeholder="עיר..."
-            className="w-full border rounded-md py-2 pr-9 pl-3 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
-            style={{ borderColor: 'var(--border)' }} />
-        </div>
-
+        {/* Service */}
         {!compact && (
-          <div className="relative">
-            <svg className="absolute top-2.5 right-3 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-            </svg>
-            <select className="w-full border rounded-md py-2 pr-9 pl-3 text-sm text-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-400 appearance-none"
-              style={{ borderColor: 'var(--border)' }}>
-              <option value="">בחרו בשירות המבוקש</option>
-              <option>שכפול מפתח לרכב</option>
-              <option>שחזור מפתח לרכב</option>
-              <option>תיקון סוויץ</option>
-              <option>פתיחת רכב נעול</option>
-              <option>התקנת קודן</option>
-              <option>תיקון שלט</option>
-              <option>אחר</option>
+          <div>
+            <label className="block text-xs font-semibold text-gray-600 mb-1">שירות נדרש</label>
+            <select
+              value={form.service}
+              onChange={e => set('service', e.target.value)}
+              className="w-full border rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 transition appearance-none"
+              style={{ borderColor: 'var(--border)', color: form.service ? '#1a2535' : '#9ca3af' }}
+              onFocus={e => e.target.style.borderColor = 'var(--accent)'}
+              onBlur={e => e.target.style.borderColor = 'var(--border)'}
+            >
+              <option value="">בחרו שירות...</option>
+              {SERVICES.map(s => <option key={s} value={s}>{s}</option>)}
             </select>
           </div>
         )}
 
-        <div className="flex items-start gap-2 text-xs text-gray-500">
-          <input type="checkbox" required id="prv" className="mt-0.5 shrink-0" />
-          <label htmlFor="prv">
-            בשליחת הטופס הינכם מאשרים את{' '}
-            <Link href="/תנאי-שימוש" className="underline">תנאי השימוש</Link>
+        {/* Privacy */}
+        <div className="flex items-start gap-2 pt-1">
+          <input type="checkbox" required id={`prv-${compact}`} className="mt-0.5 shrink-0 accent-orange-500" />
+          <label htmlFor={`prv-${compact}`} className="text-xs text-gray-400 leading-relaxed">
+            אני מאשר/ת את{' '}
+            <Link href="/תנאי-שימוש" className="underline hover:text-gray-600">תנאי השימוש</Link>
             {' '}ואת{' '}
-            <Link href="/מדיניות-פרטיות" className="underline">מדיניות הפרטיות</Link>
+            <Link href="/מדיניות-פרטיות" className="underline hover:text-gray-600">מדיניות הפרטיות</Link>
           </label>
         </div>
 
-        <button type="submit" className="w-full py-2.5 rounded-md font-bold text-white text-sm transition"
-          style={{ background: 'var(--accent)' }}
-          onMouseEnter={e => (e.currentTarget.style.background = 'var(--accent-dark)')}
-          onMouseLeave={e => (e.currentTarget.style.background = 'var(--accent)')}>
-          שליחה וקבלו הצעת מחיר
+        {/* Error message */}
+        {status === 'error' && (
+          <div className="text-xs text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
+            {error}
+          </div>
+        )}
+
+        {/* Submit */}
+        <button
+          type="submit"
+          disabled={status === 'loading'}
+          className="w-full py-3 rounded-lg font-bold text-white text-sm transition-all"
+          style={{
+            background: status === 'loading' ? '#c96010' : 'var(--accent)',
+            opacity: status === 'loading' ? 0.8 : 1,
+          }}
+        >
+          {status === 'loading' ? (
+            <span className="flex items-center justify-center gap-2">
+              <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
+                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+              </svg>
+              שולח...
+            </span>
+          ) : 'שליחה וקבלת הצעת מחיר'}
         </button>
 
         <p className="text-center text-xs text-gray-400">
