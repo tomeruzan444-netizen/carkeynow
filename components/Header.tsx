@@ -73,10 +73,23 @@ export default function Header() {
               className="font-bold px-3 py-1.5 rounded text-sm whitespace-nowrap">
               {SITE.phoneDisplay}
             </a>
-            <button onClick={() => setMobileOpen(!mobileOpen)} className="p-2" aria-label="תפריט">
-              <span className="block w-5 h-0.5 bg-white mb-1.5" />
-              <span className="block w-5 h-0.5 bg-white mb-1.5" />
-              <span className="block w-5 h-0.5 bg-white" />
+            <button
+              onClick={() => setMobileOpen(!mobileOpen)}
+              className="p-2 w-9 h-9 flex items-center justify-center rounded transition-colors hover:bg-white/10"
+              aria-label={mobileOpen ? 'סגור תפריט' : 'פתח תפריט'}
+              aria-expanded={mobileOpen}
+            >
+              {mobileOpen ? (
+                /* X icon */
+                <svg className="w-5 h-5" fill="none" stroke="white" strokeWidth={2.5} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              ) : (
+                /* Burger icon */
+                <svg className="w-5 h-5" fill="none" stroke="white" strokeWidth={2} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              )}
             </button>
           </div>
         </div>
