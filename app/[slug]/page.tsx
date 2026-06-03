@@ -150,9 +150,9 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
               )}
             </div>
 
-            {/* Sidebar — scrolls with page */}
+            {/* Sidebar — contextual per page */}
             <div>
-              <Sidebar group={group} currentSlug={page.slug} />
+              <Sidebar currentSlug={page.slug} />
             </div>
           </div>
         )}
