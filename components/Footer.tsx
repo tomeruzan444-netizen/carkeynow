@@ -98,15 +98,50 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom bar */}
-      <div style={{ background: '#0d1320' }} className="py-4">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-500">
-          <span>{SITE.copyright} | כל הזכויות שמורות למפתח בקליק 2014 - 2026</span>
-          <span className="flex gap-4">
-            <span>משרדים: נחל איילון 20ב, צור יצחק</span>
-            <a href={`tel:${SITE.phone}`} className="hover:text-white">טלפון: {SITE.phoneDisplay}</a>
-            <a href={`mailto:${SITE.email}`} className="hover:text-white">{SITE.email}</a>
-          </span>
+      {/* Social / review links */}
+      <div style={{ background: '#0d1320', borderTop: '1px solid #1f2937' }} className="py-5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+
+            {/* Social icons */}
+            <div className="flex items-center gap-3">
+              {/* Facebook */}
+              <a
+                href="https://www.facebook.com/carkeynow"
+                target="_blank" rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-semibold transition hover:opacity-90"
+                style={{ background: '#1877F2', color: '#fff' }}
+              >
+                <svg className="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+                פייסבוק
+              </a>
+
+              {/* Easy.co.il */}
+              <a
+                href="https://easy.co.il/page/10161378"
+                target="_blank" rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-semibold transition hover:opacity-90"
+                style={{ background: '#ff6600', color: '#fff' }}
+              >
+                <svg className="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
+                </svg>
+                המלצות באיזי
+              </a>
+            </div>
+
+            {/* Copyright */}
+            <div className="text-xs text-gray-500 text-center sm:text-right">
+              <div>{SITE.copyright}</div>
+              <div className="mt-0.5 flex flex-wrap gap-3 justify-center sm:justify-end">
+                <span>נחל איילון 20ב, צור יצחק</span>
+                <a href={`tel:${SITE.phone}`} className="hover:text-white">{SITE.phoneDisplay}</a>
+                <a href={`mailto:${SITE.email}`} className="hover:text-white">{SITE.email}</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
