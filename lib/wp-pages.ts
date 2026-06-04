@@ -1024,18 +1024,6 @@ export const WP_PAGES: WpPage[] = [
     "ogImage": ""
   },
   {
-    "id": 2087,
-    "slug": "לקוחות-ממליצים",
-    "title": "לקוחות ממליצים",
-    "content": "<h2>לקוחות ממליצים על KEY4ME</h2>\n<p>כחברת מנעולנות אשר פועלת כבר שנים רבות בתחום צברנו מוניטין רב והמון לקוחות מרוצים. לפניכם כמה מהלקוחות שהולכים רק עם <a href=\"/\">KEY4ME</a>. בנוסף גם תוכלו למצוא המלצות נוספות באיזי</p>\n\n<p> </p>\n<h2>לקוחות שממליצים עלינו בפלטפורמה איזי</h2>\n<p>לקריאת הביקורות על קי פור מי בפלטפורמה איזי ליחצו <a href=\"https://easy.co.il/page/10117983\" rel=\"noopener\">כאן</a></p>\n<h2>לקוחות שממליצים עלינו בגוגל</h2>\n<p>לקריאת הביקורות עלינו בגוגל לחצו <a href=\"https://www.google.com/search?sca_esv=edf81f750f8b9d51&amp;rlz=1C1ONGR_enIL1062IL1062&amp;sxsrf=AE3TifP-kGsqLsigCp2M_b3qpV-U5Wc2vw:1762155219839&amp;si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E-cND_JRwAKj05_Nrv_TJjWpYlF300ZRFjpgZQ9Zw4FJxG_Im-GjsxKaqc4hpRXtGsa2CBWxRX_nb9QxXHbZOJ3APPT44ETDh6iv5xAoykoEPv7lPO8Ml9RDsRg7DmlTSOzMxbw%3D&amp;q=%D7%A7%D7%99+%D7%A4%D7%95%D7%A8+%D7%9E%D7%99+%D7%9E%D7%A0%D7%A2%D7%95%D7%9C%D7%9F+-+KEY4ME+Reviews&amp;sa=X&amp;ved=2ahUKEwjQtavfu9WQAxXPTKQEHYpTMu8Q0bkNegQINBAD&amp;biw=1600&amp;bih=689&amp;dpr=1.2#lrd=0xa41645a8e1022d41:0x4500a0c30199d52b,1,,,,\" rel=\"noopener\">כאן</a></p>\n<p> </p>\n<h2>עוד לקוחות ממליצים</h2>\n<p><img decoding=\"async\" class=\"alignnone\" src=\"/wp-images/המלצת-לקוחה-קי-פור-מי.webp\" alt=\"\"></p>\n<p><img decoding=\"async\" class=\"alignnone\" src=\"/wp-images/המלצת-לקוח-קי-פור-מי.webp\" alt=\"\"></p>\n",
-    "metaTitle": "לקוחות ממליצים",
-    "metaDesc": "לקוחות ממליצים על KEY4ME כחברת מנעולנות אשר פועלת כבר שנים רבות בתחום צברנו מוניטין רב והמון לקוחות מרוצים. לפניכם כמה מהלקוחות שהולכים רק עם KEY4ME ....",
-    "canonical": "https://carkeynow.co.il/לקוחות-ממליצים/",
-    "ogTitle": "לקוחות ממליצים",
-    "ogDesc": "לקוחות ממליצים על KEY4ME כחברת מנעולנות אשר פועלת כבר שנים רבות בתחום צברנו מוניטין רב והמון לקוחות מרוצים. לפניכם כמה מהלקוחות שהולכים רק עם KEY4ME ....",
-    "ogImage": ""
-  },
-  {
     "id": 568,
     "slug": "צרו-קשר",
     "title": "צרו קשר",

@@ -78,9 +78,6 @@ export default function Footer() {
               <li>
                 <Link href="/הצהרת-נגישות" className="hover:text-white transition">הצהרת נגישות</Link>
               </li>
-              <li>
-                <Link href="/לקוחות-ממליצים" className="hover:text-white transition">מפת האתר</Link>
-              </li>
             </ul>
           </div>
 

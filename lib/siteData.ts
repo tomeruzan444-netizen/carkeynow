@@ -78,7 +78,6 @@ export const NAV_SERVICES = [
 export const FOOTER_LINKS = [
   { label: 'אודות',             href: '/אודות' },
   { label: 'צרו קשר',          href: '/צרו-קשר' },
-  { label: 'לקוחות ממליצים',   href: '/לקוחות-ממליצים' },
   { label: 'מדיניות פרטיות',   href: '/מדיניות-פרטיות' },
   { label: 'תנאי שימוש',       href: '/תנאי-שימוש' },
   { label: 'הצהרת נגישות',     href: '/הצהרת-נגישות' },
