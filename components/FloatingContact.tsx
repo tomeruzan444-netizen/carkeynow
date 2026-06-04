@@ -58,14 +58,14 @@ export default function FloatingContact() {
       >
         {/* Top micro-bar: availability indicator */}
         <div className="flex items-center justify-center gap-2 py-1 text-xs font-semibold"
-          style={{ background: '#0d1a2e', color: '#94a3b8' }}>
+          style={{ background: '#14532d', color: '#86efac' }}>
           <span className="w-2 h-2 rounded-full bg-green-400 shrink-0 animate-pulse" />
           זמינים עכשיו · מגיעים תוך 20 דקות · 24/7
         </div>
 
         {/* Main bar */}
         <div className="flex items-center justify-between gap-3 px-4 py-3"
-          style={{ background: 'var(--primary)' }}>
+          style={{ background: '#16a34a' }}>
 
           {/* Phone */}
           <a
