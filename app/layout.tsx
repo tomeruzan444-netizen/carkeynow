@@ -116,8 +116,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="font-sans antialiased bg-gray-50 text-gray-900 min-h-screen flex flex-col">
         <Header />
-        {/* pb-14 = space for floating contact bar */}
-        <main className="flex-1 pb-14">{children}</main>
+        {/* pb-20 = space for larger floating contact bar */}
+        <main className="flex-1 pb-20">{children}</main>
         <Footer />
         <FloatingContact />
       </body>
