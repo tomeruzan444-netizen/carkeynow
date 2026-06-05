@@ -85,14 +85,6 @@ export default function KeyTypesPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
 
-        {/* Flip key image */}
-        <div className="text-center">
-          <img src="/wp-images/שכפול-מפתח-קפיץ-לרכב.webp"
-            alt="מפתח קפיץ לרכב - שכפול מקצועי"
-            style={{ maxWidth: '280px', height: 'auto', margin: '0 auto' }}
-            loading="lazy" />
-        </div>
-
         {/* Key types overview */}
         <section>
           <h2 className="section-title">סוגי מפתחות שאנחנו משכפלים</h2>
