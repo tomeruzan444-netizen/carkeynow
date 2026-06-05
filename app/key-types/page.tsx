@@ -78,7 +78,7 @@ export default function KeyTypesPage() {
             <span className="mx-1">/</span>
             <span>שכפול מפתח לפי דגם רכב</span>
           </nav>
-          <h1 className="text-2xl md:text-3xl font-bold mb-2">שכפול מפתח לרכב — כל הדגמים</h1>
+          <h1 className="text-2xl md:text-3xl font-bold mb-2">כל הדגמים לכל הרכבים</h1>
           <p className="text-sm opacity-80">ציוד ממוחשב מתקדם לכל סוגי המפתחות. הגעה עד אליכם 24/7.</p>
         </div>
       </div>
