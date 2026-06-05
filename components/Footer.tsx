@@ -133,7 +133,6 @@ export default function Footer() {
             <div className="text-xs text-gray-500 text-center sm:text-right">
               <div>{SITE.copyright}</div>
               <div className="mt-0.5 flex flex-wrap gap-3 justify-center sm:justify-end">
-                <span>נחל איילון 20ב, צור יצחק</span>
                 <a href={`tel:${SITE.phone}`} className="hover:text-white">{SITE.phoneDisplay}</a>
                 <a href={`mailto:${SITE.email}`} className="hover:text-white">{SITE.email}</a>
               </div>
