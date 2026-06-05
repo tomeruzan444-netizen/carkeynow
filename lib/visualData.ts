@@ -281,5 +281,148 @@ export function getVisualSections(slug: string): VisualSection[] {
     ];
   }
 
+  // BMW
+  if (slug === 'שכפול-מפתח-לבמוו') {
+    return [
+      { type: 'process', heading: 'איך אנחנו משכפלים מפתח BMW', data: [
+        { title: 'זיהוי מערכת הצתה', desc: 'BMW משתמשת ב-EWS, CAS, FEM או BDC, תלוי בשנת הרכב. אנחנו מזהים את הדור הספציפי לפני שמתחילים.' as string, duration: '5 דק׳' },
+        { title: 'חיבור מחשב ייעודי ל-BMW', desc: 'עם תוכנת קידוד שמכירה את כל דורות BMW, אנחנו קוראים את קוד המפתח ישירות ממחשב הרכב.' as string, duration: '10 דק׳' },
+        { title: 'חיתוך הלהב', desc: 'חיתוך ממוחשב לפי הקוד הייחודי של הרכב, עם דיוק שמונע החלקה בסוויץ.' as string, duration: '5 דק׳' },
+        { title: 'קידוד לאימוביליזר BMW', desc: 'קידוד השבב החדש למחשב הרכב לפי פרוטוקול BMW, כולל סנכרון ה-ISN הייחודי לכל BMW.' as string, duration: '20-40 דק׳' },
+        { title: 'בדיקה מלאה', desc: 'בדיקת הצתה, נעילה, פתיחה ופונקציות נוחות לפניכם, לפני עזיבת המקום.' as string, duration: '5 דק׳' },
+      ] as Step[] },
+      { type: 'comparison', heading: 'אנחנו מול סוכנות BMW', data: {
+        colUs: 'מפתח עכשיו', colAlt: 'סוכנות BMW',
+        rows: [
+          { criterion: 'זמן המתנה',          us: '20-75 דקות',    usColor: 'green', alt: '5-10 ימי עסקים', altColor: 'red' },
+          { criterion: 'הגעה לבית',           us: 'כן, תמיד',     usColor: 'green', alt: 'לא',             altColor: 'red' },
+          { criterion: 'מחיר Smart Key',      us: '1,000-1,700 ₪', usColor: 'green', alt: '1,800-4,000 ₪',  altColor: 'red' },
+          { criterion: 'Display Key',          us: '1,500-2,500 ₪', usColor: 'green', alt: '2,500-5,000 ₪',  altColor: 'red' },
+          { criterion: 'זמינות',              us: '24/7',          usColor: 'green', alt: 'שעות סוכנות',     altColor: 'orange' },
+          { criterion: 'אחריות',              us: 'בכתב 30 יום',  usColor: 'green', alt: 'אחריות יצרן',     altColor: 'blue' },
+        ] as CompRow[]
+      } },
+      { type: 'features', heading: 'סוגי מפתחות BMW שאנחנו מטפלים בהם', data: { cols: 3 as 3, cards: [
+        { title: 'EWS - דגמי 90s', desc: 'מערכת אימוביליזר ראשונה של BMW. נמצאת ב-E36, E46, E39 ישנים. אנחנו מכירים אותה לעומק.' },
+        { title: 'CAS - דגמי E-Series', desc: 'Car Access System, ב-E60, E90, E87, X3. שכפול דורש קריאת ISN ממחשב הרכב.' },
+        { title: 'FEM/BDC - F-Series', desc: 'Front Electronic Module, ב-F10, F30, F20, F15. מורכב יותר, אנחנו מכסים את כולם.' },
+        { title: 'CAS4+ - F ו-G Series', desc: 'הצפנה מורכבת, BMW Comfort Access. דורש ציוד מתקדם שיש ברשותנו.' },
+        { title: 'Display Key', desc: 'המפתח עם המסך. G30, G20, G01. שכפול מורכב אבל אפשרי, מחיר בהתאם.' },
+        { title: 'BMW Digital Key', desc: 'כניסה דרך סמארטפון. לא ניתן לשכפל, אבל אנחנו מייצרים מפתח פיזי גיבוי.' },
+      ] as FeatCard[] } },
+    ];
+  }
+
+  // Honda
+  if (slug === 'שכפול-מפתח-להונדה') {
+    return [
+      { type: 'features', heading: 'מה שחשוב לדעת על מפתחות הונדה', data: { cols: 2 as 2, cards: [
+        { title: 'הונדה ו-G-Switch', desc: 'דגמי הונדה ישנים משתמשים ב-G-Switch, מנגנון ייחודי שמעט מנעולנים מכירים. אנחנו כן.' },
+        { title: 'HONDAcode', desc: 'הקוד הייחודי שהונדה שמרה לעצמה שנים. כיום יש לנו גישה מלאה לכל דגמי הונדה הנפוצים בישראל.' },
+        { title: 'אחידות בין דגמים', desc: 'Jazz, Civic, HR-V ו-CR-V חולקים לעיתים פלטפורמת מפתח דומה, מה שמקל על האבחון.' },
+        { title: 'שלט נפרד לעומת מובנה', desc: 'הונדות ישנות עם שלט נפרד, חדשות עם שלט מובנה במפתח הפוך או Smart Key. לכל אחד יש פרוטוקול שונה.' },
+      ] as FeatCard[] } },
+      { type: 'process', heading: 'תהליך שכפול מפתח הונדה', data: [
+        { title: 'זיהוי שנה ומערכת', desc: 'הונדה שינתה מערכות מפתח כמה פעמים. אנחנו מזהים לפי שנה ודגם מה נדרש בדיוק.' as string, duration: '5 דק׳' },
+        { title: 'אבחון הונדה Code', desc: 'עם תוכנת HONDAcode, אנחנו שולפים את קוד האימוביליזר ישירות מהרכב, ללא מפתח מקורי.' as string, duration: '10-15 דק׳' },
+        { title: 'חיתוך הלהב', desc: 'לפי ה-key code הייחודי של הרכב שלכם, עם מכונת חיתוך ממוחשבת.' as string, duration: '5-10 דק׳' },
+        { title: 'קידוד ואימות', desc: 'קידוד השבב לאימוביליזר, בדיקת הצתה ובדיקת שלט, עד שהכל עובד לפניכם.' as string, duration: '15-25 דק׳' },
+      ] as Step[] },
+      { type: 'comparison', heading: 'אנחנו מול סוכנות הונדה', data: {
+        colUs: 'מפתח עכשיו', colAlt: 'סוכנות הונדה',
+        rows: [
+          { criterion: 'זמן המתנה',        us: '20-65 דקות',   usColor: 'green', alt: '3-7 ימים',      altColor: 'red' },
+          { criterion: 'מחיר Civic Smart', us: '900-1,400 ₪',  usColor: 'green', alt: '1,500-2,500 ₪', altColor: 'red' },
+          { criterion: 'Civic ישן עם שבב', us: '400-650 ₪',    usColor: 'green', alt: '700-1,200 ₪',   altColor: 'red' },
+          { criterion: 'הגעה לבית',        us: 'כן',           usColor: 'green', alt: 'לא',             altColor: 'red' },
+          { criterion: 'זמינות',           us: '24/7',         usColor: 'green', alt: 'שעות עסקים',     altColor: 'orange' },
+        ] as CompRow[]
+      } },
+    ];
+  }
+
+  // Skoda
+  if (slug === 'שכפול-מפתח-לסקודה') {
+    return [
+      { type: 'stats', data: [
+        { value: '400-1,600', label: 'מחיר שכפול', sub: 'שקל לפי הדגם' },
+        { value: 'VAG', label: 'קבוצת יצרן', sub: 'VW, Audi, Seat, Skoda' },
+        { value: '30-70', label: 'דק׳ שכפול', sub: 'בשטח, ללא גרירה' },
+        { value: '100%', label: 'אחריות', sub: 'בכתב, 30 יום' },
+      ] as Stat[] },
+      { type: 'process', heading: 'שכפול מפתח סקודה - תהליך VAG', data: [
+        { title: 'זיהוי דור ה-Immo', desc: 'סקודה עברה ממערכת Immo2 ב-99 דרך Immo3, ועד ל-MED9 בדגמים חדשים. זיהוי מדויק קריטי.' as string, duration: '5 דק׳' },
+        { title: 'קריאת PIN ממחשב', desc: 'עם תוכנת VAG שמכסה את כל משפחת פולקסווגן, אנחנו שולפים את ה-PIN הייחודי לרכב.' as string, duration: '10-15 דק׳' },
+        { title: 'חיתוך מדויק', desc: 'הלהב של מפתח VAG (HU66, HU162) נחתך לפי הקוד, עם הבדל של 0.1 מ"מ שיכול לעשות הבדל.' as string, duration: '5 דק׳' },
+        { title: 'קידוד Immobilizer', desc: 'הקידוד לאימוביליזר ה-VAG נעשה עם תוכנת VCDS וציוד ייעודי, שונה מכל יצרן אחר.' as string, duration: '15-30 דק׳' },
+        { title: 'בדיקה ואישור', desc: 'בדיקת הצתה עם המפתח החדש לפניכם, כולל בדיקת שלט ו-keyless אם רלוונטי.' as string, duration: '5 דק׳' },
+      ] as Step[] },
+      { type: 'comparison', heading: 'אנחנו מול סוכנות סקודה', data: {
+        colUs: 'מפתח עכשיו', colAlt: 'סוכנות סקודה',
+        rows: [
+          { criterion: 'מחיר Octavia Flip Key', us: '500-750 ₪',    usColor: 'green', alt: '900-1,500 ₪',  altColor: 'red' },
+          { criterion: 'Smart Key Kodiaq',      us: '800-1,300 ₪',  usColor: 'green', alt: '1,500-2,500 ₪', altColor: 'red' },
+          { criterion: 'זמן המתנה',             us: '30-70 דקות',   usColor: 'green', alt: '3-7 ימים',      altColor: 'red' },
+          { criterion: 'הגעה לבית',             us: 'כן',           usColor: 'green', alt: 'לא',             altColor: 'red' },
+          { criterion: 'זמינות',                us: '24/7',         usColor: 'green', alt: 'שעות עסקים',     altColor: 'orange' },
+        ] as CompRow[]
+      } },
+    ];
+  }
+
+  // Subaru
+  if (slug === 'שכפול-מפתח-לסובארו') {
+    return [
+      { type: 'features', heading: 'מה מייחד את מפתחות סובארו', data: { cols: 2 as 2, cards: [
+        { title: 'פרוטוקול קידוד ייחודי', desc: 'סובארו פיתחה פרוטוקול קידוד שאינו זהה ליפנים אחרים. אנחנו עובדים עם תוכנת Subaru ייעודית שמכסה את כל הדגמים.' },
+        { title: 'שלט נפרד בסובארו ישנות', desc: 'Forester וOutback ישנים עם שלט נפרד שמצריך קידוד עצמאי. אנחנו מכירים את הפרוטוקולים של כל שנת ייצור.' },
+        { title: 'Smart Key בדגמים מ-2014', desc: 'מ-2014, Forester וOutback עברו ל-Smart Key. תהליך הקידוד מורכב יותר אבל אנחנו מבצעים אותו בשטח.' },
+        { title: 'Subaru EyeSight ומפתחות', desc: 'דגמים עם EyeSight דורשים לפעמים כיול נוסף אחרי שינוי מפתח. אנחנו מודעים לזה ומתחשבים בכך.' },
+      ] as FeatCard[] } },
+      { type: 'process', heading: 'שכפול מפתח סובארו אצלנו', data: [
+        { title: 'זיהוי מודל ושנה', desc: 'Forester 2010 שונה מ-Forester 2018. אנחנו מזהים מה נדרש לפני שמגיעים, ומגיעים עם הציוד הנכון.' as string, duration: '5 דק׳' },
+        { title: 'קריאת קוד Subaru', desc: 'עם תוכנת Subaru SSM4 שמחוברת לרכב, אנחנו קוראים את קוד השבב ואת ה-IMMO של הרכב.' as string, duration: '10-15 דק׳' },
+        { title: 'חיתוך ייחודי לסובארו', desc: 'מפתחות סובארו עם להב DAT17, שנחתך לפי קוד הרכב עם מכונה ממוחשבת.' as string, duration: '5 דק׳' },
+        { title: 'קידוד ובדיקה', desc: 'קידוד לאימוביליזר, בדיקת הצתה, ואם רלוונטי, בדיקת Keyless Entry מלאה.' as string, duration: '20-35 דק׳' },
+      ] as Step[] },
+      { type: 'stats', data: [
+        { value: '400-1,400', label: 'מחיר שכפול', sub: 'שקל לפי דגם ושנה' },
+        { value: 'Forester', label: 'הנפוץ ביותר', sub: 'שאנחנו מטפלים בו' },
+        { value: '30-65', label: 'דקות לשכפול', sub: 'בשטח, עד דלת הבית' },
+        { value: '24/7', label: 'זמינות', sub: 'גם בשטחים מרוחקים' },
+      ] as Stat[] },
+    ];
+  }
+
+  // Volvo
+  if (slug === 'שכפול-מפתח-לוולוו') {
+    return [
+      { type: 'tabs', heading: 'מקרה שימוש: Volvo XC90 עם שלוש מפתחות שנפלו למים', data: [
+        { label: 'רקע', content: 'קיבלנו פנייה מבעל Volvo XC90 משנת 2004. שלושת המפתחות נפלו לבריכה ולא עבדו. הסוכנות ציינה המתנה של שלושה שבועות ומחיר גבוה.' },
+        { label: 'אתגר', content: 'ה-XC90 הישן משתמש במערכת IMMO של וולוו שנחשבת ייחודית. לא כל מנעולן מחזיק ציוד שמכסה דגמים ישנים של וולוו, בטח לא XC90 מ-2004.' },
+        { label: 'פתרון', content: 'הגענו עם ציוד שמכסה גם דגמי וולוו ישנים. ב-45 דקות קראנו את קוד ה-IMMO, חתכנו שני מפתחות חדשים וקידדנו אותם. שני מפתחות עובדים, הרכב יצא מהחנייה.' },
+        { label: 'תוצאות', content: 'הלקוח שילם פחות ממחצית מהמחיר שצוטט בסוכנות, קיבל שני מפתחות ולא אחד, והכל נגמר תוך שעה מהפנייה.' },
+      ] as TabItem[] },
+      { type: 'features', heading: 'מערכות מפתח של וולוו שאנחנו מכירים', data: { cols: 3 as 3, cards: [
+        { title: 'IMMO וולוו ישנות', desc: 'XC90 ישן, V70, S60 ישן משתמשים ב-Volvo IMMO ייחודי. אנחנו שומרים ציוד שמכסה גם דגמים ישנים.' },
+        { title: 'Smart Key V40-V90', desc: 'דגמים מ-2012 ואילך עם Smart Key. קידוד ב-VIDA הרשמי, אנחנו מבצעים זאת בשטח.' },
+        { title: 'PEPS - XC40, C40', desc: 'Passive Entry Passive Start, דגמים חדשים. כניסה ללא לחיצה. מורכב יותר, אבל אנחנו מכסים.' },
+        { title: 'ה-Keyless של וולוו', desc: 'וולוו פיתחה Keyless system ייחודית עם מעגל הצפנה שמתחדש. אנחנו עובדים עם הפרוטוקולים הנכונים.' },
+        { title: 'Volvo On Call', desc: 'המערכת הדיגיטלית. לא ניתן לשכפל, אבל אנחנו מייצרים מפתח פיזי גיבוי מאובטח.' },
+        { title: 'שלט נפרד ישן', desc: 'S40, V50 עם שלט נפרד ישן. קידוד פשוט יחסית, זמן קצר, מחיר נמוך.' },
+      ] as FeatCard[] } },
+      { type: 'comparison', heading: 'אנחנו מול סוכנות וולוו', data: {
+        colUs: 'מפתח עכשיו', colAlt: 'סוכנות וולוו',
+        rows: [
+          { criterion: 'מחיר Smart Key XC60', us: '1,000-1,600 ₪',  usColor: 'green', alt: '1,800-3,500 ₪', altColor: 'red' },
+          { criterion: 'PEPS XC40',           us: '1,200-2,000 ₪',  usColor: 'green', alt: '2,500-5,000 ₪', altColor: 'red' },
+          { criterion: 'XC90 ישן',            us: '600-900 ₪',      usColor: 'green', alt: 'המתנה שבועות',  altColor: 'red' },
+          { criterion: 'הגעה לבית',           us: 'כן, לכל מקום',  usColor: 'green', alt: 'לא',             altColor: 'red' },
+          { criterion: 'זמינות',              us: '24/7',           usColor: 'green', alt: 'שעות עסקים',     altColor: 'orange' },
+        ] as CompRow[]
+      } },
+    ];
+  }
+
   return [];
 }
