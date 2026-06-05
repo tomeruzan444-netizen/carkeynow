@@ -1,7 +1,7 @@
 import type { Step, FeatCard, CompRow, Stat, TabItem, ToolCard } from '@/components/VisualBlocks';
 
 export interface VisualSection {
-  type: 'process' | 'features' | 'comparison' | 'stats' | 'tabs' | 'tools' | 'alert';
+  type: 'process' | 'features' | 'comparison' | 'stats' | 'tabs' | 'tools' | 'alert' | 'image';
   heading?: string;
   sub?: string;
   data: unknown;
@@ -171,6 +171,9 @@ export const cityKeyProcess: Step[] = [
   { title: 'בדיקה ומסירה', desc: 'הלקוח בודק את המפתח לפני שהטכנאי עוזב. חשבונית ניתנת מיד.', duration: '5 דק׳' },
 ];
 
+// ─── IMAGE DATA ─────────────────────────────────────────────────────
+export interface ImageData { src: string; alt: string; maxWidth?: number }
+
 // ─── DISPATCHER ──────────────────────────────────────────────────────
 
 export function getVisualSections(slug: string): VisualSection[] {
@@ -183,7 +186,25 @@ export function getVisualSections(slug: string): VisualSection[] {
     ];
   }
 
-  // Brand pages
+  // Suzuki — with product image
+  if (slug === 'שכפול-מפתח-לסוזוקי') {
+    return [
+      { type: 'image', data: { src: '/wp-images/שכפול-שלט-חכם-לרכב-סוזוקי.webp', alt: 'שלט חכם לרכב סוזוקי', maxWidth: 300 } as ImageData },
+      { type: 'process', heading: 'איך אנחנו משכפלים מפתח סוזוקי', data: keyDupProcess },
+      { type: 'comparison', heading: 'אנחנו מול סוכנות סוזוקי', data: { colUs: 'מפתח עכשיו', colAlt: 'סוכנות', rows: keyDupComparison } },
+    ];
+  }
+
+  // Mazda — with product image
+  if (slug === 'שכפול-מפתח-למאזדה') {
+    return [
+      { type: 'image', data: { src: '/wp-images/שכפול-שלט-חכם-מאזדה.webp', alt: 'שלט חכם מאזדה', maxWidth: 300 } as ImageData },
+      { type: 'process', heading: 'תהליך שכפול מפתח מאזדה', data: keyDupProcess },
+      { type: 'comparison', heading: 'אנחנו מול סוכנות מאזדה', data: { colUs: 'מפתח עכשיו', colAlt: 'סוכנות', rows: keyDupComparison } },
+    ];
+  }
+
+  // Brand pages (generic)
   if (slug.startsWith('שכפול-מפתח-ל') && !slug.startsWith('שכפול-מפתח-לרכב')) {
     return [
       { type: 'process', heading: 'איך אנחנו משכפלים מפתח — 5 שלבים', data: keyDupProcess },
@@ -192,10 +213,11 @@ export function getVisualSections(slug: string): VisualSection[] {
     ];
   }
 
-  // Main key duplication
+  // Main key duplication — with general key image
   if (slug === 'שכפול-מפתח-לרכב') {
     return [
       { type: 'stats',    data: keyStats },
+      { type: 'image', data: { src: '/wp-images/שכפול-מפתח-לרכב-חדש.webp', alt: 'שכפול מפתח לרכב', maxWidth: 300 } as ImageData },
       { type: 'features', heading: 'כל סוגי המפתחות שאנחנו משכפלים', data: { cards: keyTypes, cols: 3 } },
       { type: 'process',  heading: 'תהליך שכפול מפתח בשטח', data: keyDupProcess },
       { type: 'comparison', heading: 'אנחנו מול הסוכנות הרשמית', data: { colUs: 'מפתח עכשיו', colAlt: 'סוכנות', rows: keyDupComparison } },
@@ -256,9 +278,10 @@ export function getVisualSections(slug: string): VisualSection[] {
     ];
   }
 
-  // Remote/shelt
+  // Remote/shelt — with flip key image
   if (['תיקון-שלט-לרכב','שכפול-שלט-לרכב','קידוד-שלט-לרכב'].includes(slug)) {
     return [
+      { type: 'image', data: { src: '/wp-images/שכפול-מפתח-קפיץ.webp', alt: 'מפתח קפיץ לרכב', maxWidth: 280 } as ImageData },
       { type: 'process',  heading: 'תהליך תיקון/שכפול השלט', data: remoteProcess },
       { type: 'features', heading: 'מה שחשוב לדעת על השלט לרכב', data: { cards: remoteFeatures, cols: 2 } },
     ];

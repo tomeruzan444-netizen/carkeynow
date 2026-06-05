@@ -173,6 +173,16 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
                 if (section.type === 'tools') {
                   return <ToolGrid key={i} heading={section.heading ?? ''} sub={section.sub} tools={section.data as Parameters<typeof ToolGrid>[0]['tools']} />;
                 }
+                if (section.type === 'image') {
+                  const d = section.data as { src: string; alt: string; maxWidth?: number };
+                  return (
+                    <div key={i} className="my-6 flex justify-center">
+                      <img src={d.src} alt={d.alt}
+                        style={{ maxWidth: d.maxWidth ?? 300, height: 'auto' }}
+                        loading="lazy" />
+                    </div>
+                  );
+                }
                 return null;
               })}
 
