@@ -27,42 +27,28 @@ jobs:
       - name: Build static site
         run: npm run build
 
-      - name: Setup SSH
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts 2>/dev/null || true
-
-      - name: Upload tar to server
-        run: |
-          cd out
-          tar czf ../deploy.tar.gz .
-          scp -i ~/.ssh/deploy_key \
-            -P ${{ secrets.SSH_PORT }} \
-            -o StrictHostKeyChecking=no \
-            -o ConnectTimeout=60 \
-            -o ServerAliveInterval=30 \
-            ../deploy.tar.gz \
-            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/tmp/carkeynow-deploy.tar.gz
-
-      - name: Extract on server
-        run: |
-          ssh -i ~/.ssh/deploy_key \
-            -p ${{ secrets.SSH_PORT }} \
-            -o StrictHostKeyChecking=no \
-            -o ConnectTimeout=60 \
-            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
-            "cd ${{ secrets.APP_DIR }} && rm -rf ./* .htaccess 2>/dev/null && tar xzf /tmp/carkeynow-deploy.tar.gz && rm /tmp/carkeynow-deploy.tar.gz && echo 'Deployed: '$(ls | wc -l)' items'"
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: 21
+          local-dir: ./out/
+          server-dir: /public_html/
+          dangerous-clean-slate: true
 
       - name: Upload .htaccess
-        run: |
-          scp -i ~/.ssh/deploy_key \
-            -P ${{ secrets.SSH_PORT }} \
-            -o StrictHostKeyChecking=no \
-            -o ConnectTimeout=60 \
-            .htaccess \
-            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.APP_DIR }}/.htaccess
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: 21
+          local-dir: ./
+          server-dir: /public_html/
+          include: |
+            .htaccess
 
       - name: Done
         run: echo "✅ Live at https://carkeynow.co.il — $(date)"
