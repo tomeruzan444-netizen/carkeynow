@@ -1,4 +1,4 @@
-﻿name: Build & Deploy to Hostinger
+name: Build & Deploy to Hostinger
 
 on:
   push:
@@ -38,7 +38,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
           local-dir: ./out/
-          server-dir: ./public_html/
+          server-dir: /public_html/
 
       - name: Done
-        run: echo "OK Deploy done"
+        run: echo "Deploy complete"
