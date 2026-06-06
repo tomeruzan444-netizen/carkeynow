@@ -34,20 +34,33 @@ jobs:
           chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts 2>/dev/null || true
 
-      - name: Upload to server via tar+SSH
+      - name: Upload tar to server
         run: |
           cd out
-          tar czf - . | ssh -i ~/.ssh/deploy_key \
+          tar czf ../deploy.tar.gz .
+          scp -i ~/.ssh/deploy_key \
+            -P ${{ secrets.SSH_PORT }} \
+            -o StrictHostKeyChecking=no \
+            -o ConnectTimeout=60 \
+            -o ServerAliveInterval=30 \
+            ../deploy.tar.gz \
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/tmp/carkeynow-deploy.tar.gz
+
+      - name: Extract on server
+        run: |
+          ssh -i ~/.ssh/deploy_key \
             -p ${{ secrets.SSH_PORT }} \
             -o StrictHostKeyChecking=no \
+            -o ConnectTimeout=60 \
             ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
-            "cd ${{ secrets.APP_DIR }} && rm -rf ./* .htaccess 2>/dev/null; tar xzf - && echo 'Deployed: '$(ls | wc -l)' items'"
+            "cd ${{ secrets.APP_DIR }} && rm -rf ./* .htaccess 2>/dev/null && tar xzf /tmp/carkeynow-deploy.tar.gz && rm /tmp/carkeynow-deploy.tar.gz && echo 'Deployed: '$(ls | wc -l)' items'"
 
       - name: Upload .htaccess
         run: |
           scp -i ~/.ssh/deploy_key \
             -P ${{ secrets.SSH_PORT }} \
             -o StrictHostKeyChecking=no \
+            -o ConnectTimeout=60 \
             .htaccess \
             ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.APP_DIR }}/.htaccess
 
