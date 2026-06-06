@@ -72,7 +72,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
   const visualSections = getVisualSections(page.slug);
   const displayTitle = page.title
     .replace(/\s*\|.*$/, '')
-    .replace(/&#8211;/g, '–')
+    .replace(/&#8211;/g, '-')
     .replace(/&amp;/g, '&')
     .replace(/&#8217;/g, "'");
 
