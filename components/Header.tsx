@@ -239,7 +239,19 @@ export default function Header() {
               </div>
             ))}
 
-            <div className="flex gap-2 pt-2 border-t border-white/10">
+            <div className="grid grid-cols-2 gap-1 pt-2 border-t border-white/10">
+              <Link href="/אודות" onClick={() => setMobileOpen(false)}
+                className="text-xs py-2 px-3 rounded bg-white/5 hover:bg-white/15 transition text-center">
+                אודות
+              </Link>
+              <Link href="/צרו-קשר" onClick={() => setMobileOpen(false)}
+                className="text-xs py-2 px-3 rounded font-semibold transition text-center"
+                style={{ background: 'var(--accent)' }}>
+                צרו קשר
+              </Link>
+            </div>
+
+            <div className="flex gap-2">
               <a href={`tel:${SITE.phone}`} style={{ background: 'var(--accent)' }}
                 className="flex-1 text-center py-2.5 rounded font-bold text-sm">
                 {SITE.phoneDisplay}
