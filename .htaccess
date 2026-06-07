@@ -10,10 +10,13 @@ AddDefaultCharset UTF-8
   # Hebrew URLs that map to English-named build directories
   RewriteRule ^אזורי-שירות(/)?$ /service-areas/index.html [L]
   RewriteRule ^סוגי-מפתחות(/)?$ /key-types/index.html [L]
+  RewriteRule ^שירותים(/)?$ /services/index.html [L]
   RewriteCond %{REQUEST_URI} ^/%D7%90%D7%96%D7%95%D7%A8%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA
   RewriteRule .* /service-areas/index.html [L]
   RewriteCond %{REQUEST_URI} ^/%D7%A1%D7%95%D7%92%D7%99-%D7%9E%D7%A4%D7%AA%D7%97%D7%95%D7%AA
   RewriteRule .* /key-types/index.html [L]
+  RewriteCond %{REQUEST_URI} ^/%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D
+  RewriteRule .* /services/index.html [L]
 
   # Serve exact file
   RewriteCond %{REQUEST_FILENAME} -f
