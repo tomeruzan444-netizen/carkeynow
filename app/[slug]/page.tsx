@@ -130,7 +130,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
       </div>
 
       {/* ── Main layout ── */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" dir="rtl">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8" dir="rtl">
         {isContactPage ? (
           /* Contact page: centered form */
           <div className="max-w-xl mx-auto">
@@ -146,7 +146,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
           <div className="grid lg:grid-cols-[1fr_300px] gap-8 items-start">
             {/* Content */}
             <div className="min-w-0">
-              <div className="card p-6 md:p-8">
+              <div className="p-1 sm:card sm:p-6 md:p-8">
                 <WpContent html={page.content} />
               </div>
 

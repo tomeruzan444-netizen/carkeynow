@@ -114,7 +114,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <OrganizationSchema />
       </head>
-      <body className="font-sans antialiased bg-gray-50 text-gray-900 min-h-screen flex flex-col">
+      <body className="font-sans antialiased bg-white text-gray-900 min-h-screen flex flex-col">
         <Header />
         <main className="flex-1 pb-6">{children}</main>
         <Footer />
