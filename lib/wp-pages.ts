@@ -1048,18 +1048,6 @@ export const WP_PAGES: WpPage[] = [
     "ogImage": ""
   },
   {
-    "id": 348,
-    "slug": "בלוג",
-    "title": "בלוג",
-    "content": "",
-    "metaTitle": "בלוג",
-    "metaDesc": "",
-    "canonical": "https://carkeynow.co.il/בלוג/",
-    "ogTitle": "בלוג",
-    "ogDesc": "",
-    "ogImage": ""
-  },
-  {
     "id": 99999,
     "slug": "שכפול-מפתח-לרכב-ברעננה",
     "title": "שכפול מפתח לרכב ברעננה - מחירון בפנים | מפתח עכשיו",
