@@ -198,3 +198,59 @@ body {
   .wp-content table th,
   .wp-content table td { padding: 8px 10px; }
 }
+
+/* ── Brand slider (שכפול מפתח לפי יצרנית) ── */
+.brand-slider-track {
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;            /* Firefox */
+  -ms-overflow-style: none;         /* IE/Edge legacy */
+}
+.brand-slider-track::-webkit-scrollbar { display: none; } /* Chrome/Safari */
+
+.brand-card {
+  flex: 0 0 auto;
+  width: 152px;
+  scroll-snap-align: start;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.brand-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+}
+@media (min-width: 480px) { .brand-card { width: 168px; } }
+@media (min-width: 768px) { .brand-card { width: 184px; } }
+
+/* חיצי ניווט עגולים */
+.brand-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background: #fff;
+  color: var(--primary);
+  border: 1.5px solid var(--border);
+  box-shadow: 0 4px 14px rgba(30,74,114,.12);
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s, border-color 0.18s, opacity 0.18s;
+}
+.brand-arrow:hover:not(:disabled) {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+.brand-arrow:disabled { opacity: 0.35; cursor: default; }
+.brand-arrow--prev { right: -10px; }   /* התחלה ב-RTL */
+.brand-arrow--next { left: -10px; }    /* המשך ב-RTL */
+
+@media (max-width: 640px) {
+  .brand-arrow--prev { right: -6px; }
+  .brand-arrow--next { left: -6px; }
+}

@@ -6,6 +6,7 @@ import ContactForm from '@/components/ContactForm';
 import WpContent from '@/components/WpContent';
 import FaqAccordion from '@/components/FaqAccordion';
 import Sidebar, { detectGroup } from '@/components/Sidebar';
+import BrandSlider from '@/components/BrandSlider';
 import {
   ProcessSteps, FeatureCards, ComparisonTable, StatsBanner,
   CaseStudyTabs, ToolGrid,
@@ -77,6 +78,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
     .replace(/&#8217;/g, "'");
 
   const isContactPage = page.slug === 'צרו-קשר';
+  const isMainCarKeyPage = page.slug === 'שכפול-מפתח-לרכב';
 
   return (
     <>
@@ -128,6 +130,9 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
           </h1>
         </div>
       </div>
+
+      {/* ── Brand slider — מופיע רק בעמוד שכפול מפתח לרכב ── */}
+      {isMainCarKeyPage && <BrandSlider />}
 
       {/* ── Main layout ── */}
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8" dir="rtl">
