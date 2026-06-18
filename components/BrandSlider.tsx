@@ -23,7 +23,7 @@ const BRANDS: Brand[] = [
   { name: 'אופל',     logo: '/wp-images/לוגו-אופל.webp',     href: '/שכפול-מפתח-לאופל' },
 ];
 
-export default function BrandSlider() {
+export default function BrandSlider({ inline = false }: { inline?: boolean }) {
   const trackRef = useRef<HTMLDivElement>(null);
   const [canPrev, setCanPrev] = useState(false);
   const [canNext, setCanNext] = useState(true);
@@ -59,10 +59,20 @@ export default function BrandSlider() {
   };
 
   return (
-    <section dir="rtl" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-12">
+    <section
+      dir="rtl"
+      className={
+        inline
+          ? 'brand-slider--inline py-4'
+          : 'max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-12'
+      }
+    >
       {/* כותרת */}
-      <div className="text-center mb-7 md:mb-9">
-        <h2 className="text-2xl md:text-3xl font-extrabold" style={{ color: 'var(--primary)' }}>
+      <div className={`text-center ${inline ? 'mb-5' : 'mb-7 md:mb-9'}`}>
+        <h2
+          className={`font-extrabold ${inline ? 'text-xl md:text-2xl' : 'text-2xl md:text-3xl'}`}
+          style={{ color: 'var(--primary)' }}
+        >
           שכפול מפתח לפי <span style={{ color: 'var(--accent)' }}>יצרנית הרכב</span>
         </h2>
         <p className="text-sm md:text-base text-gray-500 mt-2 max-w-2xl mx-auto">

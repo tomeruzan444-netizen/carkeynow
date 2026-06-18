@@ -78,8 +78,16 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
     .replace(/&#8217;/g, "'");
 
   const isContactPage = page.slug === 'צרו-קשר';
-  // העמוד הראשי "שכפול-מפתח-לרכב" + כל עמודי הערים "שכפול-מפתח-לרכב-ב..."
-  const isCarKeyPage = page.slug.startsWith('שכפול-מפתח-לרכב');
+  // העמוד הראשי "שכפול-מפתח-לרכב" — סליידר בראש העמוד (כפי שהיה)
+  const isMainCarKeyPage = page.slug === 'שכפול-מפתח-לרכב';
+  // עמודי הערים "שכפול-מפתח-לרכב-ב..." — סליידר משובץ מתחת לפסקת הפתיחה
+  const isCityCarKeyPage = page.slug.startsWith('שכפול-מפתח-לרכב-');
+
+  // פיצול התוכן אחרי פסקת הפתיחה (התשובה המהירה) כדי לשבץ את הסליידר בעמודי ערים
+  const splitIdx = isCityCarKeyPage ? page.content.indexOf('</p>') : -1;
+  const hasSplit = splitIdx !== -1;
+  const leadHtml = hasSplit ? page.content.slice(0, splitIdx + 4) : '';
+  const restHtml = hasSplit ? page.content.slice(splitIdx + 4) : page.content;
 
   return (
     <>
@@ -132,8 +140,8 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
         </div>
       </div>
 
-      {/* ── Brand slider — בעמוד הראשי ובכל עמודי שכפול מפתח לרכב לפי עיר ── */}
-      {isCarKeyPage && <BrandSlider />}
+      {/* ── Brand slider — בראש העמוד הראשי בלבד ── */}
+      {isMainCarKeyPage && <BrandSlider />}
 
       {/* ── Main layout ── */}
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8" dir="rtl">
@@ -153,7 +161,15 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
             {/* Content */}
             <div className="min-w-0">
               <div className="p-1 sm:card sm:p-6 md:p-8">
-                <WpContent html={page.content} />
+                {isCityCarKeyPage ? (
+                  <>
+                    {hasSplit && <WpContent html={leadHtml} />}
+                    <BrandSlider inline />
+                    <WpContent html={restHtml} />
+                  </>
+                ) : (
+                  <WpContent html={page.content} />
+                )}
               </div>
 
               {/* Visual enhancement blocks */}
