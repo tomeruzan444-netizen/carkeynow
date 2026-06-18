@@ -78,7 +78,8 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
     .replace(/&#8217;/g, "'");
 
   const isContactPage = page.slug === 'צרו-קשר';
-  const isMainCarKeyPage = page.slug === 'שכפול-מפתח-לרכב';
+  // העמוד הראשי "שכפול-מפתח-לרכב" + כל עמודי הערים "שכפול-מפתח-לרכב-ב..."
+  const isCarKeyPage = page.slug.startsWith('שכפול-מפתח-לרכב');
 
   return (
     <>
@@ -131,8 +132,8 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
         </div>
       </div>
 
-      {/* ── Brand slider — מופיע רק בעמוד שכפול מפתח לרכב ── */}
-      {isMainCarKeyPage && <BrandSlider />}
+      {/* ── Brand slider — בעמוד הראשי ובכל עמודי שכפול מפתח לרכב לפי עיר ── */}
+      {isCarKeyPage && <BrandSlider />}
 
       {/* ── Main layout ── */}
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8" dir="rtl">
