@@ -65,8 +65,7 @@ export const metadata: Metadata = {
     shortcut: '/favicon-48.png',
   },
   verification: {
-    // Add Google Search Console verification token here when ready
-    // google: 'YOUR_TOKEN_HERE',
+    google: 'q4xZPZp-Ai1FndL_qFZGDIojKzmEye2_T7xYM6grpnk',
   },
 };
 
