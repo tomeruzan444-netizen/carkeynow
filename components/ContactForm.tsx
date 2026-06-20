@@ -93,7 +93,7 @@ export default function ContactForm({ heading = 'הזמן מנעולן רכב', 
 
       {!compact && (
         <div className="px-5 pt-4 pb-0 text-xs text-gray-500 leading-relaxed">
-          שלחו את הפרטים וטכנאי יחזור אליכם תוך דקות
+          שלחו את הפרטים ומנעולן יחזור אליכם תוך דקות
         </div>
       )}
 
