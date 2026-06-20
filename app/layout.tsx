@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Rubik } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
@@ -119,6 +120,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="flex-1 pb-6">{children}</main>
         <Footer />
         <FloatingContact />
+
+        {/* LeadRadar tracker — נטען בכל עמודי האתר */}
+        <Script
+          src="https://zflsdipkqpivtbydexoa.supabase.co/storage/v1/object/public/leadradar/tracker.js"
+          data-site="ste_fcoi6dfd"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
