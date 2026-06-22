@@ -7,6 +7,7 @@ import WpContent from '@/components/WpContent';
 import FaqAccordion from '@/components/FaqAccordion';
 import Sidebar, { detectGroup } from '@/components/Sidebar';
 import BrandSlider from '@/components/BrandSlider';
+import { getBrandLogo } from '@/lib/brandLogos';
 import {
   ProcessSteps, FeatureCards, ComparisonTable, StatsBanner,
   CaseStudyTabs, ToolGrid,
@@ -77,6 +78,9 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
     .replace(/&amp;/g, '&')
     .replace(/&#8217;/g, "'");
 
+  // לוגו היצרן — מוצג ממורכז בראש העמוד בעמודי "שכפול מפתח ל<יצרן>"
+  const brand = getBrandLogo(page.slug);
+
   const isContactPage = page.slug === 'צרו-קשר';
   // העמוד הראשי "שכפול-מפתח-לרכב" — סליידר בראש העמוד (כפי שהיה)
   const isMainCarKeyPage = page.slug === 'שכפול-מפתח-לרכב';
@@ -134,7 +138,30 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
             <span>/</span>
             <span className="opacity-100">{displayTitle}</span>
           </nav>
-          <h1 className="text-xl sm:text-2xl md:text-3xl font-bold leading-snug">
+
+          {/* לוגו היצרן — תג לבן עגול ממורכז, מעל הכותרת, גלוי מיד בטעינת העמוד */}
+          {brand && (
+            <div className="flex justify-center mb-3 sm:mb-4">
+              <div
+                className="bg-white rounded-full shadow-lg flex items-center justify-center ring-1 ring-black/5"
+                style={{ width: 'clamp(88px, 22vw, 112px)', height: 'clamp(88px, 22vw, 112px)', padding: '18px' }}
+              >
+                <img
+                  src={brand.logo}
+                  alt={`לוגו ${brand.name} - שכפול מפתח לרכב ${brand.name}`}
+                  width={76}
+                  height={76}
+                  loading="eager"
+                  fetchPriority="high"
+                  className="max-w-full max-h-full object-contain"
+                />
+              </div>
+            </div>
+          )}
+
+          <h1
+            className={`text-xl sm:text-2xl md:text-3xl font-bold leading-snug${brand ? ' text-center' : ''}`}
+          >
             {displayTitle}
           </h1>
         </div>
