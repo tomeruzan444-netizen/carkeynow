@@ -144,7 +144,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
             <div className="flex justify-center mb-3 sm:mb-4">
               <div
                 className="bg-white rounded-full shadow-lg flex items-center justify-center ring-1 ring-black/5"
-                style={{ width: 'clamp(92px, 23vw, 116px)', height: 'clamp(92px, 23vw, 116px)', padding: '8px' }}
+                style={{ width: 'clamp(92px, 23vw, 116px)', height: 'clamp(92px, 23vw, 116px)', padding: '3px' }}
               >
                 <img
                   src={brand.logo}
