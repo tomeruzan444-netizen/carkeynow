@@ -7,14 +7,14 @@ import { SITE, NAV_SERVICES, NAV_CITIES, NAV_BRANDS } from '@/lib/siteData';
 
 type DropKey = 'services' | 'cities' | 'brands' | null;
 
-// Main nav items — each has a dropdown
+// Main nav items - each has a dropdown
 const NAV_CONFIG = [
   { key: 'services' as DropKey, label: 'שירותים',     items: NAV_SERVICES },
   { key: 'cities'   as DropKey, label: 'אזורים',      items: NAV_CITIES   },
   { key: 'brands'   as DropKey, label: 'סוגי מפתחות', items: NAV_BRANDS   },
 ];
 
-// Quick links — direct pages only, no blog
+// Quick links - direct pages only, no blog
 const QUICK_LINKS = [
   { label: 'ראשי',                 href: '/' },
   { label: 'פורץ רכבים',           href: '/פורץ-רכבים' },

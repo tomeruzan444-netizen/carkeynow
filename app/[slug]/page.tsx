@@ -74,17 +74,17 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
   const visualSections = getVisualSections(page.slug);
   const displayTitle = page.title
     .replace(/\s*\|.*$/, '')
-    .replace(/&#8211;/g, '–')
+    .replace(/&#8211;/g, '-')
     .replace(/&amp;/g, '&')
     .replace(/&#8217;/g, "'");
 
-  // לוגו היצרן — מוצג ממורכז בראש העמוד בעמודי "שכפול מפתח ל<יצרן>"
+  // לוגו היצרן - מוצג ממורכז בראש העמוד בעמודי "שכפול מפתח ל<יצרן>"
   const brand = getBrandLogo(page.slug);
 
   const isContactPage = page.slug === 'צרו-קשר';
-  // העמוד הראשי "שכפול-מפתח-לרכב" — סליידר בראש העמוד (כפי שהיה)
+  // העמוד הראשי "שכפול-מפתח-לרכב" - סליידר בראש העמוד (כפי שהיה)
   const isMainCarKeyPage = page.slug === 'שכפול-מפתח-לרכב';
-  // עמודי הערים "שכפול-מפתח-לרכב-ב..." — סליידר משובץ מתחת לפסקת הפתיחה
+  // עמודי הערים "שכפול-מפתח-לרכב-ב..." - סליידר משובץ מתחת לפסקת הפתיחה
   const isCityCarKeyPage = page.slug.startsWith('שכפול-מפתח-לרכב-');
 
   // פיצול התוכן אחרי פסקת הפתיחה (התשובה המהירה) כדי לשבץ את הסליידר בעמודי ערים
@@ -139,7 +139,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
             <span className="opacity-100">{displayTitle}</span>
           </nav>
 
-          {/* לוגו היצרן — תג לבן עגול ממורכז, מעל הכותרת, גלוי מיד בטעינת העמוד */}
+          {/* לוגו היצרן - תג לבן עגול ממורכז, מעל הכותרת, גלוי מיד בטעינת העמוד */}
           {brand && (
             <div className="flex justify-center mb-3 sm:mb-4">
               <div
@@ -167,7 +167,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
         </div>
       </div>
 
-      {/* ── Brand slider — בראש העמוד הראשי בלבד ── */}
+      {/* ── Brand slider - בראש העמוד הראשי בלבד ── */}
       {isMainCarKeyPage && <BrandSlider />}
 
       {/* ── Main layout ── */}
@@ -175,7 +175,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
         {isContactPage ? (
           /* Contact page: centered form */
           <div className="max-w-xl mx-auto">
-            <ContactForm heading="צרו קשר – קבלו הצעת מחיר חינם" />
+            <ContactForm heading="צרו קשר - קבלו הצעת מחיר חינם" />
             <div className="card mt-6 p-6 text-center">
               <p className="text-gray-600 mb-2">או התקשרו עכשיו</p>
               <a href={`tel:${SITE.phone}`} className="text-2xl font-bold"
@@ -242,7 +242,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
               )}
             </div>
 
-            {/* Sidebar — contextual per page */}
+            {/* Sidebar - contextual per page */}
             <div>
               <Sidebar currentSlug={page.slug} />
             </div>

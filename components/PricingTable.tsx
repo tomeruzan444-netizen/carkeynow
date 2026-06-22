@@ -20,7 +20,7 @@ export default function PricingTable({ rows, heading = 'מחירון שירות'
               <td className="px-4 py-3 text-gray-800">{row.service}</td>
               <td className="px-4 py-3 font-semibold text-blue-700">{row.price}</td>
               {rows.some((r) => r.duration) && (
-                <td className="px-4 py-3 text-gray-500">{row.duration ?? '—'}</td>
+                <td className="px-4 py-3 text-gray-500">{row.duration ?? '-'}</td>
               )}
             </tr>
           ))}

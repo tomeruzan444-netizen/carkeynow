@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://carkeynow.co.il/%D7%90%D7%96%D7%95%D7%A8%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA/' },
 };
 
-// Auto-generated from WP_PAGES — any page with slug שכפול-מפתח-לרכב-ב* appears here automatically
+// Auto-generated from WP_PAGES - any page with slug שכפול-מפתח-לרכב-ב* appears here automatically
 const KEY_CITIES = WP_PAGES
   .filter(p => p.slug.startsWith('שכפול-מפתח-לרכב-ב'))
   .map(p => ({

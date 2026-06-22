@@ -47,11 +47,11 @@ export default function ContactForm({ heading = 'הזמן מנעולן רכב', 
       if (res.ok && data.success) {
         setStatus('success');
       } else {
-        setError(data.error || 'שגיאה בשליחה — נסו שוב או התקשרו ישירות.');
+        setError(data.error || 'שגיאה בשליחה - נסו שוב או התקשרו ישירות.');
         setStatus('error');
       }
     } catch {
-      setError('שגיאת רשת — בדקו חיבור אינטרנט ונסו שוב.');
+      setError('שגיאת רשת - בדקו חיבור אינטרנט ונסו שוב.');
       setStatus('error');
     }
   }

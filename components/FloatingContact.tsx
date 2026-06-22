@@ -50,7 +50,7 @@ export default function FloatingContact() {
         .cta-pulse { animation: cta-pulse 2s infinite; }
       `}</style>
 
-      {/* Phone button — bottom right */}
+      {/* Phone button - bottom right */}
       <a
         href={`tel:${SITE.phone}`}
         dir="rtl"
@@ -64,7 +64,7 @@ export default function FloatingContact() {
         {SITE.phoneDisplay}
       </a>
 
-      {/* CTA button — bottom left, with pulse */}
+      {/* CTA button - bottom left, with pulse */}
       <button
         onClick={() => setOpen(true)}
         dir="rtl"
@@ -93,7 +93,7 @@ export default function FloatingContact() {
             {/* Modal header */}
             <div className="flex items-center justify-between px-5 py-3 text-white"
               style={{ background: 'var(--primary)' }}>
-              <span className="font-bold text-sm">השאירו פרטים — נחזור מהר</span>
+              <span className="font-bold text-sm">השאירו פרטים - נחזור מהר</span>
               <button onClick={() => setOpen(false)} className="opacity-70 hover:opacity-100 transition">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" />
@@ -147,7 +147,7 @@ export default function FloatingContact() {
 
                 {status === 'error' && (
                   <p className="text-xs text-red-600 bg-red-50 rounded px-3 py-2">
-                    שגיאה בשליחה — התקשרו ישירות
+                    שגיאה בשליחה - התקשרו ישירות
                   </p>
                 )}
 
@@ -158,7 +158,7 @@ export default function FloatingContact() {
                 </button>
 
                 <p className="text-center text-xs text-gray-400">
-                  זמינות 24/7 — מגיעים תוך 20 דקות
+                  זמינות 24/7 - מגיעים תוך 20 דקות
                 </p>
               </form>
             )}

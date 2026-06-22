@@ -69,7 +69,7 @@ export const metadata: Metadata = {
   },
 };
 
-// Organization JSON-LD — site-wide
+// Organization JSON-LD - site-wide
 function OrganizationSchema() {
   return (
     <script
@@ -120,7 +120,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <FloatingContact />
 
-        {/* LeadRadar tracker — נטען בכל עמודי האתר */}
+        {/* LeadRadar tracker - נטען בכל עמודי האתר */}
         <Script
           src="https://zflsdipkqpivtbydexoa.supabase.co/storage/v1/object/public/leadradar/tracker.js"
           data-site="ste_fcoi6dfd"
