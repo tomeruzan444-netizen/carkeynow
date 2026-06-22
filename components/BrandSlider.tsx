@@ -21,6 +21,13 @@ const BRANDS: Brand[] = [
   { name: 'רנו',      logo: '/wp-images/לוגו-רנו.webp',      href: '/שכפול-מפתח-לרנו' },
   { name: 'שברולט',   logo: '/wp-images/לוגו-שברולט.webp',   href: '/שכפול-מפתח-לשברולט' },
   { name: 'אופל',     logo: '/wp-images/לוגו-אופל.webp',     href: '/שכפול-מפתח-לאופל' },
+  { name: 'סוזוקי',   logo: '/wp-images/לוגו-סוזוקי.webp',   href: '/שכפול-מפתח-לסוזוקי' },
+  { name: 'סיטרואן',  logo: '/wp-images/לוגו-סיטרואן.webp',  href: '/שכפול-מפתח-לסיטרואן' },
+  { name: "פיג'ו",    logo: '/wp-images/לוגו-פיגו.webp',     href: '/שכפול-מפתח-לפיגו' },
+  { name: 'גילי',     logo: '/wp-images/לוגו-גילי.webp',     href: '/שכפול-מפתח-לגילי' },
+  { name: "דודג'",    logo: '/wp-images/לוגו-דודג.webp',     href: '/שכפול-מפתח-לדודג' },
+  { name: 'דייהטסו',  logo: '/wp-images/לוגו-דייהטסו.webp',  href: '/שכפול-מפתח-לדייהטסו' },
+  { name: 'קאדילק',   logo: '/wp-images/לוגו-קאדילק.webp',   href: '/שכפול-מפתח-לקאדילק' },
 ];
 
 export default function BrandSlider({ inline = false }: { inline?: boolean }) {

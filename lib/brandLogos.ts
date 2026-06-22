@@ -21,6 +21,13 @@ export const BRAND_LOGOS: Record<string, BrandLogo> = {
   'שכפול-מפתח-לרנו':      { name: 'רנו',      logo: '/wp-images/לוגו-רנו.webp' },
   'שכפול-מפתח-לשברולט':   { name: 'שברולט',   logo: '/wp-images/לוגו-שברולט.webp' },
   'שכפול-מפתח-לאופל':     { name: 'אופל',     logo: '/wp-images/לוגו-אופל.webp' },
+  'שכפול-מפתח-לגילי':     { name: 'גילי',     logo: '/wp-images/לוגו-גילי.webp' },
+  'שכפול-מפתח-לדודג':     { name: "דודג'",    logo: '/wp-images/לוגו-דודג.webp' },
+  'שכפול-מפתח-לדייהטסו':  { name: 'דייהטסו',  logo: '/wp-images/לוגו-דייהטסו.webp' },
+  'שכפול-מפתח-לסוזוקי':   { name: 'סוזוקי',   logo: '/wp-images/לוגו-סוזוקי.webp' },
+  'שכפול-מפתח-לסיטרואן':  { name: 'סיטרואן',  logo: '/wp-images/לוגו-סיטרואן.webp' },
+  'שכפול-מפתח-לפיגו':     { name: "פיג'ו",    logo: '/wp-images/לוגו-פיגו.webp' },
+  'שכפול-מפתח-לקאדילק':   { name: 'קאדילק',   logo: '/wp-images/לוגו-קאדילק.webp' },
 };
 
 /** מחזיר את הלוגו של עמוד יצרן לפי ה-slug, או undefined אם אין. */
