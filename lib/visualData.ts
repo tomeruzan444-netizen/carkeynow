@@ -204,6 +204,51 @@ export function getVisualSections(slug: string): VisualSection[] {
     ];
   }
 
+  // Jeep — Stellantis/Chrysler systems
+  if (slug === 'שכפול-מפתח-לגיפ') {
+    return [
+      { type: 'process', heading: "איך אנחנו משכפלים מפתח לג'יפ", data: [
+        { title: 'זיהוי מערכת ההגנה', desc: "מזהים אם הרכב עובד עם SKIM הישנה או מודול RFHub, ובודקים אם קיים Security Gateway בדגמי 2018 ואילך." as string, duration: '5 דק׳' },
+        { title: 'עקיפת Security Gateway', desc: 'בדגמים חדשים מחברים כבל ייעודי לנקודת ה-Star Connector מאחורי לוח המכשירים כדי לעקוף את חסימת ה-OBD.' as string, duration: '10 דק׳' },
+        { title: 'חיתוך הלהב', desc: 'חיתוך ממוחשב לפי קוד הרכב, כך שהמפתח נכנס חלק לסוויץ או לחריץ ה-FOBIK.' as string, duration: '5 דק׳' },
+        { title: 'קידוד המפתח', desc: 'שליפת קוד ה-PIN וקידוד מפתח FOBIK או Proximity מול מחשב הרכב.' as string, duration: '15-30 דק׳' },
+        { title: 'בדיקת תקינות', desc: 'בודקים כניסה, הצתה, נעילה ופונקציות השלט לפניכם לפני שאנחנו עוזבים.' as string, duration: '5 דק׳' },
+      ] },
+      { type: 'features', heading: 'סוגי המפתחות שאנחנו משכפלים', data: { cards: keyTypes, cols: 3 } },
+      { type: 'comparison', heading: "אנחנו מול סוכנות ג'יפ", data: { colUs: 'מפתח עכשיו', colAlt: 'סוכנות', rows: keyDupComparison } },
+    ];
+  }
+
+  // Dacia — Renault systems
+  if (slug === 'שכפול-מפתח-לדאציה') {
+    return [
+      { type: 'process', heading: "איך אנחנו משכפלים מפתח לדאצ'יה", data: [
+        { title: 'זיהוי סוג המפתח', desc: 'מזהים אם מדובר במפתח שבב, מפתח קפיץ או כרטיס Keyless, לפי הדגם ושנת הייצור.' as string, duration: '5 דק׳' },
+        { title: 'קריאת קוד האימוביליזר', desc: 'קוראים את הקוד הייחודי ממחשב הרכב דרך ה-OBD, באותו ציוד שמשרת את מערכות רנו.' as string, duration: '10 דק׳' },
+        { title: 'חיתוך הלהב', desc: 'חיתוך לפי קוד המנעול המקורי, כך שהמפתח החדש חד ומדויק אפילו יותר מהשחוק.' as string, duration: '5 דק׳' },
+        { title: 'קידוד וסנכרון', desc: 'מקודדים את השבב ומסנכרנים את השלט עם רולינג-קוד, ובכרטיס Keyless גם את אנטנות הזיהוי.' as string, duration: '10-20 דק׳' },
+        { title: 'בדיקת תקינות', desc: 'בודקים הצתה, נעילה ופתיחה מרחוק לפניכם לפני סיום.' as string, duration: '5 דק׳' },
+      ] },
+      { type: 'features', heading: 'סוגי המפתחות שאנחנו משכפלים', data: { cards: keyTypes, cols: 3 } },
+      { type: 'comparison', heading: "אנחנו מול סוכנות דאצ'יה", data: { colUs: 'מפתח עכשיו', colAlt: 'סוכנות', rows: keyDupComparison } },
+    ];
+  }
+
+  // Seat — VAG/MQB systems
+  if (slug === 'שכפול-מפתח-לסיאט') {
+    return [
+      { type: 'process', heading: 'איך אנחנו משכפלים מפתח לסיאט', data: [
+        { title: 'זיהוי דור האימוביליזר', desc: 'מזהים אם הרכב על Immo4, Immo5 או פלטפורמת MQB עם Component Protection.' as string, duration: '5 דק׳' },
+        { title: 'קריאת CS ו-PIN', desc: 'בדגמי MQB קוראים נתונים ממספר מודולים (BCM, מחשב מנוע) ומחשבים את קוד הקידוד.' as string, duration: '10-15 דק׳' },
+        { title: 'חיתוך הלהב', desc: 'חיתוך ממוחשב לפי קוד הרכב, עם דיוק שמונע החלקה בסוויץ.' as string, duration: '5 דק׳' },
+        { title: 'קידוד בציוד VAG', desc: 'רושמים מפתח קפיץ או Smart Key מול מחשב הרכב בתוכנת VAG מעודכנת.' as string, duration: '15-30 דק׳' },
+        { title: 'בדיקת תקינות', desc: 'בודקים כניסה ללא מפתח, הצתה בכפתור ונעילה אוטומטית לפניכם.' as string, duration: '5 דק׳' },
+      ] },
+      { type: 'features', heading: 'סוגי המפתחות שאנחנו משכפלים', data: { cards: keyTypes, cols: 3 } },
+      { type: 'comparison', heading: 'אנחנו מול סוכנות סיאט', data: { colUs: 'מפתח עכשיו', colAlt: 'סוכנות', rows: keyDupComparison } },
+    ];
+  }
+
   // Brand pages (generic)
   if (slug.startsWith('שכפול-מפתח-ל') && !slug.startsWith('שכפול-מפתח-לרכב')) {
     return [

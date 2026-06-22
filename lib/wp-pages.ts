@@ -1,6 +1,8 @@
 ﻿// AUTO-GENERATED from WordPress REST API - do not edit manually
 // Run: node lib/build-real-pages.mjs to regenerate
 
+import { MANUAL_PAGES } from './manual-pages';
+
 export interface WpPage {
   id: number;
   slug: string;
@@ -14,7 +16,7 @@ export interface WpPage {
   ogImage: string;
 }
 
-export const WP_PAGES: WpPage[] = [
+const GENERATED_PAGES: WpPage[] = [
   {
     "id": 64390,
     "slug": "שכפול-מפתח-לרכב-בלוד",
@@ -1184,6 +1186,8 @@ export const WP_PAGES: WpPage[] = [
   "ogImage": ""
 }
 ];
+
+export const WP_PAGES: WpPage[] = [...GENERATED_PAGES, ...MANUAL_PAGES];
 
 export function getWpPageBySlug(slug: string): WpPage | undefined {
   return WP_PAGES.find((p) => p.slug === slug);

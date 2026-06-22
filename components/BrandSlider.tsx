@@ -28,6 +28,9 @@ const BRANDS: Brand[] = [
   { name: "דודג'",    logo: '/wp-images/לוגו-דודג.webp',     href: '/שכפול-מפתח-לדודג' },
   { name: 'דייהטסו',  logo: '/wp-images/לוגו-דייהטסו.webp',  href: '/שכפול-מפתח-לדייהטסו' },
   { name: 'קאדילק',   logo: '/wp-images/לוגו-קאדילק.webp',   href: '/שכפול-מפתח-לקאדילק' },
+  { name: "ג'יפ",     logo: '/wp-images/לוגו-גיפ.webp',      href: '/שכפול-מפתח-לגיפ' },
+  { name: "דאצ'יה",   logo: '/wp-images/לוגו-דאציה.webp',    href: '/שכפול-מפתח-לדאציה' },
+  { name: 'סיאט',     logo: '/wp-images/לוגו-סיאט.webp',     href: '/שכפול-מפתח-לסיאט' },
 ];
 
 export default function BrandSlider({ inline = false }: { inline?: boolean }) {
