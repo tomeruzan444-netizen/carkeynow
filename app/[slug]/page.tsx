@@ -144,16 +144,16 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
             <div className="flex justify-center mb-3 sm:mb-4">
               <div
                 className="bg-white rounded-full shadow-lg flex items-center justify-center ring-1 ring-black/5"
-                style={{ width: 'clamp(88px, 22vw, 112px)', height: 'clamp(88px, 22vw, 112px)', padding: '18px' }}
+                style={{ width: 'clamp(92px, 23vw, 116px)', height: 'clamp(92px, 23vw, 116px)', padding: '8px' }}
               >
                 <img
                   src={brand.logo}
                   alt={`לוגו ${brand.name} - שכפול מפתח לרכב ${brand.name}`}
-                  width={76}
-                  height={76}
+                  width={100}
+                  height={100}
                   loading="eager"
                   fetchPriority="high"
-                  className="max-w-full max-h-full object-contain"
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>
