@@ -5,7 +5,7 @@ import ContactForm from '@/components/ContactForm';
 import { SITE, NAV_SERVICES, NAV_CITIES, NAV_BRANDS } from '@/lib/siteData';
 
 export const metadata: Metadata = {
-  title: `${SITE.name} | ${SITE.tagline}`,
+  title: { absolute: 'מפתח עכשיו - מנעולן רכב 24/7 | שכפול מפתחות, שחזור ופריצת רכב בכל הארץ' },
   description: 'מנעולן רכב מקצועי בפריסה ארצית. שכפול מפתחות, שחזור מפתח לרכב, תיקון סוויץ, פורץ רכבים ועוד. זמינות 24/7.',
   alternates: { canonical: `${SITE.url}/` },
 };

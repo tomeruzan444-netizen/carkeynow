@@ -32,26 +32,30 @@ export async function generateMetadata({
 
   const canonical = page.canonical || `${SITE.url}/${page.slug}/`;
   const override = getTitleOverride(page.slug);
-  const title = override || page.metaTitle || page.title;
+  // נורמליזציה: מסירים סיומת " | מפתח עכשיו" קיימת ומוסיפים אותה פעם אחת בלבד.
+  // title.absolute עוקף את ה-template של ה-layout כדי למנוע כפילות סיומת.
+  const baseTitle = (override || page.metaTitle || page.title)
+    .replace(/\s*(?:\||-|עם)\s*מפתח עכשיו\s*$/, '');
+  const fullTitle = `${baseTitle} | ${SITE.name}`;
   const desc = page.metaDesc;
   const ogImg = page.ogImage || '/wp-images/שכפול-מפתחות-לרכב-מפתח-עכשיו.webp';
 
   return {
-    title,
+    title: { absolute: fullTitle },
     description: desc,
     alternates: { canonical },
     openGraph: {
-      title: override || page.ogTitle || title,
+      title: fullTitle,
       description: page.ogDesc || desc,
       url: canonical,
       siteName: SITE.name,
       locale: 'he_IL',
       type: 'website',
-      images: [{ url: ogImg, width: 1200, height: 630, alt: title }],
+      images: [{ url: ogImg, width: 1200, height: 630, alt: fullTitle }],
     },
     twitter: {
       card: 'summary_large_image',
-      title,
+      title: fullTitle,
       description: desc,
       images: [ogImg],
     },
