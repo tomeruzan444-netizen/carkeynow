@@ -8,6 +8,7 @@ import FaqAccordion from '@/components/FaqAccordion';
 import Sidebar, { detectGroup } from '@/components/Sidebar';
 import BrandSlider from '@/components/BrandSlider';
 import { getBrandLogo } from '@/lib/brandLogos';
+import { getTitleOverride } from '@/lib/titleOverrides';
 import {
   ProcessSteps, FeatureCards, ComparisonTable, StatsBanner,
   CaseStudyTabs, ToolGrid,
@@ -30,7 +31,8 @@ export async function generateMetadata({
   if (!page) return { title: 'דף לא נמצא' };
 
   const canonical = page.canonical || `${SITE.url}/${page.slug}/`;
-  const title = page.metaTitle || page.title;
+  const override = getTitleOverride(page.slug);
+  const title = override || page.metaTitle || page.title;
   const desc = page.metaDesc;
   const ogImg = page.ogImage || '/wp-images/שכפול-מפתחות-לרכב-מפתח-עכשיו.webp';
 
@@ -39,7 +41,7 @@ export async function generateMetadata({
     description: desc,
     alternates: { canonical },
     openGraph: {
-      title: page.ogTitle || title,
+      title: override || page.ogTitle || title,
       description: page.ogDesc || desc,
       url: canonical,
       siteName: SITE.name,
@@ -110,7 +112,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
         '@context': 'https://schema.org',
         '@type': 'WebPage',
         '@id': `${SITE.url}/${page.slug}/`,
-        name: page.metaTitle || displayTitle,
+        name: getTitleOverride(page.slug) || page.metaTitle || displayTitle,
         description: page.metaDesc,
         url: `${SITE.url}/${page.slug}/`,
         isPartOf: { '@id': `${SITE.url}/#website` },
