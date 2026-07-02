@@ -76,7 +76,9 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
   if (!page) notFound();
 
   const group = detectGroup(page.slug);
-  const faqItems = getFaqsForSlug(page.slug);
+  // עמוד "צרו קשר" לא מציג accordion FAQ, ולכן גם לא פולט סכמת FAQPage
+  // (מונע אי-התאמה בין ה-Schema לתוכן הנראה)
+  const faqItems = page.slug === 'צרו-קשר' ? [] : getFaqsForSlug(page.slug);
   const visualSections = getVisualSections(page.slug);
   const displayTitle = page.title
     .replace(/\s*\|.*$/, '')
