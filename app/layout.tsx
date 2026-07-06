@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     url: SITE.url,
     images: [
       {
-        url: '/wp-images/שכפול-מפתחות-לרכב-מפתח-עכשיו.webp',
+        url: '/og-carkeynow.jpg',
         width: 1200,
         height: 630,
         alt: `${SITE.name} - ${SITE.tagline}`,
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: `${SITE.name} | ${SITE.tagline}`,
     description: DEFAULT_DESC,
-    images: ['/wp-images/שכפול-מפתחות-לרכב-מפתח-עכשיו.webp'],
+    images: ['/og-carkeynow.jpg'],
   },
   alternates: { canonical: `${SITE.url}/` },
   robots: {

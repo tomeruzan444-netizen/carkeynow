@@ -40,7 +40,7 @@ export async function generateMetadata({
     .replace(/\s*(?:\||-|עם)\s*מפתח עכשיו\s*$/, '');
   const fullTitle = `${baseTitle} | ${SITE.name}`;
   const desc = page.metaDesc;
-  const ogImg = page.ogImage || '/wp-images/שכפול-מפתחות-לרכב-מפתח-עכשיו.webp';
+  const ogImg = page.ogImage || '/og-carkeynow.jpg';
 
   return {
     title: { absolute: fullTitle },
