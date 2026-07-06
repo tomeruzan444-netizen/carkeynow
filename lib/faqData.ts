@@ -130,6 +130,8 @@ const faqGeneral: FaqItem[] = [
 ];
 
 export function getFaqsForSlug(slug: string): FaqItem[] {
+  // עמוד המחקר מטמיע FAQ + FAQPage schema בתוך התוכן עצמו (למניעת כפילות)
+  if (slug === 'מדד-מחירי-שכפול-מפתחות-לרכב-2026') return [];
   if (slug === 'אבד-מפתח-לרכב') return faqLostKey;
   if (slug === 'תיקון-סוויץ-לרכב' || slug === 'מפתח-תקוע-בסוויץ') return faqSwitch;
   if (slug === 'התקנת-קודן-לרכב') return faqAlarmInstall;
