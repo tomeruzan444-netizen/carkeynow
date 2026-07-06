@@ -4,13 +4,14 @@ import { AUTHOR } from '@/lib/author';
 export function AuthorByline() {
   return (
     <div dir="rtl" className="flex items-center gap-3 mb-5 pb-4 border-b border-gray-100">
-      <div
-        className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold shrink-0"
-        style={{ background: 'var(--primary)' }}
-        aria-hidden="true"
-      >
-        {AUTHOR.name.charAt(0)}
-      </div>
+      <img
+        src={AUTHOR.photo}
+        alt={`${AUTHOR.name} - ${AUTHOR.jobTitle}`}
+        width={40}
+        height={40}
+        loading="lazy"
+        className="w-10 h-10 rounded-full object-cover shrink-0 ring-1 ring-black/5"
+      />
       <div className="text-sm leading-tight">
         <span className="block text-gray-500">נכתב ונבדק על ידי</span>
         <span className="block font-bold" style={{ color: 'var(--primary)' }}>
@@ -25,9 +26,23 @@ export function AuthorByline() {
 export function FounderCard() {
   return (
     <div dir="rtl" className="card p-6 mt-6">
-      <h2 className="text-xl font-bold mb-3" style={{ color: 'var(--primary)' }}>
-        מי עומד מאחורי מפתח עכשיו
-      </h2>
+      <div className="flex items-center gap-4 mb-4">
+        <img
+          src={AUTHOR.photo}
+          alt={`${AUTHOR.name} - מייסד מפתח עכשיו, ${AUTHOR.jobTitle}`}
+          width={72}
+          height={72}
+          loading="lazy"
+          className="w-18 h-18 rounded-full object-cover shrink-0 ring-2 ring-black/5"
+          style={{ width: 72, height: 72 }}
+        />
+        <div>
+          <h2 className="text-xl font-bold" style={{ color: 'var(--primary)' }}>
+            מי עומד מאחורי מפתח עכשיו
+          </h2>
+          <p className="text-sm text-gray-500 mt-0.5">{AUTHOR.name} · {AUTHOR.jobTitle}</p>
+        </div>
+      </div>
       <p className="text-gray-700 leading-relaxed mb-3">
         מפתח עכשיו נוסדה על ידי <strong>{AUTHOR.name}</strong>, מנעולן רכב מנוסה עם {AUTHOR.experience}
         {' '}בתחום שכפול, שחזור וקידוד מפתחות לרכב. {AUTHOR.name} הקים את מפתח עכשיו מתוך התמחות צרה וברורה -

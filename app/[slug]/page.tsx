@@ -153,6 +153,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
           '@id': `${SITE.url}/#amir`,
           name: AUTHOR.name,
           jobTitle: AUTHOR.jobTitle,
+          image: `${SITE.url}${AUTHOR.photo}`,
           worksFor: { '@id': `${SITE.url}/#organization` },
           ...(isAbout ? { description: `מייסד מפתח עכשיו, מנעולן רכב מנוסה עם ${AUTHOR.experience}.` } : {}),
         }} />
