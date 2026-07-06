@@ -8,6 +8,8 @@ import FaqAccordion from '@/components/FaqAccordion';
 import Sidebar, { detectGroup } from '@/components/Sidebar';
 import BrandSlider from '@/components/BrandSlider';
 import { getBrandLogo } from '@/lib/brandLogos';
+import { AuthorByline, FounderCard } from '@/components/AuthorByline';
+import { AUTHOR } from '@/lib/author';
 import { getTitleOverride } from '@/lib/titleOverrides';
 import {
   ProcessSteps, FeatureCards, ComparisonTable, StatsBanner,
@@ -95,6 +97,11 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
   // עמודי הערים "שכפול-מפתח-לרכב-ב..." - סליידר משובץ מתחת לפסקת הפתיחה
   const isCityCarKeyPage = page.slug.startsWith('שכפול-מפתח-לרכב-');
 
+  // מחבר/מומחה (E-E-A-T): בייליין בעמודי תוכן, כרטיס מייסד באודות
+  const isAbout = page.slug === 'אודות';
+  const isLegalPage = ['מדיניות-פרטיות', 'תנאי-שימוש', 'הצהרת-נגישות'].includes(page.slug);
+  const showByline = !isContactPage && !isAbout && !isLegalPage;
+
   // פיצול התוכן אחרי פסקת הפתיחה (התשובה המהירה) כדי לשבץ את הסליידר בעמודי ערים
   const splitIdx = isCityCarKeyPage ? page.content.indexOf('</p>') : -1;
   const hasSplit = splitIdx !== -1;
@@ -135,6 +142,19 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
             name: f.q,
             acceptedAnswer: { '@type': 'Answer', text: f.a },
           })),
+        }} />
+      )}
+
+      {/* Person schema - מומחה/מייסד (E-E-A-T) */}
+      {(showByline || isAbout) && (
+        <JsonLd data={{
+          '@context': 'https://schema.org',
+          '@type': 'Person',
+          '@id': `${SITE.url}/#amir`,
+          name: AUTHOR.name,
+          jobTitle: AUTHOR.jobTitle,
+          worksFor: { '@id': `${SITE.url}/#organization` },
+          ...(isAbout ? { description: `מייסד מפתח עכשיו, מנעולן רכב מנוסה עם ${AUTHOR.experience}.` } : {}),
         }} />
       )}
 
@@ -196,6 +216,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
             {/* Content */}
             <div className="min-w-0">
               <div className="p-1 sm:card sm:p-6 md:p-8">
+                {showByline && <AuthorByline />}
                 {isCityCarKeyPage ? (
                   <>
                     {hasSplit && <WpContent html={leadHtml} />}
@@ -205,6 +226,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
                 ) : (
                   <WpContent html={page.content} />
                 )}
+                {isAbout && <FounderCard />}
               </div>
 
               {/* Visual enhancement blocks */}

@@ -85,6 +85,12 @@ function OrganizationSchema() {
           image: `${SITE.url}/wp-images/שכפול-מפתחות-לרכב-מפתח-עכשיו.webp`,
           telephone: SITE.phone,
           email: SITE.email,
+          founder: {
+            '@type': 'Person',
+            '@id': `${SITE.url}/#amir`,
+            name: 'אמיר',
+            jobTitle: 'מנעולן רכב מומחה',
+          },
           sameAs: [SITE.facebook],
           address: {
             '@type': 'PostalAddress',
