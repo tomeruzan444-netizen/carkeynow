@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FloatingContact from '@/components/FloatingContact';
 import { SITE } from '@/lib/siteData';
+import { AUTHOR } from '@/lib/author';
 
 const rubik = Rubik({
   subsets: ['hebrew', 'latin'],
@@ -88,8 +89,8 @@ function OrganizationSchema() {
           founder: {
             '@type': 'Person',
             '@id': `${SITE.url}/#amir`,
-            name: 'אמיר',
-            jobTitle: 'מנעולן רכב מומחה',
+            name: AUTHOR.name,
+            jobTitle: AUTHOR.jobTitle,
           },
           sameAs: [SITE.facebook],
           address: {
