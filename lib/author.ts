@@ -4,5 +4,5 @@ export const AUTHOR = {
   name: 'דורון',
   jobTitle: 'מנעולן רכב מומחה',
   experience: 'המון שנות ניסיון',
-  photo: '/wp-images/דורון-מנעולן-רכב.png',
+  photo: '/wp-images/דורון-מנעולן-רכב.webp',
 };
