@@ -10,6 +10,7 @@ import BrandSlider from '@/components/BrandSlider';
 import { getBrandLogo } from '@/lib/brandLogos';
 import { AuthorByline, FounderCard } from '@/components/AuthorByline';
 import { AUTHOR } from '@/lib/author';
+import { CaseStudyBlock } from '@/components/CaseStudy';
 import { getTitleOverride } from '@/lib/titleOverrides';
 import {
   ProcessSteps, FeatureCards, ComparisonTable, StatsBanner,
@@ -229,6 +230,9 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
                 )}
                 {isAbout && <FounderCard />}
               </div>
+
+              {/* סיפור מהשטח - קייס-סטאדי ייחודי ליצרן */}
+              <CaseStudyBlock slug={page.slug} />
 
               {/* Visual enhancement blocks */}
               {visualSections.map((section, i) => {
