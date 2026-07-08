@@ -1,3 +1,5 @@
+import { getBrandFaq } from './brandFaqs';
+
 export interface FaqItem { q: string; a: string }
 
 const faqKeyDup: FaqItem[] = [
@@ -236,6 +238,10 @@ export function getFaqsForSlug(slug: string): FaqItem[] {
     { q: "שכפול מפתח לסיאט פוגע באחריות היצרן?", a: "לא. שכפול מפתח אצל מנעולן מוסמך לא פוגע באחריות סיאט. הקידוד מבוצע מול מחשב הרכב באותו אופן כמו בסוכנות. אחריות היצרן קשורה לתקלות ברכב, לא למי שייצר את המפתח." },
   ];
 
-  // Default: key duplication (brand pages + city pages + main)
+  // FAQ ייחודי ליצרן (Toyota, Renault, Ford, VAG וכו')
+  const brandFaq = getBrandFaq(slug);
+  if (brandFaq) return brandFaq;
+
+  // Default: key duplication (city pages + main + כל השאר)
   return faqKeyDup;
 }
