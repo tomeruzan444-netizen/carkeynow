@@ -11,6 +11,7 @@ import { getBrandLogo } from '@/lib/brandLogos';
 import { AuthorByline, FounderCard } from '@/components/AuthorByline';
 import { AUTHOR } from '@/lib/author';
 import { CaseStudyBlock } from '@/components/CaseStudy';
+import { BrandModelsBlock } from '@/components/BrandModels';
 import { getTitleOverride } from '@/lib/titleOverrides';
 import {
   ProcessSteps, FeatureCards, ComparisonTable, StatsBanner,
@@ -230,6 +231,9 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
                 )}
                 {isAbout && <FounderCard />}
               </div>
+
+              {/* דגמים שאנחנו מטפלים בהם - רשימה דו-לשונית */}
+              <BrandModelsBlock slug={page.slug} />
 
               {/* סיפור מהשטח - קייס-סטאדי ייחודי ליצרן */}
               <CaseStudyBlock slug={page.slug} />
