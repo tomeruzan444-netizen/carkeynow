@@ -28,6 +28,7 @@ export const BRAND_LOGOS: Record<string, BrandLogo> = {
   'שכפול-מפתח-לסיטרואן':  { name: 'סיטרואן',  logo: '/wp-images/לוגו-סיטרואן.webp' },
   'שכפול-מפתח-לפיגו':     { name: "פיג'ו",    logo: '/wp-images/לוגו-פיגו.webp' },
   'שכפול-מפתח-לקאדילק':   { name: 'קאדילק',   logo: '/wp-images/לוגו-קאדילק.webp' },
+  'שכפול-מפתח-להונדה':    { name: 'הונדה',    logo: '/wp-images/לוגו-הונדה.webp' },
   'שכפול-מפתח-לגיפ':      { name: "ג'יפ",     logo: '/wp-images/לוגו-גיפ.webp' },
   'שכפול-מפתח-לדאציה':    { name: "דאצ'יה",   logo: '/wp-images/לוגו-דאציה.webp' },
   'שכפול-מפתח-לסיאט':     { name: 'סיאט',     logo: '/wp-images/לוגו-סיאט.webp' },
