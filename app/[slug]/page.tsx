@@ -12,6 +12,7 @@ import { AuthorByline, FounderCard } from '@/components/AuthorByline';
 import { AUTHOR } from '@/lib/author';
 import { CaseStudyBlock } from '@/components/CaseStudy';
 import { BrandModelsBlock } from '@/components/BrandModels';
+import { PriceGauge } from '@/components/PriceGauge';
 import { getTitleOverride } from '@/lib/titleOverrides';
 import {
   ProcessSteps, FeatureCards, ComparisonTable, StatsBanner,
@@ -231,6 +232,9 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
                 )}
                 {isAbout && <FounderCard />}
               </div>
+
+              {/* מד מחיר - טווח מחירים וממוצע */}
+              <PriceGauge slug={page.slug} />
 
               {/* דגמים שאנחנו מטפלים בהם - רשימה דו-לשונית */}
               <BrandModelsBlock slug={page.slug} />
