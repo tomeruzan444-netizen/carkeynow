@@ -261,5 +261,6 @@ body {
 .brand-slider--inline .brand-arrow--prev { right: 0; }
 .brand-slider--inline .brand-arrow--next { left: 0; }
 
-/* אופסט גלילה לעוגני טבלת התוכן (בגלל ה-Header הדביק) */
-#page-article h2 { scroll-margin-top: 80px; }
+/* גלילה חלקה + אופסט לעוגני טבלת התוכן (בגלל ה-Header הדביק) */
+html { scroll-behavior: smooth; }
+#page-article [id^="sec-"] { scroll-margin-top: 80px; }

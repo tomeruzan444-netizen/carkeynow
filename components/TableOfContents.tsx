@@ -1,46 +1,15 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-
-interface TocItem {
-  id: string;
-  text: string;
-}
+import { useState } from 'react';
+import type { TocItem } from '@/lib/toc';
 
 /**
- * טבלת תוכן מתקפלת (סגורה כברירת מחדל) - סורקת את כל כותרות ה-H2 בעמוד
- * ומאפשרת ניווט מהיר. ממותגת, רספונסיבית, ללא תלות חיצונית.
+ * טבלת תוכן מתקפלת (סגורה כברירת מחדל). הרשימה מרונדרת בשרת (קישורי עוגן
+ * אמיתיים ב-HTML) - כדי לאפשר jump-to sitelinks בגוגל. הפתיחה/סגירה בצד לקוח.
  */
-export function TableOfContents({ show = false }: { show?: boolean }) {
-  const [items, setItems] = useState<TocItem[]>([]);
+export function TableOfContents({ items }: { items: TocItem[] }) {
   const [open, setOpen] = useState(false);
-
-  useEffect(() => {
-    if (!show) return;
-    const container = document.getElementById('page-article');
-    if (!container) return;
-    const list: TocItem[] = [];
-    let i = 0;
-    container.querySelectorAll('h2').forEach((h) => {
-      const text = (h.textContent || '').trim();
-      if (!text) return;
-      if (!h.id) h.id = `sec-${i}`;
-      list.push({ id: h.id, text });
-      i++;
-    });
-    setItems(list);
-  }, [show]);
-
-  if (!show || items.length < 2) return null;
-
-  const handleJump = (e: React.MouseEvent, id: string) => {
-    e.preventDefault();
-    const el = document.getElementById(id);
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      window.history.replaceState(null, '', `#${id}`);
-    }
-  };
+  if (!items || items.length < 2) return null;
 
   return (
     <nav dir="rtl" className="card mb-5 overflow-hidden" aria-label="תוכן העמוד">
@@ -71,13 +40,16 @@ export function TableOfContents({ show = false }: { show?: boolean }) {
         </svg>
       </button>
 
-      {open && (
-        <ol id="toc-list" className="px-2.5 sm:px-3 pb-3 pt-1 border-t border-gray-100">
+      <div
+        id="toc-list"
+        className="overflow-hidden transition-all duration-300 ease-in-out"
+        style={{ maxHeight: open ? '1600px' : '0px' }}
+      >
+        <ol className="px-2.5 sm:px-3 pb-3 pt-1 border-t border-gray-100">
           {items.map((it, idx) => (
             <li key={it.id}>
               <a
                 href={`#${it.id}`}
-                onClick={(e) => handleJump(e, it.id)}
                 className="flex gap-2.5 items-start rounded-lg px-3 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-orange-500 transition-colors"
               >
                 <span className="text-xs font-extrabold mt-0.5 shrink-0" style={{ color: 'var(--accent)' }}>
@@ -88,7 +60,7 @@ export function TableOfContents({ show = false }: { show?: boolean }) {
             </li>
           ))}
         </ol>
-      )}
+      </div>
     </nav>
   );
 }

@@ -12,7 +12,10 @@ import { AuthorByline, FounderCard } from '@/components/AuthorByline';
 import { AUTHOR } from '@/lib/author';
 import { CaseStudyBlock } from '@/components/CaseStudy';
 import { BrandModelsBlock } from '@/components/BrandModels';
+import { getBrandModels } from '@/lib/brandModels';
+import { getCaseStudy } from '@/lib/caseStudies';
 import { TableOfContents } from '@/components/TableOfContents';
+import { processContentH2, type TocItem } from '@/lib/toc';
 import { getTitleOverride } from '@/lib/titleOverrides';
 import {
   ProcessSteps, FeatureCards, ComparisonTable, StatsBanner,
@@ -75,6 +78,18 @@ function JsonLd({ data }: { data: object }) {
   );
 }
 
+// טקסט הכותרת (H2) של בלוק ויזואלי, לצורך טבלת התוכן. null = בלי כותרת H2.
+function visualHeadingText(s: { type: string; heading?: string }): string | null {
+  switch (s.type) {
+    case 'process': return s.heading ?? 'תהליך העבודה שלנו';
+    case 'tabs': return s.heading ?? 'מקרה שימוש';
+    case 'features':
+    case 'comparison':
+    case 'tools': return s.heading || null;
+    default: return null;
+  }
+}
+
 export default async function SlugPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const page = getWpPageBySlug(decodeURIComponent(slug));
@@ -104,14 +119,36 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
   const isAbout = page.slug === 'אודות';
   const isLegalPage = ['מדיניות-פרטיות', 'תנאי-שימוש', 'הצהרת-נגישות'].includes(page.slug);
   const showByline = !isContactPage && !isAbout && !isLegalPage;
-  // טבלת תוכן - כרגע פיילוט על שברולט בלבד
-  const showToc = page.slug === 'שכפול-מפתח-לשברולט';
+  // ── טבלת תוכן: הוספת עוגנים ל-H2 ובניית רשימת ניווט (מרונדר בשרת ל-sitelinks) ──
+  const isTocExcluded = ['אודות', 'צרו-קשר', 'מדיניות-פרטיות', 'הצהרת-נגישות'].includes(page.slug);
+  const { html: articleHtml, items: contentToc, nextIdx } = processContentH2(page.content);
 
-  // פיצול התוכן אחרי פסקת הפתיחה (התשובה המהירה) כדי לשבץ את הסליידר בעמודי ערים
-  const splitIdx = isCityCarKeyPage ? page.content.indexOf('</p>') : -1;
+  const tocBrandModels = getBrandModels(page.slug);
+  const tocCaseStudy = getCaseStudy(page.slug);
+  let tocIdx = nextIdx;
+  const extraToc: TocItem[] = [];
+  const modelsSecId = tocBrandModels ? `sec-${tocIdx++}` : '';
+  if (tocBrandModels) extraToc.push({ id: modelsSecId, text: `דגמי ${tocBrandModels.name} שאנחנו מטפלים בהם` });
+  const caseSecId = tocCaseStudy ? `sec-${tocIdx++}` : '';
+  if (tocCaseStudy) extraToc.push({ id: caseSecId, text: `סיפור מהשטח: ${tocCaseStudy.heading}` });
+  const visualSecIds: string[] = visualSections.map((s) => {
+    const h = visualHeadingText(s as { type: string; heading?: string });
+    if (!h) return '';
+    const id = `sec-${tocIdx++}`;
+    extraToc.push({ id, text: h });
+    return id;
+  });
+  const faqSecId = faqItems.length > 0 ? `sec-${tocIdx++}` : '';
+  if (faqItems.length > 0) extraToc.push({ id: faqSecId, text: 'שאלות נפוצות' });
+
+  const tocItems: TocItem[] = [...contentToc, ...extraToc];
+  const showToc = !isTocExcluded && tocItems.length >= 3;
+
+  // פיצול התוכן (אחרי עיבוד ה-H2) כדי לשבץ את הסליידר בעמודי ערים
+  const splitIdx = isCityCarKeyPage ? articleHtml.indexOf('</p>') : -1;
   const hasSplit = splitIdx !== -1;
-  const leadHtml = hasSplit ? page.content.slice(0, splitIdx + 4) : '';
-  const restHtml = hasSplit ? page.content.slice(splitIdx + 4) : page.content;
+  const leadHtml = hasSplit ? articleHtml.slice(0, splitIdx + 4) : '';
+  const restHtml = hasSplit ? articleHtml.slice(splitIdx + 4) : articleHtml;
 
   return (
     <>
@@ -221,7 +258,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
           <div className="grid lg:grid-cols-[1fr_300px] gap-8 items-start">
             {/* Content */}
             <div id="page-article" className="min-w-0">
-              <TableOfContents show={showToc} />
+              {showToc && <TableOfContents items={tocItems} />}
               <div className="p-1 sm:card sm:p-6 md:p-8">
                 {showByline && <AuthorByline />}
                 {isCityCarKeyPage ? (
@@ -231,55 +268,55 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
                     <WpContent html={restHtml} />
                   </>
                 ) : (
-                  <WpContent html={page.content} />
+                  <WpContent html={articleHtml} />
                 )}
                 {isAbout && <FounderCard />}
               </div>
 
               {/* דגמים שאנחנו מטפלים בהם - רשימה דו-לשונית */}
-              <BrandModelsBlock slug={page.slug} />
+              {modelsSecId
+                ? <div id={modelsSecId}><BrandModelsBlock slug={page.slug} /></div>
+                : <BrandModelsBlock slug={page.slug} />}
 
               {/* סיפור מהשטח - קייס-סטאדי ייחודי ליצרן */}
-              <CaseStudyBlock slug={page.slug} />
+              {caseSecId
+                ? <div id={caseSecId}><CaseStudyBlock slug={page.slug} /></div>
+                : <CaseStudyBlock slug={page.slug} />}
 
               {/* Visual enhancement blocks */}
               {visualSections.map((section, i) => {
+                let el: React.ReactNode = null;
                 if (section.type === 'process') {
                   const d = section.data as Parameters<typeof ProcessSteps>[0]['steps'];
-                  return <ProcessSteps key={i} heading={section.heading ?? 'תהליך העבודה שלנו'} steps={d} />;
-                }
-                if (section.type === 'features') {
+                  el = <ProcessSteps heading={section.heading ?? 'תהליך העבודה שלנו'} steps={d} />;
+                } else if (section.type === 'features') {
                   const d = section.data as { cards: Parameters<typeof FeatureCards>[0]['cards']; cols?: 2 | 3 };
-                  return <FeatureCards key={i} heading={section.heading ?? ''} cards={d.cards} cols={d.cols} />;
-                }
-                if (section.type === 'comparison') {
+                  el = <FeatureCards heading={section.heading ?? ''} cards={d.cards} cols={d.cols} />;
+                } else if (section.type === 'comparison') {
                   const d = section.data as { colUs: string; colAlt: string; rows: Parameters<typeof ComparisonTable>[0]['rows'] };
-                  return <ComparisonTable key={i} heading={section.heading ?? ''} colUs={d.colUs} colAlt={d.colAlt} rows={d.rows} />;
-                }
-                if (section.type === 'stats') {
-                  return <StatsBanner key={i} stats={section.data as Parameters<typeof StatsBanner>[0]['stats']} />;
-                }
-                if (section.type === 'tabs') {
-                  return <CaseStudyTabs key={i} heading={section.heading ?? 'מקרה שימוש'} tabs={section.data as Parameters<typeof CaseStudyTabs>[0]['tabs']} />;
-                }
-                if (section.type === 'tools') {
-                  return <ToolGrid key={i} heading={section.heading ?? ''} sub={section.sub} tools={section.data as Parameters<typeof ToolGrid>[0]['tools']} />;
-                }
-                if (section.type === 'image') {
+                  el = <ComparisonTable heading={section.heading ?? ''} colUs={d.colUs} colAlt={d.colAlt} rows={d.rows} />;
+                } else if (section.type === 'stats') {
+                  el = <StatsBanner stats={section.data as Parameters<typeof StatsBanner>[0]['stats']} />;
+                } else if (section.type === 'tabs') {
+                  el = <CaseStudyTabs heading={section.heading ?? 'מקרה שימוש'} tabs={section.data as Parameters<typeof CaseStudyTabs>[0]['tabs']} />;
+                } else if (section.type === 'tools') {
+                  el = <ToolGrid heading={section.heading ?? ''} sub={section.sub} tools={section.data as Parameters<typeof ToolGrid>[0]['tools']} />;
+                } else if (section.type === 'image') {
                   const d = section.data as { src: string; alt: string; maxWidth?: number };
-                  return (
-                    <div key={i} className="my-6 flex justify-center">
+                  el = (
+                    <div className="my-6 flex justify-center">
                       <img src={d.src} alt={d.alt}
                         style={{ maxWidth: d.maxWidth ?? 300, height: 'auto' }}
                         loading="lazy" />
                     </div>
                   );
                 }
-                return null;
+                if (!el) return null;
+                return <div key={i} id={visualSecIds[i] || undefined}>{el}</div>;
               })}
 
               {faqItems.length > 0 && (
-                <div className="mt-6">
+                <div id={faqSecId || undefined} className="mt-6">
                   <FaqAccordion items={faqItems} />
                 </div>
               )}
