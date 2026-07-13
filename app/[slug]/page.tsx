@@ -12,6 +12,7 @@ import { AuthorByline, FounderCard } from '@/components/AuthorByline';
 import { AUTHOR } from '@/lib/author';
 import { CaseStudyBlock } from '@/components/CaseStudy';
 import { BrandModelsBlock } from '@/components/BrandModels';
+import { TableOfContents } from '@/components/TableOfContents';
 import { getTitleOverride } from '@/lib/titleOverrides';
 import {
   ProcessSteps, FeatureCards, ComparisonTable, StatsBanner,
@@ -103,6 +104,8 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
   const isAbout = page.slug === 'אודות';
   const isLegalPage = ['מדיניות-פרטיות', 'תנאי-שימוש', 'הצהרת-נגישות'].includes(page.slug);
   const showByline = !isContactPage && !isAbout && !isLegalPage;
+  // טבלת תוכן - כרגע פיילוט על שברולט בלבד
+  const showToc = page.slug === 'שכפול-מפתח-לשברולט';
 
   // פיצול התוכן אחרי פסקת הפתיחה (התשובה המהירה) כדי לשבץ את הסליידר בעמודי ערים
   const splitIdx = isCityCarKeyPage ? page.content.indexOf('</p>') : -1;
@@ -217,7 +220,8 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
         ) : (
           <div className="grid lg:grid-cols-[1fr_300px] gap-8 items-start">
             {/* Content */}
-            <div className="min-w-0">
+            <div id="page-article" className="min-w-0">
+              <TableOfContents show={showToc} />
               <div className="p-1 sm:card sm:p-6 md:p-8">
                 {showByline && <AuthorByline />}
                 {isCityCarKeyPage ? (

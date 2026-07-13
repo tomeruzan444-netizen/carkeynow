@@ -260,3 +260,6 @@ body {
 .brand-slider--inline .brand-arrow { width: 38px; height: 38px; }
 .brand-slider--inline .brand-arrow--prev { right: 0; }
 .brand-slider--inline .brand-arrow--next { left: 0; }
+
+/* אופסט גלילה לעוגני טבלת התוכן (בגלל ה-Header הדביק) */
+#page-article h2 { scroll-margin-top: 80px; }
