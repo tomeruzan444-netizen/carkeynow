@@ -135,6 +135,7 @@ export function getFaqsForSlug(slug: string): FaqItem[] {
   // עמודים שמטמיעים FAQ + FAQPage schema בתוך התוכן עצמו (למניעת כפילות/FAQ לא רלוונטי)
   if (slug === 'מדד-מחירי-שכפול-מפתחות-לרכב-2026') return [];
   if (slug === 'קודן-לרכב-בנתניה') return [];
+  if (slug === 'פורץ-רכבים-בבאר-יעקב') return [];
   if (slug === 'אבד-מפתח-לרכב') return faqLostKey;
   if (slug === 'תיקון-סוויץ-לרכב' || slug === 'מפתח-תקוע-בסוויץ') return faqSwitch;
   if (slug === 'התקנת-קודן-לרכב') return faqAlarmInstall;
