@@ -120,7 +120,10 @@ body {
   margin: 0.5em 0 1em 0;
   padding-right: 1.5em;
 }
-.wp-content li { margin-bottom: 0.4em; }
+.wp-content ul { list-style: disc outside; }
+.wp-content ol { list-style: decimal outside; }
+.wp-content li { margin-bottom: 0.4em; display: list-item; }
+.wp-content li::marker { color: var(--accent); }
 .wp-content a {
   color: var(--accent);
   text-decoration: underline;
