@@ -26,6 +26,32 @@ const FOOTER_AREAS = [
 export default function Footer() {
   return (
     <footer dir="rtl" style={{ background: '#111827' }} className="text-gray-400 text-sm">
+      {/* Highlight band: emergency 24/7 + mobile lab */}
+      <div style={{ background: '#0d1320', borderBottom: '1px solid #1f2937' }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div className="flex items-start gap-3">
+              <svg className="w-7 h-7 shrink-0" viewBox="0 0 24 24" fill="none" stroke="#e8751a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" />
+              </svg>
+              <div>
+                <div className="text-white font-bold">שירות חירום 24/7 - כולל לילות ושבתות</div>
+                <div className="mt-0.5">אנחנו זמינים מסביב לשעון, גם בלילה, בשבתות ובחגים - מתי שאתם נתקעים, אנחנו יוצאים אליכם.</div>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <svg className="w-7 h-7 shrink-0" viewBox="0 0 24 24" fill="none" stroke="#e8751a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M1 3h15v13H1z" /><path d="M16 8h4l3 3v5h-7V8z" /><circle cx="5.5" cy="18.5" r="2.5" /><circle cx="18.5" cy="18.5" r="2.5" />
+              </svg>
+              <div>
+                <div className="text-white font-bold">מעבדה ניידת עד לבית הלקוח</div>
+                <div className="mt-0.5">אנחנו מגיעים עם מעבדה ניידת הכוללת את כל הציוד המקצועי - עד הבית, מקום העבודה או כל מקום שהרכב נמצא בו.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
 
