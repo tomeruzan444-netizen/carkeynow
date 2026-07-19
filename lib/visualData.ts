@@ -95,6 +95,14 @@ export const alarmStats: Stat[] = [
   { value: '0 נזק', label: 'לחיווט מקורי', sub: 'ללא חיתוך חוטים' },
 ];
 
+export const alarmComparison: CompRow[] = [
+  { criterion: 'הגעה לבית/עבודה',   us: 'כן, בשטח',       usColor: 'green', alt: 'רק במוסך',        altColor: 'red'    },
+  { criterion: 'זמן טיפול',          us: '45-120 דקות',    usColor: 'green', alt: 'יום עד כמה ימים',  altColor: 'red'    },
+  { criterion: 'התקנה ללא חיתוך חוטים', us: 'תמיד',        usColor: 'green', alt: 'לא מובטח',        altColor: 'orange' },
+  { criterion: 'אבחון לפני החלפה',   us: 'תיקון אם אפשר',  usColor: 'green', alt: 'לרוב החלפה מלאה',  altColor: 'red'    },
+  { criterion: 'זמינות',            us: '24/7',            usColor: 'green', alt: 'שעות מוסך',       altColor: 'orange' },
+];
+
 // ─── LOCKOUT (PORETZ) ─────────────────────────────────────────────────
 
 export const lockoutTabs: TabItem[] = [
@@ -296,10 +304,45 @@ export function getVisualSections(slug: string): VisualSection[] {
     ];
   }
 
-  // Alarm city pages
-  if (slug.startsWith('קודן-לרכב-ב')) {
+  // Alarm - specific city pages (visuals משלימים את השלד הייחודי של כל עמוד, לא תבנית אחידה)
+  if (slug === 'קודן-לרכב-בהרצליה') {
     return [
-      { type: 'tools',   heading: 'שירותי קודן שאנחנו מציעים', data: alarmTypes as unknown },
+      { type: 'process', heading: 'תהליך התקנת הקודן שלנו', data: alarmProcess },
+      { type: 'stats',   data: alarmStats },
+    ];
+  }
+  if (slug === 'קודן-לרכב-בראשון-לציון') {
+    return [
+      { type: 'process',    heading: 'מרגע הפנייה ועד קודן מותקן', data: alarmProcess },
+      { type: 'comparison', heading: 'קודן אצלנו מול מוסך או סוכנות', data: { colUs: 'מפתח עכשיו', colAlt: 'מוסך / סוכנות', rows: alarmComparison } },
+    ];
+  }
+  if (slug === 'קודן-לרכב-בנתניה') {
+    return [
+      { type: 'tools', heading: 'סוגי מערכות הקודן שאנחנו מתקינים', data: alarmTypes as unknown },
+      { type: 'stats', data: alarmStats },
+    ];
+  }
+
+  // Alarm - other city pages: בחירת פריסה דטרמיניסטית לפי ה-slug כדי שלא כל העמודים זהים
+  if (slug.startsWith('קודן-לרכב-ב')) {
+    let h = 0;
+    for (let i = 0; i < slug.length; i++) h = (h + slug.charCodeAt(i)) % 3;
+    if (h === 1) {
+      return [
+        { type: 'process',    heading: 'מרגע הפנייה ועד קודן מותקן', data: alarmProcess },
+        { type: 'comparison', heading: 'קודן אצלנו מול מוסך או סוכנות', data: { colUs: 'מפתח עכשיו', colAlt: 'מוסך / סוכנות', rows: alarmComparison } },
+        { type: 'stats',      data: alarmStats },
+      ];
+    }
+    if (h === 2) {
+      return [
+        { type: 'tools',      heading: 'רמות המיגון שאנחנו מציעים', data: alarmTypes as unknown },
+        { type: 'comparison', heading: 'למה לבחור בנו על פני מוסך', data: { colUs: 'מפתח עכשיו', colAlt: 'מוסך / סוכנות', rows: alarmComparison } },
+      ];
+    }
+    return [
+      { type: 'tools',   heading: 'סוגי מערכות הקודן שאנחנו מתקינים', data: alarmTypes as unknown },
       { type: 'process', heading: 'תהליך ההתקנה', data: alarmProcess },
       { type: 'stats',   data: alarmStats },
     ];
