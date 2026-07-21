@@ -64,10 +64,6 @@ export default function ServicesPage() {
           <p className="font-bold text-lg mb-4">צריכים עזרה? אנחנו כאן 24/7</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href={`tel:${SITE.phone}`} className="btn-primary text-base px-8">{SITE.phoneDisplay}</a>
-            <a href={`https://wa.me/${SITE.whatsapp}`} target="_blank" rel="noopener noreferrer"
-              className="bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-2.5 rounded-md transition text-base">
-              וואטסאפ
-            </a>
           </div>
         </div>
       </div>

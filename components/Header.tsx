@@ -61,10 +61,6 @@ export default function Header() {
               className="font-bold px-4 py-1.5 rounded text-sm hover:opacity-90 transition whitespace-nowrap">
               {SITE.phoneDisplay}
             </a>
-            <a href={`https://wa.me/${SITE.whatsapp}`} target="_blank" rel="noopener noreferrer"
-              className="bg-green-500 hover:bg-green-600 text-white font-semibold px-3 py-1.5 rounded text-sm transition whitespace-nowrap">
-              וואטסאפ
-            </a>
           </div>
 
           {/* Mobile */}
@@ -255,10 +251,6 @@ export default function Header() {
               <a href={`tel:${SITE.phone}`} style={{ background: 'var(--accent)' }}
                 className="flex-1 text-center py-2.5 rounded font-bold text-sm">
                 {SITE.phoneDisplay}
-              </a>
-              <a href={`https://wa.me/${SITE.whatsapp}`}
-                className="flex-1 bg-green-500 text-center py-2.5 rounded font-bold text-sm">
-                וואטסאפ
               </a>
             </div>
           </div>

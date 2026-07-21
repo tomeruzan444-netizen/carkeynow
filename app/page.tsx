@@ -77,10 +77,6 @@ export default function HomePage() {
                   className="btn-primary text-base px-7 py-3">
                   {SITE.phoneDisplay}
                 </a>
-                <a href={`https://wa.me/${SITE.whatsapp}`} target="_blank" rel="noopener noreferrer"
-                  className="bg-green-500 hover:bg-green-600 text-white font-bold px-7 py-3 rounded-md transition text-base">
-                  וואטסאפ
-                </a>
               </div>
 
               {/* Stats row */}
