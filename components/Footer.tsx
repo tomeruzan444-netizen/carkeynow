@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { SITE, NAV_SERVICES, NAV_CITIES, NAV_BRANDS, FOOTER_LINKS } from '@/lib/siteData';
+import ReviewsSlider from './ReviewsSlider';
 
 const FOOTER_BRANDS = [
   { label: 'שכפול מפתחות לבמו',    href: '/שכפול-מפתח-לבמוו' },
@@ -26,6 +27,9 @@ const FOOTER_AREAS = [
 export default function Footer() {
   return (
     <footer dir="rtl" style={{ background: '#111827' }} className="text-gray-400 text-sm">
+      {/* Reviews slider */}
+      <ReviewsSlider />
+
       {/* Highlight band: emergency 24/7 + mobile lab */}
       <div style={{ background: '#0d1320', borderBottom: '1px solid #1f2937' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">

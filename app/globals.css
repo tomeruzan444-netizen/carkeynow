@@ -267,3 +267,60 @@ body {
 /* גלילה חלקה + אופסט לעוגני טבלת התוכן (בגלל ה-Header הדביק) */
 html { scroll-behavior: smooth; }
 #page-article [id^="sec-"] { scroll-margin-top: 80px; }
+
+/* ── סליידר ביקורות בפוטר ── */
+.review-card {
+  flex: 0 0 auto;
+  width: 290px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  border-radius: 14px;
+  background: #1a2331;
+  border: 1px solid #2a3547;
+  box-shadow: 0 4px 14px rgba(0,0,0,.18);
+}
+@media (min-width: 640px) { .review-card { width: 330px; } }
+
+.review-card-text {
+  color: #cbd5e1;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  margin: 0;
+  flex: 1;
+}
+.review-card-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 12px;
+  border-top: 1px solid #2a3547;
+}
+.review-card-avatar {
+  flex-shrink: 0;
+  width: 38px;
+  height: 38px;
+  border-radius: 9999px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.review-card-name {
+  display: block;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+.review-card-role {
+  display: block;
+  color: #94a3b8;
+  font-size: 0.75rem;
+  margin-top: 2px;
+}
