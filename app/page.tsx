@@ -29,11 +29,57 @@ const SERVICES_GRID = [
 ];
 
 const STATS = [
-  { value: '10+',   label: 'שנות ניסיון' },
-  { value: '24/7',  label: 'זמינות מלאה' },
-  { value: '100%',  label: 'אחריות בכתב' },
-  { value: '20 דק׳', label: 'זמן הגעה ממוצע' },
+  { value: '10+',   label: 'שנות ניסיון',     icon: 'award'  as IconName },
+  { value: '24/7',  label: 'זמינות מלאה',     icon: 'clock'  as IconName },
+  { value: '100%',  label: 'אחריות בכתב',     icon: 'shield' as IconName },
+  { value: '20 דק׳', label: 'זמן הגעה ממוצע', icon: 'truck'  as IconName },
 ];
+
+type IconName =
+  | 'award' | 'clock' | 'shield' | 'truck' | 'wrench'
+  | 'check' | 'pin' | 'car' | 'bolt' | 'chip' | 'tag' | 'phone' | 'key';
+
+function Icon({ name, className, style }: { name: IconName; className?: string; style?: React.CSSProperties }) {
+  const base = {
+    className,
+    style,
+    viewBox: '0 0 24 24',
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: 2,
+    strokeLinecap: 'round' as const,
+    strokeLinejoin: 'round' as const,
+    'aria-hidden': true,
+  };
+  switch (name) {
+    case 'award':
+      return (<svg {...base}><circle cx="12" cy="9" r="5" /><path d="M8.5 13L7 22l5-3 5 3-1.5-9" /></svg>);
+    case 'clock':
+      return (<svg {...base}><circle cx="12" cy="12" r="9" /><path d="M12 7.5v5l3.5 2" /></svg>);
+    case 'shield':
+      return (<svg {...base}><path d="M12 3l7 3v5c0 4.5-3 7.4-7 9-4-1.6-7-4.5-7-9V6z" /><path d="M9 12l2 2 4-4" /></svg>);
+    case 'truck':
+      return (<svg {...base}><path d="M3 7h11v9H3z" /><path d="M14 10h3.5L21 13v3h-7" /><circle cx="7" cy="18" r="1.8" /><circle cx="17" cy="18" r="1.8" /></svg>);
+    case 'wrench':
+      return (<svg {...base}><path d="M15.5 6.5a4 4 0 0 1-5.4 5.4L4 18l2 2 6.1-6.1a4 4 0 0 1 5.4-5.4l-2.4 2.4-2-2 2.4-2.4z" /></svg>);
+    case 'check':
+      return (<svg {...base}><circle cx="12" cy="12" r="9" /><path d="M8.5 12.5l2.5 2.5 4.5-5" /></svg>);
+    case 'pin':
+      return (<svg {...base}><path d="M12 21s7-6 7-11a7 7 0 1 0-14 0c0 5 7 11 7 11z" /><circle cx="12" cy="10" r="2.5" /></svg>);
+    case 'car':
+      return (<svg {...base}><path d="M5 13l1.6-4.6A2 2 0 0 1 8.5 7h7a2 2 0 0 1 1.9 1.4L19 13" /><path d="M4 13h16v4H4z" /><circle cx="7.5" cy="17.5" r="1.4" /><circle cx="16.5" cy="17.5" r="1.4" /></svg>);
+    case 'bolt':
+      return (<svg {...base}><path d="M13 2L4 14h6l-1 8 9-12h-6z" /></svg>);
+    case 'chip':
+      return (<svg {...base}><rect x="6" y="6" width="12" height="12" rx="2" /><rect x="9.5" y="9.5" width="5" height="5" rx="1" /><path d="M9 3v2M15 3v2M9 19v2M15 19v2M3 9h2M3 15h2M19 9h2M19 15h2" /></svg>);
+    case 'tag':
+      return (<svg {...base}><path d="M20 12l-8 8-8-8V4h8z" /><circle cx="8" cy="8" r="1.3" /></svg>);
+    case 'phone':
+      return (<svg {...base}><path d="M4 4h3.5l1.8 4.5-2.3 1.7a12 12 0 0 0 5.8 5.8l1.7-2.3L19 17.5V21a1 1 0 0 1-1 1A17 17 0 0 1 3 5a1 1 0 0 1 1-1z" /></svg>);
+    case 'key':
+      return (<svg {...base}><circle cx="8" cy="8" r="4" /><path d="M10.8 10.8L20 20M17 17l2-2M14.5 14.5l2-2" /></svg>);
+  }
+}
 
 export default function HomePage() {
   return (
@@ -82,7 +128,8 @@ export default function HomePage() {
               {/* Stats row */}
               <div className="grid grid-cols-4 gap-3 mt-8 text-center">
                 {STATS.map((s) => (
-                  <div key={s.label} className="bg-white/10 rounded-lg py-2 px-1">
+                  <div key={s.label} className="bg-white/10 rounded-lg py-2.5 px-1">
+                    <Icon name={s.icon} className="w-5 h-5 mx-auto mb-1" style={{ color: 'var(--accent)' }} />
                     <div className="text-xl font-extrabold" style={{ color: 'var(--accent)' }}>{s.value}</div>
                     <div className="text-xs opacity-75">{s.label}</div>
                   </div>
@@ -100,7 +147,10 @@ export default function HomePage() {
 
       {/* ── Services grid ── */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-        <h2 className="section-title">השירותים שלנו</h2>
+        <h2 className="section-title flex items-center gap-2">
+          <Icon name="wrench" className="w-6 h-6 shrink-0" style={{ color: 'var(--accent)' }} />
+          השירותים שלנו
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {SERVICES_GRID.map((s) => (
             <Link key={s.href + s.title} href={s.href}
@@ -141,16 +191,21 @@ export default function HomePage() {
       {/* ── Why us ── */}
       <section style={{ background: '#eef4fb' }} className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="section-title">למה לבחור במפתח עכשיו?</h2>
+          <h2 className="section-title flex items-center gap-2">
+            <Icon name="check" className="w-6 h-6 shrink-0" style={{ color: 'var(--accent)' }} />
+            למה לבחור במפתח עכשיו?
+          </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {[
-              { title: 'הגעה מהירה',      body: 'ממוצע 20 דקות הגעה לכל הארץ, 24/7' },
-              { title: 'ציוד ממוחשב',     body: 'מכונות מתקדמות לכל סוגי הרכבים והדגמים' },
-              { title: 'מחירים שקופים',   body: 'מחירון ברור ומראש, ללא הפתעות' },
-              { title: 'אחריות בכתב',     body: 'אחריות מלאה על כל עבודה ועל הציוד' },
-            ].map((f) => (
+            {([
+              { title: 'הגעה מהירה',      body: 'ממוצע 20 דקות הגעה לכל הארץ, 24/7',       icon: 'bolt'   as IconName },
+              { title: 'ציוד ממוחשב',     body: 'מכונות מתקדמות לכל סוגי הרכבים והדגמים', icon: 'chip'   as IconName },
+              { title: 'מחירים שקופים',   body: 'מחירון ברור ומראש, ללא הפתעות',          icon: 'tag'    as IconName },
+              { title: 'אחריות בכתב',     body: 'אחריות מלאה על כל עבודה ועל הציוד',       icon: 'shield' as IconName },
+            ]).map((f) => (
               <div key={f.title} className="card p-5">
-                <div className="w-2 h-6 rounded mb-3" style={{ background: 'var(--accent)' }} />
+                <div className="w-11 h-11 rounded-xl flex items-center justify-center mb-3" style={{ background: '#fff5eb' }}>
+                  <Icon name={f.icon} className="w-6 h-6" style={{ color: 'var(--accent)' }} />
+                </div>
                 <h3 className="font-bold mb-1" style={{ color: 'var(--primary)' }}>{f.title}</h3>
                 <p className="text-sm text-gray-500">{f.body}</p>
               </div>
@@ -162,7 +217,10 @@ export default function HomePage() {
       {/* ── Cities ── */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="section-title mb-0">אזורי שירות</h2>
+          <h2 className="section-title mb-0 flex items-center gap-2">
+            <Icon name="pin" className="w-6 h-6 shrink-0" style={{ color: 'var(--accent)' }} />
+            אזורי שירות
+          </h2>
           <Link href="/אזורי-שירות" className="text-sm font-semibold hover:underline"
             style={{ color: 'var(--accent)' }}>
             כל האזורים
@@ -181,7 +239,10 @@ export default function HomePage() {
       <section style={{ background: '#f0f4f9' }} className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between mb-4">
-            <h2 className="section-title mb-0">שכפול מפתח לפי דגם רכב</h2>
+            <h2 className="section-title mb-0 flex items-center gap-2">
+              <Icon name="car" className="w-6 h-6 shrink-0" style={{ color: 'var(--accent)' }} />
+              שכפול מפתח לפי דגם רכב
+            </h2>
             <Link href="/סוגי-מפתחות" className="text-sm font-semibold hover:underline"
               style={{ color: 'var(--accent)' }}>
               כל הדגמים
@@ -200,9 +261,13 @@ export default function HomePage() {
       {/* ── Final CTA ── */}
       <section style={{ background: 'var(--primary)' }} className="py-10 text-center text-white">
         <div className="max-w-xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-2">צריכים מנעולן רכב?</h2>
+          <h2 className="text-2xl font-bold mb-2 flex items-center justify-center gap-2">
+            <Icon name="key" className="w-6 h-6 shrink-0" style={{ color: 'var(--accent)' }} />
+            צריכים מנעולן רכב?
+          </h2>
           <p className="opacity-80 mb-6 text-sm">זמינות מלאה 24/7, הגעה מהירה, מחיר הוגן</p>
-          <a href={`tel:${SITE.phone}`} className="btn-primary text-lg px-10 py-3">
+          <a href={`tel:${SITE.phone}`} className="btn-primary text-lg px-10 py-3 inline-flex items-center gap-2">
+            <Icon name="phone" className="w-5 h-5 shrink-0" />
             {SITE.phoneDisplay}
           </a>
         </div>
