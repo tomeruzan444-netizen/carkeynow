@@ -367,7 +367,7 @@ export function getVisualSections(slug: string): VisualSection[] {
   }
 
   // Remote/shelt - with flip key image
-  if (['תיקון-שלט-לרכב','שכפול-שלט-לרכב','קידוד-שלט-לרכב'].includes(slug)) {
+  if (['תיקון-שלט-לרכב','שכפול-שלט-לרכב','קידוד-שלט-לרכב','שלט-לרכב-לא-עובד'].includes(slug)) {
     return [
       { type: 'image', data: { src: '/wp-images/שכפול-מפתח-קפיץ.webp', alt: 'מפתח קפיץ לרכב', maxWidth: 280 } as ImageData },
       { type: 'process',  heading: 'תהליך תיקון/שכפול השלט', data: remoteProcess },
