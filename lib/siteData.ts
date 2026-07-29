@@ -6,7 +6,7 @@ export const SITE = {
   url: 'https://carkeynow.co.il',
   phone: '033822752',
   phoneDisplay: '03-382-2752',
-  email: 'carkeynoww@gmail.com',
+  email: 'carkeynow@gmail.com',
   facebook: 'https://www.facebook.com/carkeynow/',
   copyright: '© 2026 מפתח עכשיו',
 };
