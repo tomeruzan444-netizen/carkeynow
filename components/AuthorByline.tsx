@@ -1,4 +1,4 @@
-import { AUTHOR } from '@/lib/author';
+import { AUTHOR, COFOUNDER } from '@/lib/author';
 
 /** בייליין מחבר קצר בראש עמוד תוכן - חיזוק E-E-A-T */
 export function AuthorByline() {
@@ -40,17 +40,18 @@ export function FounderCard() {
           <h2 className="text-xl font-bold" style={{ color: 'var(--primary)' }}>
             מי עומד מאחורי מפתח עכשיו
           </h2>
-          <p className="text-sm text-gray-500 mt-0.5">{AUTHOR.name} · {AUTHOR.jobTitle}</p>
+          <p className="text-sm text-gray-500 mt-0.5">{AUTHOR.name} ו{COFOUNDER.name} · מייסדי מפתח עכשיו</p>
         </div>
       </div>
       <p className="text-gray-700 leading-relaxed mb-3">
-        מפתח עכשיו נוסדה על ידי <strong>{AUTHOR.name}</strong>, מנעולן רכב מנוסה עם {AUTHOR.experience}
-        {' '}בתחום שכפול, שחזור וקידוד מפתחות לרכב. {AUTHOR.name} הקים את מפתח עכשיו מתוך התמחות צרה וברורה -
+        מפתח עכשיו נוסדה על ידי <strong>{AUTHOR.name}</strong> ו<strong>{COFOUNDER.name}</strong>.
+        {' '}{AUTHOR.name}, מנעולן רכב מנוסה עם {AUTHOR.experience} בתחום שכפול, שחזור וקידוד מפתחות לרכב,
+        מוביל את הצד המקצועי, ויחד עם {COFOUNDER.name} הם הקימו את מפתח עכשיו מתוך התמחות צרה וברורה -
         מנעולנות רכב בלבד - ומתוך אמונה שאפשר לתת שירות מהיר, מקצועי ושקוף ישירות בשטח, בלי לגרור את
         הרכב לסוכנות ובלי להמתין ימים.
       </p>
       <p className="text-gray-700 leading-relaxed">
-        היום {AUTHOR.name} מוביל את צוות מנעולני הרכב המנוסים של מפתח עכשיו, ויחד אנחנו מטפלים בכל סוגי המפתחות -
+        היום {AUTHOR.name} ו{COFOUNDER.name} מובילים את צוות מנעולני הרכב המנוסים של מפתח עכשיו, ויחד אנחנו מטפלים בכל סוגי המפתחות -
         ממפתחות מכניים ישנים ועד מערכות Smart Key וקידוד רב-מודולרי ברכבים החדשים - ומגיעים לכל מקום בארץ,
         24 שעות ביממה, כולל שבתות וחגים.
       </p>

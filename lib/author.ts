@@ -6,3 +6,9 @@ export const AUTHOR = {
   experience: 'המון שנות ניסיון',
   photo: '/wp-images/דורון-מנעולן-רכב.webp',
 };
+
+// מייסד שותף - מוזכר בעמוד אודות, בסכמת Organization וב-llms.txt (ללא בייליין וללא תמונה).
+export const COFOUNDER = {
+  name: 'רונן',
+  jobTitle: 'מייסד שותף',
+};

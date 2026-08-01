@@ -6,7 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FloatingContact from '@/components/FloatingContact';
 import { SITE } from '@/lib/siteData';
-import { AUTHOR } from '@/lib/author';
+import { AUTHOR, COFOUNDER } from '@/lib/author';
 
 const rubik = Rubik({
   subsets: ['hebrew', 'latin'],
@@ -86,12 +86,20 @@ function OrganizationSchema() {
           image: `${SITE.url}/wp-images/שכפול-מפתחות-לרכב-מפתח-עכשיו.webp`,
           telephone: SITE.phone,
           email: SITE.email,
-          founder: {
-            '@type': 'Person',
-            '@id': `${SITE.url}/#amir`,
-            name: AUTHOR.name,
-            jobTitle: AUTHOR.jobTitle,
-          },
+          founder: [
+            {
+              '@type': 'Person',
+              '@id': `${SITE.url}/#amir`,
+              name: AUTHOR.name,
+              jobTitle: AUTHOR.jobTitle,
+            },
+            {
+              '@type': 'Person',
+              '@id': `${SITE.url}/#ronen`,
+              name: COFOUNDER.name,
+              jobTitle: COFOUNDER.jobTitle,
+            },
+          ],
           sameAs: [SITE.facebook],
           address: {
             '@type': 'PostalAddress',
