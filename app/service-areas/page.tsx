@@ -4,7 +4,7 @@ import { SITE } from '@/lib/siteData';
 import { WP_PAGES } from '@/lib/wp-pages';
 
 export const metadata: Metadata = {
-  title: { absolute: 'אזורי שירות - מנעולן רכב בכל הארץ | מפתח עכשיו' },
+  title: { absolute: 'אזורי שירות - מנעולן רכב בכל הארץ' },
   description: 'שירותי מנעולן רכב בכל רחבי הארץ. שכפול מפתח, פורץ רכבים, קודן לרכב - בתל אביב, חיפה, ירושלים, באר שבע ועוד.',
   alternates: { canonical: 'https://carkeynow.co.il/%D7%90%D7%96%D7%95%D7%A8%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA/' },
 };

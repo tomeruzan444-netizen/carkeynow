@@ -40,11 +40,12 @@ export async function generateMetadata({
 
   const canonical = page.canonical || `${SITE.url}/${page.slug}/`;
   const override = getTitleOverride(page.slug);
-  // נורמליזציה: מסירים סיומת " | מפתח עכשיו" קיימת ומוסיפים אותה פעם אחת בלבד.
-  // title.absolute עוקף את ה-template של ה-layout כדי למנוע כפילות סיומת.
-  const baseTitle = (override || page.metaTitle || page.title)
-    .replace(/\s*(?:\||-|עם)\s*מפתח עכשיו\s*$/, '');
-  const fullTitle = `${baseTitle} | ${SITE.name}`;
+  // הוסרה סיומת המותג מכל הטייטלים - מסירים כל מופע של "מפתח עכשיו" מהטייטל ולא מוסיפים אותו.
+  const fullTitle = (override || page.metaTitle || page.title)
+    .replace(/\s*(?:\||-|עם)\s*מפתח עכשיו/g, '')
+    .replace(/\s*[|\-]\s*$/, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
   const desc = page.metaDesc;
   const ogImg = page.ogImage || '/og-carkeynow.jpg';
 

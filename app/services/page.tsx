@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { SITE } from '@/lib/siteData';
 
 export const metadata: Metadata = {
-  title: { absolute: 'כל השירותים - מנעולן רכב מקצועי | מפתח עכשיו' },
+  title: { absolute: 'כל השירותים - מנעולן רכב מקצועי בכל הארץ' },
   description: 'כל שירותי מנעולן הרכב: שכפול מפתח, שחזור מפתח, התקנת קודן, תיקון שלט, פריצת רכב ועוד. הגעה עד אליכם 24/7 בכל הארץ.',
   alternates: { canonical: 'https://carkeynow.co.il/שירותים/' },
 };
