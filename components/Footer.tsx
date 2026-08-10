@@ -170,6 +170,31 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
+      {/* Credit: אחסון ותחזוקה */}
+      <div style={{ background: '#0a0f1a', borderTop: '1px solid #1f2937' }} className="py-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-sm text-gray-500">
+            <span>האתר מאוחסן ומתוחזק באהבה על ידי</span>
+            <a
+              href="https://brandli.co.il/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 font-semibold text-gray-400 transition hover:text-white"
+            >
+              <img
+                src="/wp-images/brandli-B-logo.webp"
+                alt="לוגו ברנדלי"
+                width={22}
+                height={22}
+                loading="lazy"
+                className="w-[22px] h-[22px] rounded-full shrink-0"
+              />
+              ברנדלי
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 }
