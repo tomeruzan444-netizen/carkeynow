@@ -5,20 +5,10 @@ import { SITE } from '@/lib/siteData';
 
 type Status = 'idle' | 'loading' | 'success' | 'error';
 
-const SERVICES = [
-  'שכפול מפתח לרכב',
-  'שחזור מפתח לרכב',
-  'תיקון סוויץ לרכב',
-  'פתיחת רכב נעול',
-  'התקנת קודן לרכב',
-  'תיקון/ניתוק קודן',
-  'אחר',
-];
-
 export default function FloatingContact() {
   const [open, setOpen] = useState(false);
   const [status, setStatus] = useState<Status>('idle');
-  const [form, setForm] = useState({ name: '', phone: '', service: '' });
+  const [form, setForm] = useState({ name: '', phone: '', message: '' });
 
   function set(field: string, value: string) {
     setForm(prev => ({ ...prev, [field]: value }));
@@ -111,7 +101,7 @@ export default function FloatingContact() {
                 </div>
                 <p className="font-bold text-base mb-1" style={{ color: 'var(--primary)' }}>הפרטים התקבלו!</p>
                 <p className="text-sm text-gray-500 mb-4">נחזור אליכם בהקדם</p>
-                <button onClick={() => { setOpen(false); setStatus('idle'); setForm({ name: '', phone: '', service: '' }); }}
+                <button onClick={() => { setOpen(false); setStatus('idle'); setForm({ name: '', phone: '', message: '' }); }}
                   className="btn-primary text-sm px-5">סגירה</button>
               </div>
             ) : (
@@ -136,13 +126,12 @@ export default function FloatingContact() {
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold text-gray-600 mb-1">שירות נדרש</label>
-                  <select value={form.service} onChange={e => set('service', e.target.value)}
-                    className="w-full border rounded-lg px-3 py-2 text-sm focus:outline-none appearance-none"
-                    style={{ borderColor: 'var(--border)', color: form.service ? '#1a2535' : '#9ca3af' }}>
-                    <option value="">בחרו שירות...</option>
-                    {SERVICES.map(s => <option key={s} value={s}>{s}</option>)}
-                  </select>
+                  <label className="block text-xs font-semibold text-gray-600 mb-1">איך אפשר לעזור?</label>
+                  <textarea value={form.message} onChange={e => set('message', e.target.value)}
+                    rows={3}
+                    placeholder="ספרו לנו במילים שלכם - סוג הרכב, מה קרה ואיפה אתם"
+                    className="w-full border rounded-lg px-3 py-2 text-sm leading-relaxed resize-y focus:outline-none focus:ring-2"
+                    style={{ borderColor: 'var(--border)' }} />
                 </div>
 
                 {status === 'error' && (

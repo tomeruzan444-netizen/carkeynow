@@ -11,22 +11,10 @@ interface Props {
 
 type Status = 'idle' | 'loading' | 'success' | 'error';
 
-const SERVICES = [
-  'שכפול מפתח לרכב',
-  'שחזור מפתח לרכב',
-  'תיקון סוויץ לרכב',
-  'פתיחת רכב נעול',
-  'התקנת קודן לרכב',
-  'תיקון/ניתוק קודן',
-  'תיקון שלט לרכב',
-  'שחזור מפתח לאופנוע',
-  'אחר',
-];
-
 export default function ContactForm({ heading = 'הזמן מנעולן רכב', compact = false }: Props) {
   const [status, setStatus] = useState<Status>('idle');
   const [error, setError] = useState('');
-  const [form, setForm] = useState({ name: '', phone: '', city: '', service: '', message: '' });
+  const [form, setForm] = useState({ name: '', phone: '', city: '', message: '' });
 
   function set(field: string, value: string) {
     setForm(prev => ({ ...prev, [field]: value }));
@@ -141,23 +129,20 @@ export default function ContactForm({ heading = 'הזמן מנעולן רכב', 
           />
         </div>
 
-        {/* Service */}
-        {!compact && (
-          <div>
-            <label className="block text-xs font-semibold text-gray-600 mb-1">שירות נדרש</label>
-            <select
-              value={form.service}
-              onChange={e => set('service', e.target.value)}
-              className="w-full border rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 transition appearance-none"
-              style={{ borderColor: 'var(--border)', color: form.service ? '#1a2535' : '#9ca3af' }}
-              onFocus={e => e.target.style.borderColor = 'var(--accent)'}
-              onBlur={e => e.target.style.borderColor = 'var(--border)'}
-            >
-              <option value="">בחרו שירות...</option>
-              {SERVICES.map(s => <option key={s} value={s}>{s}</option>)}
-            </select>
-          </div>
-        )}
+        {/* How can we help - free text */}
+        <div>
+          <label className="block text-xs font-semibold text-gray-600 mb-1">איך אפשר לעזור?</label>
+          <textarea
+            value={form.message}
+            onChange={e => set('message', e.target.value)}
+            rows={compact ? 2 : 3}
+            placeholder="ספרו לנו במילים שלכם - סוג הרכב, מה קרה ואיפה אתם"
+            className="w-full border rounded-lg px-3 py-2.5 text-sm leading-relaxed resize-y focus:outline-none focus:ring-2 transition"
+            style={{ borderColor: 'var(--border)' }}
+            onFocus={e => e.target.style.borderColor = 'var(--accent)'}
+            onBlur={e => e.target.style.borderColor = 'var(--border)'}
+          />
+        </div>
 
         {/* Privacy */}
         <div className="flex items-start gap-2 pt-1">
