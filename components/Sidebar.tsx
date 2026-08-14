@@ -61,6 +61,7 @@ const KODAN_SERVICES: NavItem[] = [
   { label: 'התקנת קודן לרכב',   href: '/התקנת-קודן-לרכב' },
   { label: 'תיקון קודן לרכב',   href: '/תיקון-קודן-לרכב' },
   { label: 'ניתוק קודן לרכב',   href: '/ניתוק-קודן-לרכב' },
+  { label: 'איפוס קודן לרכב',   href: '/איפוס-קודן-לרכב' },
   { label: 'קודן לרכב מצפצף',   href: '/קודן-לרכב-מצפצף-2' },
 ];
 
@@ -173,8 +174,8 @@ function getBlocks(slug: string): Block[] {
     ];
   }
 
-  // Alarm disconnect / repair / whistling
-  if (slug === 'ניתוק-קודן-לרכב' || slug === 'תיקון-קודן-לרכב' || slug === 'קודן-לרכב-מצפצף-2') {
+  // Alarm disconnect / repair / reset / whistling
+  if (slug === 'ניתוק-קודן-לרכב' || slug === 'תיקון-קודן-לרכב' || slug === 'איפוס-קודן-לרכב' || slug === 'קודן-לרכב-מצפצף-2') {
     return [
       { title: 'שירותי קודן לרכב', items: KODAN_SERVICES.filter(k => k.href !== `/${slug}`) },
       { title: 'קודן לרכב לפי עיר', items: KODAN_CITIES },
