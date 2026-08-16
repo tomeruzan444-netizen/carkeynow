@@ -96,6 +96,7 @@ const LOCKOUT_CITIES: NavItem[] = [
 const SVITZ_RELATED: NavItem[] = [
   { label: 'תיקון סוויץ לרכב',   href: '/תיקון-סוויץ-לרכב' },
   { label: 'מפתח תקוע בסוויץ',   href: '/מפתח-תקוע-בסוויץ' },
+  { label: 'סוויץ לרכב בנתניה',  href: '/סוויץ-לרכב-בנתניה' },
   { label: 'שחזור מפתח לרכב',    href: '/שחזור-מפתח-לרכב' },
   { label: 'אבד מפתח לרכב',      href: '/אבד-מפתח-לרכב' },
   { label: 'שכפול מפתח לרכב',    href: '/שכפול-מפתח-לרכב' },
@@ -158,7 +159,7 @@ function getBlocks(slug: string): Block[] {
   }
 
   // Switch-related
-  if (slug === 'תיקון-סוויץ-לרכב' || slug === 'מפתח-תקוע-בסוויץ') {
+  if (slug === 'תיקון-סוויץ-לרכב' || slug === 'מפתח-תקוע-בסוויץ' || slug === 'סוויץ-לרכב-בנתניה') {
     return [
       { title: 'שירותי סוויץ ומפתח', items: SVITZ_RELATED.filter(s => s.href !== `/${slug}`) },
       { title: 'שכפול מפתח לפי עיר', items: CITIES_KEY.slice(0, 8) },

@@ -103,6 +103,25 @@ export const alarmComparison: CompRow[] = [
   { criterion: 'זמינות',            us: '24/7',            usColor: 'green', alt: 'שעות מוסך',       altColor: 'orange' },
 ];
 
+// ─── SWITCH · NETANYA (תיקון מול החלפה) ───────────────────────────────
+
+export const switchRepairVsReplace: CompRow[] = [
+  { criterion: 'מצב הגליל',        us: 'מסתובב, מרגיש מחוספס', usColor: 'green',  alt: 'נשבר או נסדק',      altColor: 'red'    },
+  { criterion: 'עלות',             us: '400-700 ₪',            usColor: 'green',  alt: '800-1,500 ₪',       altColor: 'orange' },
+  { criterion: 'זמן עבודה',        us: '30-60 דקות',           usColor: 'green',  alt: '60-120 דקות',       altColor: 'orange' },
+  { criterion: 'קידוד אימובילייזר', us: 'לא נדרש',              usColor: 'green',  alt: 'נדרש, כלול במחיר',  altColor: 'blue'   },
+  { criterion: 'המפתח הקיים',      us: 'ממשיך לעבוד',          usColor: 'green',  alt: 'מותאם לגליל החדש',  altColor: 'blue'   },
+  { criterion: 'שכיחות אצלנו',     us: 'רוב המקרים',           usColor: 'green',  alt: 'מיעוט המקרים',      altColor: 'orange' },
+];
+
+export const switchNetanyaProcess: Step[] = [
+  { title: 'שאלה אחת בטלפון', desc: 'האם התקלה מופיעה רק בבוקר או לאורך כל היום. התשובה מנבאת די טוב אם מדובר בתיקון או בהחלפה.', duration: '2 דק׳' },
+  { title: 'בדיקת מפתח מול סוויץ', desc: 'מנסים את המפתח השני ובודקים שחיקה בלהב. מפתח שחוק מחקה תקלת סוויץ ועולה הרבה פחות לתקן.', duration: '5 דק׳' },
+  { title: 'אבחון הגליל', desc: 'בודקים אם הגליל מסתובב, אם קפיץ ההחזרה עובד ואם המגעים החשמליים יציבים תחת עומס.', duration: '10 דק׳' },
+  { title: 'תיקון או החלפה', desc: 'מפרקים, מנקים ומשמנים בגרפיט ומחליפים רכיבים שחוקים. אם הגליל שבור, מתקינים חדש ומתאימים אותו למפתח שלכם.', duration: '30-120 דק׳' },
+  { title: 'קידוד ובדיקה', desc: 'מקודדים מול האימובילייזר במידת הצורך, ומנסים חמש התנעות רצופות לפני שאנחנו עוזבים.', duration: '10-15 דק׳' },
+];
+
 // ─── ALARM · BAT YAM (כיול לרחוב צפוף ולאתרי בנייה) ──────────────────
 
 export const batYamSensors: ToolCard[] = [
@@ -359,6 +378,15 @@ export function getVisualSections(slug: string): VisualSection[] {
       { type: 'features', heading: 'כל סוגי המפתחות שאנחנו משכפלים', data: { cards: keyTypes, cols: 3 } },
       { type: 'process',  heading: 'תהליך שכפול מפתח בשטח', data: keyDupProcess },
       { type: 'comparison', heading: 'אנחנו מול הסוכנות הרשמית', data: { colUs: 'מפתח עכשיו', colAlt: 'סוכנות', rows: keyDupComparison } },
+    ];
+  }
+
+  // Switch - Netanya (בלוקים ייחודיים סביב ההכרעה תיקון מול החלפה)
+  if (slug === 'סוויץ-לרכב-בנתניה') {
+    return [
+      { type: 'comparison', heading: 'תיקון סוויץ מול החלפת סוויץ', sub: 'ההכרעה נקבעת אחרי אבחון, לא לפניו', data: { colUs: 'תיקון', colAlt: 'החלפה', rows: switchRepairVsReplace } },
+      { type: 'process',    heading: 'איך נראית קריאת סוויץ בנתניה', data: switchNetanyaProcess },
+      { type: 'stats',      data: keyStats },
     ];
   }
 
