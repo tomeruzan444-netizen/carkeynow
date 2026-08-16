@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
-$to      = 'tomeruzan444@gmail.com';
+$to      = 'ben3n4456@gmail.com';
 $name    = htmlspecialchars(trim($_POST['name']    ?? ''));
 $phone   = htmlspecialchars(trim($_POST['phone']   ?? ''));
 $city    = htmlspecialchars(trim($_POST['city']    ?? ''));
