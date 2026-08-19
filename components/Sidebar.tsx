@@ -127,6 +127,7 @@ const MOTO_RELATED: NavItem[] = [
 ];
 
 const GENERAL_SERVICES: NavItem[] = [
+  { label: 'מנעולן רכב בתל אביב', href: '/מנעולן-רכב-בתל-אביב' },
   { label: 'שחזור מפתח לרכב',   href: '/שחזור-מפתח-לרכב' },
   { label: 'שכפול מפתח לרכב',   href: '/שכפול-מפתח-לרכב' },
   { label: 'תיקון סוויץ לרכב',  href: '/תיקון-סוויץ-לרכב' },
@@ -260,6 +261,15 @@ function getBlocks(slug: string): Block[] {
       { title: 'שכפול מפתח לפי עיר', items: CITIES_KEY },
       { title: 'שכפול מפתח לפי דגם רכב', items: BRANDS },
       { title: 'שירותים נוספים', items: KEY_SERVICES.filter(s => s.href !== `/${slug}`) },
+    ];
+  }
+
+  // City hub page (מנעולן רכב ב<עיר>)
+  if (slug.startsWith('מנעולן-רכב-ב')) {
+    return [
+      { title: 'שירותי מנעולן רכב', items: KEY_SERVICES },
+      { title: 'שירותים נוספים', items: SVITZ_RELATED.slice(0, 3).concat(SHELT_RELATED.slice(0, 3)) },
+      { title: 'שכפול מפתח לפי דגם', items: BRANDS.slice(0, 10) },
     ];
   }
 

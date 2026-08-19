@@ -103,6 +103,25 @@ export const alarmComparison: CompRow[] = [
   { criterion: 'זמינות',            us: '24/7',            usColor: 'green', alt: 'שעות מוסך',       altColor: 'orange' },
 ];
 
+// ─── LOCKSMITH HUB · TEL AVIV ─────────────────────────────────────────
+
+export const tlvFactors: FeatCard[] = [
+  { title: 'חניון בלי קליטה', desc: 'הציוד שלנו עובד לא מקוון לגמרי, עם מסדי נתונים ואסימונים שנטענים מראש.' },
+  { title: 'הכל על סוללות', desc: 'אין צורך בחשמל חיצוני או בכבל מאריך, גם בקומה מינוס שלוש.' },
+  { title: 'זמן לפי תנועה', desc: 'אנחנו נוקבים בחלון זמן ריאלי ולא במספר יפה שאי אפשר לעמוד בו.' },
+  { title: 'רחובות צרים', desc: 'בפלורנטין, נווה צדק ויפו אנחנו עובדים במרחק הליכה מהרכב.' },
+  { title: 'רכבי חברה וליסינג', desc: 'נדרש אישור בכתב מהחברה. כדאי להסדיר מראש ולא בשתיים בלילה.' },
+  { title: 'זמינות לילית', desc: 'בלילה העיר פנויה וזמן ההגעה יורד ל-15 עד 30 דקות.' },
+];
+
+export const tlvProcess: Step[] = [
+  { title: 'שיחה ואבחון ראשוני', desc: 'סוג הרכב, התסמין המדויק, ואם מדובר בחניון גם מספר הקומה. כך אנחנו יוצאים עם הציוד הנכון.', duration: '3 דק׳' },
+  { title: 'חלון זמן ריאלי', desc: 'אנחנו נוקבים בטווח לפי התנועה באותה שעה, ומעדכנים אם משהו משתנה בדרך.', duration: 'מיידי' },
+  { title: 'אימות בעלות', desc: 'תעודת זהות ורישיון רכב. ברכב חברה או ליסינג גם אישור בכתב מהחברה.', duration: '5 דק׳' },
+  { title: 'ביצוע בשטח', desc: 'פתיחה, שכפול, שחזור, סוויץ או שלט, הכל ליד הרכב ובלי גרירה לשום מקום.', duration: '10-120 דק׳' },
+  { title: 'בדיקה לפני עזיבה', desc: 'בודקים פתיחה, נעילה והתנעה בפועל, ורק אז סוגרים את הקריאה.', duration: '5 דק׳' },
+];
+
 // ─── SWITCH · NETANYA (תיקון מול החלפה) ───────────────────────────────
 
 export const switchRepairVsReplace: CompRow[] = [
@@ -378,6 +397,15 @@ export function getVisualSections(slug: string): VisualSection[] {
       { type: 'features', heading: 'כל סוגי המפתחות שאנחנו משכפלים', data: { cards: keyTypes, cols: 3 } },
       { type: 'process',  heading: 'תהליך שכפול מפתח בשטח', data: keyDupProcess },
       { type: 'comparison', heading: 'אנחנו מול הסוכנות הרשמית', data: { colUs: 'מפתח עכשיו', colAlt: 'סוכנות', rows: keyDupComparison } },
+    ];
+  }
+
+  // Locksmith hub - Tel Aviv
+  if (slug === 'מנעולן-רכב-בתל-אביב') {
+    return [
+      { type: 'features', heading: 'שישה דברים ששונים בתל אביב', sub: 'ולמה הם משנים את מי שכדאי להזמין', data: { cards: tlvFactors, cols: 3 as 3 } },
+      { type: 'process',  heading: 'מרגע השיחה ועד שהרכב פתוח', data: tlvProcess },
+      { type: 'stats',    data: keyStats },
     ];
   }
 
