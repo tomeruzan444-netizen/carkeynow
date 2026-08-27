@@ -141,6 +141,25 @@ export const switchNetanyaProcess: Step[] = [
   { title: 'קידוד ובדיקה', desc: 'מקודדים מול האימובילייזר במידת הצורך, ומנסים חמש התנעות רצופות לפני שאנחנו עוזבים.', duration: '10-15 דק׳' },
 ];
 
+// ─── KEY DUP · KIRYAT ATA (העתקה מול חיתוך לפי קוד) ──────────────────
+
+export const kaCopyVsCode: CompRow[] = [
+  { criterion: 'מקור החיתוך',      us: 'המידות מהמפעל',   usColor: 'green',  alt: 'המפתח שבידכם',      altColor: 'orange' },
+  { criterion: 'מעתיק שחיקה',      us: 'לא',              usColor: 'green',  alt: 'כן, במלואה',        altColor: 'red'    },
+  { criterion: 'תוספת עלות',       us: '100-200 ₪',       usColor: 'orange', alt: 'ללא תוספת',         altColor: 'green'  },
+  { criterion: 'תוספת זמן',        us: '10-20 דקות',      usColor: 'orange', alt: 'ללא',               altColor: 'green'  },
+  { criterion: 'מתאים למפתח שחוק', us: 'כן, זו המטרה',    usColor: 'green',  alt: 'לא מומלץ',          altColor: 'red'    },
+  { criterion: 'מתאים למפתח תקין', us: 'מיותר',           usColor: 'orange', alt: 'כן, תוצאה מצוינת',  altColor: 'green'  },
+];
+
+export const kaProcess: Step[] = [
+  { title: 'בדיקת המפתח הקיים', desc: 'בוחנים כמה השיניים התעגלו ואם המפתח נכנס ומסתובב חלק. זה קובע אם להעתיק או לחתוך לפי קוד.', duration: '5 דק׳' },
+  { title: 'בדיקת הגליל', desc: 'מוודאים שהמנעול עצמו נקי. גליל מחומצן יגרום גם למפתח מושלם להרגיש תקוע.', duration: '5 דק׳' },
+  { title: 'השגת הקוד או העתקה', desc: 'פענוח המנעול או שליפת הקוד לפי מספר שלדה, בכפוף לאימות בעלות. במפתח תקין מעתיקים ישירות.', duration: '5-20 דק׳' },
+  { title: 'חיתוך וקידוד', desc: 'חיתוך ממוחשב ואז קידוד השבב מול האימובילייזר, וברכב עם שלט גם סנכרון רולינג-קוד.', duration: '10-40 דק׳' },
+  { title: 'בדיקה בשני המנעולים', desc: 'בודקים את המפתח החדש גם בדלת וגם בהצתה, ומשווים לתחושה של המפתח המקורי.', duration: '5 דק׳' },
+];
+
 // ─── ALARM · EVEN YEHUDA (מיקום התקנה וחדירת מים) ────────────────────
 
 export const eyMountRules: FeatCard[] = [
@@ -307,6 +326,15 @@ export interface ImageData { src: string; alt: string; maxWidth?: number }
 // ─── DISPATCHER ──────────────────────────────────────────────────────
 
 export function getVisualSections(slug: string): VisualSection[] {
+  // Kiryat Ata - copy vs cut-to-code
+  if (slug === 'שכפול-מפתח-לרכב-בקריית-אתא') {
+    return [
+      { type: 'comparison', heading: 'חיתוך לפי קוד מול העתקת המפתח הקיים', sub: 'שתי שיטות, ולכל אחת המצב שבו היא הנכונה', data: { colUs: 'חיתוך לפי קוד', colAlt: 'העתקה', rows: kaCopyVsCode } },
+      { type: 'process',    heading: 'איך נראית קריאת שכפול בקריית אתא', data: kaProcess },
+      { type: 'stats',      data: keyStats },
+    ];
+  }
+
   // City key duplication
   if (slug.startsWith('שכפול-מפתח-לרכב-ב')) {
     return [
