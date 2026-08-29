@@ -141,6 +141,25 @@ export const switchNetanyaProcess: Step[] = [
   { title: 'קידוד ובדיקה', desc: 'מקודדים מול האימובילייזר במידת הצורך, ומנסים חמש התנעות רצופות לפני שאנחנו עוזבים.', duration: '10-15 דק׳' },
 ];
 
+// ─── KEY DUP · KIRYAT BIALIK (זיהוי מערכת לפני הגעה) ─────────────────
+
+export const kbIdentifyCards: FeatCard[] = [
+  { title: 'מספר שלדה', desc: '17 תווים ברישיון ובבסיס השמשה. מקודד את תצורת הייצור המדויקת של הרכב.' },
+  { title: 'שנת רישוי אינה שנת ייצור', desc: 'רכב שנרשם בינואר עשוי להיות מיוצר בשנה הקודמת ולשאת מערכת ישנה.' },
+  { title: 'מעבר פלטפורמה', desc: 'מעבר MQB בקבוצת פולקסווגן סביב 2013 שינה את דור האימובילייזר.' },
+  { title: 'פייסליפט אמצע דור', desc: 'מבחוץ פנס או פגוש, מבפנים לא פעם מערכת מפתח אחרת לגמרי.' },
+  { title: 'צילום המפתח הקיים', desc: 'תמונה משני הצדדים מזהה את סוג הבלנק עוד לפני שיצאנו לדרך.' },
+  { title: 'התוצאה: ביקור אחד', desc: 'זיהוי נכון בטלפון מונע הזמנת חלק וחזרה למחרת.' },
+];
+
+export const kbProcess: Step[] = [
+  { title: 'שיחה וזיהוי', desc: 'מה קרה, מספר שלדה, ואם יש מפתח קיים גם תמונה שלו. ללא עלות ובשתי דקות.', duration: '2-5 דק׳' },
+  { title: 'הצטיידות מדויקת', desc: 'בוחרים את הבלנק, את משפחת השבב ואת התוכנה לפי הזיהוי, ולא לפי ניחוש.', duration: '5 דק׳' },
+  { title: 'הגעה לרכב', desc: 'לחניית הבית או לחניון מקורה. בקומות ללא קליטה הציוד עובד לא מקוון.', duration: '25-45 דק׳' },
+  { title: 'חיתוך וקידוד', desc: 'חיתוך ממוחשב, קידוד השבב מול האימובילייזר, וברכב עם שלט גם סנכרון רולינג-קוד.', duration: '10-60 דק׳' },
+  { title: 'בדיקה מלאה', desc: 'בודקים פתיחה, נעילה והתנעה בפועל לפני שאנחנו סוגרים את הקריאה.', duration: '5 דק׳' },
+];
+
 // ─── KEY DUP · KIRYAT ATA (העתקה מול חיתוך לפי קוד) ──────────────────
 
 export const kaCopyVsCode: CompRow[] = [
@@ -326,6 +345,15 @@ export interface ImageData { src: string; alt: string; maxWidth?: number }
 // ─── DISPATCHER ──────────────────────────────────────────────────────
 
 export function getVisualSections(slug: string): VisualSection[] {
+  // Kiryat Bialik - identify before dispatch
+  if (slug === 'שכפול-מפתח-לרכב-בקריית-ביאליק') {
+    return [
+      { type: 'features', heading: 'מה מזהה את המערכת לפני שיוצאים', sub: 'שש נקודות שקובעות אם זה ביקור אחד או שניים', data: { cards: kbIdentifyCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'מרגע השיחה ועד מפתח עובד', data: kbProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   // Kiryat Ata - copy vs cut-to-code
   if (slug === 'שכפול-מפתח-לרכב-בקריית-אתא') {
     return [
