@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SITE } from '@/lib/siteData';
+import PhotoSlider from '@/components/PhotoSlider';
+import { STATIC_GALLERIES } from '@/lib/pageGallery';
 
 export const metadata: Metadata = {
   title: { absolute: 'כל השירותים - מנעולן רכב מקצועי בכל הארץ' },
@@ -44,6 +46,8 @@ export default function ServicesPage() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <PhotoSlider gallery={STATIC_GALLERIES.services} />
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {SERVICE_DETAILS.map((s) => (
             <Link key={s.href} href={s.href}

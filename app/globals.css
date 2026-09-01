@@ -324,3 +324,159 @@ html { scroll-behavior: smooth; }
   font-size: 0.75rem;
   margin-top: 2px;
 }
+
+/* ── סליידר תמונות לעמודי תוכן (PhotoSlider) ── */
+.photo-slider {
+  --pg-gap: 14px;
+  --pg-cols: var(--pg-cols-sm, 1.15);
+}
+@media (min-width: 640px)  { .photo-slider { --pg-gap: 16px; --pg-cols: var(--pg-cols-md, 2); } }
+@media (min-width: 1024px) { .photo-slider { --pg-cols: var(--pg-cols-lg, 3); } }
+
+.photo-slider-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--primary);
+  line-height: 1.35;
+}
+@media (min-width: 640px) { .photo-slider-title { font-size: 1.35rem; } }
+
+.photo-slider-sub {
+  margin-top: 4px;
+  font-size: 0.875rem;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.photo-track {
+  display: flex;
+  gap: var(--pg-gap);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;          /* Firefox */
+  -ms-overflow-style: none;       /* Edge ישן */
+  padding: 2px 2px 4px;
+}
+.photo-track::-webkit-scrollbar { display: none; }   /* Chrome/Safari */
+.photo-track:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 14px; }
+
+.photo-slide {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  width: calc((100% - (var(--pg-gap) * (var(--pg-cols) - 1))) / var(--pg-cols));
+  margin: 0;
+}
+
+.photo-frame {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #eef1f6;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow .2s, border-color .2s;
+}
+.photo-slide:hover .photo-frame {
+  border-color: var(--accent);
+  box-shadow: 0 8px 22px rgba(30, 74, 114, .16);
+}
+
+/* עותק מטושטש של התמונה כרקע - מונע פסים ריקים כשהתמונה לא בפרופורציית המסגרת */
+.photo-blur {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(20px) saturate(1.1);
+  transform: scale(1.2);
+  opacity: .5;
+  pointer-events: none;
+}
+
+.photo-img {
+  position: relative;
+  z-index: 1;
+  max-width: 92%;
+  max-height: 92%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .22);
+  transition: transform .25s ease;
+}
+.photo-slide:hover .photo-img { transform: scale(1.03); }
+
+/* גובה קבוע לשתי שורות - שומר על יישור בין הכרטיסים ומאפשר למרכז
+   את החיצים על התמונה עצמה ולא על הכרטיס כולו */
+.photo-caption {
+  margin-top: 8px;
+  height: 38px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  color: #4b5563;
+  text-align: center;
+}
+
+.photo-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -23px;          /* מחצית גובה הכיתוב, כדי למרכז מול התמונה */
+  transform: translateY(-50%);
+  z-index: 3;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background: #fff;
+  color: var(--primary);
+  border: 1.5px solid var(--border);
+  box-shadow: 0 4px 14px rgba(30, 74, 114, .16);
+  cursor: pointer;
+  transition: background .18s, color .18s, border-color .18s, opacity .18s;
+}
+.photo-arrow:hover:not(:disabled) { background: var(--primary); color: #fff; border-color: var(--primary); }
+.photo-arrow:disabled { opacity: .3; cursor: default; }
+.photo-arrow--prev { right: -6px; }   /* התחלה ב-RTL */
+.photo-arrow--next { left: -6px; }    /* המשך ב-RTL */
+@media (min-width: 640px) {
+  .photo-arrow { width: 42px; height: 42px; }
+  .photo-arrow--prev { right: -14px; }
+  .photo-arrow--next { left: -14px; }
+}
+
+.photo-dots {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 10px;
+}
+.photo-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 9999px;
+  background: #cbd5e1;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: width .2s, background .2s;
+}
+.photo-dot.is-active { width: 20px; background: var(--accent); }
+
+@media (prefers-reduced-motion: reduce) {
+  .photo-track { scroll-behavior: auto; }
+  .photo-img, .photo-frame { transition: none; }
+  .photo-slide:hover .photo-img { transform: none; }
+}

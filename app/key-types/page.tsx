@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SITE } from '@/lib/siteData';
+import PhotoSlider from '@/components/PhotoSlider';
+import { STATIC_GALLERIES } from '@/lib/pageGallery';
 
 export const metadata: Metadata = {
   title: { absolute: 'שכפול מפתח לרכב לפי דגם - כל סוגי המפתחות' },
@@ -115,6 +117,8 @@ export default function KeyTypesPage() {
             ))}
           </div>
         </section>
+
+        <PhotoSlider gallery={STATIC_GALLERIES['key-types']} />
 
         {/* Brands grid */}
         <section>

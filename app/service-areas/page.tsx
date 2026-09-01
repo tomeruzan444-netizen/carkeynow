@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SITE } from '@/lib/siteData';
+import PhotoSlider from '@/components/PhotoSlider';
+import { STATIC_GALLERIES } from '@/lib/pageGallery';
 import { WP_PAGES } from '@/lib/wp-pages';
 
 export const metadata: Metadata = {
@@ -80,6 +82,7 @@ export default function AreasPage() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
+        <PhotoSlider gallery={STATIC_GALLERIES['service-areas']} />
         <CityGrid title="שכפול מפתח לרכב לפי עיר" items={KEY_CITIES} />
         <CityGrid title="פורץ רכבים לפי עיר" items={LOCKOUT_CITIES} />
         <CityGrid title="קודן לרכב לפי עיר" items={ALARM_CITIES} />

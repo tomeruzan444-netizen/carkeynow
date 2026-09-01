@@ -7,6 +7,8 @@ import WpContent from '@/components/WpContent';
 import FaqAccordion from '@/components/FaqAccordion';
 import Sidebar, { detectGroup } from '@/components/Sidebar';
 import BrandSlider from '@/components/BrandSlider';
+import PhotoSlider from '@/components/PhotoSlider';
+import { getGallery } from '@/lib/pageGallery';
 import { getBrandLogo } from '@/lib/brandLogos';
 import { AuthorByline, FounderCard } from '@/components/AuthorByline';
 import { AUTHOR } from '@/lib/author';
@@ -145,8 +147,23 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
   const tocItems: TocItem[] = [...contentToc, ...extraToc];
   const showToc = !isTocExcluded && tocItems.length >= 3;
 
-  // פיצול התוכן (אחרי עיבוד ה-H2) כדי לשבץ את הסליידר בעמודי ערים
-  const splitIdx = isCityCarKeyPage ? articleHtml.indexOf('</p>') : -1;
+  // גלריית תמונות רלוונטיות לעמוד. null = אין תמונות שמתאימות לנושא העמוד.
+  // תמונות שכבר מוצגות בעמוד - גם בגוף התוכן וגם כבלוק ויזואלי מסוג image -
+  // מועברות לגלריה כדי שאותה תמונה לא תופיע פעמיים באותו עמוד.
+  const inlineImgs = new Set([
+    ...[...page.content.matchAll(/<img[^>]*?src="([^"]+)"/gi)].map((m) => m[1]),
+    ...visualSections
+      .filter((s) => s.type === 'image')
+      .map((s) => (s.data as { src: string }).src),
+  ]);
+  const gallery = isContactPage ? null : getGallery(page.slug, inlineImgs);
+  // בעמודי הערים סליידר היצרניות כבר יושב מתחת לפסקת הפתיחה, ולכן
+  // גלריית התמונות יורדת לסוף גוף המאמר כדי שלא ייווצרו שני סליידרים רצופים.
+  const galleryAfterArticle = isCityCarKeyPage;
+
+  // פיצול התוכן (אחרי עיבוד ה-H2) כדי לשבץ את הסליידר מתחת לפסקת הפתיחה
+  const needsSplit = isCityCarKeyPage || (gallery !== null && !galleryAfterArticle);
+  const splitIdx = needsSplit ? articleHtml.indexOf('</p>') : -1;
   const hasSplit = splitIdx !== -1;
   const leadHtml = hasSplit ? articleHtml.slice(0, splitIdx + 4) : '';
   const restHtml = hasSplit ? articleHtml.slice(splitIdx + 4) : articleHtml;
@@ -262,14 +279,18 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
               {showToc && <TableOfContents items={tocItems} />}
               <div className="p-1 sm:card sm:p-6 md:p-8">
                 {showByline && <AuthorByline />}
-                {isCityCarKeyPage ? (
+                {hasSplit ? (
                   <>
-                    {hasSplit && <WpContent html={leadHtml} />}
-                    <BrandSlider inline />
+                    <WpContent html={leadHtml} />
+                    {isCityCarKeyPage && <BrandSlider inline />}
+                    {gallery && !galleryAfterArticle && <PhotoSlider gallery={gallery} />}
                     <WpContent html={restHtml} />
                   </>
                 ) : (
                   <WpContent html={articleHtml} />
+                )}
+                {gallery && (galleryAfterArticle || !hasSplit) && (
+                  <PhotoSlider gallery={gallery} />
                 )}
                 {isAbout && <FounderCard />}
               </div>
