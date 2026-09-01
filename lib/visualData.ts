@@ -141,6 +141,25 @@ export const switchNetanyaProcess: Step[] = [
   { title: 'קידוד ובדיקה', desc: 'מקודדים מול האימובילייזר במידת הצורך, ומנסים חמש התנעות רצופות לפני שאנחנו עוזבים.', duration: '10-15 דק׳' },
 ];
 
+// ─── KEY DUP · PARDES HANNA KARKUR (מפתח בלי קוד יצרן) ───────────────
+
+export const phNoCodeCards: FeatCard[] = [
+  { title: 'רכב מלפני אמצע שנות ה-90', desc: 'הרישום שלו מעולם לא הועבר למאגר ממוחשב, ואין קוד לשלוף.' },
+  { title: 'ייבוא אישי', desc: 'הרכב אינו מופיע במאגר של היבואן הרשמי בישראל.' },
+  { title: 'כלי חקלאי', desc: 'היצרן כלל אינו מנהל מאגר קודים לשוק הישראלי.' },
+  { title: 'צילינדר שהוחלף', desc: 'הקוד שרשום על הרכב כבר אינו מתאים למה שמותקן בו בפועל.' },
+  { title: 'פענוח', desc: 'קוראים את עומק הפינים בגליל ומחשבים מהם את קוד החיתוך. מדויק ומהיר יותר.' },
+  { title: 'אימפרשן', desc: 'בלנק חלק, לחץ מבוקר וקריאת הסימנים. איטי, ועובד כשאי אפשר לפרק את הגליל.' },
+];
+
+export const phProcess: Step[] = [
+  { title: 'בירור בטלפון', desc: 'דגם, שנה, וקודם כל האם קיים מפתח שעובד. זה מה שקובע אם מדובר בהעתקה או בייצור מהמנעול.', duration: '3 דק׳' },
+  { title: 'נקודת ציון ולא רק רחוב', desc: 'בחלקות ובמגרשים הגדולים דרך עפר נראית זהה בכל אפליקציה, ולכן אנחנו מבקשים שם משק או ציון דרך.', duration: 'מיידי' },
+  { title: 'בדיקת המנעול', desc: 'בודקים אם קיים קוד לשלוף ואם הדלת וההצתה חולקות אותו, לפני שנוגעים במכונת החיתוך.', duration: '10 דק׳' },
+  { title: 'פענוח או חיתוך', desc: 'עם קוד זו עבודת חיתוך וקידוד. בלי קוד מייצרים את המפתח מהגליל עצמו.', duration: '15-90 דק׳' },
+  { title: 'בדיקה בכל המנעולים', desc: 'בודקים דלת והצתה בנפרד, כי ברכב שהוחלף בו צילינדר הם לא תמיד מסכימים.', duration: '5 דק׳' },
+];
+
 // ─── KEY DUP · KIRYAT BIALIK (זיהוי מערכת לפני הגעה) ─────────────────
 
 export const kbIdentifyCards: FeatCard[] = [
@@ -345,6 +364,15 @@ export interface ImageData { src: string; alt: string; maxWidth?: number }
 // ─── DISPATCHER ──────────────────────────────────────────────────────
 
 export function getVisualSections(slug: string): VisualSection[] {
+  // Pardes Hanna Karkur - making a key with no factory code
+  if (slug === 'שכפול-מפתח-לרכב-בפרדס-חנה-כרכור') {
+    return [
+      { type: 'features', heading: 'מתי אין קוד יצרן, ומה עושים אז', sub: 'ארבעה מצבים ושתי שיטות עבודה', data: { cards: phNoCodeCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'איך נראית קריאה בפרדס חנה כרכור', data: phProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   // Kiryat Bialik - identify before dispatch
   if (slug === 'שכפול-מפתח-לרכב-בקריית-ביאליק') {
     return [

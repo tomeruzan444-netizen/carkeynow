@@ -1175,7 +1175,14 @@ const GENERATED_PAGES: WpPage[] = [
 }
 ];
 
-export const WP_PAGES: WpPage[] = [...GENERATED_PAGES, ...MANUAL_PAGES];
+const MANUAL_SLUGS = new Set(MANUAL_PAGES.map((p) => p.slug));
+
+// עמוד שקיים גם כאן וגם ב-manual-pages.ts מוגש מהגרסה הידנית.
+// כך עריכות מקומיות שורדות רגנרציה מוורדפרס, ועדיין ניתנות לעריכה חוזרת.
+export const WP_PAGES: WpPage[] = [
+  ...GENERATED_PAGES.filter((p) => !MANUAL_SLUGS.has(p.slug)),
+  ...MANUAL_PAGES,
+];
 
 export function getWpPageBySlug(slug: string): WpPage | undefined {
   return WP_PAGES.find((p) => p.slug === slug);
