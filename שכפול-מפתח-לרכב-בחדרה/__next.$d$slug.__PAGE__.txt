@@ -1,0 +1,389 @@
+1:"$Sreact.fragment"
+9:I[22016,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],""]
+a:I[55132,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"TableOfContents"]
+b:I[92711,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+c:I[28535,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+16:I[97367,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+17:"$Sreact.suspense"
+19:I[31179,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+1a:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"StatsBanner"]
+1b:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"ProcessSteps"]
+1c:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"ComparisonTable"]
+1d:I[46042,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+1e:I[33128,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+2:T150f,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"כמה עולה שכפול מפתח לרכב?","acceptedAnswer":{"@type":"Answer","text":"זה תלוי בסוג המפתח. מפתח מכאני פשוט עולה בין 150 ל-250 שקל. מפתח עם שבב טרנספונדר - בין 400 ל-700 שקל. מפתח חכם (Smart Key) - בין 800 ל-1,500 שקל. המחיר שאנחנו אומרים לכם בטלפון הוא המחיר הסופי, כולל הגעה, ללא הפתעות."}},{"@type":"Question","name":"כמה זמן לוקח תהליך השכפול?","acceptedAnswer":{"@type":"Answer","text":"מפתח מכאני רגיל - 10 עד 15 דקות. מפתח עם שבב - 20 עד 35 דקות. מפתח חכם - 45 דקות עד שעה. אנחנו לא מבטיחים \"5 דקות\" כדי להרשים - אנחנו מבטיחים שהמפתח ייצא עובד לגמרי ותבדקו אותו לפניי לפני שאנחנו עוזבים."}},{"@type":"Question","name":"האם אתם מגיעים אלינו או שצריך להגיע אליכם?","acceptedAnswer":{"@type":"Answer","text":"אנחנו מגיעים אליכם - לבית, לעבודה, לחניון, לצד הדרך. זה הלב של השירות שלנו. אין לנו חנות שאתם צריכים להגיע אליה. בדרך כלל מגיע תוך 20-40 דקות מרגע הפנייה."}},{"@type":"Question","name":"האם יש אחריות על המפתח החדש?","acceptedAnswer":{"@type":"Answer","text":"כן, אנחנו נותנים אחריות בכתב על כל מפתח שאנחנו עושים. אם המפתח לא עובד כמו שצריך בתוך 30 יום - אנחנו חוזרים ומתקנים בלי עלות נוספת. בשנים שאנחנו עובדים בתחום הזה, כמעט ולא היינו צריכים להשתמש בסעיף הזה, אבל הוא שם."}},{"@type":"Question","name":"מה צריך להביא כדי לשכפל מפתח לרכב?","acceptedAnswer":{"@type":"Answer","text":"צריך את המפתח המקורי (אם קיים), תעודת זהות, ורצוי גם רישיון הרכב. אנחנו מחויבים לאמת שבעל הרכב מסכים לשכפול - זה לא מכשול, זה חלק מהאחריות שלנו להגן על הלקוחות."}},{"@type":"Question","name":"האם אתם יכולים לשכפל מפתח חכם או Keyless?","acceptedAnswer":{"@type":"Answer","text":"כן, זה אחד הדברים שאנחנו מתמחים בהם. מפתחות חכמים דורשים ציוד קידוד ממוחשב מתקדם - יש לנו את הציוד הנכון לכל הדגמים הנפוצים בישראל. המחיר מתחיל ב-800 שקל ועד 1,800 שקל תלוי בדגם הרכב. הסוכנויות גובות לפעמים פי שניים ומחייבות המתנה של ימים."}},{"@type":"Question","name":"יכולים לעשות מפתח גם אם אין לי את המקורי?","acceptedAnswer":{"@type":"Answer","text":"כן, זה אפשרי - אם כי יותר מורכב ויקר יותר. בעזרת ציוד אבחון אנחנו מחלצים את קוד המפתח ישירות ממחשב הרכב. עולה בין 800 ל-1,800 שקל תלוי ברכב. צריך להוכיח בעלות על הרכב לפני שמתחילים."}},{"@type":"Question","name":"האם שכפול מפתח אצלכם זול יותר מהסוכנות?","acceptedAnswer":{"@type":"Answer","text":"ברוב המקרים - כן, ולפעמים הפרש משמעותי. הסוכנות גובה לפעמים 1,500-3,000 שקל למפתח חכם, כשאצלנו זה 800-1,800 שקל תלוי ברכב. בנוסף, בסוכנות תחכו ימים. אצלנו - נגיע אליכם היום."}},{"@type":"Question","name":"האם שכפול המפתח פוגע בהתחייבות היצרן?","acceptedAnswer":{"@type":"Answer","text":"לא. שכפול מפתח אצל מנעולן מוסמך לא פוגע בשום אחריות יצרן. זה כמו להחליף שמן אצל מוסך פרטי - לא מבטל אחריות. אם מישהו אמר לכם אחרת, זה פשוט לא נכון."}},{"@type":"Question","name":"האם אתם עובדים בשבת ובלילה?","acceptedAnswer":{"@type":"Answer","text":"כן, 24/7 כולל שבתות וחגים. יש תוספת לילה (80-120 שקל) ותוספת שבת (60-100 שקל), אבל המחיר הבסיסי נשאר זהה. אנחנו מאמינים שמצוקה לא בוחרת שעות נוחות."}},{"@type":"Question","name":"כמה מפתחות אפשר לשכפל לאותו רכב?","acceptedAnswer":{"@type":"Answer","text":"תלוי ביצרן ובמודל. ברוב הרכבים אפשר לתכנת עד 4-8 מפתחות. ביצרנים מסוימים יש הגבלות. אנחנו בודקים את המגבלה הספציפית לרכב שלכם לפני שמתחילים."}},{"@type":"Question","name":"האם כדאי לעשות מפתח כפילאה עכשיו?","acceptedAnswer":{"@type":"Answer","text":"בהחלט כן, ואנחנו ממליצים על זה לכל לקוח. שכפול כפילאה כשיש מפתח מקורי עולה 150-700 שקל תלוי בסוג. שחזור מפתח שאבד עולה 500-1,800 שקל. ההפרש ברור - עדיף לפעול מוקדם."}}]}0:{"rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://carkeynow.co.il\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"שכפול מפתח לרכב בחדרה - מחירון בפנים\",\"item\":\"https://carkeynow.co.il/שכפול-מפתח-לרכב-בחדרה/\"}]}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://carkeynow.co.il/שכפול-מפתח-לרכב-בחדרה/\",\"name\":\"שכפול מפתח לרכב בחדרה - בדיקת מחירים\",\"description\":\"חדרה היא נקודת נסיעה קלאסית בציר הזה - אנשים עוברים דרך כל יום בדרכם לתל אביב וחיפה, תיירים מגיעים לחוף בסוף שבוע ותושבים פורשים כבר שנים בשכונות החדשות...\",\"url\":\"https://carkeynow.co.il/שכפול-מפתח-לרכב-בחדרה/\",\"isPartOf\":{\"@id\":\"https://carkeynow.co.il/#website\"},\"inLanguage\":\"he\"}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4",false,"$L5","$L6"],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TFfI33juvlz9FBwsp3OJz"}
+3:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"@id\":\"https://carkeynow.co.il/#amir\",\"name\":\"דורון\",\"jobTitle\":\"מנעולן רכב מומחה\",\"image\":\"https://carkeynow.co.il/wp-images/דורון-מנעולן-רכב.webp\",\"worksFor\":{\"@id\":\"https://carkeynow.co.il/#organization\"}}"}}]
+4:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white","dir":"rtl","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6","children":[["$","nav",null,{"className":"text-xs mb-2 opacity-70 flex items-center gap-1","children":[["$","$L9",null,{"href":"/","className":"hover:opacity-100","children":"דף הבית"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"opacity-100","children":"שכפול מפתח לרכב בחדרה - מחירון בפנים"}]]}],"$undefined",["$","h1",null,{"className":"text-xl sm:text-2xl md:text-3xl font-bold leading-snug","children":"שכפול מפתח לרכב בחדרה - מחירון בפנים"}]]}]}]
+d:T47b7,
+<p> </p>
+<h2 id="sec-0">טבלת מחירים - שכפול מפתחות ושלטים לרכב</h2>
+<table>
+<thead>
+<tr>
+<th>סוג השירות</th>
+<th>מחיר</th>
+<th>זמן ביצוע</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>שכפול מפתח רגיל</td>
+<td>₪150-250</td>
+<td>20-30 דקות</td>
+</tr>
+<tr>
+<td>שכפול שלט לרכב</td>
+<td>₪400-550</td>
+<td>30-45 דקות</td>
+</tr>
+<tr>
+<td>שכפול מפתח חכם</td>
+<td>₪550-1,100</td>
+<td>45-60 דקות</td>
+</tr>
+<tr>
+<td>שחזור מפתח ללא מפתח מקורי</td>
+<td>₪600-1200</td>
+<td>60-90 דקות</td>
+</tr>
+</tbody>
+</table>
+<p>ברגע שמשווים את שתי העמודות הימניות בטבלה מתגלה קשר ישיר: מחיר שכפול מפתח עולה יחד עם זמן העבודה, מ-20-30 דקות במפתח רגיל ועד 60-90 דקות בשחזור ללא מפתח מקורי. מה שמייקר הוא לא גוף המפתח אלא הדקות שבהן המנעולן עומד ליד הרכב עם המתכנת מחובר, ולכן מפתח גיבוי שמכינים מראש עולה תמיד פחות ממפתח שמכינים על החוף אחרי שהמקורי נשבר.</p>
+<!-- Pricing Disclaimer -->
+
+<style>
+  .pd-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 16px auto 0 auto;
+    font-family: 'Heebo', 'Rubik', sans-serif;
+    direction: rtl;
+    text-align: right;
+    box-sizing: border-box;
+    line-height: normal;
+  }
+
+  .pd-container {
+    position: relative;
+    background: #1e4a72;
+    border-radius: 10px;
+    padding: 24px 28px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(23, 55, 87, 0.12);
+    box-sizing: border-box;
+    border-right: 4px solid #F5A927;
+  }
+
+  .pd-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    background: rgba(245, 169, 39, 0.12);
+    border: 1px solid rgba(245, 169, 39, 0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon-svg {
+    width: 18px;
+    height: 18px;
+    fill: #F5A927;
+  }
+
+  .pd-text-block {
+    flex: 1;
+    min-width: 180px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-main-text {
+    font-family: 'Rubik', 'Heebo', sans-serif;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-highlight {
+    color: #F5A927;
+    font-weight: 600;
+  }
+
+  .pd-sub-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.5;
+    margin: 8px 0 0 0;
+    padding: 0;
+  }
+
+  .pd-divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(245, 169, 39, 0.15);
+    margin: 14px 0 0 0;
+    padding: 0;
+    border: none;
+  }
+
+  .pd-date-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 12px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-date-icon {
+    width: 12px;
+    height: 12px;
+    fill: #F5A927;
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .pd-date-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-date-value {
+    color: rgba(245, 169, 39, 0.8);
+    font-weight: 500;
+  }
+
+  @media (max-width: 600px) {
+    .pd-container {
+      padding: 20px 20px;
+      border-radius: 8px;
+    }
+
+    .pd-content {
+      gap: 14px;
+    }
+
+    .pd-icon {
+      width: 32px;
+      height: 32px;
+    }
+
+    .pd-icon-svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .pd-main-text {
+      font-size: 13.5px;
+    }
+
+    .pd-sub-text {
+      font-size: 12px;
+    }
+
+    .pd-date-text {
+      font-size: 11px;
+    }
+  }
+</style>
+
+<!-- HTML -->
+<div class="pd-wrapper" id="pd-wrapper">
+  <div class="pd-container" id="pd-container">
+    <div class="pd-content" id="pd-content">
+      
+      <div class="pd-icon" id="pd-icon">
+        <svg class="pd-icon-svg" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+        </svg>
+      </div>
+
+      <div class="pd-text-block" id="pd-text-block">
+        <div class="pd-main-text" id="pd-main-text">
+          כל המחירים המוצגים <span class="pd-highlight">אינם כוללים מע״מ</span> (18%)
+        </div>
+
+        <div class="pd-sub-text" id="pd-sub-text">
+          המחירים המופיעים בטבלה הם משוערים ומשתנים לפי דגם הרכב, שנת הייצור וסוג המפתח
+        </div>
+
+        <div class="pd-divider" id="pd-divider"></div>
+
+        <div class="pd-date-badge" id="pd-date-badge">
+          <svg class="pd-date-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM9 10H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"></path>
+          </svg>
+          <span class="pd-date-text" id="pd-date-text">
+            מעודכן ל: <span class="pd-date-value" id="pd-date-value"></span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var hebrewMonths = [
+      'ינואר', 'פברואר', 'מרץ', 'אפריל', 'מאי', 'יוני',
+      'יולי', 'אוגוסט', 'ספטמבר', 'אוקטובר', 'נובמבר', 'דצמבר'
+    ];
+    var now = new Date();
+    var month = hebrewMonths[now.getMonth()];
+    var year = now.getFullYear();
+    var el = document.getElementById('pd-date-value');
+    if (el) {
+      el.textContent = month + ' ' + year;
+    }
+  })();
+</script>
+<h2 id="sec-1">חוויה אמיתית מהשטח בחדרה</h2>
+<p>לפני כמה חודשים קיבלנו שיחה דרמטית מלקוח בחדרה - אישה צעירה שרכבה לחוף הים עם שלושת ילדיה הקטנים. כשסיימה להוריד את הציוד מתא המטען, המפתח המקורי נשבר לה בתוך המנעול. המפתח הרזרבי שהיה לה? נשאר בבית.</p>
+<p>הגענו תוך 18 דקות לחוף הים. הילדים היו עייפים ורעבים, ומחום היום לא עזר. במקום להתחיל בשחזור מיד, הוצאנו מהרכב שלנו כמה בקבוקי מים קרים וחטיפים לילדים - זה החלק האנושי בעבודה שלנו.</p>
+<p>התחלנו בתהליך שחזור המפתח. המקרה היה מורכב כי היה צריך גם לחלץ את שבר המפתח מהמנעול וגם ליצור מפתח חדש ללא מפתח מקורי. השתמשנו בציוד המתקדם שלנו לקריאת קוד המנעול ישירות מהמערכת. תוך 55 דקות הלקוחה החזיקה בידה מפתח חדש, פונקציונלי לחלוטין.</p>
+<p>מה שהפתיע אותנו זה שבסוף העבודה היא סיפרה שזה היה יום ההולדת של הבן הבכור שלה, והם תכננו את כל היום בחוף. במקום שהיום יהרס, הספיקו עוד כמה שעות טובות לפני השקיעה. זה המון שבילנו בזיכרון.</p>
+<p> </p>
+<div><strong>חשוב לדעת:</strong> שכפול מפתחות לרכב בחדרה דורש ציוד מתקדם ומחשוב מקצועי. לא כל מנעולן יכול לספק שירות איכותי למפתחות מודרניים עם שבב אלקטרוני. אנחנו במפתח עכשיו משקיעים בציוד החדיש ביותר כדי להבטיח שכל סוג רכב ייפתר במקום.</div>
+<p><img decoding="async" class="alignnone" src="/wp-images/שכפול-מפתח-רנו-מפתח-עכשיו.webp" lt="שכפול מפתח לרנו - מפתח עכשיו" width="338" height="388"></p>
+<h2 id="sec-2">סוגי מפתחות שאנחנו משכפלים</h2>
+<p>אנחנו מטפלים בכל סוגי המפתחות והשלטים לרכב:</p>
+<p><strong>מפתחות מכאניים רגילים</strong> - המפתח הקלאסי ללא אלקטרוניקה. התהליך פשוט יחסית וכולל חיתוך המפתח לפי הקוד או לפי מפתח מקורי.</p>
+<p><strong>מפתחות עם שבב אימוביליזר</strong> - רוב הרכבים החל משנות ה-2000 מגיעים עם שבב אבטחה פנימי. אנחנו מבצעים <a href="/%d7%a9%d7%9b%d7%a4%d7%95%d7%9c-%d7%9e%d7%a4%d7%aa%d7%97-%d7%9c%d7%a8%d7%9b%d7%91/">שכפול מפתחות לרכב</a> כולל קידוד השבב למערכת הרכב.</p>
+<p><strong>שלטים לפתיחה מרחוק</strong> - שכפול שלט דורש לא רק את היצור הפיזי אלא גם קידוד לתדר המדויק של הרכב ותיאום עם מחשב הרכב.</p>
+<p><strong>מפתחות חכמים (Smart Key)</strong> - המפתחות המתקדמים ביותר עם טכנולוגיית Keyless Entry. דורשים ציוד מיוחד וקידוד מורכב למערכת הרכב.</p>
+<p>כשמפתח חכם מפסיק להגיב, זה לא תמיד אומר שהוא מת. כמעט בכל דגם מוסתר בתוך היחידה להב חירום קטן לפתיחת הדלת, ויש בתא הנוסעים מקום מוגדר שממנו הרכב מזהה מפתח גם כשהסוללה שלו ריקה. לכן לפני שמזמינים שכפול מפתח חכם לרכב אנחנו מבקשים לנסות סוללה חדשה, וגם כשמתברר שצריך יחידה חדשה העבודה כוללת רישום שלה במחשב הרכב, ומכאן ההפרש בטבלה: 45-60 דקות ולא 20-30.</p>
+<p> </p>
+<h2 id="sec-3">מחירים לפי יצרני רכב פופולריים</h2>
+<table>
+<thead>
+<tr>
+<th>יצרן</th>
+<th>מפתח רגיל</th>
+<th>שלט</th>
+<th>מפתח חכם</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>טויוטה</td>
+<td>₪150-250</td>
+<td>₪400-550</td>
+<td>₪550-1,100</td>
+</tr>
+<tr>
+<td>יונדאי</td>
+<td>₪150-250</td>
+<td>₪400-550</td>
+<td>₪550-1,100</td>
+</tr>
+<tr>
+<td>מאזדה</td>
+<td>₪150-250</td>
+<td>₪400-550</td>
+<td>₪550-1,100</td>
+</tr>
+<tr>
+<td>סקודה</td>
+<td>₪150-250</td>
+<td>₪400-550</td>
+<td>₪550-1,100</td>
+</tr>
+<tr>
+<td>פולקסווגן</td>
+<td>₪150-250</td>
+<td>₪400-550</td>
+<td>₪550-1,100</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<div><strong>טיפ חשוב:</strong> כדאי לשכפל מפתח רזרבי עוד לפני שיש בעיה. זה חוסך זמן, כסף ומתח. שכפול מפתח כשיש לכם את המפתח המקורי זול ומהיר בהרבה מאשר <a href="/%d7%a9%d7%97%d7%96%d7%95%d7%a8-%d7%9e%d7%a4%d7%aa%d7%97-%d7%9c%d7%a8%d7%9b%d7%91/">שחזור מפתח לרכב</a> כשאין לכם אף מפתח.</div>
+<p> </p>
+<h2 id="sec-4">תהליך העבודה שלנו</h2>
+<p>כשאתם יוצרים איתנו קשר לשכפול מפתח לרכב בחדרה, התהליך מתחיל בשיחה טלפונית קצרה. אנחנו שואלים על דגם הרכב, שנת הייצור וסוג המפתח הקיים. זה עוזר לנו להגיע מוכנים עם הציוד והחלקים הנכונים.</p>
+<p>אנחנו מגיעים אליכם - לבית, למקום העבודה, לחניון או לכל מקום אחר בחדרה. המנעולן שלנו מגיע עם מעבדה ניידת מלאה שכוללת מכונות חיתוך, מחשבים לקידוד ומלאי חלקים.</p>
+<p>אם הרכב חונה ליד הבית ואתם מעדיפים לא להזיז אותו בכלל, שכפול מפתח לרכב עד הבית הוא בדיוק מה שהמעבדה הניידת נועדה לו. כל מה שאנחנו מבקשים הוא מקום לעצור בסמוך לרכב, גישה לדלת הנהג ומסמך שמראה בעלות. החיתוך והקידוד קורים שם, בלי שהרכב עולה על גרר ובלי שהוא נכנס למוסך ליום עבודה.</p>
+<p>בודקים את המפתח המקורי ואת מערכת הרכב, מכינים את המפתח החדש, מבצעים את החיתוך בדיוק מושלם, ומתכנתים את השבב והשלט למערכת הרכב. בסוף אנחנו בודקים שהכל עובד - פתיחת דלתות, הנעת המנוע, ותפקוד כל הכפתורים.</p>
+<p> </p>
+<h2 id="sec-5">למה לבחור במפתח עכשיו?</h2>
+<p>אנחנו לא סתם מנעולנים שלמדו את המקצוע לפני 20 שנה ונשארו שם. אנחנו משקיעים כל הזמן בציוד חדש, בהכשרות ובעדכון לטכנולוגיות החדישות. כל מנעולן בצוות עובר הכשרה מתמשכת על מערכות חדשות.</p>
+<p>הציוד שלנו כולל מכונות חיתוך ממוחשבות, מתכנתים מקוריים לכל היצרנים, וכלים מיוחדים לכל סוג רכב. אנחנו יכולים לטפל במקום ברוב המקרים, בלי צורך לגרור את הרכב למוסך או לחכות ימים לחלקים.</p>
+<p>השירות שלנו זמין 24 שעות ביממה, 7 ימים בשבוע. גם בשבת, גם בחגים, גם באמצע הלילה. כי אנחנו יודעים שבעיות עם מפתחות לא קורות רק בשעות נוחות.</p>
+<p> </p>
+<h2 id="sec-6">שירותים נוספים שאנחנו מציעים</h2>
+<p>מעבר לשכפול מפתחות, אנחנו מטפלים גם במגוון בעיות נוספות:</p>
+<ul>
+<li><a href="/%d7%aa%d7%99%d7%a7%d7%95%d7%9f-%d7%a9%d7%9c%d7%98-%d7%9c%d7%a8%d7%9b%d7%91/">תיקון שלט לרכב</a> - כשהשלט מפסיק לעבוד בגלל בעיית סוללה, כפתורים שבורים או בעיה אלקטרונית</li>
+<li>קידוד מפתחות נוספים למערכת - אפשר לתכנת עד 8 מפתחות לרוב הרכבים</li>
+<li>החלפת סוללות בשלטים ובמפתחות חכמים</li>
+<li>תיקון מפתחות שבורים - הלחמה של חלקים פנימיים או החלפת מעטפת</li>
+<li>מחיקת מפתחות אבודים מהמערכת - חשוב לאבטחה</li>
+</ul>
+<p> </p>
+<h2 id="sec-7">איזורי שירות בחדרה</h2>
+<p>אנחנו מספקים שירות בכל רחבי חדרה והסביבה, כולל שכונות מזרח, מערב, צפון ודרום העיר. גם באזורים התעשייתיים וגם בשכונות המגורים. זמן ההגעה הממוצע שלנו בתוך חדרה הוא 15-25 דקות, תלוי במיקום המדויק ובשעה.</p>
+<p>המחירים שלנו שקופים ונקבעים מראש. אין הפתעות, אין תוספות מחיר ברגע האחרון. מה שמצוטט בטלפון זה מה שתשלמו בסוף העבודה. אנחנו גם מקבלים את כל אמצעי התשלום - מזומן, כרטיסי אשראי, העברה בנקאית ואפליקציות תשלום.</p>
+<p> </p>
+<h2 id="sec-8">שכונות חדרה שאנחנו מגיעים אליהן</h2>
+<p>אנחנו מגיעים לכל שכונות חדרה - עיר ים ותיקה עם קהילות מבוססות וצמיחה מתמדת. בין אם אתם בגבעת אולגה הוותיקה ליד החוף, בכרמי גת, בעין חיה, בגבעת הזיתים או בנווה חיים, אנחנו מגיעים אליכם מהר. למרכז חדרה ולשכונת המגדלים אנחנו מגיעים בדקות ספורות, גם בשעות עומס על כביש 2. שכפול מפתח לרכב בחדרה אנחנו מבצעים ישירות במקומכם, בלי שתצטרכו לגרור את הרכב.</p>
+<h2 id="sec-9">שאלות נפוצות</h2>
+<p><strong>כמה זמן לוקח לשכפל מפתח?</strong><br>
+תלוי בסוג המפתח. מפתח רגיל - 20-30 דקות. שלט - 30-45 דקות. מפתח חכם - 45-60 דקות. שחזור ללא מפתח מקורי יכול לקחת עד 90 דקות.</p>
+<p><strong>אפשר לשכפל מפתח בלי המפתח המקורי?</strong><br>
+כן, זה נקרא שחזור מפתח. אנחנו קוראים את הקוד ישירות מהמנעול או ממחשב הרכב ויוצרים מפתח חדש. התהליך מורכב יותר ולוקח יותר זמן.</p>
+<p><strong>מה קורה אם המפתח נשבר בתוך המנעול?</strong><br>
+אנחנו מחלצים את השבר בזהירות בלי לפגוע במנעול, ואז יוצרים מפתח חדש. במקרים מסוימים אפשר לתקן את המפתח השבור.</p>
+<p><strong>כמה מפתחות אפשר לתכנת לרכב?</strong><br>
+זה תלוי ביצרן ובדגם, אבל רוב הרכבים מאפשרים בין 4 ל-8 מפתחות. יש יצרנים שמגבילים ל-2-3 מפתחות בלבד.</p>
+<p><strong>שכפול, שחזור או קידוד - איך יודעים מה מהם צריך?</strong><br>
+מכיוון שהמונח שכפול מפתח רכב משמש בשלוש משמעויות שונות, קל להתבלבל בין השירותים. שכפול הוא הכנת עותק כשיש ביד מפתח שעובד, שחזור הוא יצירת מפתח כשאין אף אחד, וקידוד הוא רישום של מפתח קיים למחשב הרכב אחרי החלפת רכיב. בטלפון אנחנו מבררים מה מהשלושה נדרש עוד לפני שאנחנו נוקבים במחיר.</p>
+<p> </p>
+<p>צרו קשר עם מפתח עכשיו לשירות שכפול מפתחות מקצועי בחדרה. אנחנו זמינים עכשיו לשיחה ויכולים להגיע אליכם תוך דקות.</p>
+5:["$","div",null,{"className":"max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8","dir":"rtl","children":["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 items-start","children":[["$","div",null,{"id":"page-article","className":"min-w-0","children":[["$","$La",null,{"items":[{"id":"sec-0","text":"טבלת מחירים - שכפול מפתחות ושלטים לרכב"},{"id":"sec-1","text":"חוויה אמיתית מהשטח בחדרה"},{"id":"sec-2","text":"סוגי מפתחות שאנחנו משכפלים"},{"id":"sec-3","text":"מחירים לפי יצרני רכב פופולריים"},{"id":"sec-4","text":"תהליך העבודה שלנו"},{"id":"sec-5","text":"למה לבחור במפתח עכשיו?"},{"id":"sec-6","text":"שירותים נוספים שאנחנו מציעים"},{"id":"sec-7","text":"איזורי שירות בחדרה"},{"id":"sec-8","text":"שכונות חדרה שאנחנו מגיעים אליהן"},{"id":"sec-9","text":"שאלות נפוצות"},{"id":"sec-10","text":"התהליך שלנו - מרגע הפנייה ועד מפתח בידיים"},{"id":"sec-11","text":"אנחנו מול הסוכנות הרשמית"},{"id":"sec-12","text":"שאלות נפוצות"}]}],["$","div",null,{"className":"p-1 sm:card sm:p-6 md:p-8","children":[["$","div",null,{"dir":"rtl","className":"flex items-center gap-3 mb-5 pb-4 border-b border-gray-100","children":[["$","img",null,{"src":"/wp-images/דורון-מנעולן-רכב.webp","alt":"דורון - מנעולן רכב מומחה","width":40,"height":40,"loading":"lazy","className":"w-10 h-10 rounded-full object-cover shrink-0 ring-1 ring-black/5"}],["$","div",null,{"className":"text-sm leading-tight","children":[["$","span",null,{"className":"block text-gray-500","children":"נכתב ונבדק על ידי"}],["$","span",null,{"className":"block font-bold","style":{"color":"var(--primary)"},"children":["דורון"," · ","מנעולן רכב מומחה"]}]]}]]}],[["$","$Lb",null,{"html":"<p>חדרה היא נקודת נסיעה קלאסית בציר הזה - אנשים עוברים דרך כל יום בדרכם לתל אביב וחיפה, תיירים מגיעים לחוף בסוף שבוע ותושבים פורשים כבר שנים בשכונות החדשות המתפתחות. הדבר המשותף לכולם: הרכב נשאר בחוץ והמפתח לא מצליח לעבוד. אנחנו במפתח עכשיו מכירים את התרחיש הזה ומגיעים לכל נקודה בעיר תוך זמן קצר.</p>"}],["$","$Lc",null,{"inline":true}],false,["$","$Lb",null,{"html":"$d"}]],"$Le",false]}],"$Lf","$L10",["$L11","$L12","$L13"],"$L14"]}],"$L15"]}]}]
+6:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white py-8 text-center","dir":"rtl","children":["$","div",null,{"className":"max-w-xl mx-auto px-4","children":[["$","p",null,{"className":"font-bold text-lg mb-4","children":"צריכים עזרה? אנחנו כאן 24/7"}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-3 justify-center","children":["$","a",null,{"href":"tel:033822752","className":"btn-primary text-base px-8","children":"03-382-2752"}]}]]}]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/1leulq3_ixpp7.js","async":true}]
+8:["$","$L16",null,{"children":["$","$17",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]
+e:["$","$L19",null,{"gallery":{"heading":"שכפול מפתח לרכב בחדרה - תמונות מהשטח","sub":"מפתחות קפיץ, שלטים חכמים וקידוד שמתבצע בעמדה ניידת ליד הרכב","images":[{"src":"/wp-images/שכפול-מפתח-לרכב-חדש.webp","w":600,"h":1067,"caption":"מפתח קפיץ חדש, מיד אחרי חיתוך וקידוד בעמדה הניידת","alt":"מפתח קפיץ חדש לרכב מוחזק ביד מול ארגז גלמי המפתחות בעמדה הניידת - שכפול מפתח לרכב בחדרה"},{"src":"/wp-images/שכפול-מפתח-קפיץ.webp","w":600,"h":800,"caption":"מפתח קפיץ פתוח - בודקים התנעה בפועל לפני שעוזבים את הלקוח","alt":"מפתח קפיץ פתוח עם הלהב החוצה מוחזק בתוך הרכב אחרי בדיקת התנעה - שכפול מפתח לרכב בחדרה"},{"src":"/wp-images/שכפול-מפתח-קפיץ-לרכב.webp","w":600,"h":800,"caption":"תקריב מפתח קפיץ - שבב האימובילייזר יושב בתוך הידית","alt":"תקריב של מפתח קפיץ לרכב עם שלושה כפתורים ושבב אימובילייזר בידית - שכפול מפתח לרכב בחדרה"},{"src":"/wp-images/שכפול-שלט-חכם-לרכב.webp","w":250,"h":271,"caption":"שלט חכם אחרי קידוד - נעילה, שחרור ופתיחת תא מטען","alt":"שלט חכם לרכב עם שלושה כפתורים מוחזק ביד אחרי קידוד - שכפול מפתח לרכב בחדרה"},{"src":"/wp-images/שכפול-שלטים-לרכב-מפתח-עכשיו-1.webp","w":252,"h":282,"caption":"בדיקת שלט חכם בתוך הרכב מיד בתום הקידוד","alt":"שלט חכם לרכב נבדק ביד בתוך הרכב מול לוח המחוונים - שכפול מפתח לרכב בחדרה"},{"src":"/wp-images/קידוד-שלט-לרכב-מפתח-עכשיו.webp","w":250,"h":255,"caption":"שלט קפיץ שקודד למחשב הרכב במקום, בלי גרירה","alt":"שלט קפיץ לרכב מוחזק ביד אחרי קידוד למחשב הרכב - שכפול מפתח לרכב בחדרה"}]}}]
+f:null
+10:null
+11:["$","div","0",{"children":["$","$L1a",null,{"stats":[{"value":"10+","label":"שנות ניסיון","sub":"מאות לקוחות מרוצים"},{"value":"24/7","label":"זמינות","sub":"כולל שבתות וחגים"},{"value":"20 דק׳","label":"הגעה ממוצעת","sub":"בערים הגדולות"},{"value":"100%","label":"אחריות","sub":"בכתב על כל עבודה"}]}]}]
+12:["$","div","1",{"id":"sec-10","children":["$","$L1b",null,{"heading":"התהליך שלנו - מרגע הפנייה ועד מפתח בידיים","steps":[{"title":"פנייה ותיאור המקרה","desc":"מספרים לנו טלפונית מה הרכב, איפה נמצאים ומה הבעיה. שולחים מנעולן בהתאם.","duration":"2 דק׳"},{"title":"הגעה עם ציוד מלא","desc":"המנעולן מגיע לנקודת המיקום שלכם - בית, עבודה, חניון, דרך - עם כל הציוד.","duration":"20-40 דק׳"},{"title":"אבחון והכנה","desc":"מזהים את סוג המפתח, מכינים את הלהב וציוד הקידוד המתאים לדגם הספציפי.","duration":"5 דק׳"},{"title":"עבודה בשטח","desc":"חיתוך וקידוד המפתח ישירות ליד הרכב שלכם, ללא צורך בגרירה לשום מקום.","duration":"15-50 דק׳"},{"title":"בדיקה ומסירה","desc":"הלקוח בודק את המפתח לפני שהמנעולן עוזב. חשבונית ניתנת מיד.","duration":"5 דק׳"}]}]}]
+13:["$","div","2",{"id":"sec-11","children":["$","$L1c",null,{"heading":"אנחנו מול הסוכנות הרשמית","colUs":"מפתח עכשיו","colAlt":"סוכנות רשמית","rows":[{"criterion":"זמן המתנה","us":"20-60 דקות","usColor":"green","alt":"3-7 ימים","altColor":"red"},{"criterion":"הגעה לבית/עבודה","us":"כן, תמיד","usColor":"green","alt":"לא","altColor":"red"},{"criterion":"עלות מפתח שבב","us":"₪400-₪700","usColor":"green","alt":"₪800-₪2,000","altColor":"red"},{"criterion":"עלות Smart Key","us":"₪800-₪1,500","usColor":"green","alt":"₪1,500-₪3,000","altColor":"red"},{"criterion":"אחריות","us":"בכתב 30 יום","usColor":"green","alt":"אחריות יצרן","altColor":"blue"},{"criterion":"זמינות","us":"24/7","usColor":"green","alt":"שעות סוכנות","altColor":"orange"}]}]}]
+14:["$","div",null,{"id":"sec-12","className":"mt-6","children":["$","$L1d",null,{"items":[{"q":"כמה עולה שכפול מפתח לרכב?","a":"זה תלוי בסוג המפתח. מפתח מכאני פשוט עולה בין 150 ל-250 שקל. מפתח עם שבב טרנספונדר - בין 400 ל-700 שקל. מפתח חכם (Smart Key) - בין 800 ל-1,500 שקל. המחיר שאנחנו אומרים לכם בטלפון הוא המחיר הסופי, כולל הגעה, ללא הפתעות."},{"q":"כמה זמן לוקח תהליך השכפול?","a":"מפתח מכאני רגיל - 10 עד 15 דקות. מפתח עם שבב - 20 עד 35 דקות. מפתח חכם - 45 דקות עד שעה. אנחנו לא מבטיחים \"5 דקות\" כדי להרשים - אנחנו מבטיחים שהמפתח ייצא עובד לגמרי ותבדקו אותו לפניי לפני שאנחנו עוזבים."},{"q":"האם אתם מגיעים אלינו או שצריך להגיע אליכם?","a":"אנחנו מגיעים אליכם - לבית, לעבודה, לחניון, לצד הדרך. זה הלב של השירות שלנו. אין לנו חנות שאתם צריכים להגיע אליה. בדרך כלל מגיע תוך 20-40 דקות מרגע הפנייה."},{"q":"האם יש אחריות על המפתח החדש?","a":"כן, אנחנו נותנים אחריות בכתב על כל מפתח שאנחנו עושים. אם המפתח לא עובד כמו שצריך בתוך 30 יום - אנחנו חוזרים ומתקנים בלי עלות נוספת. בשנים שאנחנו עובדים בתחום הזה, כמעט ולא היינו צריכים להשתמש בסעיף הזה, אבל הוא שם."},{"q":"מה צריך להביא כדי לשכפל מפתח לרכב?","a":"צריך את המפתח המקורי (אם קיים), תעודת זהות, ורצוי גם רישיון הרכב. אנחנו מחויבים לאמת שבעל הרכב מסכים לשכפול - זה לא מכשול, זה חלק מהאחריות שלנו להגן על הלקוחות."},{"q":"האם אתם יכולים לשכפל מפתח חכם או Keyless?","a":"כן, זה אחד הדברים שאנחנו מתמחים בהם. מפתחות חכמים דורשים ציוד קידוד ממוחשב מתקדם - יש לנו את הציוד הנכון לכל הדגמים הנפוצים בישראל. המחיר מתחיל ב-800 שקל ועד 1,800 שקל תלוי בדגם הרכב. הסוכנויות גובות לפעמים פי שניים ומחייבות המתנה של ימים."},{"q":"יכולים לעשות מפתח גם אם אין לי את המקורי?","a":"כן, זה אפשרי - אם כי יותר מורכב ויקר יותר. בעזרת ציוד אבחון אנחנו מחלצים את קוד המפתח ישירות ממחשב הרכב. עולה בין 800 ל-1,800 שקל תלוי ברכב. צריך להוכיח בעלות על הרכב לפני שמתחילים."},{"q":"האם שכפול מפתח אצלכם זול יותר מהסוכנות?","a":"ברוב המקרים - כן, ולפעמים הפרש משמעותי. הסוכנות גובה לפעמים 1,500-3,000 שקל למפתח חכם, כשאצלנו זה 800-1,800 שקל תלוי ברכב. בנוסף, בסוכנות תחכו ימים. אצלנו - נגיע אליכם היום."},{"q":"האם שכפול המפתח פוגע בהתחייבות היצרן?","a":"לא. שכפול מפתח אצל מנעולן מוסמך לא פוגע בשום אחריות יצרן. זה כמו להחליף שמן אצל מוסך פרטי - לא מבטל אחריות. אם מישהו אמר לכם אחרת, זה פשוט לא נכון."},{"q":"האם אתם עובדים בשבת ובלילה?","a":"כן, 24/7 כולל שבתות וחגים. יש תוספת לילה (80-120 שקל) ותוספת שבת (60-100 שקל), אבל המחיר הבסיסי נשאר זהה. אנחנו מאמינים שמצוקה לא בוחרת שעות נוחות."},{"q":"כמה מפתחות אפשר לשכפל לאותו רכב?","a":"תלוי ביצרן ובמודל. ברוב הרכבים אפשר לתכנת עד 4-8 מפתחות. ביצרנים מסוימים יש הגבלות. אנחנו בודקים את המגבלה הספציפית לרכב שלכם לפני שמתחילים."},{"q":"האם כדאי לעשות מפתח כפילאה עכשיו?","a":"בהחלט כן, ואנחנו ממליצים על זה לכל לקוח. שכפול כפילאה כשיש מפתח מקורי עולה 150-700 שקל תלוי בסוג. שחזור מפתח שאבד עולה 500-1,800 שקל. ההפרש ברור - עדיף לפעול מוקדם."}]}]}]
+15:["$","div",null,{"children":["$","aside",null,{"className":"space-y-4","dir":"rtl","children":[["$","$L1e",null,{"compact":true}],["$","div",null,{"className":"card p-4 text-sm text-center","dir":"rtl","children":[["$","p",null,{"className":"font-bold mb-1","style":{"color":"var(--primary)"},"children":"מנעולן רכב 24/7"}],["$","p",null,{"className":"text-gray-400 text-xs mb-3","children":"הגעה תוך 20 דקות בממוצע"}],["$","a",null,{"href":"tel:033822752","className":"block w-full py-2 rounded font-bold text-white text-sm","style":{"background":"var(--accent)"},"children":"03-382-2752"}]]}],[["$","div","שכפול מפתח לפי עיר",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שכפול מפתח לפי עיר"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לרכב-בגני-תקווה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בגני-תקווה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בגני תקווה"]}]}],["$","li","/שכפול-מפתח-לרכב-בתל-אביב",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בתל-אביב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בתל אביב"]}]}],["$","li","/שכפול-מפתח-לרכב-בחיפה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בחיפה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בחיפה"]}]}],["$","li","/שכפול-מפתח-לרכב-בירושלים",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בירושלים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בירושלים"]}]}],["$","li","/שכפול-מפתח-לרכב-בבאר-שבע",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בבאר-שבע","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בבאר שבע"]}]}],["$","li","/שכפול-מפתח-לרכב-ברחובות",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-ברחובות","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ברחובות"]}]}],["$","li","/שכפול-מפתח-לרכב-בנתניה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בנתניה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בנתניה"]}]}],["$","li","/שכפול-מפתח-לרכב-ברמת-גן",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-ברמת-גן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ברמת גן"]}]}],["$","li","/שכפול-מפתח-לרכב-בהרצליה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בהרצליה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בהרצליה"]}]}],["$","li","/שכפול-מפתח-לרכב-בהוד-השרון",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בהוד-השרון","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בהוד השרון"]}]}],["$","li","/שכפול-מפתח-לרכב-במודיעין",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-במודיעין","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח במודיעין"]}]}],["$","li","/שכפול-מפתח-לרכב-בראשון-לציון",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בראשון-לציון","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בראשון לציון"]}]}],["$","li","/שכפול-מפתח-לרכב-בנס-ציונה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בנס-ציונה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בנס ציונה"]}]}],["$","li","/שכפול-מפתח-לרכב-בגבעתיים",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בגבעתיים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בגבעתיים"]}]}],["$","li","/שכפול-מפתח-לרכב-בבת-ים",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בבת-ים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בבת ים"]}]}],["$","li","/שכפול-מפתח-לרכב-באשקלון",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-באשקלון","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח באשקלון"]}]}],["$","li","/שכפול-מפתח-לרכב-באבן-יהודה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-באבן-יהודה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח באבן יהודה"]}]}],"$L1f","$L20","$L21","$L22"]}]]}],"$L23","$L24"]]}]}]
+18:null
+1f:["$","li","/שכפול-מפתח-לרכב-באור-יהודה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-באור-יהודה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח באור יהודה"]}]}]
+20:["$","li","/שכפול-מפתח-לרכב-בקריית-אתא",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בקריית-אתא","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בקריית אתא"]}]}]
+21:["$","li","/שכפול-מפתח-לרכב-בקריית-ביאליק",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בקריית-ביאליק","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בקריית ביאליק"]}]}]
+22:["$","li","/שכפול-מפתח-לרכב-בפרדס-חנה-כרכור",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בפרדס-חנה-כרכור","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בפרדס חנה כרכור"]}]}]
+23:["$","div","שכפול מפתח לפי דגם רכב",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שכפול מפתח לפי דגם רכב"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לטויוטה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לטויוטה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לטויוטה"]}]}],["$","li","/שכפול-מפתח-ליונדאי",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-ליונדאי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ליונדאי"]}]}],["$","li","/שכפול-מפתח-למאזדה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-למאזדה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח למאזדה"]}]}],["$","li","/שכפול-מפתח-לניסאן",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לניסאן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לניסאן"]}]}],["$","li","/שכפול-מפתח-לרנו",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרנו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרנו"]}]}],["$","li","/שכפול-מפתח-לשברולט",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לשברולט","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לשברולט"]}]}],["$","li","/שכפול-מפתח-לפורד",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לפורד","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לפורד"]}]}],["$","li","/שכפול-מפתח-לפיגו",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לפיגו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לפיגו"]}]}],["$","li","/שכפול-מפתח-לקיה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לקיה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לקיה"]}]}],["$","li","/שכפול-מפתח-לסוזוקי",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לסוזוקי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לסוזוקי"]}]}],["$","li","/שכפול-מפתח-למיצובישי",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-למיצובישי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח למיצובישי"]}]}],["$","li","/שכפול-מפתח-לסיטרואן",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לסיטרואן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לסיטרואן"]}]}]]}]]}]
+24:["$","div","שירותים נוספים",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שירותים נוספים"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לרכב",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרכב"]}]}],["$","li","/שחזור-מפתח-לרכב",{"children":["$","$L9",null,{"href":"/שחזור-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שחזור מפתח לרכב"]}]}],["$","li","/אבד-מפתח-לרכב",{"children":["$","$L9",null,{"href":"/אבד-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"אבד מפתח לרכב"]}]}],["$","li","/שכפול-שלט-לרכב",{"children":["$","$L9",null,{"href":"/שכפול-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול שלט לרכב"]}]}],["$","li","/תיקון-שלט-לרכב",{"children":["$","$L9",null,{"href":"/תיקון-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"תיקון שלט לרכב"]}]}],["$","li","/פורץ-רכבים",{"children":["$","$L9",null,{"href":"/פורץ-רכבים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"פורץ רכבים"]}]}]]}]]}]

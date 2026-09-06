@@ -1,0 +1,391 @@
+1:"$Sreact.fragment"
+3:I[70119,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+4:I[39756,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+5:I[37457,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+6:I[22016,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],""]
+7:I[18794,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+12:I[68027,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
+:HL["/_next/static/chunks/0mm5ldk5w9ygh.css","style"]
+:HL["/_next/static/media/87c7f5b5afcd23bd-s.p.0kf5m0zv7sxld.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/c9f6ebf08ddd616b-s.p.0sv86lbjkn8rn.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:T4c6,{"@context":"https://schema.org","@type":"LocalBusiness","@id":"https://carkeynow.co.il/#organization","name":"מפתח עכשיו","url":"https://carkeynow.co.il","logo":"https://carkeynow.co.il/wp-images/מפתח-עכשיו-לוגו.webp","image":"https://carkeynow.co.il/wp-images/שכפול-מפתחות-לרכב-מפתח-עכשיו.webp","telephone":"033822752","email":"carkeynow@gmail.com","founder":[{"@type":"Person","@id":"https://carkeynow.co.il/#amir","name":"דורון","jobTitle":"מנעולן רכב מומחה"},{"@type":"Person","@id":"https://carkeynow.co.il/#ronen","name":"רונן","jobTitle":"מייסד שותף"}],"sameAs":["https://www.facebook.com/carkeynow/"],"address":{"@type":"PostalAddress","addressCountry":"IL"},"areaServed":{"@type":"Country","name":"Israel"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},"priceRange":"₪₪","description":"מנעולן רכב מקצועי בפריסה ארצית. שכפול מפתחות, שחזור מפתח לרכב, תיקון סוויץ, פורץ רכבים ועוד. זמינות 24/7 כולל שבתות."}0:{"P":null,"c":["","%D7%A7%D7%95%D7%93%D7%9F-%D7%9C%D7%A8%D7%9B%D7%91-%D7%9E%D7%A6%D7%A4%D7%A6%D7%A3-2",""],"q":"","i":false,"f":[[["",{"children":[["slug","%D7%A7%D7%95%D7%93%D7%9F-%D7%9C%D7%A8%D7%9B%D7%91-%D7%9E%D7%A6%D7%A4%D7%A6%D7%A3-2","d",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0mm5ldk5w9ygh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3m_tmw4-ippmj.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"he","dir":"rtl","className":"rubik_22d5fcb7-module__WPi2ta__variable","children":[["$","head",null,{"children":["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}]}],["$","body",null,{"className":"font-sans antialiased bg-white text-gray-900 min-h-screen flex flex-col","children":[["$","$L3",null,{}],["$","main",null,{"className":"flex-1 pb-6","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"min-h-[60vh] flex flex-col items-center justify-center text-center px-4","dir":"rtl","children":[["$","h1",null,{"className":"text-5xl font-bold text-blue-700 mb-4","children":"404"}],["$","h2",null,{"className":"text-2xl font-semibold text-gray-800 mb-2","children":"הדף לא נמצא"}],["$","p",null,{"className":"text-gray-500 mb-8","children":"הדף שחיפשתם אינו קיים. נסו לחזור לדף הבית."}],["$","div",null,{"className":"flex gap-4","children":[["$","$L6",null,{"href":"/","className":"bg-blue-700 text-white px-6 py-3 rounded-xl font-bold hover:bg-blue-800 transition","children":"דף הבית"}],["$","a",null,{"href":"tel:033822752","className":"bg-gray-100 text-gray-800 px-6 py-3 rounded-xl font-bold hover:bg-gray-200 transition","children":"03-382-2752"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"dir":"rtl","style":{"background":"#111827"},"className":"text-gray-400 text-sm","children":[["$","$L7",null,{}],["$","div",null,{"style":{"background":"#0d1320","borderBottom":"1px solid #1f2937"},"children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6","children":["$","div",null,{"className":"grid grid-cols-1 sm:grid-cols-2 gap-5","children":[["$","div",null,{"className":"flex items-start gap-3","children":[["$","svg",null,{"className":"w-7 h-7 shrink-0","viewBox":"0 0 24 24","fill":"none","stroke":"#e8751a","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":[["$","circle",null,{"cx":"12","cy":"12","r":"9"}],["$","path",null,{"d":"M12 7v5l3 2"}]]}],["$","div",null,{"children":[["$","div",null,{"className":"text-white font-bold","children":"שירות חירום 24/7 - כולל לילות ושבתות"}],["$","div",null,{"className":"mt-0.5","children":"אנחנו זמינים מסביב לשעון, גם בלילה, בשבתות ובחגים - מתי שאתם נתקעים, אנחנו יוצאים אליכם."}]]}]]}],"$L8"]}]}]}],"$L9","$La","$Lb"]}],"$Lc","$Ld"]}]]}]]}],{"children":["$Le",{"children":["$Lf",{},null,false,null]},null,false,"$@10"]},null,false,null],"$L11",false]],"m":"$undefined","G":["$12",["$L13"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TFfI33juvlz9FBwsp3OJz"}
+1b:I[95848,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+1c:I[79520,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],""]
+1e:I[97367,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+22:I[97367,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+24:I[97367,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+8:["$","div",null,{"className":"flex items-start gap-3","children":[["$","svg",null,{"className":"w-7 h-7 shrink-0","viewBox":"0 0 24 24","fill":"none","stroke":"#e8751a","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":[["$","path",null,{"d":"M1 3h15v13H1z"}],["$","path",null,{"d":"M16 8h4l3 3v5h-7V8z"}],["$","circle",null,{"cx":"5.5","cy":"18.5","r":"2.5"}],["$","circle",null,{"cx":"18.5","cy":"18.5","r":"2.5"}]]}],["$","div",null,{"children":[["$","div",null,{"className":"text-white font-bold","children":"מעבדה ניידת עד לבית הלקוח"}],["$","div",null,{"className":"mt-0.5","children":"אנחנו מגיעים עם מעבדה ניידת הכוללת את כל הציוד המקצועי - עד הבית, מקום העבודה או כל מקום שהרכב נמצא בו."}]]}]]}]
+9:["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","div",null,{"className":"grid grid-cols-2 md:grid-cols-4 gap-8","children":[["$","div",null,{"children":[["$","h4",null,{"className":"text-white font-bold mb-4 text-sm uppercase tracking-wide","children":"ניווט באתר"}],["$","ul",null,{"className":"space-y-2","children":[["$","li",null,{"children":["$","$L6",null,{"href":"/","className":"hover:text-white transition","children":"עמוד הבית"}]}],[["$","li","/אודות",{"children":["$","$L6",null,{"href":"/אודות","className":"hover:text-white transition","children":"אודות"}]}],["$","li","/צרו-קשר",{"children":["$","$L6",null,{"href":"/צרו-קשר","className":"hover:text-white transition","children":"צרו קשר"}]}],["$","li","/מדיניות-פרטיות",{"children":["$","$L6",null,{"href":"/מדיניות-פרטיות","className":"hover:text-white transition","children":"מדיניות פרטיות"}]}],["$","li","/תנאי-שימוש",{"children":["$","$L6",null,{"href":"/תנאי-שימוש","className":"hover:text-white transition","children":"תנאי שימוש"}]}],["$","li","/הצהרת-נגישות",{"children":["$","$L6",null,{"href":"/הצהרת-נגישות","className":"hover:text-white transition","children":"הצהרת נגישות"}]}]]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"text-white font-bold mb-4 text-sm uppercase tracking-wide","children":"מפתחות לרכבים"}],["$","ul",null,{"className":"space-y-2","children":[["$","li","/שכפול-מפתח-לבמוושכפול מפתחות לבמו",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לבמוו","className":"hover:text-white transition","children":"שכפול מפתחות לבמו"}]}],["$","li","/שכפול-מפתח-לסוזוקישכפול מפתחות לסוזוקי",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לסוזוקי","className":"hover:text-white transition","children":"שכפול מפתחות לסוזוקי"}]}],["$","li","/שכפול-מפתח-ליונדאישכפול מפתחות ליונדאי",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-ליונדאי","className":"hover:text-white transition","children":"שכפול מפתחות ליונדאי"}]}],["$","li","/שכפול-מפתח-לפורדשכפול מפתחות לפורד",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לפורד","className":"hover:text-white transition","children":"שכפול מפתחות לפורד"}]}],["$","li","/שכפול-מפתח-להונדהשכפול מפתחות להונדה",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-להונדה","className":"hover:text-white transition","children":"שכפול מפתחות להונדה"}]}],["$","li","/שכפול-מפתח-לסקודהשכפול מפתחות לסקודה",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לסקודה","className":"hover:text-white transition","children":"שכפול מפתחות לסקודה"}]}],["$","li","/שכפול-מפתח-לסובארושכפול מפתחות לסובארו",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לסובארו","className":"hover:text-white transition","children":"שכפול מפתחות לסובארו"}]}],["$","li","/שכפול-מפתח-לוולוושכפול מפתחות לוולוו",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לוולוו","className":"hover:text-white transition","children":"שכפול מפתחות לוולוו"}]}],["$","li","/שכפול-מפתח-לאופלשכפול מפתחות לאופל",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לאופל","className":"hover:text-white transition","children":"שכפול מפתחות לאופל"}]}],["$","li","/שכפול-מפתח-לשברולטשכפול מפתחות לשברולט",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לשברולט","className":"hover:text-white transition","children":"שכפול מפתחות לשברולט"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"text-white font-bold mb-4 text-sm uppercase tracking-wide","children":"אזורים נפוצים"}],["$","ul",null,{"className":"space-y-2","children":[[["$","li","/שכפול-מפתח-לרכב-בירושלים",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-בירושלים","className":"hover:text-white transition","children":"שכפול מפתחות לרכב בירושלים"}]}],["$","li","/שכפול-מפתח-לרכב-בחולון",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-בחולון","className":"hover:text-white transition","children":"שכפול מפתחות לרכב בחולון"}]}],["$","li","/שכפול-מפתח-לרכב-במודיעין",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-במודיעין","className":"hover:text-white transition","children":"שכפול מפתחות לרכב במודיעין"}]}],["$","li","/שכפול-מפתח-לרכב-בחדרה",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-בחדרה","className":"hover:text-white transition","children":"שכפול מפתחות לרכב בחדרה"}]}],["$","li","/שכפול-מפתח-לרכב-בראשון-לציון",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-בראשון-לציון","className":"hover:text-white transition","children":"שכפול מפתחות לרכב בראשון לציון"}]}],"$L14"],"$L15","$L16","$L17","$L18","$L19"]}]]}],"$L1a"]}]}]
+a:["$","div",null,{"style":{"background":"#0d1320","borderTop":"1px solid #1f2937"},"className":"py-5","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","div",null,{"className":"flex items-center gap-3","children":[["$","a",null,{"href":"https://www.facebook.com/carkeynow","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-semibold transition hover:opacity-90","style":{"background":"#1877F2","color":"#fff"},"children":[["$","svg",null,{"className":"w-4 h-4 shrink-0","fill":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"d":"M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"}]}],"פייסבוק"]}],["$","a",null,{"href":"https://easy.co.il/page/10161378","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-semibold transition hover:opacity-90","style":{"background":"#ff6600","color":"#fff"},"children":[["$","svg",null,{"className":"w-4 h-4 shrink-0","fill":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"d":"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"}]}],"המלצות באיזי"]}]]}],["$","div",null,{"className":"text-xs text-gray-500 text-center sm:text-right","children":[["$","div",null,{"children":"© 2026 מפתח עכשיו"}],["$","div",null,{"className":"mt-0.5 flex flex-wrap gap-3 justify-center sm:justify-end","children":[["$","a",null,{"href":"tel:033822752","className":"hover:text-white","children":"03-382-2752"}],["$","a",null,{"href":"mailto:carkeynow@gmail.com","className":"hover:text-white","children":"carkeynow@gmail.com"}]]}]]}]]}]}]}]
+b:["$","div",null,{"style":{"background":"#0a0f1a","borderTop":"1px solid #1f2937"},"className":"py-4","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-sm text-gray-500","children":[["$","span",null,{"children":"האתר מאוחסן ומתוחזק באהבה על ידי"}],["$","a",null,{"href":"https://brandli.co.il/","target":"_blank","rel":"noopener noreferrer","className":"inline-flex items-center gap-2 font-semibold text-gray-400 transition hover:text-white","children":[["$","img",null,{"src":"/wp-images/brandli-B-logo.webp","alt":"לוגו ברנדלי","width":22,"height":22,"loading":"lazy","className":"w-[22px] h-[22px] rounded-full shrink-0"}],"ברנדלי"]}]]}]}]}]
+c:["$","$L1b",null,{}]
+d:["$","$L1c",null,{"src":"https://zflsdipkqpivtbydexoa.supabase.co/storage/v1/object/public/leadradar/tracker.js","data-site":"ste_fcoi6dfd","strategy":"afterInteractive"}]
+e:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+f:["$","$1","c",{"children":["$L1d",[["$","script","script-0",{"src":"/_next/static/chunks/1leulq3_ixpp7.js","async":true,"nonce":"$undefined"}]],["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]]}]
+21:[]
+10:"$W21"
+11:["$","$1","h",{"children":[null,["$","$L22",null,{"children":"$L23"}],["$","div",null,{"hidden":true,"children":["$","$L24",null,{"children":["$","$1f",null,{"name":"Next.Metadata","children":"$L25"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0mm5ldk5w9ygh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+14:["$","li","/שכפול-מפתח-לרכב-ברמת-גן",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-ברמת-גן","className":"hover:text-white transition","children":"שכפול מפתחות לרכב ברמת גן"}]}]
+15:["$","li",null,{"className":"pt-1","children":["$","$L6",null,{"href":"/אודות","className":"hover:text-white transition","children":"אודות"}]}]
+16:["$","li",null,{"children":["$","$L6",null,{"href":"/צרו-קשר","className":"hover:text-white transition","children":"יצירת קשר"}]}]
+17:["$","li",null,{"children":["$","$L6",null,{"href":"/תנאי-שימוש","className":"hover:text-white transition","children":"תנאי השימוש"}]}]
+18:["$","li",null,{"children":["$","$L6",null,{"href":"/מדיניות-פרטיות","className":"hover:text-white transition","children":"מדיניות הפרטיות"}]}]
+19:["$","li",null,{"children":["$","$L6",null,{"href":"/הצהרת-נגישות","className":"hover:text-white transition","children":"הצהרת נגישות"}]}]
+1a:["$","div",null,{"children":[["$","h4",null,{"className":"text-white font-bold mb-4 text-sm uppercase tracking-wide","children":"שירותים"}],["$","ul",null,{"className":"space-y-2","children":[["$","li","/שחזור-מפתח-לרכב",{"children":["$","$L6",null,{"href":"/שחזור-מפתח-לרכב","className":"hover:text-white transition","children":"שחזור מפתח לרכב"}]}],["$","li","/שכפול-מפתח-לרכב",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב","className":"hover:text-white transition","children":"שכפול מפתח לרכב"}]}],["$","li","/התקנת-קודן-לרכב",{"children":["$","$L6",null,{"href":"/התקנת-קודן-לרכב","className":"hover:text-white transition","children":"התקנת קודן לרכב"}]}],["$","li","/תיקון-קודן-לרכב",{"children":["$","$L6",null,{"href":"/תיקון-קודן-לרכב","className":"hover:text-white transition","children":"תיקון קודן לרכב"}]}],["$","li","/קודן-לרכב-מצפצף-2",{"children":["$","$L6",null,{"href":"/קודן-לרכב-מצפצף-2","className":"hover:text-white transition","children":"קודן לרכב מצפצף"}]}],["$","li","/ניתוק-קודן-לרכב",{"children":["$","$L6",null,{"href":"/ניתוק-קודן-לרכב","className":"hover:text-white transition","children":"ניתוק קודן לרכב"}]}],["$","li","/תיקון-שלט-לרכב",{"children":["$","$L6",null,{"href":"/תיקון-שלט-לרכב","className":"hover:text-white transition","children":"תיקון שלט לרכב"}]}],["$","li","/שכפול-שלט-לרכב",{"children":["$","$L6",null,{"href":"/שכפול-שלט-לרכב","className":"hover:text-white transition","children":"שכפול שלט לרכב"}]}],["$","li","/קידוד-שלט-לרכב",{"children":["$","$L6",null,{"href":"/קידוד-שלט-לרכב","className":"hover:text-white transition","children":"קידוד שלט לרכב"}]}],["$","li","/תיקון-סוויץ-לרכב",{"children":["$","$L6",null,{"href":"/תיקון-סוויץ-לרכב","className":"hover:text-white transition","children":"תיקון סוויץ לרכב"}]}],["$","li","/מפתח-תקוע-בסוויץ",{"children":["$","$L6",null,{"href":"/מפתח-תקוע-בסוויץ","className":"hover:text-white transition","children":"מפתח תקוע בסוויץ"}]}],["$","li","/פורץ-רכבים",{"children":["$","$L6",null,{"href":"/פורץ-רכבים","className":"hover:text-white transition","children":"פורץ רכבים"}]}],["$","li","/אבד-מפתח-לרכב",{"children":["$","$L6",null,{"href":"/אבד-מפתח-לרכב","className":"hover:text-white transition","children":"אבד מפתח לרכב"}]}],["$","li","/שחזור-מפתח-לאופנוע",{"children":["$","$L6",null,{"href":"/שחזור-מפתח-לאופנוע","className":"hover:text-white transition","children":"שחזור מפתח לאופנוע"}]}],["$","li","/פריצת-כיסא-אופנוע",{"children":["$","$L6",null,{"href":"/פריצת-כיסא-אופנוע","className":"hover:text-white transition","children":"פריצת כיסא אופנוע"}]}]]}]]}]
+26:T13ab,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"כמה עולה ניתוק קודן לרכב?","acceptedAnswer":{"@type":"Answer","text":"ניתוק קודן מרכב פרטי: 800-1,200 שקל. רכב יוקרה: 1,500-2,500 שקל. מסחרי: 1,000-1,800 שקל. המחיר כולל הגעה, אבחון, ניתוק ובדיקת תקינות הרכב לאחר מכן."}},{"@type":"Question","name":"מתי צריך לנתק קודן לרכב?","acceptedAnswer":{"@type":"Answer","text":"ניתקנו קודנים הרבה פעמים בגלל: קודן שמתקלקל ומונע הפעלת הרכב, אובדן שלטים מקוריים, קניית רכב יד שנייה ללא שלטים תואמים, רצון לשדרג מערכת חדשה, ובעיות חשמל שמקורן בקודן ישן."}},{"@type":"Question","name":"האם ניתוק קודן חוקי?","acceptedAnswer":{"@type":"Answer","text":"כן, לגמרי. ניתוק קודן מרכב שבבעלותכם חוקי לחלוטין. אנחנו עובדים עם תעודות זהות ורישיון רכב - אנחנו לא מנתקים קודן לאף מישהו שלא הוכיח לנו שהוא הבעלים."}},{"@type":"Question","name":"הקודן שלי מצפצף ללא הפסקה - מה עושים?","acceptedAnswer":{"@type":"Answer","text":"ראשית בדקו שלא לחצתם בטעות על כפתור חירום בשלט. אם לא - יכול להיות: סוללה חלשה בשלט, חיישן שנגע בדלת, מגע חשמלי רעוע, או תקלה בלוח. התקשרו - אנחנו מאבחנים טלפונית ויכולים לומר אם זה משהו שתוכלו לעשות לבד."}},{"@type":"Question","name":"יכולים לתקן קודן שאין לו שלט?","acceptedAnswer":{"@type":"Answer","text":"כן. אנחנו יכולים לתכנת שלט חדש לרוב המערכות הקיימות, עולה 200-350 שקל. אם המערכת מיושנת מאוד ואין לה תמיכה - אמליץ להחליף למערכת חדשה."}},{"@type":"Question","name":"האם קודן ישן יכול לגרום לתקלות חשמל ברכב?","acceptedAnswer":{"@type":"Answer","text":"כן - ראינו את זה לא מעט פעמים. קודן שמתיישן יכול ליצור בעיות בזרם החשמל, לגרום לתאורה מהבהבת, לחיפושים אחר תקלות \"מסתוריות\". לפעמים ניתוק הקודן פותר בעיה שחנות לא הצליחה."}},{"@type":"Question","name":"קניתי רכב יד שנייה ואין לו שלטים - מה עושים?","acceptedAnswer":{"@type":"Answer","text":"מצב נפוץ. שתי אפשרויות: לתכנת שלט חדש לקודן הקיים (200-350 שקל אם אפשרי), או לנתק את הקודן הקיים ולהתקין חדש (700-1,200 שקל). אנחנו בודקים מה האפשרות הזולה והנכונה לרכב הספציפי."}},{"@type":"Question","name":"כמה מהר תגיעו לקודן שמונע הפעלת הרכב?","acceptedAnswer":{"@type":"Answer","text":"קריאת חירום כזו היא עדיפות אצלנו. בערים הגדולות - עד 30 דקות. בפריפריה - עד שעה. תוספת שירות חירום: 100-150 שקל נוסף למחיר הרגיל."}},{"@type":"Question","name":"כמה זמן לוקח ניתוק קודן?","acceptedAnswer":{"@type":"Answer","text":"בין שעה לשעתיים, תלוי בדגם הרכב ובסוג הקודן. מערכות ישנות - מהיר יותר. מערכות מורכבות עם חיבורים רבים - לוקח יותר. אנחנו עושים את זה בקפידה כי לא כדאי למהר עם חיווט."}},{"@type":"Question","name":"האם חברות הביטוח מכירות בקודן שהתקנתם?","acceptedAnswer":{"@type":"Answer","text":"כן, בדרך כלל. אנחנו מוציאים מסמך עבודה עם פרטי המערכת שהותקנה. חברות הביטוח מקבלות מסמכים ממנעולנים מוסמכים. כדאי לבדוק עם הסוכן שלכם אם יש דרישות ספציפיות."}},{"@type":"Question","name":"האם אפשר להוסיף GPS לקודן קיים?","acceptedAnswer":{"@type":"Answer","text":"כן, יש מערכות GPS שמשתלבות עם קודן קיים. עולה 400-800 שקל להוספת GPS. זה נותן לכם שכבה נוספת - גם אבטחה מנועה וגם מעקב מיקום בזמן אמת."}},{"@type":"Question","name":"מה ההבדל בין קודן קוברה לקודן רגיל?","acceptedAnswer":{"@type":"Answer","text":"קובראות הן בדרך כלל מערכות מתקדמות יותר עם יותר חיישנים, אנטנה חזקה יותר, ולעיתים GPS מובנה. קודן רגיל - בסיסי ויעיל לרוב הצרכים. אנחנו מסבירים את ההבדלים ועוזר לבחור לפי הצורך והתקציב."}}]}1d:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://carkeynow.co.il\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"קודן לרכב מצפצף - פתרון מקצועי תוך 20 דקות\",\"item\":\"https://carkeynow.co.il/קודן-לרכב-מצפצף-2/\"}]}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://carkeynow.co.il/קודן-לרכב-מצפצף-2/\",\"name\":\"קודן לרכב מצפצף - פתרון מקצועי תוך 20 דקות | מפתח עכשיו\",\"description\":\"כשהקודן לרכב מצפצף ללא הפסקה, זה יכול להיות מעצבן ומביך. אנחנו במפתח עכשיו מתמחים בפתרון תקלות קודנים לרכב עם ציוד הקידוד המתקדם ביותר בשוק. המנעולנים...\",\"url\":\"https://carkeynow.co.il/קודן-לרכב-מצפצף-2/\",\"isPartOf\":{\"@id\":\"https://carkeynow.co.il/#website\"},\"inLanguage\":\"he\"}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$26"}}],"$L27","$L28",false,"$L29","$L2a"]
+2b:I[55132,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"TableOfContents"]
+2c:I[92711,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+2d:I[31179,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+27:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"@id\":\"https://carkeynow.co.il/#amir\",\"name\":\"דורון\",\"jobTitle\":\"מנעולן רכב מומחה\",\"image\":\"https://carkeynow.co.il/wp-images/דורון-מנעולן-רכב.webp\",\"worksFor\":{\"@id\":\"https://carkeynow.co.il/#organization\"}}"}}]
+28:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white","dir":"rtl","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6","children":[["$","nav",null,{"className":"text-xs mb-2 opacity-70 flex items-center gap-1","children":[["$","$L6",null,{"href":"/","className":"hover:opacity-100","children":"דף הבית"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"opacity-100","children":"קודן לרכב מצפצף - פתרון מקצועי תוך 20 דקות"}]]}],"$undefined",["$","h1",null,{"className":"text-xl sm:text-2xl md:text-3xl font-bold leading-snug","children":"קודן לרכב מצפצף - פתרון מקצועי תוך 20 דקות"}]]}]}]
+2e:T40be,
+<p style="margin-bottom: 20px;">רוב המקרים של קודן מצפצף נובעים מבעיות קידוד או סנכרון בין הקודן למערכת הרכב. אנחנו מבצעים אבחון מדויק ומתקנים את הבעיה בצורה יסודית.</p>
+<p>&nbsp;</p>
+<h2 id="sec-0" style="margin-top: 30px; margin-bottom: 15px;">מחירון שירותי קידוד קודנים לרכב</h2>
+<p style="margin-bottom: 20px;">אנחנו מאמינים בשקיפות מלאה מול הלקוחות שלנו. להלן המחירים המדויקים לשירותי קידוד והעתקת קודנים:</p>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background-color: #ff8c00; color: white;">
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">סוג השירות</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">מחיר</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">זמן ביצוע</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">קידוד קודן רגיל</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">250-400 ₪</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">15-20 דקות</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">קידוד קודן חכם (Smart Key)</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">550-1,100 ₪</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">20-30 דקות</td>
+</tr>
+<tr>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">קידוד קודן לרכב יוקרה</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">400-550 ₪</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">30-45 דקות</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">תיקון קודן מצפצף (ללא החלפה)</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">200-350 ₪</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">10-15 דקות</td>
+</tr>
+</tbody>
+</table>
+<!-- Pricing Disclaimer -->
+
+<style>
+  .pd-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 16px auto 0 auto;
+    font-family: 'Heebo', 'Rubik', sans-serif;
+    direction: rtl;
+    text-align: right;
+    box-sizing: border-box;
+    line-height: normal;
+  }
+
+  .pd-container {
+    position: relative;
+    background: #1e4a72;
+    border-radius: 10px;
+    padding: 24px 28px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(23, 55, 87, 0.12);
+    box-sizing: border-box;
+    border-right: 4px solid #F5A927;
+  }
+
+  .pd-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    background: rgba(245, 169, 39, 0.12);
+    border: 1px solid rgba(245, 169, 39, 0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon-svg {
+    width: 18px;
+    height: 18px;
+    fill: #F5A927;
+  }
+
+  .pd-text-block {
+    flex: 1;
+    min-width: 180px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-main-text {
+    font-family: 'Rubik', 'Heebo', sans-serif;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-highlight {
+    color: #F5A927;
+    font-weight: 600;
+  }
+
+  .pd-sub-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.5;
+    margin: 8px 0 0 0;
+    padding: 0;
+  }
+
+  .pd-divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(245, 169, 39, 0.15);
+    margin: 14px 0 0 0;
+    padding: 0;
+    border: none;
+  }
+
+  .pd-date-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 12px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-date-icon {
+    width: 12px;
+    height: 12px;
+    fill: #F5A927;
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .pd-date-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-date-value {
+    color: rgba(245, 169, 39, 0.8);
+    font-weight: 500;
+  }
+
+  @media (max-width: 600px) {
+    .pd-container {
+      padding: 20px 20px;
+      border-radius: 8px;
+    }
+
+    .pd-content {
+      gap: 14px;
+    }
+
+    .pd-icon {
+      width: 32px;
+      height: 32px;
+    }
+
+    .pd-icon-svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .pd-main-text {
+      font-size: 13.5px;
+    }
+
+    .pd-sub-text {
+      font-size: 12px;
+    }
+
+    .pd-date-text {
+      font-size: 11px;
+    }
+  }
+</style>
+
+<!-- HTML -->
+<div class="pd-wrapper" id="pd-wrapper">
+  <div class="pd-container" id="pd-container">
+    <div class="pd-content" id="pd-content">
+      
+      <div class="pd-icon" id="pd-icon">
+        <svg class="pd-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+        </svg>
+      </div>
+
+      <div class="pd-text-block" id="pd-text-block">
+        <div class="pd-main-text" id="pd-main-text">
+          כל המחירים המוצגים <span class="pd-highlight">אינם כוללים מע״מ</span> (18%)
+        </div>
+
+        <div class="pd-sub-text" id="pd-sub-text">
+          המחירים המופיעים בטבלה הם משוערים ומשתנים לפי דגם הרכב, שנת הייצור וסוג המפתח
+        </div>
+
+        <div class="pd-divider" id="pd-divider"></div>
+
+        <div class="pd-date-badge" id="pd-date-badge">
+          <svg class="pd-date-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM9 10H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"/>
+          </svg>
+          <span class="pd-date-text" id="pd-date-text">
+            מעודכן ל: <span class="pd-date-value" id="pd-date-value"></span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var hebrewMonths = [
+      'ינואר', 'פברואר', 'מרץ', 'אפריל', 'מאי', 'יוני',
+      'יולי', 'אוגוסט', 'ספטמבר', 'אוקטובר', 'נובמבר', 'דצמבר'
+    ];
+    var now = new Date();
+    var month = hebrewMonths[now.getMonth()];
+    var year = now.getFullYear();
+    var el = document.getElementById('pd-date-value');
+    if (el) {
+      el.textContent = month + ' ' + year;
+    }
+  })();
+</script>
+<p>&nbsp;</p>
+<h2 id="sec-1" style="margin-top: 30px; margin-bottom: 15px;">למה הקודן לרכב מצפצף?</h2>
+<p style="margin-bottom: 20px;">ישנן מספר סיבות עיקריות לצפצופים מתמשכים מהקודן:</p>
+<p style="margin-bottom: 20px;"><strong>בעיות קידוד:</strong> לעיתים הקודן מאבד את הסנכרון עם מערכת האימוביליזר של הרכב. זה יכול לקרות לאחר החלפת סוללה ברכב, תקלה חשמלית, או ניסיון קידוד כושל.</p>
+<p style="margin-bottom: 20px;"><strong>סוללה חלשה בקודן:</strong> כשהסוללה בקודן חלשה, הוא עלול לשלוח אות לא יציב שגורם לצפצופים. אנחנו בודקים את מצב הסוללה תמיד לפני ביצוע קידוד.</p>
+<p style="margin-bottom: 20px;"><strong>נזק פיזי לקודן:</strong> נפילה או חשיפה למים עלולים לגרום לתקלה בחומרה הפנימית של הקודן. במקרים כאלה, לעיתים נדרש תיקון פנימי או החלפת הקודן.</p>
+<div style="border-right: 4px solid #FF8C00; background: #FFF5EB; padding: 15px; margin: 20px 0; border-radius: 4px;"><strong>חשוב לדעת:</strong> אם הקודן מצפצף ללא הפסקה, אל תנסו לפרק אותו בעצמכם. פירוק לא נכון עלול להזיק לשבב הפנימי ולהקשות על הקידוד. המנעולנים שלנו במפתח עכשיו מצוידים בכלים המתאימים לטיפול בקודנים רגישים.</div>
+<h2></h2>
+<h2 id="sec-2" style="margin-top: 30px; margin-bottom: 15px;">תהליך תיקון קודן מצפצף אצלנו</h2>
+<p style="margin-bottom: 20px;">אנחנו במפתח עכשיו מבצעים תהליך שיטתי ומקצועי לפתרון הבעיה:</p>
+<ul style="margin-bottom: 20px; padding-right: 20px;">
+<li style="margin-bottom: 10px;">אבחון ראשוני - בדיקת הקודן והרכב עם ציוד אבחון ממוחשב</li>
+<li style="margin-bottom: 10px;">בדיקת סוללה - החלפה במידת הצורך</li>
+<li style="margin-bottom: 10px;">מחיקת קודים ישנים מהזיכרון</li>
+<li style="margin-bottom: 10px;">קידוד מחדש עם ציוד OEM מקורי</li>
+<li style="margin-bottom: 10px;">בדיקה מקיפה של כל הפונקציות</li>
+</ul>
+<p style="margin-bottom: 20px;">הציוד המתקדם שלנו מאפשר לנו לעבוד עם כל סוגי הרכבים - מרכבים יפניים פשוטים ועד רכבי יוקרה אירופאים עם מערכות אבטחה מתקדמות.</p>
+<p>&nbsp;</p>
+<h2 id="sec-3" style="margin-top: 30px; margin-bottom: 15px;">השוואת שיטות קידוד קודנים</h2>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background-color: #ff8c00; color: white;">
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">שיטת קידוד</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">יתרונות</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">מתאים ל</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">קידוד OBDII</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">מהיר, ללא פירוק</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">רוב הרכבים מ-2000 ואילך</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">קידוד דרך EEPROM</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">פותר תקלות מורכבות</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">רכבים עם תקלות חמורות</td>
+</tr>
+<tr>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">קידוד OEM מקורי</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">תאימות מלאה</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">רכבי יוקרה ודגמים חדשים</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">קידוד אוניברסלי</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">משתלם, זמין</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">רכבים ישנים</td>
+</tr>
+</tbody>
+</table>
+<h2></h2>
+<h2 id="sec-4" style="margin-top: 30px; margin-bottom: 15px;">מתי כדאי להחליף קודן במקום לתקן?</h2>
+<p style="margin-bottom: 20px;">לא תמיד תיקון הוא הפתרון הנכון. במקרים מסוימים החלפת הקודן היא האפשרות המומלצת:</p>
+<p style="margin-bottom: 20px;"><strong>נזק פיזי חמור:</strong> אם הקודן נשבר, נסדק, או נחשף למים בצורה משמעותית, ייתכן שהרכיבים הפנימיים ניזוקו באופן בלתי הפיך.</p>
+<p style="margin-bottom: 20px;"><strong>קודן ישן ובלוי:</strong> קודנים שעברו שנים רבות של שימוש עלולים להתקלקל שוב בקרוב. לפעמים השקעה בקודן חדש חוסכת טרחה עתידית.</p>
+<p style="margin-bottom: 20px;"><strong>כפתורים שחוקים:</strong> כשהכפתורים לא מגיבים או תקועים, הבעיה היא מכנית ולא תוכנתית. במקרה כזה נמליץ על החלפה.</p>
+<p>&nbsp;</p>
+<div style="border-right: 4px solid #FF8C00; background: #FFF5EB; padding: 15px; margin: 20px 0; border-radius: 4px;"><strong>טיפ מקצועי:</strong> לפני שמחליפים קודן, כדאי תמיד לנסות קידוד מחדש. אנחנו במפתח עכשיו מבצעים אבחון חינם ומייעצים בכנות האם צריך להחליף או שאפשר לתקן. הכנות שלנו מול הלקוחות היא אחד העקרונות המרכזיים שלנו.</div>
+<h2></h2>
+<h2 id="sec-5" style="margin-top: 30px; margin-bottom: 15px;">למה לבחור במפתח עכשיו?</h2>
+<p style="margin-bottom: 20px;">אנחנו מבינים שקודן מצפצף יכול להיות מטריד ומביך, במיוחד כשזה קורה בפומבי. לכן אנחנו מתחייבים:</p>
+<p style="margin-bottom: 20px;"><strong>הגעה מהירה:</strong> אנחנו מגיעים תוך 20-40 דקות לכל נקודה במרכז הארץ. יש לנו מנעולנים בכל האזורים הגדולים.</p>
+<p style="margin-bottom: 20px;"><strong>ציוד מתקדם:</strong> אנחנו משקיעים בטכנולוגיות הקידוד החדישות ביותר. הציוד שלנו מתעדכן באופן שוטף ומאפשר לנו לעבוד עם כל דגמי הרכב.</p>
+<p style="margin-bottom: 20px;"><strong>שקיפות במחירים:</strong> אנחנו מציינים את המחיר המדויק מראש, ללא הפתעות. אם יש צורך בעבודה נוספת, אנחנו מסבירים ומקבלים אישור לפני ביצוע.</p>
+<p style="margin-bottom: 20px;"><strong>אחריות מלאה:</strong> כל עבודת קידוד מגיעה עם אחריות. אם הקודן חוזר לצפצף תוך תקופת האחריות, אנחנו מטפלים בזה ללא עלות נוספת.</p>
+<p>&nbsp;</p>
+<h2 id="sec-6" style="margin-top: 30px; margin-bottom: 15px;">שאלות נפוצות על קודן מצפצף</h2>
+<p style="margin-bottom: 20px;"><strong>האם תמיד צריך להגיע למוסך?</strong></p>
+<p style="margin-bottom: 20px;">לא בהכרח. אנחנו במפתח עכשיו מגיעים אליכם עם כל הציוד הדרוש. ברוב המקרים אנחנו פותרים את הבעיה במקום תוך דקות ספורות.</p>
+<p style="margin-bottom: 20px;"><strong>כמה זמן לוקח תיקון קודן מצפצף?</strong></p>
+<p style="margin-bottom: 20px;">בדרך כלל התהליך לוקח 15-30 דקות. זה כולל אבחון, קידוד, ובדיקה מקיפה. במקרים מורכבים זה יכול לקחת עד 45 דקות.</p>
+<p style="margin-bottom: 20px;"><strong>האם אפשר לנתק את הקודן עד שהמנעולן מגיע?</strong></p>
+<p style="margin-bottom: 20px;">אם הצפצוף מאוד מטריד, אפשר להוציא את הסוללה מהקודן זמנית. זה יעצור את הצפצוף, אבל הקודן לא יפעל עד שהסוללה תוחזר.</p>
+<p style="margin-bottom: 20px;">אנחנו במפתח עכשיו זמינים עבורכם 24/7. אם הקודן לרכב מצפצף והמצב לא נותן לכם מנוח, התקשרו אלינו. המנעולנים המנוסים שלנו יגיעו במהירות עם הציוד המתקדם ויפתרו את הבעיה באופן יסודי ומקצועי.</p>
+29:["$","div",null,{"className":"max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8","dir":"rtl","children":["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 items-start","children":[["$","div",null,{"id":"page-article","className":"min-w-0","children":[["$","$L2b",null,{"items":[{"id":"sec-0","text":"מחירון שירותי קידוד קודנים לרכב"},{"id":"sec-1","text":"למה הקודן לרכב מצפצף?"},{"id":"sec-2","text":"תהליך תיקון קודן מצפצף אצלנו"},{"id":"sec-3","text":"השוואת שיטות קידוד קודנים"},{"id":"sec-4","text":"מתי כדאי להחליף קודן במקום לתקן?"},{"id":"sec-5","text":"למה לבחור במפתח עכשיו?"},{"id":"sec-6","text":"שאלות נפוצות על קודן מצפצף"},{"id":"sec-7","text":"סוגי מערכות שאנחנו מטפלים בהן"},{"id":"sec-8","text":"תהליך הטיפול בקודן"},{"id":"sec-9","text":"שאלות נפוצות"}]}],["$","div",null,{"className":"p-1 sm:card sm:p-6 md:p-8","children":[["$","div",null,{"dir":"rtl","className":"flex items-center gap-3 mb-5 pb-4 border-b border-gray-100","children":[["$","img",null,{"src":"/wp-images/דורון-מנעולן-רכב.webp","alt":"דורון - מנעולן רכב מומחה","width":40,"height":40,"loading":"lazy","className":"w-10 h-10 rounded-full object-cover shrink-0 ring-1 ring-black/5"}],["$","div",null,{"className":"text-sm leading-tight","children":[["$","span",null,{"className":"block text-gray-500","children":"נכתב ונבדק על ידי"}],["$","span",null,{"className":"block font-bold","style":{"color":"var(--primary)"},"children":["דורון"," · ","מנעולן רכב מומחה"]}]]}]]}],[["$","$L2c",null,{"html":"<p style=\"margin-bottom: 20px;\">כשהקודן לרכב מצפצף ללא הפסקה, זה יכול להיות מעצבן ומביך. אנחנו במפתח עכשיו מתמחים בפתרון תקלות קודנים לרכב עם ציוד הקידוד המתקדם ביותר בשוק. המנעולנים שלנו מגיעים אליכם עם מחשוב מקצועי ופותרים את הבעיה במקום תוך זמן קצר.</p>"}],false,["$","$L2d",null,{"gallery":{"heading":"כך נראה קודן לרכב במציאות","sub":"שתי מערכות קודן שטיפלנו בהן, כולל מיקום ההתקנה וסימני הבלאי","images":[{"src":"/wp-images/קודן-לרכב-בלאי.webp","w":253,"h":246,"caption":"קודן עם ספרות שחוקות - הסימן המובהק לבלאי שגורם לתקלות זיהוי","alt":"קודן לרכב בן תשעה כפתורים מותקן על לוח המחוונים, הספרות שחוקות משימוש - קודן לרכב מצפצף"},{"src":"/wp-images/קודן-לרכב-תקול.webp","w":252,"h":214,"caption":"קודן ארבע ספרות ליד עמוד ההגה, המיקום הנפוץ להתקנה","alt":"קודן לרכב בן ארבעה כפתורים מותקן ליד עמוד ההגה מתחת למתגי התאורה - קודן לרכב מצפצף"}]}}],["$","$L2c",null,{"html":"$2e"}]],false,false]}],"$L2f","$L30",["$L31","$L32","$L33"],"$L34"]}],"$L35"]}]}]
+2a:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white py-8 text-center","dir":"rtl","children":["$","div",null,{"className":"max-w-xl mx-auto px-4","children":[["$","p",null,{"className":"font-bold text-lg mb-4","children":"צריכים עזרה? אנחנו כאן 24/7"}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-3 justify-center","children":["$","a",null,{"href":"tel:033822752","className":"btn-primary text-base px-8","children":"03-382-2752"}]}]]}]}]
+36:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"ToolGrid"]
+37:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"ProcessSteps"]
+38:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"StatsBanner"]
+39:I[46042,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+3a:I[33128,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+2f:null
+30:null
+31:["$","div","0",{"id":"sec-7","children":["$","$L36",null,{"heading":"סוגי מערכות שאנחנו מטפלים בהן","sub":"$undefined","tools":[{"name":"קודן בסיסי","dot":"#3b82f6","desc":"חיישן + סירנה, הגנה בסיסית"},{"name":"קודן עם GPS","dot":"#22c55e","desc":"מעקב מיקום בזמן אמת"},{"name":"קודן קוברה","dot":"#f59e0b","desc":"מערכת מתקדמת + חיישנים נוספים"},{"name":"אימוביליזר","dot":"#8b5cf6","desc":"מובנה ברכב, מונע הנעה"},{"name":"קודן ניטרול","dot":"#ef4444","desc":"מנתק מנוע מרחוק"},{"name":"Keyless Entry","dot":"#06b6d4","desc":"כניסה חכמה ללא מפתח"}]}]}]
+32:["$","div","1",{"id":"sec-8","children":["$","$L37",null,{"heading":"תהליך הטיפול בקודן","steps":[{"title":"בחירת המערכת הנכונה","desc":"לא כל קודן מתאים לכל רכב. בוחרים לפי גיל הרכב, חניה, ותקציב - ולא לפי הכי יקר.","duration":"5 דק׳"},{"title":"בדיקת חיווט הרכב","desc":"כל דגם עובד עם פרוטוקול חיווט שונה. ממפים את נקודות החיבור המדויקות לפני שמתחילים.","duration":"10 דק׳"},{"title":"התקנה מדויקת","desc":"מחברים ללא חיתוך חוטים - שימוש בתפסנים מקצועיים. הרכב חוזר לחיווטו המקורי בכל עת.","duration":"30-60 דק׳"},{"title":"קידוד ושלטים","desc":"מתכנתים את השלטים, מגדירים קודי אבטחה ובודקים כל פונקציה.","duration":"15 דק׳"},{"title":"הדרכה ובדיקה","desc":"מסבירים לכם איך לעבוד עם המערכת ובודקים את כל הפונקציות יחד.","duration":"10 דק׳"}]}]}]
+33:["$","div","2",{"id":"$undefined","children":["$","$L38",null,{"stats":[{"value":"8-15","label":"שנות חיי קודן","sub":"עם תחזוקה נכונה"},{"value":"₪400","label":"מחיר התקנה","sub":"בסיסי כולל ציוד"},{"value":"45 דק׳","label":"זמן התקנה","sub":"ממוצע לקודן רגיל"},{"value":"0 נזק","label":"לחיווט מקורי","sub":"ללא חיתוך חוטים"}]}]}]
+34:["$","div",null,{"id":"sec-9","className":"mt-6","children":["$","$L39",null,{"items":[{"q":"כמה עולה ניתוק קודן לרכב?","a":"ניתוק קודן מרכב פרטי: 800-1,200 שקל. רכב יוקרה: 1,500-2,500 שקל. מסחרי: 1,000-1,800 שקל. המחיר כולל הגעה, אבחון, ניתוק ובדיקת תקינות הרכב לאחר מכן."},{"q":"מתי צריך לנתק קודן לרכב?","a":"ניתקנו קודנים הרבה פעמים בגלל: קודן שמתקלקל ומונע הפעלת הרכב, אובדן שלטים מקוריים, קניית רכב יד שנייה ללא שלטים תואמים, רצון לשדרג מערכת חדשה, ובעיות חשמל שמקורן בקודן ישן."},{"q":"האם ניתוק קודן חוקי?","a":"כן, לגמרי. ניתוק קודן מרכב שבבעלותכם חוקי לחלוטין. אנחנו עובדים עם תעודות זהות ורישיון רכב - אנחנו לא מנתקים קודן לאף מישהו שלא הוכיח לנו שהוא הבעלים."},{"q":"הקודן שלי מצפצף ללא הפסקה - מה עושים?","a":"ראשית בדקו שלא לחצתם בטעות על כפתור חירום בשלט. אם לא - יכול להיות: סוללה חלשה בשלט, חיישן שנגע בדלת, מגע חשמלי רעוע, או תקלה בלוח. התקשרו - אנחנו מאבחנים טלפונית ויכולים לומר אם זה משהו שתוכלו לעשות לבד."},{"q":"יכולים לתקן קודן שאין לו שלט?","a":"כן. אנחנו יכולים לתכנת שלט חדש לרוב המערכות הקיימות, עולה 200-350 שקל. אם המערכת מיושנת מאוד ואין לה תמיכה - אמליץ להחליף למערכת חדשה."},{"q":"האם קודן ישן יכול לגרום לתקלות חשמל ברכב?","a":"כן - ראינו את זה לא מעט פעמים. קודן שמתיישן יכול ליצור בעיות בזרם החשמל, לגרום לתאורה מהבהבת, לחיפושים אחר תקלות \"מסתוריות\". לפעמים ניתוק הקודן פותר בעיה שחנות לא הצליחה."},{"q":"קניתי רכב יד שנייה ואין לו שלטים - מה עושים?","a":"מצב נפוץ. שתי אפשרויות: לתכנת שלט חדש לקודן הקיים (200-350 שקל אם אפשרי), או לנתק את הקודן הקיים ולהתקין חדש (700-1,200 שקל). אנחנו בודקים מה האפשרות הזולה והנכונה לרכב הספציפי."},{"q":"כמה מהר תגיעו לקודן שמונע הפעלת הרכב?","a":"קריאת חירום כזו היא עדיפות אצלנו. בערים הגדולות - עד 30 דקות. בפריפריה - עד שעה. תוספת שירות חירום: 100-150 שקל נוסף למחיר הרגיל."},{"q":"כמה זמן לוקח ניתוק קודן?","a":"בין שעה לשעתיים, תלוי בדגם הרכב ובסוג הקודן. מערכות ישנות - מהיר יותר. מערכות מורכבות עם חיבורים רבים - לוקח יותר. אנחנו עושים את זה בקפידה כי לא כדאי למהר עם חיווט."},{"q":"האם חברות הביטוח מכירות בקודן שהתקנתם?","a":"כן, בדרך כלל. אנחנו מוציאים מסמך עבודה עם פרטי המערכת שהותקנה. חברות הביטוח מקבלות מסמכים ממנעולנים מוסמכים. כדאי לבדוק עם הסוכן שלכם אם יש דרישות ספציפיות."},{"q":"האם אפשר להוסיף GPS לקודן קיים?","a":"כן, יש מערכות GPS שמשתלבות עם קודן קיים. עולה 400-800 שקל להוספת GPS. זה נותן לכם שכבה נוספת - גם אבטחה מנועה וגם מעקב מיקום בזמן אמת."},{"q":"מה ההבדל בין קודן קוברה לקודן רגיל?","a":"קובראות הן בדרך כלל מערכות מתקדמות יותר עם יותר חיישנים, אנטנה חזקה יותר, ולעיתים GPS מובנה. קודן רגיל - בסיסי ויעיל לרוב הצרכים. אנחנו מסבירים את ההבדלים ועוזר לבחור לפי הצורך והתקציב."}]}]}]
+35:["$","div",null,{"children":["$","aside",null,{"className":"space-y-4","dir":"rtl","children":[["$","$L3a",null,{"compact":true}],["$","div",null,{"className":"card p-4 text-sm text-center","dir":"rtl","children":[["$","p",null,{"className":"font-bold mb-1","style":{"color":"var(--primary)"},"children":"מנעולן רכב 24/7"}],["$","p",null,{"className":"text-gray-400 text-xs mb-3","children":"הגעה תוך 20 דקות בממוצע"}],["$","a",null,{"href":"tel:033822752","className":"block w-full py-2 rounded font-bold text-white text-sm","style":{"background":"var(--accent)"},"children":"03-382-2752"}]]}],[["$","div","שירותי קודן לרכב",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שירותי קודן לרכב"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/התקנת-קודן-לרכב",{"children":["$","$L6",null,{"href":"/התקנת-קודן-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"התקנת קודן לרכב"]}]}],["$","li","/תיקון-קודן-לרכב",{"children":["$","$L6",null,{"href":"/תיקון-קודן-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"תיקון קודן לרכב"]}]}],["$","li","/ניתוק-קודן-לרכב",{"children":["$","$L6",null,{"href":"/ניתוק-קודן-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"ניתוק קודן לרכב"]}]}],["$","li","/איפוס-קודן-לרכב",{"children":["$","$L6",null,{"href":"/איפוס-קודן-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"איפוס קודן לרכב"]}]}]]}]]}],["$","div","קודן לרכב לפי עיר",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"קודן לרכב לפי עיר"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/קודן-לרכב-בתל-אביב",{"children":["$","$L6",null,{"href":"/קודן-לרכב-בתל-אביב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בתל אביב"]}]}],["$","li","/קודן-לרכב-בחיפה",{"children":["$","$L6",null,{"href":"/קודן-לרכב-בחיפה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בחיפה"]}]}],["$","li","/קודן-לרכב-בירושלים",{"children":["$","$L6",null,{"href":"/קודן-לרכב-בירושלים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בירושלים"]}]}],["$","li","/קודן-לרכב-בבאר-שבע",{"children":["$","$L6",null,{"href":"/קודן-לרכב-בבאר-שבע","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בבאר שבע"]}]}],["$","li","/קודן-לרכב-ברמת-גן",{"children":["$","$L6",null,{"href":"/קודן-לרכב-ברמת-גן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב ברמת גן"]}]}],["$","li","/קודן-לרכב-במודיעין",{"children":["$","$L6",null,{"href":"/קודן-לרכב-במודיעין","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב במודיעין"]}]}],["$","li","/קודן-לרכב-בפתח-תקווה",{"children":["$","$L6",null,{"href":"/קודן-לרכב-בפתח-תקווה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בפתח תקווה"]}]}],["$","li","/קודן-לרכב-בכפר-סבא",{"children":["$","$L6",null,{"href":"/קודן-לרכב-בכפר-סבא","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בכפר סבא"]}]}],["$","li","/קודן-לרכב-ברעננה",{"children":["$","$L6",null,{"href":"/קודן-לרכב-ברעננה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב ברעננה"]}]}],["$","li","/קודן-לרכב-בחדרה",{"children":["$","$L6",null,{"href":"/קודן-לרכב-בחדרה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בחדרה"]}]}],["$","li","/קודן-לרכב-בגבעתיים",{"children":["$","$L6",null,{"href":"/קודן-לרכב-בגבעתיים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בגבעתיים"]}]}],["$","li","/קודן-לרכב-בבאר-יעקב",{"children":["$","$L6",null,{"href":"/קודן-לרכב-בבאר-יעקב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בבאר יעקב"]}]}],["$","li","/קודן-לרכב-במודיעין-2",{"children":["$","$L6",null,{"href":"/קודן-לרכב-במודיעין-2","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב במודיעין 2"]}]}],["$","li","/קודן-לרכב-בבת-ים",{"children":["$","$L6",null,{"href":"/קודן-לרכב-בבת-ים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בבת ים"]}]}],"$L3b","$L3c"]}]]}],"$L3d"]]}]}]
+3b:["$","li","/קודן-לרכב-ביהוד",{"children":["$","$L6",null,{"href":"/קודן-לרכב-ביהוד","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב ביהוד"]}]}]
+3c:["$","li","/קודן-לרכב-באבן-יהודה",{"children":["$","$L6",null,{"href":"/קודן-לרכב-באבן-יהודה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב באבן יהודה"]}]}]
+3d:["$","div","שירותים קשורים",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שירותים קשורים"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לרכב",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרכב"]}]}],["$","li","/שחזור-מפתח-לרכב",{"children":["$","$L6",null,{"href":"/שחזור-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שחזור מפתח לרכב"]}]}],["$","li","/אבד-מפתח-לרכב",{"children":["$","$L6",null,{"href":"/אבד-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"אבד מפתח לרכב"]}]}],["$","li","/שכפול-שלט-לרכב",{"children":["$","$L6",null,{"href":"/שכפול-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול שלט לרכב"]}]}],["$","li","/תיקון-שלט-לרכב",{"children":["$","$L6",null,{"href":"/תיקון-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"תיקון שלט לרכב"]}]}]]}]]}]
+23:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+3e:I[27201,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
+20:null
+25:[["$","title","0",{"children":"קודן לרכב מצפצף - פתרון מקצועי תוך 20 דקות"}],["$","meta","1",{"name":"description","content":"כשהקודן לרכב מצפצף ללא הפסקה, זה יכול להיות מעצבן ומביך. אנחנו במפתח עכשיו מתמחים בפתרון תקלות קודנים לרכב עם ציוד הקידוד המתקדם ביותר בשוק. המנעולנים..."}],["$","link","2",{"rel":"author","href":"https://carkeynow.co.il"}],["$","meta","3",{"name":"author","content":"מפתח עכשיו"}],["$","meta","4",{"name":"keywords","content":"מנעולן רכב,שכפול מפתח לרכב,שחזור מפתח,פורץ רכבים,תיקון סוויץ,קודן לרכב,מפתח לרכב"}],["$","meta","5",{"name":"creator","content":"מפתח עכשיו"}],["$","meta","6",{"name":"publisher","content":"מפתח עכשיו"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","link","8",{"rel":"canonical","href":"https://carkeynow.co.il/%D7%A7%D7%95%D7%93%D7%9F-%D7%9C%D7%A8%D7%9B%D7%91-%D7%9E%D7%A6%D7%A4%D7%A6%D7%A3-2/"}],["$","meta","9",{"name":"google-site-verification","content":"q4xZPZp-Ai1FndL_qFZGDIojKzmEye2_T7xYM6grpnk"}],["$","meta","10",{"property":"og:title","content":"קודן לרכב מצפצף - פתרון מקצועי תוך 20 דקות"}],["$","meta","11",{"property":"og:description","content":"כשהקודן לרכב מצפצף ללא הפסקה, זה יכול להיות מעצבן ומביך. אנחנו במפתח עכשיו מתמחים בפתרון תקלות קודנים לרכב עם ציוד הקידוד המתקדם ביותר בשוק. המנעולנים..."}],["$","meta","12",{"property":"og:url","content":"https://carkeynow.co.il/%D7%A7%D7%95%D7%93%D7%9F-%D7%9C%D7%A8%D7%9B%D7%91-%D7%9E%D7%A6%D7%A4%D7%A6%D7%A3-2/"}],["$","meta","13",{"property":"og:site_name","content":"מפתח עכשיו"}],["$","meta","14",{"property":"og:locale","content":"he_IL"}],["$","meta","15",{"property":"og:image","content":"https://carkeynow.co.il/og-carkeynow.jpg"}],["$","meta","16",{"property":"og:image:width","content":"1200"}],["$","meta","17",{"property":"og:image:height","content":"630"}],["$","meta","18",{"property":"og:image:alt","content":"קודן לרכב מצפצף - פתרון מקצועי תוך 20 דקות"}],["$","meta","19",{"property":"og:type","content":"website"}],["$","meta","20",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","21",{"name":"twitter:title","content":"קודן לרכב מצפצף - פתרון מקצועי תוך 20 דקות"}],["$","meta","22",{"name":"twitter:description","content":"כשהקודן לרכב מצפצף ללא הפסקה, זה יכול להיות מעצבן ומביך. אנחנו במפתח עכשיו מתמחים בפתרון תקלות קודנים לרכב עם ציוד הקידוד המתקדם ביותר בשוק. המנעולנים..."}],["$","meta","23",{"name":"twitter:image","content":"https://carkeynow.co.il/og-carkeynow.jpg"}],["$","link","24",{"rel":"shortcut icon","href":"/favicon-48.png"}],["$","link","25",{"rel":"icon","href":"/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","26",{"rel":"icon","href":"/favicon.svg","type":"image/svg+xml"}],["$","link","27",{"rel":"icon","href":"/favicon-32.png","sizes":"32x32","type":"image/png"}],["$","link","28",{"rel":"icon","href":"/favicon-48.png","sizes":"48x48","type":"image/png"}],["$","link","29",{"rel":"apple-touch-icon","href":"/favicon-192.png","sizes":"192x192"}],["$","$L3e","30",{}]]

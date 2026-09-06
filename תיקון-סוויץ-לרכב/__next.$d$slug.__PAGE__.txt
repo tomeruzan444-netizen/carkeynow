@@ -1,0 +1,413 @@
+1:"$Sreact.fragment"
+9:I[22016,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],""]
+a:I[55132,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"TableOfContents"]
+b:I[92711,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+c:I[31179,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+15:I[97367,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+16:"$Sreact.suspense"
+18:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"FeatureCards"]
+19:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"ProcessSteps"]
+1a:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"ComparisonTable"]
+1b:I[46042,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+1c:I[33128,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+2:T147e,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"מה הם הסימנים שהסוויץ של הרכב מתחיל להתקלקל?","acceptedAnswer":{"@type":"Answer","text":"הסימנים המוקדמים: קושי קל בהכנסת המפתח, צורך לנסות כמה פעמים לפני ההצתה, רעש חריג מאזור המפתח, והרגשה שצריך ללחוץ קצת חזק. אלו לא \"רק ככה\" - זה הסוויץ מדבר אליכם. פנייה מוקדמת חוסכת הרבה כסף."}},{"@type":"Question","name":"כמה עולה תיקון סוויץ?","acceptedAnswer":{"@type":"Answer","text":"אבחון בלבד: 150-250 שקל. תיקון רגיל (ניקוי, שמן, החלפת רכיבים קטנים): 400-700 שקל. החלפת סוויץ מלאה: 800-1,500 שקל. לרכבי יוקרה: 1,200-2,500 שקל. בסוכנות מחיר החלפת סוויץ לרוב גבוה ב-40-70 אחוז."}},{"@type":"Question","name":"כמה זמן לוקח לתקן סוויץ?","acceptedAnswer":{"@type":"Answer","text":"תיקון בסיסי - 30 עד 45 דקות. החלפה מלאה - שעה עד שעתיים, תלוי ברכב. אנחנו עובדים בשטח שלכם - בחנייה, ברחוב, ליד הבית. לא צריך לגרור לסוכנות."}},{"@type":"Question","name":"האם אפשר לנסוע עם סוויץ מתקלקל?","acceptedAnswer":{"@type":"Answer","text":"לא מומלץ. ראינו מקרים שלקוח נסע בוקר שלם עם סוויץ גוסס, ובאמצע הנסיעה הרכב נכבה ולא הצליח לפתוח שוב. כשל מוחלט של סוויץ יכול לקרות בכל רגע. כשמרגישים קושי - פונים, לא מחכים."}},{"@type":"Question","name":"מה ההבדל בין תיקון סוויץ לבין החלפה?","acceptedAnswer":{"@type":"Answer","text":"תיקון - ניקוי, שמן מיוחד, החלפת קפיצים קטנים. זה עובד כשהנזק מוקדם. החלפה - כשהסוויץ כבר שחוק לגמרי או שנשבר רכיב מרכזי. אנחנו תמיד מנסים לתקן לפני להחליף, כי זה חוסך ללקוח כסף."}},{"@type":"Question","name":"המפתח תקוע בסוויץ - מה עושים?","acceptedAnswer":{"@type":"Answer","text":"אל תנסו להוציא בכוח - זה יכול לשבור את המפתח בתוך הסוויץ ולהפוך בעיה פשוטה לכאב ראש. ראשית, בדקו שהרכב בניוטרל ואפסו את ההגה. אם לא עוזר - התקשרו. הוצאת מפתח תקוע עולה 250-400 שקל."}},{"@type":"Question","name":"האם החלפת סוויץ מצריכה קידוד מחדש?","acceptedAnswer":{"@type":"Answer","text":"ברכבים עם אימוביליזר (רוב הרכבים מ-2000 ואילך) - כן. אנחנו מבצעים את הקידוד בשטח. זה חלק מהשירות ולא עלות נסתרת. ברכבים ישנים יותר - לא צריך קידוד."}},{"@type":"Question","name":"מה הגורם הנפוץ ביותר לקלקול סוויץ?","acceptedAnswer":{"@type":"Answer","text":"מחזיק מפתחות כבד מדי - זה מספר אחד. כשתולים הרבה מפתחות ופנדנטים על מפתח הרכב, המשקל שוחק את הסוויץ לאורך זמן. הגורם השני - לחץ על המפתח בסיבוב. שני הגורמים האלה מסבירים 70 אחוז מהתקלות שאנחנו מטפלים בהן."}},{"@type":"Question","name":"יש אחריות על תיקון הסוויץ?","acceptedAnswer":{"@type":"Answer","text":"כן - אחריות בכתב. 30 יום לתיקון, 6 חודשים על החלפת סוויץ מלאה. אם הבעיה חוזרת בתוך תקופת האחריות - אנחנו חוזרים ומתקנים בלי עלות."}},{"@type":"Question","name":"האם אפשר לשדרג לסוויץ עם אימוביליזר משופר?","acceptedAnswer":{"@type":"Answer","text":"כן, יש לקוחות שמחליטים לעבור לסוויץ עם אימוביליזר משודרג כשכבר משנים. זה מומלץ במיוחד לרכבים ישנים שאין להם הגנות מקוריות. עולה קצת יותר אבל מעלה את רמת האבטחה משמעותית."}},{"@type":"Question","name":"כמה שנות ניסיון יש לכם בתיקון סוויצ'ים?","acceptedAnswer":{"@type":"Answer","text":"מעל 10 שנים. בתקופה הזו טיפלנו במאות תקלות סוויץ לכל סוגי הרכבים. הניסיון מאפשר לנו לאבחן בדרך כלל תוך 10 דקות אם הבעיה בסוויץ עצמו, בשבב המפתח, או באימוביליזר."}},{"@type":"Question","name":"האם תיקון סוויץ אפשרי גם לרכבים חדשים?","acceptedAnswer":{"@type":"Answer","text":"כן, לרוב הדגמים. רכבים חדשים עם סוויץ חשמלי (push button) - זה שירות מיוחד שאנחנו מבצעים עם ציוד ממוחשב. המחיר גבוה יותר (1,000-2,500 שקל) אבל זה אחד הדברים שאנחנו מתמחים בו."}}]}0:{"rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://carkeynow.co.il\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"תיקון סוויץ לרכב - צפו במחירים\",\"item\":\"https://carkeynow.co.il/תיקון-סוויץ-לרכב/\"}]}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://carkeynow.co.il/תיקון-סוויץ-לרכב/\",\"name\":\"תיקון סוויץ לרכב - צפו במחירים | מפתח עכשיו\",\"description\":\"אנחנו במפתח עכשיו מבינים כמה זה מתסכל כשהסוויץ' ברכב מפסיק לעבוד. זה יכול לקרות בכל רגע - בדרך לעבודה, לפני נסיעה חשובה, או אפילו באמצע דרך. עם הניסיון...\",\"url\":\"https://carkeynow.co.il/תיקון-סוויץ-לרכב/\",\"isPartOf\":{\"@id\":\"https://carkeynow.co.il/#website\"},\"inLanguage\":\"he\"}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4",false,"$L5","$L6"],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TFfI33juvlz9FBwsp3OJz"}
+3:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"@id\":\"https://carkeynow.co.il/#amir\",\"name\":\"דורון\",\"jobTitle\":\"מנעולן רכב מומחה\",\"image\":\"https://carkeynow.co.il/wp-images/דורון-מנעולן-רכב.webp\",\"worksFor\":{\"@id\":\"https://carkeynow.co.il/#organization\"}}"}}]
+4:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white","dir":"rtl","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6","children":[["$","nav",null,{"className":"text-xs mb-2 opacity-70 flex items-center gap-1","children":[["$","$L9",null,{"href":"/","className":"hover:opacity-100","children":"דף הבית"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"opacity-100","children":"תיקון סוויץ לרכב - צפו במחירים"}]]}],"$undefined",["$","h1",null,{"className":"text-xl sm:text-2xl md:text-3xl font-bold leading-snug","children":"תיקון סוויץ לרכב - צפו במחירים"}]]}]}]
+d:T710a,
+<p style="margin-bottom: 20px;">הסוויץ' הוא אחד מהרכיבים החיוניים ביותר במערכת ההתנעה של הרכב. כאשר הוא מתקלקל, אין אפשרות להפעיל את הרכב, והבעיה דורשת טיפול מקצועי ומיידי.</p>
+<p> </p>
+<h2 id="sec-0" style="margin-top: 30px; margin-bottom: 20px;">מחירון תיקון סוויץ' לרכב</h2>
+<p style="margin-bottom: 20px;">אנחנו שומרים על שקיפות מלאה במחירים שלנו ומציעים מחירים הוגנים ותחרותיים לכל סוגי העבודות. אחת השאלות הנפוצות שאנחנו מקבלים היא <strong>כמה עולה להחליף סוויץ' לרכב</strong> - והתשובה תלויה בסוג הרכב ובחומרת התקלה:</p>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background-color: #ff8c00; color: white;">
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">סוג השירות</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">מחיר משוער</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">זמן ביצוע</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">אבחון תקלה בסוויץ'</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">150-250 ₪</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">15-30 דקות</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">תיקון סוויץ' רגיל</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">400-700 ₪</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">30-60 דקות</td>
+</tr>
+<tr>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">החלפת סוויץ' לרכב מלאה</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">800-1,500 ₪</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">45-90 דקות</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">שיפוץ סוויץ' לרכב</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">500-900 ₪</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">40-75 דקות</td>
+</tr>
+<tr>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">תיקון סוויץ' לרכב יוקרה</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">1,200-2,500 ₪</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">60-120 דקות</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-bottom: 20px;"><!-- Pricing Disclaimer -->
+
+<style>
+  .pd-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 16px auto 0 auto;
+    font-family: 'Heebo', 'Rubik', sans-serif;
+    direction: rtl;
+    text-align: right;
+    box-sizing: border-box;
+    line-height: normal;
+  }
+
+  .pd-container {
+    position: relative;
+    background: #1e4a72;
+    border-radius: 10px;
+    padding: 24px 28px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(23, 55, 87, 0.12);
+    box-sizing: border-box;
+    border-right: 4px solid #F5A927;
+  }
+
+  .pd-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    background: rgba(245, 169, 39, 0.12);
+    border: 1px solid rgba(245, 169, 39, 0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon-svg {
+    width: 18px;
+    height: 18px;
+    fill: #F5A927;
+  }
+
+  .pd-text-block {
+    flex: 1;
+    min-width: 180px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-main-text {
+    font-family: 'Rubik', 'Heebo', sans-serif;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-highlight {
+    color: #F5A927;
+    font-weight: 600;
+  }
+
+  .pd-sub-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.5;
+    margin: 8px 0 0 0;
+    padding: 0;
+  }
+
+  .pd-divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(245, 169, 39, 0.15);
+    margin: 14px 0 0 0;
+    padding: 0;
+    border: none;
+  }
+
+  .pd-date-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 12px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-date-icon {
+    width: 12px;
+    height: 12px;
+    fill: #F5A927;
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .pd-date-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-date-value {
+    color: rgba(245, 169, 39, 0.8);
+    font-weight: 500;
+  }
+
+  @media (max-width: 600px) {
+    .pd-container {
+      padding: 20px 20px;
+      border-radius: 8px;
+    }
+
+    .pd-content {
+      gap: 14px;
+    }
+
+    .pd-icon {
+      width: 32px;
+      height: 32px;
+    }
+
+    .pd-icon-svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .pd-main-text {
+      font-size: 13.5px;
+    }
+
+    .pd-sub-text {
+      font-size: 12px;
+    }
+
+    .pd-date-text {
+      font-size: 11px;
+    }
+  }
+</style>
+
+<!-- HTML -->
+</p><div class="pd-wrapper" id="pd-wrapper">
+  <div class="pd-container" id="pd-container">
+    <div class="pd-content" id="pd-content">
+      
+      <div class="pd-icon" id="pd-icon">
+        <svg class="pd-icon-svg" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+        </svg>
+      </div>
+
+      <div class="pd-text-block" id="pd-text-block">
+        <div class="pd-main-text" id="pd-main-text">
+          כל המחירים המוצגים <span class="pd-highlight">אינם כוללים מע״מ</span> (18%)
+        </div>
+
+        <div class="pd-sub-text" id="pd-sub-text">
+          המחירים המופיעים בטבלה הם משוערים ומשתנים לפי דגם הרכב, שנת הייצור וסוג המפתח
+        </div>
+
+        <div class="pd-divider" id="pd-divider"></div>
+
+        <div class="pd-date-badge" id="pd-date-badge">
+          <svg class="pd-date-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM9 10H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"></path>
+          </svg>
+          <span class="pd-date-text" id="pd-date-text">
+            מעודכן ל: <span class="pd-date-value" id="pd-date-value"></span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var hebrewMonths = [
+      'ינואר', 'פברואר', 'מרץ', 'אפריל', 'מאי', 'יוני',
+      'יולי', 'אוגוסט', 'ספטמבר', 'אוקטובר', 'נובמבר', 'דצמבר'
+    ];
+    var now = new Date();
+    var month = hebrewMonths[now.getMonth()];
+    var year = now.getFullYear();
+    var el = document.getElementById('pd-date-value');
+    if (el) {
+      el.textContent = month + ' ' + year;
+    }
+  })();
+</script>
+<p> </p>
+<div style="border-right: 4px solid #FF8C00; background: #FFF5EB; padding: 15px; margin: 20px 0; border-radius: 4px;"><strong>חשוב לדעת:</strong> תיקון סוויץ' לרכב דורש ציוד מקצועי ומחשוב מתקדם. ניסיונות תיקון עצמיים עלולים לגרום נזק למערכת החשמל של הרכב ולעלות בסופו של דבר יותר. אנחנו במפתח עכשיו מצוידים בכל הכלים הנדרשים לביצוע העבודה בצורה מושלמת.</div>
+<p style="margin-bottom: 20px;">כמה עולה להחליף סוויץ לרכב, ולמה הטווח בטבלה כל כך רחב? שלושה גורמים קובעים את המספר הסופי. הראשון הוא דור הסוויץ: מנגנון מכני בלבד ברכב ישן זול משמעותית ממודול שמשולב עם האימובילייזר. השני הוא כמה צריך לפרק כדי להגיע אליו, כי בחלק מהדגמים היחידה נגישה תוך דקות ובאחרים נדרש פירוק חלקי של כיסויי עמודת ההגה. השלישי הוא האם נדרש קידוד מחדש בסיום.</p>
+<p style="margin-bottom: 20px;">בפועל ההפרש בין שתי האפשרויות משמעותי. תיקון סוויץ לרכב מחיר נע בין 400 ל-700 שקל ברוב הדגמים, ואילו החלפת סוויץ לרכב מחיר מתחיל ב-800 שקל ומטפס עד 1,500 ויותר ברכבי יוקרה. זו בדיוק הסיבה שאנחנו מתחילים תמיד באבחון: הפער בין שתי השורות האלה גדול בהרבה מעלות האבחון עצמו.</p>
+<h2></h2>
+<h2 id="sec-1" style="margin-top: 30px; margin-bottom: 20px;">סימני שיש תקלה בסוויץ' הרכב</h2>
+<p style="margin-bottom: 20px;">לפני שמגיעים למצב של תקלה מוחלטת, הסוויץ' בדרך כלל נותן סימני אזהרה. אנחנו ממליצים לשים לב לסימנים הבאים:</p>
+<ul style="margin-bottom: 20px; padding-right: 20px;">
+<li style="margin-bottom: 10px;">קושי בסיבוב המפתח בסוויץ'</li>
+<li style="margin-bottom: 10px;">צורך בסיבוב חזק או במספר ניסיונות להתנעה</li>
+<li style="margin-bottom: 10px;">המפתח נתקע בסוויץ' ולא יוצא</li>
+<li style="margin-bottom: 10px;">הרכב לא מגיב כשמסובבים את המפתח</li>
+<li style="margin-bottom: 10px;">נורות בלוח המחוונים לא נדלקות כרגיל</li>
+<li style="margin-bottom: 10px;">קולות חריגים מאזור ההגה</li>
+</ul>
+<p style="margin-bottom: 20px;">כל אחד מהסימנים האלה יכול להעיד על בעיה מתפתחת בסוויץ'. אנחנו ממליצים לטפל בבעיה מיד, לפני שהיא מחמירה.</p>
+<p> </p>
+<p><img decoding="async" class="alignnone" src="/wp-images/תיקון-סוויץ-לרכב.webp" lt="תיקון סוויץ לרכב - מנעולן רכב מפתח עכשיו" width="337" height="380"></p>
+<h3></h3>
+<h3 style="margin-top: 25px; margin-bottom: 20px;"><strong>הסיבות השכיחות לתקלות בסוויץ'</strong></h3>
+<p style="margin-bottom: 20px;">אם ה<a href="/%d7%9e%d7%a4%d7%aa%d7%97-%d7%aa%d7%a7%d7%95%d7%a2-%d7%91%d7%a1%d7%95%d7%95%d7%99%d7%a5/">מפתח תקוע בסוויץ'</a> או שהסוויץ' לא מסתובב, תקלות בסוויץ' יכולות לנבוע ממספר גורמים:</p>
+<p style="margin-bottom: 20px;"><strong>בלאי טבעי:</strong> הסוויץ' הוא רכיב מכני שעובד אלפי פעמים במהלך חיי הרכב. עם הזמן, הקפיצים והמגעים החשמליים בתוכו נשחקים ומפסיקים לעבוד כראוי.</p>
+<p style="margin-bottom: 20px;"><strong>לכלוך והצטברות אבק:</strong> חדירת לכלוך, אבק או לחות למנגנון הסוויץ' עלולה לגרום לחיכוך ולתקלות במערכת.</p>
+<p style="margin-bottom: 20px;"><strong>בעיות חשמליות:</strong> תקלות במערכת החשמל של הרכב, קצרים או בעיות בחיווט עלולות להשפיע על פעולת הסוויץ'.</p>
+<p style="margin-bottom: 20px;"><strong>נזק מכני:</strong> שבירה או נזק פיזי לסוויץ', לרוב כתוצאה משימוש בכוח יתר או מתאונה.</p>
+<p> </p>
+<h2 id="sec-2" style="margin-top: 30px; margin-bottom: 20px;">מה שרוב האנשים לא יודעים על סוויץ' לרכב - מניסיון השטח שלנו</h2>
+<p style="margin-bottom: 20px;">אחרי שנים של עבודה בתחום, ראינו כמה דפוסים שחוזרים על עצמם. אנחנו נשתף אתכם בכמה תובנות שנצברו מהשטח - דברים שרוב הגולשים לא יודעים עד שהם נתקלים בבעיה.</p>
+<p> </p>
+<h3 style="margin-top: 20px; margin-bottom: 15px;">הטעות הנפוצה ביותר: להמתין עד שהסוויץ' מת לחלוטין</h3>
+<p style="margin-bottom: 20px;">כשסוויץ' מתחיל לתת סימנים, קושי בהתנעה, מפתח שנתקע לשנייה לפני שמשתחרר, קולות חריקה קלים - רוב האנשים אומרים לעצמם: "זה יעבור". בדרך כלל זה לא עובר. הסוויץ' הוא מנגנון מכני עם חיי שרות מוגדרים, ובלאי הוא תהליך הדרגתי. כשהוא מחמיר עד לנקודת כשל מוחלט, לרוב זה קורה ברגע הכי לא נוח, בבוקר שאתם מאוחרים לעבודה, באמצע חניון תת-קרקעי, או לפני נסיעה חשובה.</p>
+<p style="margin-bottom: 20px;">הטיפול המוקדם כמעט תמיד עולה פחות: לפעמים מספיק שיפוץ קטן של מנגנון הסוויץ', ניקוי ושימון, במקום החלפה מלאה. אנחנו תמיד בודקים האם ניתן לשמר את הסוויץ' הקיים לפני שאנחנו ממליצים על החלפה.</p>
+<p> </p>
+<h3 style="margin-top: 20px; margin-bottom: 15px;">קשר בין עמודת הגה נעולה לסוויץ' טעות שעולה כסף</h3>
+<p style="margin-bottom: 20px;">קיבלנו לא מעט פניות מאנשים שביקשו תיקון סוויץ' דחוף ולאחר שהגענו התברר שהסוויץ' בסדר גמור. הבעיה הייתה עמודת הגה נעולה, מצב שקורה כשחונים עם הגה פנוי לצד אחד ויוצרים לחץ מכני על מנגנון הנעילה. הפתרון: כשמנסים להניע, מסובבים קלות את ההגה ימינה-שמאלה בו זמנית עם המפתח. זה משחרר את הנעילה בלי שום תיקון. אם זה לא עוזר אז יש לחשוש לגבי הסוויץ' עצמו.</p>
+<p> </p>
+<h3 style="margin-top: 20px; margin-bottom: 15px;">מה קורה כשמשתמשים במחזיק מפתחות כבד מדי?</h3>
+<p style="margin-bottom: 20px;">זה נשמע טריוויאלי, אבל מחזיק מפתחות כבד עם עשרות מפתחות תלויים יכול לפגוע ישירות בסוויץ'. המשקל הנוסף יוצר עומס מתמיד על פינים הסיבוב הפנימיים. לאורך זמן, זה גורם לשחיקה מואצת ולתקלות מוקדמות בסוויץ'. אם אתם משתמשים במחזיק מפתחות עמוס - כדאי להפריד ולהשאיר רק את מפתח הרכב כשאתם נוהגים.</p>
+<h3 style="margin-top: 20px; margin-bottom: 15px;">ההבדל בין סוויץ' חשמלי לסוויץ' מכני ולמה זה משנה לתיקון</h3>
+<p style="margin-bottom: 20px;">ברכבים ישנים יותר (עד שנת 2005 בערך) הסוויץ' הוא בעיקרו מכני. ברכבים חדשים יותר, לצד המנגנון המכני יש גם מודול חשמלי שמתקשר עם מערכת האימובילייזר. כשמגיעים אלינו עם תקלת סוויץ', אנחנו תמיד בודקים את שני הרבדים - גם את המנגנון המכני וגם את המודול החשמלי - לפני שאנחנו מאבחנים. לא פעם ראינו מקרים שבהם המנגנון המכני תקין אבל המודול החשמלי כשל, ולהפך. אבחון שגוי עולה כסף ולא פותר את הבעיה.</p>
+<p> </p>
+<div style="border-right: 4px solid #FF8C00; background: #FFF5EB; padding: 15px; margin: 20px 0; border-radius: 4px;"><strong>מניסיון השטח:</strong> כ-30% מהמקרים שמגיעים אלינו כ"תקלת סוויץ'" מתבררים בסיום האבחון כבעיות אחרות - מפתח שחוק שלא מזיז את הסוויץ' כראוי, עמודת הגה נעולה, או בעיית אימובילייזר. לכן אנחנו תמיד מתחילים באבחון מקיף לפני שאנחנו מדברים על מחיר תיקון.</div>
+<h2 id="sec-3" style="margin-top: 30px; margin-bottom: 20px;">תיקון עצמי מול קריאה למקצועי מה כדאי לנסות ומה לא?</h2>
+<p style="margin-bottom: 20px;">שאלה שנשמעת הרבה: "יש דברים שאפשר לנסות לבד לפני שמתקשרים אליכם?" התשובה הכנה שלנו:</p>
+<p style="margin-bottom: 20px;"><strong>מה כן אפשר לנסות לבד:</strong></p>
+<ul style="margin-bottom: 20px; padding-right: 20px;">
+<li style="margin-bottom: 10px;">לנסות לשחרר עמודת הגה נעולה על ידי תנועת הגה קטנה תוך כדי סיבוב המפתח</li>
+<li style="margin-bottom: 10px;">לוודא שהרכב עומד בנייטרל (רכב ידני) או בחניה P (אוטומטי) לפני ניסיון ההתנעה</li>
+<li style="margin-bottom: 10px;">לנסות עם מפתח גיבוי אם יש - לפעמים הבעיה היא מפתח שחוק ולא הסוויץ'</li>
+</ul>
+<p style="margin-bottom: 20px;"><strong>מה לא לנסות לבד:</strong></p>
+<ul style="margin-bottom: 20px; padding-right: 20px;">
+<li style="margin-bottom: 10px;">לא להשתמש בכוח יתר כדי להסתובב את המפתח - זה יכול לשבור את המפתח בתוך הסוויץ' ולהכפיל את עלות התיקון</li>
+<li style="margin-bottom: 10px;">לא לנסות לפרק את עמודת ההגה - מדובר ברכיב בטיחותי קריטי</li>
+<li style="margin-bottom: 10px;">לא להשתמש בחומרי סיכה שאינם מיועדים לסוויץ' - חלקם פוגעים בפלסטיק הפנימי</li>
+<li style="margin-bottom: 10px;">לא לנסות חיבורי חוט ישיר לעקיפת הסוויץ' - זה מסוכן ועלול לגרום נזק חמור למערכת החשמל</li>
+</ul>
+<p> </p>
+<h3>כמה עולה להחליף סוויץ לרכב?</h3>
+<p>החלפת סוויץ לרכב עולה 550 עד 1,200 שקל, לעומת 350 עד 650 שקל לתיקון של המנגנון הקיים. ההפרש נובע בעיקר מהחלק עצמו: גליל מקורי לרכב אירופי עולה יותר מגליל לרכב יפני או קוריאני. ברכבים משנת 2005 ואילך ההחלפה מחייבת גם התאמה של המפתח או קידוד מחדש מול האימובילייזר, וזה מוסיף 20 עד 40 דקות לעבודה. אנחנו מפרקים ובודקים לפני שנוקבים במחיר סופי, כי בהרבה מקרים הגליל שלם והבעיה היא בלאי של הפינים או לכלוך שהצטבר לאורך שנים, ואז אין שום סיבה להחליף.</p>
+<h2 id="sec-4" style="margin-top: 30px; margin-bottom: 20px;">שלוש רמות טיפול: תיקון, שיפוץ והחלפה</h2>
+<p style="margin-bottom: 20px;">רוב הלקוחות מכירים שתי אפשרויות בלבד, לתקן או להחליף, אבל בפועל קיימת ביניהן דרגת ביניים שחוסכת כסף בחלק לא קטן מהמקרים.</p>
+<p style="margin-bottom: 20px;"><strong>תיקון:</strong> מתאים כשהתקלה נקודתית, למשל מגעים שהתחמצנו או לכלוך שהצטבר במנגנון. מנקים, משמנים ומחליפים רכיב בודד. זו העבודה הקצרה והזולה מבין השלוש.</p>
+<p style="margin-bottom: 20px;"><strong>שיפוץ סוויץ לרכב:</strong> הדרגה שרוב האנשים לא מכירים. במקום להחליף את היחידה כולה אנחנו מפרקים אותה, מחליפים את כל הרכיבים השחוקים שבפנים, הדסקיות, הקפיץ והמגעים, ומרכיבים מחדש. הגליל המקורי נשאר במקומו ולכן המפתח הקיים שלכם ממשיך לעבוד בלי שום התאמה. זו האפשרות הנכונה כשהבלאי כללי אבל גוף היחידה עצמו שלם.</p>
+<p style="margin-bottom: 20px;"><strong>החלפת סוויץ לרכב:</strong> נדרשת כשהגוף נסדק, כשרכיב מרכזי נשבר או כשמישהו כבר ניסה לפתוח בכוח. כאן מגיעה יחידה חדשה ואיתה מפתח חדש מהיצרן, ולכן אנחנו מתאימים אותה למפתח הקיים שלכם כדי שלא תישארו עם שני מפתחות שונים לאותו רכב.</p>
+<h2 id="sec-5" style="margin-top: 30px; margin-bottom: 20px;">השוואת סוגי סוויצ'ים לרכב</h2>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background-color: #ff8c00; color: white;">
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">סוג הסוויץ'</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">יתרונות</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">חסרונות</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">מחיר יחסי</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">סוויץ' מכני רגיל</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">זול, פשוט לתיקון</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">פחות עמיד, ללא הגנה</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">נמוך</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">סוויץ' עם אימובילייזר</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">הגנה מפני גניבה, עמידות גבוהה</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">תיקון מורכב יותר</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">בינוני</td>
+</tr>
+<tr>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">סוויץ' חכם (Smart Key)</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">נוחות מקסימלית, אבטחה גבוהה</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">יקר, דורש מומחיות מיוחדת</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">גבוה</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">סוויץ' מגנטי</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">ללא חלקים נעים, עמיד לאורך זמן</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">פחות נפוץ, תיקון מאתגר</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">גבוה</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2 id="sec-6" style="margin-top: 30px; margin-bottom: 20px;">שאלות שאנחנו מקבלים הרבה - ותשובות ישירות</h2>
+<h3 style="margin-top: 20px; margin-bottom: 10px;">האם אפשר לנהוג עם סוויץ' שנותן תקלות?</h3>
+<p style="margin-bottom: 20px;">לא מומלץ. סוויץ' שמתחיל לתת בעיות עלול להיכשל לחלוטין בכל רגע. מעבר לאי-הנוחות, יש מצבים שבהם הרכב יכול להיתקע במהלך נהיגה אם המנגנון מפסיק לעבוד. תמיד עדיף לטפל בסימני האזהרה הראשונים.</p>
+<p> </p>
+<h3 style="margin-top: 20px; margin-bottom: 10px;">כמה זמן לוקח התיקון ואיפה מבצעים אותו?</h3>
+<p style="margin-bottom: 20px;">בדרך כלל בין 30 דקות לשעתיים, תלוי בסוג הרכב ובמורכבות התיקון. אנחנו מגיעים אליכם לכל מקום - לבית, לעבודה, או לחניון. כל התיקון מתבצע במקום, מבלי שתצטרכו לגרור את הרכב לגראז'.</p>
+<p> </p>
+<h3 style="margin-top: 20px; margin-bottom: 10px;">האם אחרי תיקון הסוויץ' צריך לתכנת מחדש את המפתח?</h3>
+<p style="margin-bottom: 20px;">תלוי בסוג הרכב. ברכבים ישנים עם סוויץ' מכני בלבד - בדרך כלל לא. ברכבים עם מערכת אימובילייזר ומפתחות חכמים - לרוב כן. אנחנו מסבירים זאת מראש ומבצעים את כל הקידוד הנדרש במסגרת השירות, ללא עלות נוספת.</p>
+<p> </p>
+<h3 style="margin-top: 20px; margin-bottom: 10px;">מה ההבדל בין "תיקון" ל"החלפה" של סוויץ'?</h3>
+<p style="margin-bottom: 20px;">תיקון סוויץ' מתאים כשהמנגנון הפנימי נשחק או מתלכלך אך עדיין שלם - מנקים, משמנים ולפעמים מחליפים רכיבים בודדים. החלפה מלאה נדרשת כשהסוויץ' נשבר, נפגע פיזית, או כשנדרש שדרוג של מערכת האבטחה. אנחנו תמיד מעדיפים לתקן לפני שאנחנו ממליצים להחליף - הן בשל שיקולי עלות והן כי זה נכון יותר לרכב.</p>
+<div style="border-right: 4px solid #FF8C00; background: #FFF5EB; padding: 15px; margin: 20px 0; border-radius: 4px;"><strong>הבטחת השירות שלנו:</strong> על כל תיקון סוויץ' שאנחנו מבצעים אנחנו נותנים אחריות בכתב. אם יש בעיה עם הסוויץ' שתיקנו תוך 30 יום - אנחנו חוזרים לטפל בלי עלות נוספת. כך תוכלו להיות רגועים לחלוטין.</div>
+<h2 id="sec-7" style="margin-top: 30px; margin-bottom: 20px;">איך מזמינים שירות ומה זמני התגובה שלנו?</h2>
+<p style="margin-bottom: 20px;">להזמין את השירות שלנו זה מאוד פשוט. אתם מתקשרים אלינו, מספרים לנו על הרכב ועל הבעיה, ואנחנו נותנים לכם הערכת מחיר מיידית. אם זה מתאים לכם, אנחנו קובעים זמן הגעה.</p>
+<p style="margin-bottom: 20px;">במקרים דחופים - למשל כשאתם עומדים ליד הרכב ללא מפתח - אנחנו בדרך כלל מגיעים תוך 20-40 דקות, תלוי במיקום המדויק. במקרים פחות דחופים, אפשר לתאם מראש זמן נוח לכם.</p>
+<p style="margin-bottom: 20px;">חשוב לדעת שגם החלפת סוויץ לרכב מתבצעת אצלנו בשטח ולא במוסך. אנחנו מגיעים עם היחידה החלופית, עם ציוד הפירוק ועם מחשב הקידוד, כך שגם רכב שאינו מתניע כלל מטופל במקום שבו הוא חונה ובלי גרירה.</p>
+<p style="margin-bottom: 20px;">אנחנו עובדים שבעה ימים בשבוע, כולל שישי שבת וחגים. המחירים בסופי שבוע ובשעות לא שגרתיות זהים לימי חול רגילים - אנחנו לא גובים תוספות על זמני עבודה שונים.</p>
+<p style="margin-bottom: 20px;">התקשרו אלינו עכשיו לקבלת ייעוץ מקצועי וחינמי. אנחנו נשמח לענות על כל שאלה ולספק לכם את הפתרון המדויק לצרכים שלכם. עם מפתח עכשיו, אתם בידיים טובות. שירות תיקון סוויץ' לרכב משלים את מגוון שירותינו, הכולל גם <a href="/%d7%a9%d7%9b%d7%a4%d7%95%d7%9c-%d7%9e%d7%a4%d7%aa%d7%97-%d7%9c%d7%a8%d7%9b%d7%91/">שכפול מפתח לרכב</a> ו<a href="/%d7%a4%d7%95%d7%a8%d7%a5-%d7%a8%d7%9b%d7%91%d7%99%d7%9d/">פריצת רכב</a> במקרי חירום.</p>
+5:["$","div",null,{"className":"max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8","dir":"rtl","children":["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 items-start","children":[["$","div",null,{"id":"page-article","className":"min-w-0","children":[["$","$La",null,{"items":[{"id":"sec-0","text":"מחירון תיקון סוויץ' לרכב"},{"id":"sec-1","text":"סימני שיש תקלה בסוויץ' הרכב"},{"id":"sec-2","text":"מה שרוב האנשים לא יודעים על סוויץ' לרכב - מניסיון השטח שלנו"},{"id":"sec-3","text":"תיקון עצמי מול קריאה למקצועי מה כדאי לנסות ומה לא?"},{"id":"sec-4","text":"שלוש רמות טיפול: תיקון, שיפוץ והחלפה"},{"id":"sec-5","text":"השוואת סוגי סוויצ'ים לרכב"},{"id":"sec-6","text":"שאלות שאנחנו מקבלים הרבה - ותשובות ישירות"},{"id":"sec-7","text":"איך מזמינים שירות ומה זמני התגובה שלנו?"},{"id":"sec-8","text":"6 סימנים שהסוויץ מתחיל להתקלקל"},{"id":"sec-9","text":"תהליך תיקון הסוויץ שלנו"},{"id":"sec-10","text":"אנחנו מול סוכנות רשמית"},{"id":"sec-11","text":"שאלות נפוצות"}]}],["$","div",null,{"className":"p-1 sm:card sm:p-6 md:p-8","children":[["$","div",null,{"dir":"rtl","className":"flex items-center gap-3 mb-5 pb-4 border-b border-gray-100","children":[["$","img",null,{"src":"/wp-images/דורון-מנעולן-רכב.webp","alt":"דורון - מנעולן רכב מומחה","width":40,"height":40,"loading":"lazy","className":"w-10 h-10 rounded-full object-cover shrink-0 ring-1 ring-black/5"}],["$","div",null,{"className":"text-sm leading-tight","children":[["$","span",null,{"className":"block text-gray-500","children":"נכתב ונבדק על ידי"}],["$","span",null,{"className":"block font-bold","style":{"color":"var(--primary)"},"children":["דורון"," · ","מנעולן רכב מומחה"]}]]}]]}],[["$","$Lb",null,{"html":"<p style=\"margin-bottom: 20px;\">אנחנו במפתח עכשיו מבינים כמה זה מתסכל כשהסוויץ' ברכב מפסיק לעבוד. זה יכול לקרות בכל רגע - בדרך לעבודה, לפני נסיעה חשובה, או אפילו באמצע דרך. עם הניסיון והמקצועיות שלנו, אנחנו מספקים שירות תיקון סוויץ' לרכב מהיר ואמין, עם ציוד מתקדם ומחשוב חדיש שמבטיח תוצאות מושלמות.</p>"}],false,["$","$Lc",null,{"gallery":{"heading":"סוויץ ההצתה מבפנים","sub":"מהמפתח שנתקע ועד המנגנון החשוף אחרי פירוק עמוד ההגה","images":[{"src":"/wp-images/מפתח-תקוע-בסוויץ-מפתח-עכשיו.webp","w":247,"h":280,"caption":"מפתח בתוך הסוויץ - כאן מתחילה כל תקלת סיבוב או מפתח תקוע","alt":"מפתח רכב מוכנס לתוך סוויץ ההצתה ליד לוח המחוונים - תיקון סוויץ לרכב"},{"src":"/wp-images/תיקון-סוויצים-לרכב.webp","w":252,"h":295,"caption":"מנגנון הנעילה חשוף אחרי הסרת כיסויי ההגה","alt":"מנגנון הנעילה והסוויץ חשוף אחרי פירוק כיסויי עמוד ההגה - תיקון סוויץ לרכב"}]}}],["$","$Lb",null,{"html":"$d"}]],false,false]}],"$Le","$Lf",["$L10","$L11","$L12"],"$L13"]}],"$L14"]}]}]
+6:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white py-8 text-center","dir":"rtl","children":["$","div",null,{"className":"max-w-xl mx-auto px-4","children":[["$","p",null,{"className":"font-bold text-lg mb-4","children":"צריכים עזרה? אנחנו כאן 24/7"}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-3 justify-center","children":["$","a",null,{"href":"tel:033822752","className":"btn-primary text-base px-8","children":"03-382-2752"}]}]]}]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/1leulq3_ixpp7.js","async":true}]
+8:["$","$L15",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]
+e:null
+f:null
+10:["$","div","0",{"id":"sec-8","children":["$","$L18",null,{"heading":"6 סימנים שהסוויץ מתחיל להתקלקל","cards":[{"title":"קושי בהכנסת המפתח","desc":"צריך לדחוף חזק, להרים את ההגה או לנסות כמה פעמים. זה הסימן הראשון."},{"title":"ניסיונות הצתה חוזרים","desc":"המפתח מסתובב אבל הרכב לא נדלק בפעם הראשונה. לפעמים דורש 3-4 ניסיונות."},{"title":"מפתח לא משתחרר","desc":"אחרי כיבוי - המפתח לא יוצא מהסוויץ. דורש לחיצות ומאמץ יתר."},{"title":"עמוד ההגה נועל","desc":"ההגה נועל ולא מאפשר הצתה. נפוץ כשמסיבים את ההגה בזמן כיבוי."},{"title":"נורות לא נדלקות","desc":"לוח המחוונים לא מדליק כשמסובבים המפתח לא. בעיה חשמלית בסוויץ."},{"title":"רעש חריג","desc":"קליק, חריקה או רעש לא רגיל מאזור עמוד ההגה בזמן פתיחת/נעילת המנעול."}],"cols":3}]}]
+11:["$","div","1",{"id":"sec-9","children":["$","$L19",null,{"heading":"תהליך תיקון הסוויץ שלנו","steps":[{"title":"אבחון מקצועי","desc":"חיבור מכשיר אבחון ממוחשב לרכב לזיהוי מקור הבעיה - האם הסוויץ, השבב או האימוביליזר.","duration":"10 דק׳"},{"title":"זיהוי סוג הסוויץ","desc":"כל יצרן ודגם עובדים עם מנגנון שונה. מזהים את הגרסה המדויקת לפני שמתחילים.","duration":"5 דק׳"},{"title":"תיקון או החלפה","desc":"תיקון - ניקוי, שמן מיוחד, החלפת קפיצים. החלפה - כשהנזק מוחלט. תמיד מנסים לתקן קודם.","duration":"30-90 דק׳"},{"title":"קידוד מחדש","desc":"ברכבים עם אימוביליזר - מתכנתים את הסוויץ החדש למפתח הקיים. לא צריך מפתח חדש.","duration":"15 דק׳"},{"title":"בדיקה סופית","desc":"מנסים הצתה 5 פעמים רצופות, בודקים שחרור עמוד הגה ומאשרים תקינות לפני עזיבה.","duration":"5 דק׳"}]}]}]
+12:["$","div","2",{"id":"sec-10","children":["$","$L1a",null,{"heading":"אנחנו מול סוכנות רשמית","colUs":"מפתח עכשיו","colAlt":"סוכנות","rows":[{"criterion":"תיקון בסיסי","us":"₪400-₪700","usColor":"green","alt":"₪600-₪1,200","altColor":"red"},{"criterion":"החלפת סוויץ מלאה","us":"₪800-₪1,500","usColor":"green","alt":"₪1,500-₪3,000","altColor":"red"},{"criterion":"הגעה לבית","us":"כן","usColor":"green","alt":"לא","altColor":"red"},{"criterion":"זמן המתנה","us":"1-2 שעות","usColor":"green","alt":"3-7 ימי עסקים","altColor":"red"},{"criterion":"אחריות","us":"6 חודשים","usColor":"green","alt":"אחריות יצרן","altColor":"blue"}]}]}]
+13:["$","div",null,{"id":"sec-11","className":"mt-6","children":["$","$L1b",null,{"items":[{"q":"מה הם הסימנים שהסוויץ של הרכב מתחיל להתקלקל?","a":"הסימנים המוקדמים: קושי קל בהכנסת המפתח, צורך לנסות כמה פעמים לפני ההצתה, רעש חריג מאזור המפתח, והרגשה שצריך ללחוץ קצת חזק. אלו לא \"רק ככה\" - זה הסוויץ מדבר אליכם. פנייה מוקדמת חוסכת הרבה כסף."},{"q":"כמה עולה תיקון סוויץ?","a":"אבחון בלבד: 150-250 שקל. תיקון רגיל (ניקוי, שמן, החלפת רכיבים קטנים): 400-700 שקל. החלפת סוויץ מלאה: 800-1,500 שקל. לרכבי יוקרה: 1,200-2,500 שקל. בסוכנות מחיר החלפת סוויץ לרוב גבוה ב-40-70 אחוז."},{"q":"כמה זמן לוקח לתקן סוויץ?","a":"תיקון בסיסי - 30 עד 45 דקות. החלפה מלאה - שעה עד שעתיים, תלוי ברכב. אנחנו עובדים בשטח שלכם - בחנייה, ברחוב, ליד הבית. לא צריך לגרור לסוכנות."},{"q":"האם אפשר לנסוע עם סוויץ מתקלקל?","a":"לא מומלץ. ראינו מקרים שלקוח נסע בוקר שלם עם סוויץ גוסס, ובאמצע הנסיעה הרכב נכבה ולא הצליח לפתוח שוב. כשל מוחלט של סוויץ יכול לקרות בכל רגע. כשמרגישים קושי - פונים, לא מחכים."},{"q":"מה ההבדל בין תיקון סוויץ לבין החלפה?","a":"תיקון - ניקוי, שמן מיוחד, החלפת קפיצים קטנים. זה עובד כשהנזק מוקדם. החלפה - כשהסוויץ כבר שחוק לגמרי או שנשבר רכיב מרכזי. אנחנו תמיד מנסים לתקן לפני להחליף, כי זה חוסך ללקוח כסף."},{"q":"המפתח תקוע בסוויץ - מה עושים?","a":"אל תנסו להוציא בכוח - זה יכול לשבור את המפתח בתוך הסוויץ ולהפוך בעיה פשוטה לכאב ראש. ראשית, בדקו שהרכב בניוטרל ואפסו את ההגה. אם לא עוזר - התקשרו. הוצאת מפתח תקוע עולה 250-400 שקל."},{"q":"האם החלפת סוויץ מצריכה קידוד מחדש?","a":"ברכבים עם אימוביליזר (רוב הרכבים מ-2000 ואילך) - כן. אנחנו מבצעים את הקידוד בשטח. זה חלק מהשירות ולא עלות נסתרת. ברכבים ישנים יותר - לא צריך קידוד."},{"q":"מה הגורם הנפוץ ביותר לקלקול סוויץ?","a":"מחזיק מפתחות כבד מדי - זה מספר אחד. כשתולים הרבה מפתחות ופנדנטים על מפתח הרכב, המשקל שוחק את הסוויץ לאורך זמן. הגורם השני - לחץ על המפתח בסיבוב. שני הגורמים האלה מסבירים 70 אחוז מהתקלות שאנחנו מטפלים בהן."},{"q":"יש אחריות על תיקון הסוויץ?","a":"כן - אחריות בכתב. 30 יום לתיקון, 6 חודשים על החלפת סוויץ מלאה. אם הבעיה חוזרת בתוך תקופת האחריות - אנחנו חוזרים ומתקנים בלי עלות."},{"q":"האם אפשר לשדרג לסוויץ עם אימוביליזר משופר?","a":"כן, יש לקוחות שמחליטים לעבור לסוויץ עם אימוביליזר משודרג כשכבר משנים. זה מומלץ במיוחד לרכבים ישנים שאין להם הגנות מקוריות. עולה קצת יותר אבל מעלה את רמת האבטחה משמעותית."},{"q":"כמה שנות ניסיון יש לכם בתיקון סוויצ'ים?","a":"מעל 10 שנים. בתקופה הזו טיפלנו במאות תקלות סוויץ לכל סוגי הרכבים. הניסיון מאפשר לנו לאבחן בדרך כלל תוך 10 דקות אם הבעיה בסוויץ עצמו, בשבב המפתח, או באימוביליזר."},{"q":"האם תיקון סוויץ אפשרי גם לרכבים חדשים?","a":"כן, לרוב הדגמים. רכבים חדשים עם סוויץ חשמלי (push button) - זה שירות מיוחד שאנחנו מבצעים עם ציוד ממוחשב. המחיר גבוה יותר (1,000-2,500 שקל) אבל זה אחד הדברים שאנחנו מתמחים בו."}]}]}]
+14:["$","div",null,{"children":["$","aside",null,{"className":"space-y-4","dir":"rtl","children":[["$","$L1c",null,{"compact":true}],["$","div",null,{"className":"card p-4 text-sm text-center","dir":"rtl","children":[["$","p",null,{"className":"font-bold mb-1","style":{"color":"var(--primary)"},"children":"מנעולן רכב 24/7"}],["$","p",null,{"className":"text-gray-400 text-xs mb-3","children":"הגעה תוך 20 דקות בממוצע"}],["$","a",null,{"href":"tel:033822752","className":"block w-full py-2 rounded font-bold text-white text-sm","style":{"background":"var(--accent)"},"children":"03-382-2752"}]]}],[["$","div","שירותי סוויץ ומפתח",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שירותי סוויץ ומפתח"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/מפתח-תקוע-בסוויץ",{"children":["$","$L9",null,{"href":"/מפתח-תקוע-בסוויץ","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"מפתח תקוע בסוויץ"]}]}],["$","li","/סוויץ-לרכב-בנתניה",{"children":["$","$L9",null,{"href":"/סוויץ-לרכב-בנתניה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"סוויץ לרכב בנתניה"]}]}],["$","li","/שחזור-מפתח-לרכב",{"children":["$","$L9",null,{"href":"/שחזור-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שחזור מפתח לרכב"]}]}],["$","li","/אבד-מפתח-לרכב",{"children":["$","$L9",null,{"href":"/אבד-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"אבד מפתח לרכב"]}]}],["$","li","/שכפול-מפתח-לרכב",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרכב"]}]}]]}]]}],["$","div","שכפול מפתח לפי עיר",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שכפול מפתח לפי עיר"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לרכב-בגני-תקווה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בגני-תקווה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בגני תקווה"]}]}],["$","li","/שכפול-מפתח-לרכב-בתל-אביב",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בתל-אביב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בתל אביב"]}]}],["$","li","/שכפול-מפתח-לרכב-בחיפה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בחיפה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בחיפה"]}]}],["$","li","/שכפול-מפתח-לרכב-בירושלים",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בירושלים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בירושלים"]}]}],["$","li","/שכפול-מפתח-לרכב-בבאר-שבע",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בבאר-שבע","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בבאר שבע"]}]}],["$","li","/שכפול-מפתח-לרכב-ברחובות",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-ברחובות","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ברחובות"]}]}],["$","li","/שכפול-מפתח-לרכב-בנתניה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בנתניה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בנתניה"]}]}],["$","li","/שכפול-מפתח-לרכב-ברמת-גן",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-ברמת-גן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ברמת גן"]}]}]]}]]}],["$","div","שכפול מפתח לפי דגם",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שכפול מפתח לפי דגם"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לטויוטה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לטויוטה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לטויוטה"]}]}],["$","li","/שכפול-מפתח-ליונדאי",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-ליונדאי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ליונדאי"]}]}],"$L1d","$L1e","$L1f","$L20","$L21","$L22"]}]]}]]]}]}]
+17:null
+1d:["$","li","/שכפול-מפתח-למאזדה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-למאזדה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח למאזדה"]}]}]
+1e:["$","li","/שכפול-מפתח-לניסאן",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לניסאן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לניסאן"]}]}]
+1f:["$","li","/שכפול-מפתח-לרנו",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרנו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרנו"]}]}]
+20:["$","li","/שכפול-מפתח-לשברולט",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לשברולט","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לשברולט"]}]}]
+21:["$","li","/שכפול-מפתח-לפורד",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לפורד","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לפורד"]}]}]
+22:["$","li","/שכפול-מפתח-לפיגו",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לפיגו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לפיגו"]}]}]

@@ -1,0 +1,367 @@
+1:"$Sreact.fragment"
+9:I[22016,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],""]
+a:I[55132,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"TableOfContents"]
+b:I[92711,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+c:I[31179,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+15:I[97367,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+16:"$Sreact.suspense"
+18:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"ProcessSteps"]
+19:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"FeatureCards"]
+1a:I[46042,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+1b:I[33128,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+2:Tfc7,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"כמה עולה תיקון שלט לרכב?","acceptedAnswer":{"@type":"Answer","text":"המחיר מתחיל ב-300 שקל, שהוא מחיר המינימום לקריאת שירות בשטח (כולל בדיקה והחלפת סוללה). תיקון לחצנים ומגעים או קידוד מחדש: 300-400 שקל. שלט חלופי עם קידוד: 350-800 שקל תלוי בדגם. כל מה שנעשה כולל בדיקת תקינות לפני שאנחנו עוזבים."}},{"@type":"Question","name":"השלט לא עובד - מה בודקים לפני שמתקשרים?","acceptedAnswer":{"@type":"Answer","text":"קודם החליפו סוללה - זו הסיבה הנפוצה ביותר. וודאו שאתם בטווח הנכון (עד 20-30 מטר). נסו ללחוץ כמה פעמים ברצף. אם החלפתם סוללה והשלט עדיין לא עובד - כנראה יש בעיה בקידוד או בחומרה."}},{"@type":"Question","name":"האם שלט קנוי באינטרנט אפשר לקדד?","acceptedAnswer":{"@type":"Answer","text":"לפעמים כן, לפעמים לא. זה תלוי ביצרן ובמודל הרכב. לפני שקונים שלט אינטרנט - התקשרו אלינו ותבדקו. ראינו לא מעט מקרים של לקוחות שקנו שלט לא תואם שאי אפשר לקדד."}},{"@type":"Question","name":"האם אפשר להוסיף שלט נוסף לרכב?","acceptedAnswer":{"@type":"Answer","text":"כן, ברוב הרכבים. אנחנו מתכנתים שלט נוסף למערכת הקיימת. עולה 300-400 שקל תלוי ברכב. כדאי לעשות כפילות מוקדמת - זול הרבה יותר מאובדן שלט יחיד."}},{"@type":"Question","name":"הלחצנים שקעו ולא חוזרים - אפשר לתקן?","acceptedAnswer":{"@type":"Answer","text":"כן ברוב המקרים. המגעים הגומיים מתאפסים עם הזמן. אנחנו פותחים את השלט, מנקים ומחליפים את הגומי הפגום. זה 300-400 שקל ועובד היטב. אם השלט שבור לגמרי - נחליף."}},{"@type":"Question","name":"השלט עובד רק בקרבה מאוד - למה?","acceptedAnswer":{"@type":"Answer","text":"בדרך כלל: סוללה חלשה (לא בהכרח מתה), אנטנת השלט פגועה, או הרצפטור ברכב מוחלש. אנחנו בודקים את שני הצדדים - גם את השלט וגם את מערכת הקבלה ברכב."}},{"@type":"Question","name":"כמה עולה שכפול שלט לרכב?","acceptedAnswer":{"@type":"Answer","text":"שלט רגיל עם קידוד: 350-600 שקל. שלט חכם Keyless: 800-1,500 שקל. תלוי ביצרן ובדגם. אנחנו מביאים את השלטים איתנו - לא צריך להזמין מראש."}},{"@type":"Question","name":"האם שלט מבטיח ביטחון טוב יותר מרק מפתח?","acceptedAnswer":{"@type":"Answer","text":"כן. שלט מוסיף הצפנה ורולינג קוד - כל לחיצה שולחת קוד שונה שלא ניתן ללכוד ולשכפל בקלות. מפתח מכאני לבד ניתן להעתיק בקלות. לכן אנחנו תמיד ממליצים על שלט אם הרכב תומך."}},{"@type":"Question","name":"כמה זמן לוקח קידוד שלט?","acceptedAnswer":{"@type":"Answer","text":"בין 15 ל-30 דקות. פשוט ומהיר יחסית. אנחנו מגיעים אליכם ומבצעים את הקידוד בשטח - לא צריך לנסוע לשום מקום."}},{"@type":"Question","name":"האם ניתן לקדד שלט ישן שאיבד קידוד?","acceptedAnswer":{"@type":"Answer","text":"כן, ברוב המקרים. כשמחליפים סוללה לא נכון או כשיש תקלת זיכרון - השלט מאבד את הקידוד. אנחנו מחזירים אותו לתפקוד מלא. עולה 300-400 שקל."}}]}0:{"rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://carkeynow.co.il\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"קידוד שלט לרכב - מחירון בפנים\",\"item\":\"https://carkeynow.co.il/קידוד-שלט-לרכב/\"}]}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://carkeynow.co.il/קידוד-שלט-לרכב/\",\"name\":\"קידוד שלט לרכב - מחירון בפנים | מפתח עכשיו\",\"description\":\"אנחנו ב'מפתח עכשיו' מתמחים בקידוד שלט לרכב בטכנולוגיה המתקדמת ביותר. עם ציוד ממוחשב חדיש וניסיון רב שנים, אנחנו מספקים פתרונות מקצועיים לכל סוגי הרכבים...\",\"url\":\"https://carkeynow.co.il/קידוד-שלט-לרכב/\",\"isPartOf\":{\"@id\":\"https://carkeynow.co.il/#website\"},\"inLanguage\":\"he\"}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4",false,"$L5","$L6"],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TFfI33juvlz9FBwsp3OJz"}
+3:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"@id\":\"https://carkeynow.co.il/#amir\",\"name\":\"דורון\",\"jobTitle\":\"מנעולן רכב מומחה\",\"image\":\"https://carkeynow.co.il/wp-images/דורון-מנעולן-רכב.webp\",\"worksFor\":{\"@id\":\"https://carkeynow.co.il/#organization\"}}"}}]
+4:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white","dir":"rtl","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6","children":[["$","nav",null,{"className":"text-xs mb-2 opacity-70 flex items-center gap-1","children":[["$","$L9",null,{"href":"/","className":"hover:opacity-100","children":"דף הבית"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"opacity-100","children":"קידוד שלט לרכב - מחירון בפנים"}]]}],"$undefined",["$","h1",null,{"className":"text-xl sm:text-2xl md:text-3xl font-bold leading-snug","children":"קידוד שלט לרכב - מחירון בפנים"}]]}]}]
+d:T459a,
+<p>&nbsp;</p>
+<h2 id="sec-0" style="margin-top: 30px; margin-bottom: 15px;">מחירון קידוד שלט לרכב</h2>
+<p style="margin-bottom: 20px;">המחירים שלנו שקופים והוגנים, ומבוססים על סטנדרטים מקצועיים בתעשייה. אנחנו מציעים מחירים תחרותיים ללא פשרות על האיכות והשירות.</p>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background-color: #ff8c00; color: white;">
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">סוג השירות</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">מחיר משוער</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">זמן ביצוע</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">קידוד שלט רגיל</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">400-550 ₪</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">15-30 דקות</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">קידוד מפתח חכם</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">450-800 ₪</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">30-60 דקות</td>
+</tr>
+<tr>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">שכפול שלט יוקרה</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">400-550 ₪</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">45-90 דקות</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">קידוד שלט חירום</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">400-550 ₪</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">20-40 דקות</td>
+</tr>
+</tbody>
+</table>
+<div style="border-right: 4px solid #FF8C00; background: #FFF5EB; padding: 15px; margin: 20px 0; border-radius: 4px;"><strong>חשוב לדעת:</strong> המחירים משתנים בהתאם לדגם הרכב, שנת הייצור וסוג מערכת האבטחה. רכבים מודרניים עם מערכות קידוד מתקדמות עשויים לדרוש ציוד ייעודי ותהליך מורכב יותר. אנחנו תמיד נמסור לכם את המחיר המדויק לפני תחילת העבודה.</div>
+<!-- Pricing Disclaimer -->
+
+<style>
+  .pd-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 16px auto 0 auto;
+    font-family: 'Heebo', 'Rubik', sans-serif;
+    direction: rtl;
+    text-align: right;
+    box-sizing: border-box;
+    line-height: normal;
+  }
+
+  .pd-container {
+    position: relative;
+    background: #1e4a72;
+    border-radius: 10px;
+    padding: 24px 28px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(23, 55, 87, 0.12);
+    box-sizing: border-box;
+    border-right: 4px solid #F5A927;
+  }
+
+  .pd-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    background: rgba(245, 169, 39, 0.12);
+    border: 1px solid rgba(245, 169, 39, 0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon-svg {
+    width: 18px;
+    height: 18px;
+    fill: #F5A927;
+  }
+
+  .pd-text-block {
+    flex: 1;
+    min-width: 180px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-main-text {
+    font-family: 'Rubik', 'Heebo', sans-serif;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-highlight {
+    color: #F5A927;
+    font-weight: 600;
+  }
+
+  .pd-sub-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.5;
+    margin: 8px 0 0 0;
+    padding: 0;
+  }
+
+  .pd-divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(245, 169, 39, 0.15);
+    margin: 14px 0 0 0;
+    padding: 0;
+    border: none;
+  }
+
+  .pd-date-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 12px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-date-icon {
+    width: 12px;
+    height: 12px;
+    fill: #F5A927;
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .pd-date-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-date-value {
+    color: rgba(245, 169, 39, 0.8);
+    font-weight: 500;
+  }
+
+  @media (max-width: 600px) {
+    .pd-container {
+      padding: 20px 20px;
+      border-radius: 8px;
+    }
+
+    .pd-content {
+      gap: 14px;
+    }
+
+    .pd-icon {
+      width: 32px;
+      height: 32px;
+    }
+
+    .pd-icon-svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .pd-main-text {
+      font-size: 13.5px;
+    }
+
+    .pd-sub-text {
+      font-size: 12px;
+    }
+
+    .pd-date-text {
+      font-size: 11px;
+    }
+  }
+</style>
+
+<!-- HTML -->
+<div class="pd-wrapper" id="pd-wrapper">
+  <div class="pd-container" id="pd-container">
+    <div class="pd-content" id="pd-content">
+      
+      <div class="pd-icon" id="pd-icon">
+        <svg class="pd-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+        </svg>
+      </div>
+
+      <div class="pd-text-block" id="pd-text-block">
+        <div class="pd-main-text" id="pd-main-text">
+          כל המחירים המוצגים <span class="pd-highlight">אינם כוללים מע״מ</span> (18%)
+        </div>
+
+        <div class="pd-sub-text" id="pd-sub-text">
+          המחירים המופיעים בטבלה הם משוערים ומשתנים לפי דגם הרכב, שנת הייצור וסוג המפתח
+        </div>
+
+        <div class="pd-divider" id="pd-divider"></div>
+
+        <div class="pd-date-badge" id="pd-date-badge">
+          <svg class="pd-date-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM9 10H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"/>
+          </svg>
+          <span class="pd-date-text" id="pd-date-text">
+            מעודכן ל: <span class="pd-date-value" id="pd-date-value"></span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var hebrewMonths = [
+      'ינואר', 'פברואר', 'מרץ', 'אפריל', 'מאי', 'יוני',
+      'יולי', 'אוגוסט', 'ספטמבר', 'אוקטובר', 'נובמבר', 'דצמבר'
+    ];
+    var now = new Date();
+    var month = hebrewMonths[now.getMonth()];
+    var year = now.getFullYear();
+    var el = document.getElementById('pd-date-value');
+    if (el) {
+      el.textContent = month + ' ' + year;
+    }
+  })();
+</script>
+<p>&nbsp;</p>
+<h2 id="sec-1" style="margin-top: 30px; margin-bottom: 15px;">מה זה קידוד מפתח לרכב?</h2>
+<p style="margin-bottom: 20px;">קידוד שלט לרכב הוא תהליך טכנולוגי שבו אנחנו מתכנתים שלט חדש או קיים כך שיתקשר עם מערכת האבטחה של הרכב. המערכת מזהה את הקוד הייחודי שמשודר מהשלט ומאפשרת נעילה, פתיחה והתנעה של הרכב.</p>
+<p style="margin-bottom: 20px;">בעידן המודרני, רוב הרכבים מצוידים במערכות אבטחה מתקדמות שדורשות שכפול מפתחות מקצועי עם ציוד ממוחשב. אנחנו ב'מפתח עכשיו' משקיעים בציוד המתקדם ביותר כדי להבטיח שנוכל לטפל בכל רכב ודגם.</p>
+<p>&nbsp;</p>
+<h3 style="margin-top: 25px; margin-bottom: 15px;">סוגי השלטים שאנחנו מטפלים בהם</h3>
+<ul style="margin-right: 20px; margin-bottom: 20px; line-height: 1.8;">
+<li style="margin-bottom: 10px;">שלטי אינפרא אדום מהדור הישן</li>
+<li style="margin-bottom: 10px;">שלטי רדיו תדר מתקדמים</li>
+<li style="margin-bottom: 10px;">מפתחות חכמים עם התנעה ללא מפתח</li>
+<li style="margin-bottom: 10px;">שלטים משולבים עם שבב אימוביליזר</li>
+<li style="margin-bottom: 10px;">מערכות Keyless Entry מתקדמות</li>
+</ul>
+<p>&nbsp;</p>
+<h3>איך עושים קידודים לרכב?</h3>
+<p>קידוד לרכב הוא רישום של המפתח או השלט ביחידת האימובילייזר, כך שהרכב יזהה אותם כמורשים. אנחנו מתחברים לשקע האבחון שמתחת להגה, קוראים את סוג המערכת ואת מספר המפתחות הרשומים בה, ובחלק מהדגמים שולפים תחילה קוד אבטחה מהמחשב לפני שאפשר בכלל להתחיל. אחר כך רושמים את השלט החדש, מסנכרנים את תדר השידור ואת קוד הגלגול, ובודקים נעילה, שחרור והתנעה אחד אחרי השני. התהליך אורך 10 עד 40 דקות לפי הדגם, ובמערכות מסוימות יש המתנה מובנית בין השלבים שאי אפשר לקצר בשום ציוד. תנאי אחד קריטי: מתח יציב ברכב לאורך כל התהליך, ולכן אנחנו בודקים את המצבר לפני שמתחילים.</p>
+<h2 id="sec-2" style="margin-top: 30px; margin-bottom: 15px;">התהליך המקצועי של קידוד שלטים לרכב</h2>
+<p style="margin-bottom: 20px;">אנחנו מבצעים את תהליך קידוד השלט בשלבים מדויקים. קודם כל, אנחנו מזהים את סוג המערכת ברכב ובודקים את דרישות הקידוד הספציפיות לדגם שלכם. לאחר מכן, אנחנו מחברים את הציוד הממוחשב שלנו למערכת האבטחה.</p>
+<p style="margin-bottom: 20px;">השלב הבא כולל קידוד השלט החדש למערכת. אנחנו מקפידים לשמור על השלטים הקיימים פעילים תוך הוספת השלט החדש. בסיום התהליך, אנחנו מבצעים בדיקה מקיפה כדי לוודא שהשלט עובד בצורה מושלמת.</p>
+<div style="border-right: 4px solid #FF8C00; background: #FFF5EB; padding: 15px; margin: 20px 0; border-radius: 4px;"><strong>טיפ מקצועי:</strong> כדאי תמיד להחזיק לפחות שני שלטים פעילים לרכב. זה מונע מצבים לא נעימים בהם השלט היחיד אובד או מתקלקל. אנחנו ממליצים לבצע שכפול מפתחות באופן מונע, כאשר יש לכם גישה לשלט המקורי - זה חוסך זמן וכסף.</div>
+<h2></h2>
+<h2 id="sec-3" style="margin-top: 30px; margin-bottom: 15px;">השוואת טכנולוגיות קידוד</h2>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background-color: #ff8c00; color: white;">
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">סוג הטכנולוגיה</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">רמת אבטחה</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">שכיחות בשוק</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">מורכבות הקידוד</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">אינפרא אדום בסיסי</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">נמוכה</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">רכבים ישנים בלבד</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">פשוטה</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">רדיו תדר קבוע</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">בינונית</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">רכבים מ-2000-2010</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">בינונית</td>
+</tr>
+<tr>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">Rolling Code מתקדם</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">גבוהה</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">רוב הרכבים המודרניים</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">מורכבת</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">Keyless Entry חכם</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">מאוד גבוהה</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">רכבי יוקרה ומודרניים</td>
+<td style="padding: 10px; text-align: right; border: 1px solid #ddd;">מאוד מורכבת</td>
+</tr>
+</tbody>
+</table>
+<h2></h2>
+<h2 id="sec-4" style="margin-top: 30px; margin-bottom: 15px;">למה לבחור ב'מפתח עכשיו'?</h2>
+<p style="margin-bottom: 20px;">אנחנו משקיעים בציוד הטוב והמתקדם ביותר בשוק. המחשובים שלנו מתעדכנים באופן שוטף עם כל הדגמים והמודלים החדשים שיוצאים לשוק. זה מאפשר לנו לטפל בכל רכב, גם הכי חדיש.</p>
+<p style="margin-bottom: 20px;">הניסיון המקצועי שלנו והידע הטכנולוגי מבטיחים שהקידוד יבוצע נכון בפעם הראשונה. אנחנו מכירים את המלכודות והאתגרים של כל יצרן ויצרן, ויודעים בדיוק איך להתמודד איתם.</p>
+<p>&nbsp;</p>
+<h3 style="margin-top: 25px; margin-bottom: 15px;">היתרונות שלנו</h3>
+<ul style="margin-right: 20px; margin-bottom: 20px; line-height: 1.8;">
+<li style="margin-bottom: 10px;">זמינות מהירה - אנחנו מגיעים אליכם תוך זמן קצר</li>
+<li style="margin-bottom: 10px;">ציוד מתקדם ומעודכן לכל סוגי הרכבים</li>
+<li style="margin-bottom: 10px;">אחריות מלאה על העבודה והקידוד</li>
+<li style="margin-bottom: 10px;">מחירים שקופים וללא הפתעות</li>
+<li style="margin-bottom: 10px;">שירות מקצועי ואדיב</li>
+</ul>
+<p>&nbsp;</p>
+<h2 id="sec-5" style="margin-top: 30px; margin-bottom: 15px;">מתי צריך שכפול שלט?</h2>
+<p style="margin-bottom: 20px;">ישנם מצבים שונים שבהם תזדקקו לשירות קידוד שלט לרכב. המצב הנפוץ ביותר הוא כאשר השלט האחרון אבד או נגנב. במקרה כזה, אנחנו מגיעים במהירות ומבצעים קידוד שלט חירום על מנת להחזיר אתכם לדרך.</p>
+<p style="margin-bottom: 20px;">מצב נוסף הוא כאשר השלט הקיים התקלקל או נגמר החיים שלו. לפעמים מדובר בבעיה פשוטה של סוללה, אבל לעיתים השלט עצמו נפגם ויש צורך בשכפול מפתחות מלא.</p>
+<p style="margin-bottom: 20px;">אנחנו ממליצים גם לבצע קידוד מפתחות מונע - כלומר, להכין שלט נוסף כשעדיין יש לכם את השלט המקורי. זה הרבה יותר פשוט וחסכוני מאשר להמתין למצב חירום.</p>
+<p>&nbsp;</p>
+<h2 id="sec-6" style="margin-top: 30px; margin-bottom: 15px;">איך מתבצע הזמנת שירות?</h2>
+<p style="margin-bottom: 20px;">תהליך ההזמנה אצלנו פשוט ונוח. אתם פשוט מתקשרים אלינו, מוסרים את פרטי הרכב והמיקום, ואנחנו מארגנים הגעה מהירה. אנחנו שואלים מספר שאלות טכניות כדי להבין את הצורך המדויק ולהגיע עם הציוד הנכון.</p>
+<p style="margin-bottom: 20px;">אנחנו זמינים כמעט בכל שעה, כולל שעות הערב וסופי שבוע. אנחנו מבינים שבעיות עם שלטים יכולות להתרחש בכל רגע, ולכן אנחנו כאן כדי לעזור.</p>
+<p style="margin-bottom: 20px;">לאחר ההזמנה, מנעולן מקצועי מצוייד בכל הכלים והציוד יגיע למיקום שלכם. העבודה מתבצעת במקום, ללא צורך לגרור את הרכב או להגיע למוסך.</p>
+<p style="margin-bottom: 20px;">אנחנו ב'מפתח עכשיו' גאים באיכות השירות שלנו ובמקצועיות. כל עבודה שאנחנו מבצעים מגובה באחריות מלאה, וצוות השירות שלנו תמיד זמין לענות על שאלות ולתת ייעוץ טכני.</p>
+5:["$","div",null,{"className":"max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8","dir":"rtl","children":["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 items-start","children":[["$","div",null,{"id":"page-article","className":"min-w-0","children":[["$","$La",null,{"items":[{"id":"sec-0","text":"מחירון קידוד שלט לרכב"},{"id":"sec-1","text":"מה זה קידוד מפתח לרכב?"},{"id":"sec-2","text":"התהליך המקצועי של קידוד שלטים לרכב"},{"id":"sec-3","text":"השוואת טכנולוגיות קידוד"},{"id":"sec-4","text":"למה לבחור ב'מפתח עכשיו'?"},{"id":"sec-5","text":"מתי צריך שכפול שלט?"},{"id":"sec-6","text":"איך מתבצע הזמנת שירות?"},{"id":"sec-7","text":"תהליך תיקון/שכפול השלט"},{"id":"sec-8","text":"מה שחשוב לדעת על השלט לרכב"},{"id":"sec-9","text":"שאלות נפוצות"}]}],["$","div",null,{"className":"p-1 sm:card sm:p-6 md:p-8","children":[["$","div",null,{"dir":"rtl","className":"flex items-center gap-3 mb-5 pb-4 border-b border-gray-100","children":[["$","img",null,{"src":"/wp-images/דורון-מנעולן-רכב.webp","alt":"דורון - מנעולן רכב מומחה","width":40,"height":40,"loading":"lazy","className":"w-10 h-10 rounded-full object-cover shrink-0 ring-1 ring-black/5"}],["$","div",null,{"className":"text-sm leading-tight","children":[["$","span",null,{"className":"block text-gray-500","children":"נכתב ונבדק על ידי"}],["$","span",null,{"className":"block font-bold","style":{"color":"var(--primary)"},"children":["דורון"," · ","מנעולן רכב מומחה"]}]]}]]}],[["$","$Lb",null,{"html":"<p style=\"margin-bottom: 20px;\">אנחנו ב'מפתח עכשיו' מתמחים בקידוד שלט לרכב בטכנולוגיה המתקדמת ביותר. עם ציוד ממוחשב חדיש וניסיון רב שנים, אנחנו מספקים פתרונות מקצועיים לכל סוגי הרכבים והדגמים. השירות שלנו כולל שכפול שלטים, קידוד מפתחות חכמים וקידוד שלטי חירום - הכל במקום ובזמן הקצר ביותר.</p>"}],false,["$","$Lc",null,{"gallery":{"heading":"שלטים לרכב שעברו אצלנו קידוד","sub":"שלטים חכמים ושלטי קפיץ, לפני ואחרי הסנכרון למחשב הרכב","images":[{"src":"/wp-images/שכפול-שלט-חכם-לרכב.webp","w":250,"h":271,"caption":"שלט חכם עם שלושה כפתורים אחרי קידוד מלא","alt":"שלט חכם לרכב עם שלושה כפתורים מוחזק ביד אחרי קידוד - קידוד שלט לרכב"},{"src":"/wp-images/שכפול-שלטים-לרכב-מפתח-עכשיו.webp","w":247,"h":268,"caption":"שלט שטוח בן ארבעה כפתורים - כולל כפתור פתיחת תא מטען","alt":"שלט חכם שטוח לרכב עם ארבעה כפתורים, מבט מלמעלה - קידוד שלט לרכב"},{"src":"/wp-images/שכפול-שלטים-לרכב-מפתח-עכשיו-1.webp","w":252,"h":282,"caption":"בודקים טווח ותגובה בתוך הרכב לפני סיום הקריאה","alt":"שלט חכם לרכב נבדק ביד בתוך הרכב מול לוח המחוונים - קידוד שלט לרכב"},{"src":"/wp-images/קידוד-שלט-לרכב-מפתח-עכשיו.webp","w":250,"h":255,"caption":"שלט קפיץ מקודד - השבב מסונכרן למחשב הרכב","alt":"שלט קפיץ לרכב מוחזק ביד אחרי קידוד למחשב הרכב - קידוד שלט לרכב"},{"src":"/wp-images/שכפול-מפתחות-לרכב-מפתח-עכשיו.webp","w":252,"h":144,"caption":"שלט חכם ביד הנהג אחרי סנכרון מוצלח","alt":"שלט חכם לרכב מונח בכף היד בתוך הרכב - קידוד שלט לרכב"}]}}],["$","$Lb",null,{"html":"$d"}]],false,false]}],"$Le","$Lf",["$L10","$L11","$L12"],"$L13"]}],"$L14"]}]}]
+6:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white py-8 text-center","dir":"rtl","children":["$","div",null,{"className":"max-w-xl mx-auto px-4","children":[["$","p",null,{"className":"font-bold text-lg mb-4","children":"צריכים עזרה? אנחנו כאן 24/7"}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-3 justify-center","children":["$","a",null,{"href":"tel:033822752","className":"btn-primary text-base px-8","children":"03-382-2752"}]}]]}]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/1leulq3_ixpp7.js","async":true}]
+8:["$","$L15",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]
+e:null
+f:null
+10:["$","div","0",{"children":["$","div",null,{"className":"my-6 flex justify-center","children":["$","img",null,{"src":"/wp-images/שכפול-מפתח-קפיץ.webp","alt":"מפתח קפיץ לרכב","style":{"maxWidth":280,"height":"auto"},"loading":"lazy"}]}]}]
+11:["$","div","1",{"id":"sec-7","children":["$","$L18",null,{"heading":"תהליך תיקון/שכפול השלט","steps":[{"title":"אבחון תקלת השלט","desc":"בודקים סוללה, אנטנה פנימית ומגעים. 60% מהמקרים נפתרים בהחלפת סוללה בלבד.","duration":"5 דק׳"},{"title":"בדיקת הרצפטור ברכב","desc":"אם השלט תקין - בודקים את מערכת הקבלה ברכב. לפעמים הבעיה שם ולא בשלט.","duration":"10 דק׳"},{"title":"תיקון או שלט חלופי","desc":"תיקון מגעים/גומי פנימי אם אפשרי, או סיפוק שלט חלופי תואם לדגם.","duration":"15-30 דק׳"},{"title":"קידוד לרכב","desc":"השלט החדש מקודד למחשב הרכב ביחד עם כל השלטים הקיימים - לא מוחקים שלטים ישנים.","duration":"15 דק׳"},{"title":"בדיקת כל הפונקציות","desc":"נעילה, פתיחה, פתיחת תא מטען, חירום - הכל נבדק לפניכם לפני הסיום.","duration":"5 דק׳"}]}]}]
+12:["$","div","2",{"id":"sec-8","children":["$","$L19",null,{"heading":"מה שחשוב לדעת על השלט לרכב","cards":[{"title":"Rolling Code","desc":"כל לחיצה שולחת קוד שונה. אי אפשר ללכוד ולשכפל - אבטחה אמיתית."},{"title":"טווח 30 מטר","desc":"שלט איכותי עובד עד 30 מטר. אם הטווח קצר יותר - סימן שיש בעיה טכנית."},{"title":"חיסכון בסוללה","desc":"שלט תקין אמור להחזיק 1-2 שנים. שלט שמרוקן סוללות מהר - יש בו תקלה."},{"title":"תואם לכל הדגמים","desc":"יש לנו שלטים חלופיים ומקוריים לכל הדגמים הנמכרים בישראל."}],"cols":2}]}]
+13:["$","div",null,{"id":"sec-9","className":"mt-6","children":["$","$L1a",null,{"items":[{"q":"כמה עולה תיקון שלט לרכב?","a":"המחיר מתחיל ב-300 שקל, שהוא מחיר המינימום לקריאת שירות בשטח (כולל בדיקה והחלפת סוללה). תיקון לחצנים ומגעים או קידוד מחדש: 300-400 שקל. שלט חלופי עם קידוד: 350-800 שקל תלוי בדגם. כל מה שנעשה כולל בדיקת תקינות לפני שאנחנו עוזבים."},{"q":"השלט לא עובד - מה בודקים לפני שמתקשרים?","a":"קודם החליפו סוללה - זו הסיבה הנפוצה ביותר. וודאו שאתם בטווח הנכון (עד 20-30 מטר). נסו ללחוץ כמה פעמים ברצף. אם החלפתם סוללה והשלט עדיין לא עובד - כנראה יש בעיה בקידוד או בחומרה."},{"q":"האם שלט קנוי באינטרנט אפשר לקדד?","a":"לפעמים כן, לפעמים לא. זה תלוי ביצרן ובמודל הרכב. לפני שקונים שלט אינטרנט - התקשרו אלינו ותבדקו. ראינו לא מעט מקרים של לקוחות שקנו שלט לא תואם שאי אפשר לקדד."},{"q":"האם אפשר להוסיף שלט נוסף לרכב?","a":"כן, ברוב הרכבים. אנחנו מתכנתים שלט נוסף למערכת הקיימת. עולה 300-400 שקל תלוי ברכב. כדאי לעשות כפילות מוקדמת - זול הרבה יותר מאובדן שלט יחיד."},{"q":"הלחצנים שקעו ולא חוזרים - אפשר לתקן?","a":"כן ברוב המקרים. המגעים הגומיים מתאפסים עם הזמן. אנחנו פותחים את השלט, מנקים ומחליפים את הגומי הפגום. זה 300-400 שקל ועובד היטב. אם השלט שבור לגמרי - נחליף."},{"q":"השלט עובד רק בקרבה מאוד - למה?","a":"בדרך כלל: סוללה חלשה (לא בהכרח מתה), אנטנת השלט פגועה, או הרצפטור ברכב מוחלש. אנחנו בודקים את שני הצדדים - גם את השלט וגם את מערכת הקבלה ברכב."},{"q":"כמה עולה שכפול שלט לרכב?","a":"שלט רגיל עם קידוד: 350-600 שקל. שלט חכם Keyless: 800-1,500 שקל. תלוי ביצרן ובדגם. אנחנו מביאים את השלטים איתנו - לא צריך להזמין מראש."},{"q":"האם שלט מבטיח ביטחון טוב יותר מרק מפתח?","a":"כן. שלט מוסיף הצפנה ורולינג קוד - כל לחיצה שולחת קוד שונה שלא ניתן ללכוד ולשכפל בקלות. מפתח מכאני לבד ניתן להעתיק בקלות. לכן אנחנו תמיד ממליצים על שלט אם הרכב תומך."},{"q":"כמה זמן לוקח קידוד שלט?","a":"בין 15 ל-30 דקות. פשוט ומהיר יחסית. אנחנו מגיעים אליכם ומבצעים את הקידוד בשטח - לא צריך לנסוע לשום מקום."},{"q":"האם ניתן לקדד שלט ישן שאיבד קידוד?","a":"כן, ברוב המקרים. כשמחליפים סוללה לא נכון או כשיש תקלת זיכרון - השלט מאבד את הקידוד. אנחנו מחזירים אותו לתפקוד מלא. עולה 300-400 שקל."}]}]}]
+14:["$","div",null,{"children":["$","aside",null,{"className":"space-y-4","dir":"rtl","children":[["$","$L1b",null,{"compact":true}],["$","div",null,{"className":"card p-4 text-sm text-center","dir":"rtl","children":[["$","p",null,{"className":"font-bold mb-1","style":{"color":"var(--primary)"},"children":"מנעולן רכב 24/7"}],["$","p",null,{"className":"text-gray-400 text-xs mb-3","children":"הגעה תוך 20 דקות בממוצע"}],["$","a",null,{"href":"tel:033822752","className":"block w-full py-2 rounded font-bold text-white text-sm","style":{"background":"var(--accent)"},"children":"03-382-2752"}]]}],[["$","div","שירותי שלט לרכב",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שירותי שלט לרכב"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/תיקון-שלט-לרכב",{"children":["$","$L9",null,{"href":"/תיקון-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"תיקון שלט לרכב"]}]}],["$","li","/שכפול-שלט-לרכב",{"children":["$","$L9",null,{"href":"/שכפול-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול שלט לרכב"]}]}],["$","li","/התקנת-קודן-לרכב",{"children":["$","$L9",null,{"href":"/התקנת-קודן-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"התקנת קודן לרכב"]}]}],["$","li","/שכפול-מפתח-לרכב",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרכב"]}]}]]}]]}],["$","div","שכפול מפתח לפי דגם",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שכפול מפתח לפי דגם"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לטויוטה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לטויוטה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לטויוטה"]}]}],["$","li","/שכפול-מפתח-ליונדאי",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-ליונדאי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ליונדאי"]}]}],["$","li","/שכפול-מפתח-למאזדה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-למאזדה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח למאזדה"]}]}],["$","li","/שכפול-מפתח-לניסאן",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לניסאן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לניסאן"]}]}],["$","li","/שכפול-מפתח-לרנו",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרנו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרנו"]}]}],["$","li","/שכפול-מפתח-לשברולט",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לשברולט","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לשברולט"]}]}],["$","li","/שכפול-מפתח-לפורד",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לפורד","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לפורד"]}]}],["$","li","/שכפול-מפתח-לפיגו",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לפיגו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לפיגו"]}]}],["$","li","/שכפול-מפתח-לקיה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לקיה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לקיה"]}]}],["$","li","/שכפול-מפתח-לסוזוקי",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לסוזוקי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לסוזוקי"]}]}]]}]]}],["$","div","שכפול מפתח לפי עיר",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שכפול מפתח לפי עיר"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לרכב-בגני-תקווה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בגני-תקווה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בגני תקווה"]}]}],["$","li","/שכפול-מפתח-לרכב-בתל-אביב",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בתל-אביב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בתל אביב"]}]}],"$L1c","$L1d","$L1e","$L1f","$L20","$L21"]}]]}]]]}]}]
+17:null
+1c:["$","li","/שכפול-מפתח-לרכב-בחיפה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בחיפה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בחיפה"]}]}]
+1d:["$","li","/שכפול-מפתח-לרכב-בירושלים",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בירושלים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בירושלים"]}]}]
+1e:["$","li","/שכפול-מפתח-לרכב-בבאר-שבע",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בבאר-שבע","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בבאר שבע"]}]}]
+1f:["$","li","/שכפול-מפתח-לרכב-ברחובות",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-ברחובות","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ברחובות"]}]}]
+20:["$","li","/שכפול-מפתח-לרכב-בנתניה",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-בנתניה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בנתניה"]}]}]
+21:["$","li","/שכפול-מפתח-לרכב-ברמת-גן",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב-ברמת-גן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ברמת גן"]}]}]

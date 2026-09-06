@@ -1,0 +1,374 @@
+1:"$Sreact.fragment"
+9:I[22016,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],""]
+a:I[55132,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"TableOfContents"]
+b:I[92711,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+13:I[97367,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"FeatureCards"]
+17:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"ProcessSteps"]
+18:I[46042,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+19:I[33128,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+2:T115b,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"כמה עולה שחזור מפתח לאופנוע?","acceptedAnswer":{"@type":"Answer","text":"מפתח מכאני רגיל: 300-500 שקל. מפתח עם שבב אימוביליזר: 600-900 שקל. שחזור ללא מפתח מקורי: 800-1,200 שקל. החלפת צילינדר עם מפתח: 700-1,000 שקל. ביחס לרכב - מחירים דומים, לפעמים קצת יקר יותר בגלל מורכבות."}},{"@type":"Question","name":"האם אתם מכירים את מפתחות האופנוע של הדגמים הנפוצים?","acceptedAnswer":{"@type":"Answer","text":"כן - הונדה, יאמהה, קוואסאקי, סוזוקי, BMW, פיאג'ו ו-KTM הם הדגמים שטיפלנו בהם הכי הרבה. דגמים נדירים יותר - לפעמים צריך להזמין חלק ספציפי, אז כדאי להתקשר ולוודא לפני שאנחנו מגיעים."}},{"@type":"Question","name":"ניתן לפתוח את תא האחסון של האופנוע ללא מפתח?","acceptedAnswer":{"@type":"Answer","text":"כן, זה שירות שאנחנו מבצעים. פתיחת כיסא אופנוע: 200-350 שקל. אם צריך גם מפתח חדש - נוסיף על זה. אנחנו עובדים בשטח, בלי לגרור."}},{"@type":"Question","name":"כמה זמן לוקח שחזור מפתח לאופנוע?","acceptedAnswer":{"@type":"Answer","text":"בין 30 דקות לשעה וחצי, תלוי בדגם ובסוג המפתח. אופנועים ישנים עם מפתח מכאני - מהיר. אופנועים מודרניים עם אימוביליזר - לוקח יותר זמן."}},{"@type":"Question","name":"מה עושים אם שברתם את המפתח בגוש מנעול האופנוע?","acceptedAnswer":{"@type":"Answer","text":"אל תנסו לחלץ לבד עם משהו חד - עשויים לעשות נזק נוסף. אנחנו מגיעים עם כלים מיוחדים לחילוץ שברי מפתח, ואחרי החילוץ אם צריך - עושה מפתח חדש."}},{"@type":"Question","name":"האם יש הבדל בין אופנוע לטרקטורון מבחינת מפתחות?","acceptedAnswer":{"@type":"Answer","text":"יש הבדל. טרקטורונים לא תמיד עובדים לפי אותה שיטה. יש כאלה שעובדים כמו אופנוע ויש כאלה שדומים יותר לרכב קל. כדאי לציין את הדגם המדויק בשיחה כדי שאגיע עם הציוד הנכון."}},{"@type":"Question","name":"יש לי אופנוע ישן - האם עדיין אפשר לעשות מפתח?","acceptedAnswer":{"@type":"Answer","text":"ברוב המקרים כן. אופנועים ישנים בלי אימוביליזר הם לרוב יותר פשוטים לטיפול. המפתח הוא מכאני בלבד ואפשר לחתוך לפי הקוד הקיים בגוש. כמעט תמיד אפשרי."}},{"@type":"Question","name":"האם שכפול מפתח לאופנוע אפשרי כשיש מפתח מקורי?","acceptedAnswer":{"@type":"Answer","text":"כן, ואנחנו ממליצים לעשות כפילאה לכל אופנוע. עולה 200-400 שקל ביחס לשחזור מלא של 600-1,200 שקל. המניעה זולה יותר מהטיפול."}},{"@type":"Question","name":"האם אתם מגיעים לאופנוע בשולי הדרך?","acceptedAnswer":{"@type":"Answer","text":"כן, בדיוק כמו לרכב. בעלי אופנוע בדרך כלל נקלעים למצבים בשטח יותר מאשר בעלי רכב. אנחנו מגיעים לכל מיקום שתתנו לי בישראל."}},{"@type":"Question","name":"כמה מפתחות יש לאופנוע בדרך כלל?","acceptedAnswer":{"@type":"Answer","text":"ברוב האופנועים יוצאים עם שני מפתחות מהמפעל. לצערי הרוב נשאר עם אחד. אנחנו ממליצים לעשות כפילאה בהקדם - עלות נמוכה, שקט נפשי גבוה."}},{"@type":"Question","name":"האם שחזור מפתח לאופנוע דורש גרירה?","acceptedAnswer":{"@type":"Answer","text":"לא. אנחנו מגיעים אליכם עם כל הציוד הנדרש ועושה את המפתח במקום. לא צריך לגרור את האופנוע לשום מקום - זה חסכון של כסף ושל טרחה."}}]}0:{"rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://carkeynow.co.il\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"שחזור מפתח לאופנוע - ראו מחירון\",\"item\":\"https://carkeynow.co.il/שחזור-מפתח-לאופנוע/\"}]}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://carkeynow.co.il/שחזור-מפתח-לאופנוע/\",\"name\":\"שחזור מפתח לאופנוע - ראו מחירון | מפתח עכשיו\",\"description\":\"כשמאבדים את המפתח לאופנוע, התחושה יכולה להיות מתסכלת במיוחד. אנחנו ממפתח עכשיו מבינים את הצורך הדחוף בפתרון מהיר ומקצועי, ולכן אנחנו מציעים שירות שחזור...\",\"url\":\"https://carkeynow.co.il/שחזור-מפתח-לאופנוע/\",\"isPartOf\":{\"@id\":\"https://carkeynow.co.il/#website\"},\"inLanguage\":\"he\"}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4",false,"$L5","$L6"],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TFfI33juvlz9FBwsp3OJz"}
+3:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"@id\":\"https://carkeynow.co.il/#amir\",\"name\":\"דורון\",\"jobTitle\":\"מנעולן רכב מומחה\",\"image\":\"https://carkeynow.co.il/wp-images/דורון-מנעולן-רכב.webp\",\"worksFor\":{\"@id\":\"https://carkeynow.co.il/#organization\"}}"}}]
+4:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white","dir":"rtl","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6","children":[["$","nav",null,{"className":"text-xs mb-2 opacity-70 flex items-center gap-1","children":[["$","$L9",null,{"href":"/","className":"hover:opacity-100","children":"דף הבית"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"opacity-100","children":"שחזור מפתח לאופנוע - ראו מחירון"}]]}],"$undefined",["$","h1",null,{"className":"text-xl sm:text-2xl md:text-3xl font-bold leading-snug","children":"שחזור מפתח לאופנוע - ראו מחירון"}]]}]}]
+c:T52bf,<p style="margin-bottom: 20px;">כשמאבדים את המפתח לאופנוע, התחושה יכולה להיות מתסכלת במיוחד. אנחנו ממפתח עכשיו מבינים את הצורך הדחוף בפתרון מהיר ומקצועי, ולכן אנחנו מציעים שירות שחזור מפתח לאופנוע שמגיע אליכם לכל מקום עם הציוד והמחשוב המתקדם ביותר בשוק.</p>
+<p style="margin-bottom: 20px;">אופנועים מודרניים מצוידים במערכות אבטחה מתקדמות שדורשות ידע מקצועי וציוד ייעודי לשחזור מפתחות. אנחנו מתמחים בכל סוגי האופנועים והדגמים, ומספקים פתרון מלא במקום.</p>
+<p>&nbsp;</p>
+<h2 id="sec-0" style="margin-top: 30px; margin-bottom: 15px;">מחירון שחזור מפתח לאופנוע</h2>
+<p style="margin-bottom: 20px;">המחירים שלנו שקופים והוגנים, והם משקפים את רמת המקצועיות והציוד המתקדם שאנחנו משתמשים בו:</p>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background-color: #ff8c00; color: white;">
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">סוג השירות</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">מחיר משוער</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">זמן ביצוע</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">שחזור מפתח רגיל לאופנוע</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">300-500 ₪</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">30-45 דקות</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">שחזור מפתח חכם עם שבב</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">600-900 ₪</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">45-60 דקות</td>
+</tr>
+<tr>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">קידוד מפתח ללא מפתח קיים</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">800-1,200 ₪</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">60-90 דקות</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">החלפת צילינדר והכנת מפתחות</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">700-1,000 ₪</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">60-75 דקות</td>
+</tr>
+</tbody>
+</table>
+<div style="border-right: 4px solid #FF8C00; background: #FFF5EB; padding: 15px; margin: 20px 0; border-radius: 4px;"><strong>חשוב לדעת:</strong> המחירים עשויים להשתנות בהתאם לדגם האופנוע, סוג מערכת האבטחה, ושעת הקריאה. אנחנו תמיד נציין לכם את המחיר המדויק לפני תחילת העבודה, ללא הפתעות.</div>
+<!-- Pricing Disclaimer -->
+
+<style>
+  .pd-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 16px auto 0 auto;
+    font-family: 'Heebo', 'Rubik', sans-serif;
+    direction: rtl;
+    text-align: right;
+    box-sizing: border-box;
+    line-height: normal;
+  }
+
+  .pd-container {
+    position: relative;
+    background: #1e4a72;
+    border-radius: 10px;
+    padding: 24px 28px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(23, 55, 87, 0.12);
+    box-sizing: border-box;
+    border-right: 4px solid #F5A927;
+  }
+
+  .pd-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    background: rgba(245, 169, 39, 0.12);
+    border: 1px solid rgba(245, 169, 39, 0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon-svg {
+    width: 18px;
+    height: 18px;
+    fill: #F5A927;
+  }
+
+  .pd-text-block {
+    flex: 1;
+    min-width: 180px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-main-text {
+    font-family: 'Rubik', 'Heebo', sans-serif;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-highlight {
+    color: #F5A927;
+    font-weight: 600;
+  }
+
+  .pd-sub-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.5;
+    margin: 8px 0 0 0;
+    padding: 0;
+  }
+
+  .pd-divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(245, 169, 39, 0.15);
+    margin: 14px 0 0 0;
+    padding: 0;
+    border: none;
+  }
+
+  .pd-date-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 12px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-date-icon {
+    width: 12px;
+    height: 12px;
+    fill: #F5A927;
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .pd-date-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-date-value {
+    color: rgba(245, 169, 39, 0.8);
+    font-weight: 500;
+  }
+
+  @media (max-width: 600px) {
+    .pd-container {
+      padding: 20px 20px;
+      border-radius: 8px;
+    }
+
+    .pd-content {
+      gap: 14px;
+    }
+
+    .pd-icon {
+      width: 32px;
+      height: 32px;
+    }
+
+    .pd-icon-svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .pd-main-text {
+      font-size: 13.5px;
+    }
+
+    .pd-sub-text {
+      font-size: 12px;
+    }
+
+    .pd-date-text {
+      font-size: 11px;
+    }
+  }
+</style>
+
+<!-- HTML -->
+<div class="pd-wrapper" id="pd-wrapper">
+  <div class="pd-container" id="pd-container">
+    <div class="pd-content" id="pd-content">
+      
+      <div class="pd-icon" id="pd-icon">
+        <svg class="pd-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+        </svg>
+      </div>
+
+      <div class="pd-text-block" id="pd-text-block">
+        <div class="pd-main-text" id="pd-main-text">
+          כל המחירים המוצגים <span class="pd-highlight">אינם כוללים מע״מ</span> (18%)
+        </div>
+
+        <div class="pd-sub-text" id="pd-sub-text">
+          המחירים המופיעים בטבלה הם משוערים ומשתנים לפי דגם הרכב, שנת הייצור וסוג המפתח
+        </div>
+
+        <div class="pd-divider" id="pd-divider"></div>
+
+        <div class="pd-date-badge" id="pd-date-badge">
+          <svg class="pd-date-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM9 10H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"/>
+          </svg>
+          <span class="pd-date-text" id="pd-date-text">
+            מעודכן ל: <span class="pd-date-value" id="pd-date-value"></span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var hebrewMonths = [
+      'ינואר', 'פברואר', 'מרץ', 'אפריל', 'מאי', 'יוני',
+      'יולי', 'אוגוסט', 'ספטמבר', 'אוקטובר', 'נובמבר', 'דצמבר'
+    ];
+    var now = new Date();
+    var month = hebrewMonths[now.getMonth()];
+    var year = now.getFullYear();
+    var el = document.getElementById('pd-date-value');
+    if (el) {
+      el.textContent = month + ' ' + year;
+    }
+  })();
+</script>
+<p>&nbsp;</p>
+<h2 id="sec-1" style="margin-top: 30px; margin-bottom: 15px;">תהליך שחזור מפתח לאופנוע</h2>
+<p style="margin-bottom: 20px;">השחזור שלנו מתבצע בתהליך מקצועי ומסודר שכולל מספר שלבים:</p>
+<p style="margin-bottom: 20px;"><strong>זיהוי מערכת האבטחה:</strong> אנחנו מזהים את סוג מערכת האבטחה של האופנוע - האם מדובר במפתח רגיל, מפתח עם שבב אימוביליזר, או מערכת חכמה מתקדמת. כל מערכת דורשת גישה וציוד שונים.</p>
+<p style="margin-bottom: 20px;"><strong>ייצור המפתח הפיזי:</strong> אנחנו מייצרים את המפתח עצמו לפי הצילינדר, בעזרת מכונות חיתוך מדויקות שמבטיחות התאמה מושלמת. אם הצילינדר פגום או שחוק, אנחנו יכולים להחליף אותו במקום.</p>
+<p style="margin-bottom: 20px;"><strong>קידוד השבב:</strong> לאופנועים עם מערכות אימוביליזר, אנחנו מתכנתים את השבב במפתח החדש למחשב האופנוע. זה נעשה באמצעות ציוד אבחון מתקדם שמתחבר ישירות למערכת הבקרה של האופנוע.</p>
+<p>&nbsp;</p>
+<h3 style="margin-top: 25px; margin-bottom: 12px;">סוגי מפתחות לאופנועים</h3>
+<p style="margin-bottom: 20px;">האופנועים השונים משתמשים בסוגי מפתחות מגוונים:</p>
+<ul style="margin-bottom: 20px; padding-right: 20px;">
+<li style="margin-bottom: 10px;">מפתחות קלאסיים - מפתחות מכניים פשוטים ללא אלקטרוניקה</li>
+<li style="margin-bottom: 10px;">מפתחות עם שבב אימוביליזר - מפתחות שמכילים שבב אלקטרוני להגנה מפני גניבה</li>
+<li style="margin-bottom: 10px;">מפתחות חכמים - מערכות Keyless שמאפשרות הפעלה ללא הכנסת מפתח</li>
+<li style="margin-bottom: 10px;">מפתחות עם שלט רחוק - משלבים מערכת נעילה מרחוק</li>
+</ul>
+<p>&nbsp;</p>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background-color: #ff8c00; color: white;">
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">יצרן אופנוע</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">סוג מערכת נפוץ</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">רמת מורכבות</th>
+<th style="padding: 12px; text-align: right; border: 1px solid #ddd;">זמן שחזור ממוצע</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">הונדה</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">HISS - אימוביליזר</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">בינונית</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">45-60 דקות</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">יאמהה</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">YSS - שבב קוד</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">בינונית</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">40-55 דקות</td>
+</tr>
+<tr>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">סוזוקי</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">מפתח מכני/שבב</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">נמוכה-בינונית</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">35-50 דקות</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">קוואסאקי</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">אימוביליזר מתקדם</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">גבוהה</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">50-70 דקות</td>
+</tr>
+<tr>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">דוקאטי</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">מפתח אדום/שחור</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">גבוהה</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">60-90 דקות</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">BMW</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">מערכת EWS</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">גבוהה מאוד</td>
+<td style="padding: 12px; text-align: right; border: 1px solid #ddd;">70-120 דקות</td>
+</tr>
+</tbody>
+</table>
+<h2></h2>
+<h2 id="sec-2" style="margin-top: 30px; margin-bottom: 15px;">במה שחזור מפתחות לאופנוע שונה מעבודה על רכב</h2>
+<p style="margin-bottom: 20px;"><strong>שחזור מפתחות לאופנוע</strong> נראה מבחוץ כמו גרסה מוקטנת של עבודה על רכב, ובפועל הוא עבודה אחרת לגמרי. ההבדל הראשון הוא שהמפתח באופנוע כמעט אף פעם לא מפעיל מנעול יחיד: אותו להב פותח את מתג ההצתה יחד עם נעילת ההגה, ולעיתים קרובות גם את מכסה הדלק ואת מנעול הכיסא. מפתח שנחתך בסטייה זעירה עלול להניע את האופנוע ובכל זאת לא לפתוח את הכיסא, ולכן אנחנו בודקים את כל המנעולים לפני שאנחנו עוזבים ולא רק את ההצתה.</p>
+<p style="margin-bottom: 20px;">ההבדל השני הוא חשיפה למזג האוויר. אופנוע חונה בחוץ כמעט תמיד, והצילינדר סופג לחות, אבק ומלח לאורך שנים. במקרים לא מעטים הפנייה מגיעה אלינו כ"המפתח נשבר", אבל המקור האמיתי הוא צילינדר שהחליד ותפס את הלהב. אבחון נכון בשלב הזה חוסך החלפת צילינדר שלא הייתה נחוצה.</p>
+<p style="margin-bottom: 20px;">ההבדל השלישי הוא מפתח המאסטר. אצל חלק מהיצרנים, ובראשם דוקאטי עם המפתח האדום, קיים מפתח ראשי שתפקידו לתכנת מפתחות נוספים. כל עוד הוא ברשותכם, הוספת מפתח היא עבודה קצרה יחסית. אם גם הוא אבד, התהליך מחייב עבודה ישירה מול יחידת האימוביליזר, לוקח יותר זמן ונמצא בקצה העליון של המחירון שלמעלה.</p>
+<h2 id="sec-3" style="margin-top: 30px; margin-bottom: 15px;">למה לבחור במפתח עכשיו לשחזור מפתח לאופנוע?</h2>
+<p style="margin-bottom: 20px;">אנחנו לא סתם מנעולני רכב - אנחנו מתמחים באופנועים ומבינים את המערכות המורכבות שלהם לעומק. הציוד שלנו כולל מכונות חיתוך מתקדמות, מתכנתים למגוון רחב של דגמי אופנועים, ומאגר נתונים עצום של קודי מפתחות.</p>
+<p style="margin-bottom: 20px;"><strong>הגעה מהירה:</strong> אנחנו מגיעים תוך זמן קצר לכל מקום - לבית, למקום העבודה, או לצד הדרך. האופנוע שלכם לא צריך להיגרר - אנחנו מביאים את הפתרון אליכם.</p>
+<p style="margin-bottom: 20px;"><strong>ציוד מקצועי:</strong> אנחנו משקיעים בציוד המתקדם ביותר מהחברות המובילות בעולם, מה שמאפשר לנו לטפל גם במערכות האבטחה המורכבות ביותר.</p>
+<div style="border-right: 4px solid #FF8C00; background: #FFF5EB; padding: 15px; margin: 20px 0; border-radius: 4px;"><strong>טיפ מקצועי:</strong> אם יש לכם מפתח רזרבי, כדאי לשמור אותו במקום נפרד ולא על האופנוע עצמו. כך אם תאבדו את המפתח הראשי, תוכלו לחסוך זמן וכסף בתהליך השחזור.</div>
+<h3></h3>
+<h3 style="margin-top: 25px; margin-bottom: 12px;">מצבים נפוצים שדורשים שחזור מפתח</h3>
+<p style="margin-bottom: 20px;">אנחנו נתקלים במגוון מצבים שבהם נדרש שחזור מפתח לאופנוע:</p>
+<ul style="margin-bottom: 20px; padding-right: 20px;">
+<li style="margin-bottom: 10px;">אובדן מפתח במהלך טיול או נסיעה</li>
+<li style="margin-bottom: 10px;">מפתח שנשבר בצילינדר או התקלקל</li>
+<li style="margin-bottom: 10px;">קניית אופנוע יד שנייה ללא מפתח רזרבי</li>
+<li style="margin-bottom: 10px;">מפתח שאבד או נגנב והצורך להחליף את המערכת</li>
+<li style="margin-bottom: 10px;">רצון להכין מפתח נוסף למקרי חירום</li>
+</ul>
+<p style="margin-bottom: 20px;">בכל אחד מהמקרים הללו, אנחנו מספקים פתרון מלא ומקצועי שמחזיר אתכם לכביש בהקדם האפשרי.</p>
+<p>&nbsp;</p>
+<h3 style="margin-top: 25px; margin-bottom: 12px;">אבד מפתח לאופנוע: מה לעשות בשעה הראשונה</h3>
+<p style="margin-bottom: 20px;">כש<strong>אבד מפתח לאופנוע</strong>, שלוש דקות של בדיקה חוסכות לפעמים את כל הקריאה. ודאו קודם שהמפתח לא נשאר תקוע במנעול הכיסא או במכסה הדלק, שני מקומות שנוטים להישכח דווקא בסוף נסיעה. אם יש ברשותכם מפתח שני, זה הרגע להשתמש בו ולתאם איתנו הכנת מפתח נוסף ברוגע, כי עבודה מתוך מפתח מקורי קיים מהירה וזולה יותר מבנייה מאפס.</p>
+<p style="margin-bottom: 20px;">אם המפתח היחיד נעלם, אל תזיזו את האופנוע ואל תזמינו גרר. אנחנו מגיעים עם הציוד למקום שבו האופנוע חונה, מזהים את הדגם ואת מערכת האבטחה ומייצרים מפתח חדש בשטח. כדאי שיהיו בהישג יד רישיון האופנוע ותעודת זהות על אותו שם, כי אנחנו מאמתים בעלות לפני שמתחילים. ואם קיבלתם עם האופנוע תג פלסטיק או כרטיס עם קוד המפתח בזמן הרכישה, הביאו גם אותם, כי הם מקצרים לנו את שלב הזיהוי.</p>
+<h2 id="sec-4" style="margin-top: 30px; margin-bottom: 15px;">תהליך השירות שלנו</h2>
+<p style="margin-bottom: 20px;">השירות שלנו מתחיל ברגע שאתם מתקשרים אלינו. אנחנו נשאל כמה שאלות על האופנוע - דגם, שנה, סוג מערכת האבטחה - ונעניק לכם הערכת מחיר ראשונית.</p>
+<p style="margin-bottom: 20px;">המנעולן שלנו מגיע עם כל הציוד הנדרש, כולל מחשב אבחון, מכונת חיתוך, ומתכנתים. הוא בודק את המערכת, מייצר את המפתח, ומתכנת אותו במקום.</p>
+<p style="margin-bottom: 20px;">לפני שאנחנו עוזבים, אנחנו בודקים שהמפתח עובד בצורה מושלמת - הן במנעול ההצתה והן במערכת האימוביליזר. אנחנו גם נותנים לכם טיפים לשמירה על המפתח ומניעת בעיות עתידיות.</p>
+<p style="margin-bottom: 20px;"><strong>אחריות מלאה:</strong> על כל מפתח שאנחנו מייצרים יש אחריות מלאה. אם יש בעיה כלשהי עם המפתח, אנחנו חוזרים ומתקנים ללא עלות נוספת.</p>
+<p style="margin-bottom: 20px;">אנחנו ממפתח עכשיו גאים בשירות המקצועי והאיכותי שלנו. כל מנעולן שלנו עובר הכשרה מתמדת על המערכות החדשות ביותר, ואנחנו משקיעים בציוד המתקדם ביותר כדי להבטיח שנוכל לתת לכם את הפתרון הטוב ביותר.</p>
+<p style="margin-bottom: 20px;">צרו איתנו קשר עכשיו ותחזרו לכביש תוך זמן קצר!</p>
+5:["$","div",null,{"className":"max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8","dir":"rtl","children":["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 items-start","children":[["$","div",null,{"id":"page-article","className":"min-w-0","children":[["$","$La",null,{"items":[{"id":"sec-0","text":"מחירון שחזור מפתח לאופנוע"},{"id":"sec-1","text":"תהליך שחזור מפתח לאופנוע"},{"id":"sec-2","text":"במה שחזור מפתחות לאופנוע שונה מעבודה על רכב"},{"id":"sec-3","text":"למה לבחור במפתח עכשיו לשחזור מפתח לאופנוע?"},{"id":"sec-4","text":"תהליך השירות שלנו"},{"id":"sec-5","text":"שירותי אופנוע שאנחנו מציעים"},{"id":"sec-6","text":"תהליך שחזור מפתח לאופנוע"},{"id":"sec-7","text":"שאלות נפוצות"}]}],["$","div",null,{"className":"p-1 sm:card sm:p-6 md:p-8","children":[["$","div",null,{"dir":"rtl","className":"flex items-center gap-3 mb-5 pb-4 border-b border-gray-100","children":[["$","img",null,{"src":"/wp-images/דורון-מנעולן-רכב.webp","alt":"דורון - מנעולן רכב מומחה","width":40,"height":40,"loading":"lazy","className":"w-10 h-10 rounded-full object-cover shrink-0 ring-1 ring-black/5"}],["$","div",null,{"className":"text-sm leading-tight","children":[["$","span",null,{"className":"block text-gray-500","children":"נכתב ונבדק על ידי"}],["$","span",null,{"className":"block font-bold","style":{"color":"var(--primary)"},"children":["דורון"," · ","מנעולן רכב מומחה"]}]]}]]}],["$","$Lb",null,{"html":"$c"}],null,false]}],"$Ld","$Le",["$Lf","$L10"],"$L11"]}],"$L12"]}]}]
+6:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white py-8 text-center","dir":"rtl","children":["$","div",null,{"className":"max-w-xl mx-auto px-4","children":[["$","p",null,{"className":"font-bold text-lg mb-4","children":"צריכים עזרה? אנחנו כאן 24/7"}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-3 justify-center","children":["$","a",null,{"href":"tel:033822752","className":"btn-primary text-base px-8","children":"03-382-2752"}]}]]}]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/1leulq3_ixpp7.js","async":true}]
+8:["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]
+d:null
+e:null
+f:["$","div","0",{"id":"sec-5","children":["$","$L16",null,{"heading":"שירותי אופנוע שאנחנו מציעים","cards":[{"title":"כל מותגי האופנועים","desc":"הונדה, יאמהה, קוואסאקי, סוזוקי, BMW, פיאג׳ו, KTM - כולם."},{"title":"מפתח מכאני + אימוביליזר","desc":"מפתחות פשוטים עד מפתחות חכמים עם שבב - טיפול בכולם."},{"title":"פריצת כיסא","desc":"פותחים את תא האחסון ללא נזק לפלסטיק או לצבע."},{"title":"הגעה לשטח","desc":"מגיעים אליכם בכל מקום - חניה, דרך, אזור תעשייה."}],"cols":2}]}]
+10:["$","div","1",{"id":"sec-6","children":["$","$L17",null,{"heading":"תהליך שחזור מפתח לאופנוע","steps":[{"title":"זיהוי המפתח והרכב","desc":"בודקים את מספר השלדה, דגם הרכב ושנת הייצור כדי לזהות את סוג המפתח הנדרש בדיוק.","duration":"5 דק׳"},{"title":"חיתוך הלהב","desc":"מכונת חיתוך ממוחשבת חותכת את הלהב לפי קוד הרכב עם דיוק של מילימטר.","duration":"5-10 דק׳"},{"title":"קידוד השבב","desc":"מחשב האימוביליזר של הרכב מקבל את קוד השבב החדש בתהליך קידוד ייחודי לדגם.","duration":"10-30 דק׳"},{"title":"קידוד השלט","desc":"השלט מסונכרן עם מחשב הרכב ורולינג-קוד מוגדר למניעת שכפול לא מורשה.","duration":"5 דק׳"}]}]}]
+11:["$","div",null,{"id":"sec-7","className":"mt-6","children":["$","$L18",null,{"items":[{"q":"כמה עולה שחזור מפתח לאופנוע?","a":"מפתח מכאני רגיל: 300-500 שקל. מפתח עם שבב אימוביליזר: 600-900 שקל. שחזור ללא מפתח מקורי: 800-1,200 שקל. החלפת צילינדר עם מפתח: 700-1,000 שקל. ביחס לרכב - מחירים דומים, לפעמים קצת יקר יותר בגלל מורכבות."},{"q":"האם אתם מכירים את מפתחות האופנוע של הדגמים הנפוצים?","a":"כן - הונדה, יאמהה, קוואסאקי, סוזוקי, BMW, פיאג'ו ו-KTM הם הדגמים שטיפלנו בהם הכי הרבה. דגמים נדירים יותר - לפעמים צריך להזמין חלק ספציפי, אז כדאי להתקשר ולוודא לפני שאנחנו מגיעים."},{"q":"ניתן לפתוח את תא האחסון של האופנוע ללא מפתח?","a":"כן, זה שירות שאנחנו מבצעים. פתיחת כיסא אופנוע: 200-350 שקל. אם צריך גם מפתח חדש - נוסיף על זה. אנחנו עובדים בשטח, בלי לגרור."},{"q":"כמה זמן לוקח שחזור מפתח לאופנוע?","a":"בין 30 דקות לשעה וחצי, תלוי בדגם ובסוג המפתח. אופנועים ישנים עם מפתח מכאני - מהיר. אופנועים מודרניים עם אימוביליזר - לוקח יותר זמן."},{"q":"מה עושים אם שברתם את המפתח בגוש מנעול האופנוע?","a":"אל תנסו לחלץ לבד עם משהו חד - עשויים לעשות נזק נוסף. אנחנו מגיעים עם כלים מיוחדים לחילוץ שברי מפתח, ואחרי החילוץ אם צריך - עושה מפתח חדש."},{"q":"האם יש הבדל בין אופנוע לטרקטורון מבחינת מפתחות?","a":"יש הבדל. טרקטורונים לא תמיד עובדים לפי אותה שיטה. יש כאלה שעובדים כמו אופנוע ויש כאלה שדומים יותר לרכב קל. כדאי לציין את הדגם המדויק בשיחה כדי שאגיע עם הציוד הנכון."},{"q":"יש לי אופנוע ישן - האם עדיין אפשר לעשות מפתח?","a":"ברוב המקרים כן. אופנועים ישנים בלי אימוביליזר הם לרוב יותר פשוטים לטיפול. המפתח הוא מכאני בלבד ואפשר לחתוך לפי הקוד הקיים בגוש. כמעט תמיד אפשרי."},{"q":"האם שכפול מפתח לאופנוע אפשרי כשיש מפתח מקורי?","a":"כן, ואנחנו ממליצים לעשות כפילאה לכל אופנוע. עולה 200-400 שקל ביחס לשחזור מלא של 600-1,200 שקל. המניעה זולה יותר מהטיפול."},{"q":"האם אתם מגיעים לאופנוע בשולי הדרך?","a":"כן, בדיוק כמו לרכב. בעלי אופנוע בדרך כלל נקלעים למצבים בשטח יותר מאשר בעלי רכב. אנחנו מגיעים לכל מיקום שתתנו לי בישראל."},{"q":"כמה מפתחות יש לאופנוע בדרך כלל?","a":"ברוב האופנועים יוצאים עם שני מפתחות מהמפעל. לצערי הרוב נשאר עם אחד. אנחנו ממליצים לעשות כפילאה בהקדם - עלות נמוכה, שקט נפשי גבוה."},{"q":"האם שחזור מפתח לאופנוע דורש גרירה?","a":"לא. אנחנו מגיעים אליכם עם כל הציוד הנדרש ועושה את המפתח במקום. לא צריך לגרור את האופנוע לשום מקום - זה חסכון של כסף ושל טרחה."}]}]}]
+12:["$","div",null,{"children":["$","aside",null,{"className":"space-y-4","dir":"rtl","children":[["$","$L19",null,{"compact":true}],["$","div",null,{"className":"card p-4 text-sm text-center","dir":"rtl","children":[["$","p",null,{"className":"font-bold mb-1","style":{"color":"var(--primary)"},"children":"מנעולן רכב 24/7"}],["$","p",null,{"className":"text-gray-400 text-xs mb-3","children":"הגעה תוך 20 דקות בממוצע"}],["$","a",null,{"href":"tel:033822752","className":"block w-full py-2 rounded font-bold text-white text-sm","style":{"background":"var(--accent)"},"children":"03-382-2752"}]]}],[["$","div","שירותי אופנוע",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שירותי אופנוע"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/פריצת-כיסא-אופנוע",{"children":["$","$L9",null,{"href":"/פריצת-כיסא-אופנוע","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"פריצת כיסא אופנוע"]}]}],["$","li","/שכפול-מפתח-לרכב",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרכב"]}]}],["$","li","/פורץ-רכבים",{"children":["$","$L9",null,{"href":"/פורץ-רכבים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"פורץ רכבים"]}]}]]}]]}],["$","div","שירותים לרכב",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שירותים לרכב"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לרכב",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרכב"]}]}],["$","li","/שחזור-מפתח-לרכב",{"children":["$","$L9",null,{"href":"/שחזור-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שחזור מפתח לרכב"]}]}],["$","li","/אבד-מפתח-לרכב",{"children":["$","$L9",null,{"href":"/אבד-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"אבד מפתח לרכב"]}]}],["$","li","/שכפול-שלט-לרכב",{"children":["$","$L9",null,{"href":"/שכפול-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול שלט לרכב"]}]}],["$","li","/תיקון-שלט-לרכב",{"children":["$","$L9",null,{"href":"/תיקון-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"תיקון שלט לרכב"]}]}],["$","li","/פורץ-רכבים",{"children":["$","$L9",null,{"href":"/פורץ-רכבים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"פורץ רכבים"]}]}]]}]]}]]]}]}]
+15:null

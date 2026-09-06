@@ -1,0 +1,137 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],""]
+3:I[55132,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"TableOfContents"]
+4:I[92711,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+5:I[31179,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+e:I[33128,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+11:I[97367,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://carkeynow.co.il\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"מדד מחירי שכפול מפתחות לרכב בישראל 2026\",\"item\":\"https://carkeynow.co.il/מדד-מחירי-שכפול-מפתחות-לרכב-2026/\"}]}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://carkeynow.co.il/מדד-מחירי-שכפול-מפתחות-לרכב-2026/\",\"name\":\"מדד מחירי שכפול מפתחות לרכב בישראל 2026 | מפתח עכשיו\",\"description\":\"מדד רבעוני של מחירי שכפול וקידוד מפתחות לרכב בישראל 2026, לפי עיר, סוג מפתח ויצרן. נתונים, ניתוח ומתודולוגיה. מהדורת השקה מבית מפתח עכשיו.\",\"url\":\"https://carkeynow.co.il/מדד-מחירי-שכפול-מפתחות-לרכב-2026/\",\"isPartOf\":{\"@id\":\"https://carkeynow.co.il/#website\"},\"inLanguage\":\"he\"}"}}],false,["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"@id\":\"https://carkeynow.co.il/#amir\",\"name\":\"דורון\",\"jobTitle\":\"מנעולן רכב מומחה\",\"image\":\"https://carkeynow.co.il/wp-images/דורון-מנעולן-רכב.webp\",\"worksFor\":{\"@id\":\"https://carkeynow.co.il/#organization\"}}"}}],["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white","dir":"rtl","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6","children":[["$","nav",null,{"className":"text-xs mb-2 opacity-70 flex items-center gap-1","children":[["$","$L2",null,{"href":"/","className":"hover:opacity-100","children":"דף הבית"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"opacity-100","children":"מדד מחירי שכפול מפתחות לרכב בישראל 2026"}]]}],"$undefined",["$","h1",null,{"className":"text-xl sm:text-2xl md:text-3xl font-bold leading-snug","children":"מדד מחירי שכפול מפתחות לרכב בישראל 2026"}]]}]}],false,["$","div",null,{"className":"max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8","dir":"rtl","children":["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 items-start","children":[["$","div",null,{"id":"page-article","className":"min-w-0","children":[["$","$L3",null,{"items":[{"id":"sec-0","text":"למה נוצר המדד וכיצד להשתמש בו"},{"id":"sec-1","text":"תקציר המחקר"},{"id":"sec-2","text":"טבלת המחירים המרכזית (נתוני המחשה)"},{"id":"sec-3","text":"ניתוח הנתונים"},{"id":"sec-4","text":"גרפים מומלצים"},{"id":"sec-5","text":"מתודולוגיית המחקר"},{"id":"sec-6","text":"מסקנות מרכזיות"},{"id":"sec-7","text":"שאלות נפוצות על המדד"},{"id":"sec-8","text":"מקורות ומתודולוגיה"}]}],["$","div",null,{"className":"p-1 sm:card sm:p-6 md:p-8","children":[["$","div",null,{"dir":"rtl","className":"flex items-center gap-3 mb-5 pb-4 border-b border-gray-100","children":[["$","img",null,{"src":"/wp-images/דורון-מנעולן-רכב.webp","alt":"דורון - מנעולן רכב מומחה","width":40,"height":40,"loading":"lazy","className":"w-10 h-10 rounded-full object-cover shrink-0 ring-1 ring-black/5"}],["$","div",null,{"className":"text-sm leading-tight","children":[["$","span",null,{"className":"block text-gray-500","children":"נכתב ונבדק על ידי"}],["$","span",null,{"className":"block font-bold","style":{"color":"var(--primary)"},"children":["דורון"," · ","מנעולן רכב מומחה"]}]]}]]}],[["$","$L4",null,{"html":"<p><strong>מדד מחירי שכפול מפתחות לרכב בישראל 2026</strong> הוא מדד רבעוני המתעד את טווחי המחירים לשכפול, שחזור וקידוד מפתחות לרכב ברחבי הארץ, לפי עיר, סוג מפתח ויצרן. המדד נועד לספק לנהגים נקודת ייחוס אובייקטיבית לפני קבלת שירות, ולהנגיש תמונת מצב שקופה של השוק. מסמך זה מתעדכן אחת לרבעון.</p>"}],false,["$","$L5",null,{"gallery":{"heading":"סוגי המפתחות והשלטים שבמחירון","sub":"כל סוג מפתח מתומחר אחרת - הנה איך הם נראים בפועל","images":[{"src":"/wp-images/שכפול-מפתח-לרכב-חדש.webp","w":600,"h":1067,"caption":"מפתח קפיץ - הסעיף הנפוץ ביותר במחירון","alt":"מפתח קפיץ חדש לרכב מוחזק ביד מול ארגז גלמי המפתחות בעמדה הניידת - מחיר שכפול מפתח לרכב"},{"src":"/wp-images/שכפול-מפתח-קפיץ-לרכב.webp","w":600,"h":800,"caption":"מפתח קפיץ עם שבב אימובילייזר - תמחור לפי סוג השבב","alt":"תקריב של מפתח קפיץ לרכב עם שלושה כפתורים ושבב אימובילייזר בידית - מחיר שכפול מפתח לרכב"},{"src":"/wp-images/שכפול-שלט-חכם-לרכב.webp","w":250,"h":271,"caption":"שלט חכם - מחיר גבוה יותר בגלל המארז והקידוד","alt":"שלט חכם לרכב עם שלושה כפתורים מוחזק ביד אחרי קידוד - מחיר שכפול מפתח לרכב"},{"src":"/wp-images/שכפול-שלטים-לרכב-מפתח-עכשיו.webp","w":247,"h":268,"caption":"שלט חלופי - חלופה זולה יותר לשלט מקורי מהסוכנות","alt":"שלט חכם שטוח לרכב עם ארבעה כפתורים, מבט מלמעלה - מחיר שכפול מפתח לרכב"}]}}],"$L6"],false,false]}],"$L7","$L8",[],false]}],"$L9"]}]}],"$La"],["$Lb"],"$Lc"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TFfI33juvlz9FBwsp3OJz"}
+d:T47fe,
+
+<p><strong>עודכן לאחרונה:</strong> יולי 2026 · <strong>מהדורה:</strong> מהדורת השקה (Q3 2026).</p>
+
+<blockquote><strong>הערה על הנתונים:</strong> מהדורת ההשקה של המדד מציגה נתוני בסיס <strong>להמחשה בלבד</strong>, המבוססים על טווחי מחירים מקובלים בשוק ולא על מדגם עסקאות שנאסף בשטח. הנתונים מסומנים ככאלה לאורך העמוד, ויוחלפו בנתונים שייאספו וייבדקו במהדורות הבאות. אין לראות בנתונים אלה הצעת מחיר או התחייבות.</blockquote>
+
+<h2 id="sec-0">למה נוצר המדד וכיצד להשתמש בו</h2>
+<p>שוק שכפול המפתחות לרכב בישראל מאופיין בשקיפות מחירים נמוכה. אותו שירות עשוי להיות מתומחר בפערים משמעותיים בין ספקים, בין ערים ובין דגמי רכב, ולנהג הממוצע אין כלי להשוות. המדד נועד לצמצם את פער המידע הזה: הוא מרכז את טווחי המחירים לפי מאפיינים ברורים, כך שנהג יוכל להעריך אם הצעת מחיר שקיבל סבירה ביחס לשוק. המדד אינו ממליץ על ספק ואינו מהווה תחליף להצעת מחיר פרטנית.</p>
+
+<h2 id="sec-1">תקציר המחקר</h2>
+<p>הנתונים במהדורת ההשקה מכסים את ההיקף הבא (נתוני המחשה):</p>
+<table>
+  <thead>
+    <tr><th>פרמטר</th><th>ערך</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ערים שנבדקו</td><td>10</td></tr>
+    <tr><td>נקודות מחיר שנאספו</td><td>כ-500 (להמחשה)</td></tr>
+    <tr><td>דגמי רכב שנבדקו</td><td>כ-40</td></tr>
+    <tr><td>סוגי מפתחות</td><td>4 (מכני, שבב, פליפ, סמארט קי)</td></tr>
+    <tr><td>גודל מדגם ממוצע לעיר</td><td>כ-45-75 נקודות</td></tr>
+    <tr><td>תאריך עדכון</td><td>יולי 2026</td></tr>
+    <tr><td>תדירות עדכון</td><td>רבעונית</td></tr>
+  </tbody>
+</table>
+
+<h2 id="sec-2">טבלת המחירים המרכזית (נתוני המחשה)</h2>
+<p>הטבלה מציגה מחיר ממוצע משוער לכל סוג מפתח, לפי עיר. כל המחירים בשקלים, כוללים קידוד למחשב הרכב היכן שרלוונטי, ואינם כוללים מע"מ. הנתונים להמחשה בלבד.</p>
+<table>
+  <thead>
+    <tr><th>עיר</th><th>מפתח מכני</th><th>מפתח שבב</th><th>מפתח פליפ</th><th>סמארט קי</th><th>דגימות</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ירושלים</td><td>₪230</td><td>₪580</td><td>₪710</td><td>₪1,220</td><td>61</td></tr>
+    <tr><td>באר שבע</td><td>₪225</td><td>₪570</td><td>₪700</td><td>₪1,150</td><td>38</td></tr>
+    <tr><td>תל אביב</td><td>₪220</td><td>₪560</td><td>₪690</td><td>₪1,180</td><td>74</td></tr>
+    <tr><td>רמת גן</td><td>₪215</td><td>₪555</td><td>₪685</td><td>₪1,160</td><td>48</td></tr>
+    <tr><td>חיפה</td><td>₪210</td><td>₪540</td><td>₪670</td><td>₪1,120</td><td>52</td></tr>
+    <tr><td>כפר סבא</td><td>₪205</td><td>₪525</td><td>₪655</td><td>₪1,080</td><td>33</td></tr>
+    <tr><td>ראשון לציון</td><td>₪205</td><td>₪530</td><td>₪660</td><td>₪1,090</td><td>57</td></tr>
+    <tr><td>נתניה</td><td>₪200</td><td>₪520</td><td>₪650</td><td>₪1,070</td><td>45</td></tr>
+    <tr><td>מודיעין</td><td>₪195</td><td>₪515</td><td>₪640</td><td>₪1,050</td><td>29</td></tr>
+    <tr><td>לוד</td><td>₪190</td><td>₪505</td><td>₪630</td><td>₪1,030</td><td>31</td></tr>
+  </tbody>
+</table>
+
+<h2 id="sec-3">ניתוח הנתונים</h2>
+<h3>הערים היקרות והזולות ביותר</h3>
+<p>לפי נתוני ההמחשה, הערים שבהן המחיר הממוצע גבוה יחסית הן ירושלים, באר שבע ותל אביב. הערים שבהן המחיר הממוצע נמוך יחסית הן לוד, מודיעין ונתניה. הפער בין הקצה היקר לקצה הזול עומד על כ-13-15 אחוז במפתח שבב וכ-18 אחוז בסמארט קי. חשוב לציין שהפער אינו נובע ממאפיין עירוני יחיד אלא משילוב של גורמים.</p>
+<h3>מרכז מול פריפריה</h3>
+<p>בניגוד לתפיסה הרווחת, נתוני ההמחשה אינם מצביעים על כך שהפריפריה זולה יותר באופן עקבי. באר שבע, למשל, מציגה מחירים גבוהים יחסית, ככל הנראה בשל צפיפות ספקים נמוכה ומרחקי נסיעה גדולים יותר. במרכז הצפוף, לעומת זאת, התחרות הגבוהה בין ספקים מרסנת את המחירים. המסקנה: קרבה למרכז אינה מנבאת בהכרח מחיר גבוה יותר.</p>
+<h3>סוגי המפתחות היקרים ביותר</h3>
+<p>סוג המפתח הוא המשתנה המשפיע ביותר על המחיר, הרבה מעבר לזהות העיר. סמארט קי יקר בממוצע פי 5 עד 6 ממפתח מכני, בשל הצורך בציוד קידוד מתקדם ובתהליך סנכרון ארוך מול מחשב הרכב. שירות <a href="/שכפול-מפתח-לרכב/">שכפול מפתח לרכב</a> למפתח מכני נותר הזול ביותר, בעוד ש<a href="/שחזור-מפתח-לרכב/">שחזור מפתח ללא מקור</a> מוסיף עלות נוספת מעל המחירים בטבלה.</p>
+<h3>יצרנים הדורשים קידוד מתקדם</h3>
+<p>יצרני רכב אירופיים דורשים לרוב קידוד מתקדם ותכוף יותר. דגמי <a href="/שכפול-מפתח-לבמוו/">שכפול מפתח ל-BMW</a> עם מערכות EWS/CAS/FEM, ודגמי <a href="/שכפול-מפתח-לפולקסווגן/">פולקסווגן</a> וקבוצת VAG עם פלטפורמת MQB ו-Component Protection, מייצרים את קצה המחיר הגבוה. גם דגמים היברידיים דורשים רצף קידוד ייעודי. פעולת <a href="/קידוד-שלט-לרכב/">קידוד שלט לרכב</a> היא לעיתים רכיב עלות נפרד בתוך השירות הכולל.</p>
+
+<h2 id="sec-4">גרפים מומלצים</h2>
+<p>המדד מיועד להיות מלווה בהמחשות ויזואליות. במהדורות הבאות ישולבו הגרפים הבאים:</p>
+<ul>
+  <li><strong>מחיר ממוצע לפי עיר</strong> - גרף עמודות המשווה את הערים (משתלב אחרי הטבלה המרכזית).</li>
+  <li><strong>מחיר לפי סוג מפתח</strong> - גרף עמודות המדגיש את הפער בין מכני לסמארט קי (משתלב בסעיף ניתוח סוגי המפתחות).</li>
+  <li><strong>מחיר לפי יצרן</strong> - גרף המשווה יצרנים אסייתיים מול אירופיים (משתלב בסעיף היצרנים).</li>
+  <li><strong>התפלגות סוגי המפתחות</strong> - גרף עוגה של חלקו של כל סוג מפתח במדגם.</li>
+  <li><strong>מגמת מחירים בין רבעונים</strong> - גרף קו שיתעדכן ממהדורה שנייה ואילך (משתלב בתקציר).</li>
+</ul>
+
+<h2 id="sec-5">מתודולוגיית המחקר</h2>
+<p>מתודולוגיית המדד תוכננה כך שתאפשר השוואה עקבית בין מהדורות. איסוף הנתונים מבוסס על ריכוז הצעות מחיר לשירותי שכפול וקידוד מפתחות לרכב, בפילוח לפי עיר, סוג מפתח וקבוצת יצרן. עבור כל שילוב נאספות מספר נקודות מחיר, מתוכן מחושב ממוצע לאחר ניקוי ערכים חריגים בקצוות ההתפלגות, כדי למנוע הטיה של הצעות קיצון בודדות.</p>
+<p>המחיר הממוצע לכל תא בטבלה מחושב כממוצע הנקודות שנותרו לאחר סינון החריגים. במהדורת ההשקה, בהיעדר מדגם שטח מלא, הערכים מבוססים על טווחי מחירים מקובלים בשוק ומסומנים כנתוני המחשה. במהדורות הבאות יוחלפו הערכים בנתונים שנאספו בפועל. המדד מתעדכן אחת לרבעון, וכל מהדורה תשמור על אותה שיטת חישוב כדי לאפשר מעקב מגמות לאורך זמן.</p>
+
+<h2 id="sec-6">מסקנות מרכזיות</h2>
+<ol>
+  <li>סוג המפתח, ולא מיקום גאוגרפי, הוא הגורם המשפיע ביותר על המחיר.</li>
+  <li>סמארט קי יקר בממוצע פי 5 עד 6 ממפתח מכני.</li>
+  <li>הפער בין הערים היקרות לזולות במדד עומד על כ-13-18 אחוז, תלוי בסוג המפתח.</li>
+  <li>פריפריה אינה זולה בהכרח, ולעיתים אף יקרה יותר בשל צפיפות ספקים נמוכה.</li>
+  <li>יצרנים אירופיים דורשים קידוד מתקדם בתדירות גבוהה יותר, ומייצרים את קצה המחיר העליון.</li>
+  <li>דגמים היברידיים דורשים רצף קידוד ייעודי המייקר את השירות.</li>
+  <li>שחזור מפתח ללא מקור יקר משמעותית משכפול כפילאה כשקיים מפתח מקורי.</li>
+  <li>תחרות מקומית גבוהה במרכז מרסנת מחירים למרות עלויות התפעול.</li>
+  <li>קידוד השלט הוא לעיתים רכיב עלות נפרד שיש לברר מראש.</li>
+  <li>שקיפות מחירים בשוק נותרה נמוכה, מה שמחזק את הצורך במדד ייחוס אובייקטיבי.</li>
+</ol>
+
+<h2 id="sec-7">שאלות נפוצות על המדד</h2>
+<p><strong>כיצד מחושב המחיר הממוצע במדד?</strong></p>
+<p>לכל שילוב של עיר וסוג מפתח נאספות מספר נקודות מחיר, מנוקים ערכים חריגים בקצוות, ומחושב ממוצע של הנקודות שנותרו. שיטה זו זהה בכל המהדורות כדי לאפשר השוואה.</p>
+<p><strong>מדוע מחירי שכפול מפתח משתנים בין ערים?</strong></p>
+<p>ההבדלים נובעים ממרחקי נסיעה, מצפיפות הספקים ומרמת התחרות המקומית, וכן מתמהיל הרכבים באזור. אזור עם ספקים מעטים ומרחקים גדולים נוטה למחיר גבוה יותר.</p>
+<p><strong>כל כמה זמן המדד מתעדכן?</strong></p>
+<p>המדד מתעדכן אחת לרבעון. כל מהדורה מתעדת את תאריך העדכון ומאפשרת מעקב אחר מגמות מחירים לאורך זמן.</p>
+<p><strong>האם המחירים כוללים קידוד?</strong></p>
+<p>כן. המחירים למפתח שבב, פליפ וסמארט קי כוללים את הקידוד למחשב הרכב. מפתח מכני אינו דורש קידוד ולכן זול יותר.</p>
+<p><strong>האם מדובר במחירי עסקאות או בהצעות מחיר?</strong></p>
+<p>במהדורת ההשקה מדובר בטווחי מחירים להמחשה. מהדורות הבאות ישלבו נתוני הצעות מחיר ועסקאות בפועל שייאספו וייבדקו.</p>
+<p><strong>מהו גודל המדגם?</strong></p>
+<p>מהדורת ההשקה מבוססת על כ-500 נקודות מחיר להמחשה, על פני 10 ערים ו-4 סוגי מפתחות.</p>
+<p><strong>האם הנתונים בטבלה אמיתיים?</strong></p>
+<p>לא במהדורת ההשקה. הנתונים הם הערכות בסיס להמחשה המבוססות על טווחי שוק מקובלים, והם מסומנים ככאלה. הם יוחלפו בנתוני שטח במהדורות הבאות.</p>
+<p><strong>מה ההבדל בין מפתח מכני, שבב, פליפ וסמארט קי?</strong></p>
+<p>מפתח מכני הוא מפתח פיזי ללא אלקטרוניקה. מפתח שבב כולל טרנספונדר המתקשר עם האימוביליזר. מפתח פליפ משלב להב מתקפל ושלט בגוף אחד. סמארט קי מאפשר כניסה והתנעה ללא הכנסת מפתח ודורש ציוד קידוד מתקדם.</p>
+<p><strong>מדוע רכבים אירופיים יקרים יותר לשכפול?</strong></p>
+<p>יצרנים אירופיים משתמשים במערכות אבטחה מתקדמות, כמו MQB Component Protection של קבוצת פולקסווגן או EWS/CAS של BMW, הדורשות ציוד ייעודי ותהליך קידוד ארוך יותר, ולכן מייקרות את השירות.</p>
+<p><strong>האם המדד הוא כלי מסחרי?</strong></p>
+<p>המדד הוא פרויקט מידע של מפתח עכשיו שנועד להנגיש שקיפות מחירים. הוא אינו כולל תמחור מחייב ואינו מהווה הצעת מחיר.</p>
+
+<h2 id="sec-8">מקורות ומתודולוגיה</h2>
+<p><strong>גוף מפרסם:</strong> מפתח עכשיו - שירות מנעולנות רכב ארצי.<br>
+<strong>תאריך פרסום:</strong> יולי 2026.<br>
+<strong>עדכון אחרון:</strong> יולי 2026 (מהדורת השקה, Q3 2026).<br>
+<strong>מטרת המחקר:</strong> להנגיש לנהגים בישראל תמונת מצב שקופה ואובייקטיבית של מחירי שכפול, שחזור וקידוד מפתחות לרכב, ולספק נקודת ייחוס להערכת סבירות הצעות מחיר.<br>
+<strong>מגבלות:</strong> נתוני מהדורת ההשקה הם הערכות להמחשה; אין לראות בהם נתוני עסקאות שנאספו בשטח.</p>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Dataset","name":"מדד מחירי שכפול מפתחות לרכב בישראל 2026","description":"מדד רבעוני של מחירי שכפול, שחזור וקידוד מפתחות לרכב בישראל, בפילוח לפי עיר, סוג מפתח ויצרן. מהדורת השקה - נתוני בסיס להמחשה.","url":"https://carkeynow.co.il/מדד-מחירי-שכפול-מפתחות-לרכב-2026/","creator":{"@type":"Organization","name":"מפתח עכשיו","url":"https://carkeynow.co.il/"},"publisher":{"@id":"https://carkeynow.co.il/#organization"},"datePublished":"2026-07-06","dateModified":"2026-07-06","temporalCoverage":"2026","spatialCoverage":{"@type":"Place","name":"ישראל"},"variableMeasured":["מחיר מפתח מכני","מחיר מפתח שבב","מחיר מפתח פליפ","מחיר סמארט קי"],"measurementTechnique":"איסוף הצעות מחיר, ניקוי ערכים חריגים וחישוב ממוצע לכל שילוב של עיר וסוג מפתח","isAccessibleForFree":true,"inLanguage":"he"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"כיצד מחושב המחיר הממוצע במדד?","acceptedAnswer":{"@type":"Answer","text":"לכל שילוב של עיר וסוג מפתח נאספות מספר נקודות מחיר, מנוקים ערכים חריגים בקצוות, ומחושב ממוצע של הנקודות שנותרו."}},{"@type":"Question","name":"מדוע מחירי שכפול מפתח משתנים בין ערים?","acceptedAnswer":{"@type":"Answer","text":"ההבדלים נובעים ממרחקי נסיעה, מצפיפות הספקים ומרמת התחרות המקומית, וכן מתמהיל הרכבים באזור."}},{"@type":"Question","name":"כל כמה זמן המדד מתעדכן?","acceptedAnswer":{"@type":"Answer","text":"המדד מתעדכן אחת לרבעון, וכל מהדורה מתעדת את תאריך העדכון."}},{"@type":"Question","name":"האם המחירים כוללים קידוד?","acceptedAnswer":{"@type":"Answer","text":"כן. המחירים למפתח שבב, פליפ וסמארט קי כוללים קידוד למחשב הרכב. מפתח מכני אינו דורש קידוד."}},{"@type":"Question","name":"האם מדובר במחירי עסקאות או בהצעות מחיר?","acceptedAnswer":{"@type":"Answer","text":"במהדורת ההשקה מדובר בטווחי מחירים להמחשה. מהדורות הבאות ישלבו נתוני הצעות מחיר ועסקאות בפועל."}},{"@type":"Question","name":"מהו גודל המדגם?","acceptedAnswer":{"@type":"Answer","text":"מהדורת ההשקה מבוססת על כ-500 נקודות מחיר להמחשה, על פני 10 ערים ו-4 סוגי מפתחות."}},{"@type":"Question","name":"האם הנתונים בטבלה אמיתיים?","acceptedAnswer":{"@type":"Answer","text":"לא במהדורת ההשקה. הנתונים הם הערכות בסיס להמחשה המבוססות על טווחי שוק מקובלים, ויוחלפו בנתוני שטח במהדורות הבאות."}},{"@type":"Question","name":"מה ההבדל בין מפתח מכני, שבב, פליפ וסמארט קי?","acceptedAnswer":{"@type":"Answer","text":"מפתח מכני הוא פיזי ללא אלקטרוניקה. מפתח שבב כולל טרנספונדר. מפתח פליפ משלב להב מתקפל ושלט. סמארט קי מאפשר כניסה והתנעה ללא הכנסת מפתח."}},{"@type":"Question","name":"מדוע רכבים אירופיים יקרים יותר לשכפול?","acceptedAnswer":{"@type":"Answer","text":"יצרנים אירופיים משתמשים במערכות אבטחה מתקדמות כמו MQB Component Protection או EWS/CAS, הדורשות ציוד ותהליך קידוד ארוך יותר."}},{"@type":"Question","name":"האם המדד הוא כלי מסחרי?","acceptedAnswer":{"@type":"Answer","text":"המדד הוא פרויקט מידע של מפתח עכשיו להנגשת שקיפות מחירים. הוא אינו כולל תמחור מחייב ואינו מהווה הצעת מחיר."}}]}
+</script>6:["$","$L4",null,{"html":"$d"}]
+7:null
+8:null
+9:["$","div",null,{"children":["$","aside",null,{"className":"space-y-4","dir":"rtl","children":[["$","$Le",null,{"compact":true}],["$","div",null,{"className":"card p-4 text-sm text-center","dir":"rtl","children":[["$","p",null,{"className":"font-bold mb-1","style":{"color":"var(--primary)"},"children":"מנעולן רכב 24/7"}],["$","p",null,{"className":"text-gray-400 text-xs mb-3","children":"הגעה תוך 20 דקות בממוצע"}],["$","a",null,{"href":"tel:033822752","className":"block w-full py-2 rounded font-bold text-white text-sm","style":{"background":"var(--accent)"},"children":"03-382-2752"}]]}],[["$","div","השירותים שלנו",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"השירותים שלנו"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/מנעולן-רכב-בתל-אביב",{"children":["$","$L2",null,{"href":"/מנעולן-רכב-בתל-אביב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"מנעולן רכב בתל אביב"]}]}],["$","li","/שחזור-מפתח-לרכב",{"children":["$","$L2",null,{"href":"/שחזור-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שחזור מפתח לרכב"]}]}],["$","li","/שכפול-מפתח-לרכב",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרכב"]}]}],["$","li","/תיקון-סוויץ-לרכב",{"children":["$","$L2",null,{"href":"/תיקון-סוויץ-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"תיקון סוויץ לרכב"]}]}],["$","li","/התקנת-קודן-לרכב",{"children":["$","$L2",null,{"href":"/התקנת-קודן-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"התקנת קודן לרכב"]}]}],["$","li","/פורץ-רכבים",{"children":["$","$L2",null,{"href":"/פורץ-רכבים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"פורץ רכבים"]}]}],["$","li","/אבד-מפתח-לרכב",{"children":["$","$L2",null,{"href":"/אבד-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"אבד מפתח לרכב"]}]}],["$","li","/שכפול-שלט-לרכב",{"children":["$","$L2",null,{"href":"/שכפול-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול שלט לרכב"]}]}],["$","li","/תיקון-שלט-לרכב",{"children":["$","$L2",null,{"href":"/תיקון-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"תיקון שלט לרכב"]}]}]]}]]}],["$","div","שכפול מפתח לפי עיר",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שכפול מפתח לפי עיר"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לרכב-בגני-תקווה",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-לרכב-בגני-תקווה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בגני תקווה"]}]}],["$","li","/שכפול-מפתח-לרכב-בתל-אביב",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-לרכב-בתל-אביב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בתל אביב"]}]}],["$","li","/שכפול-מפתח-לרכב-בחיפה",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-לרכב-בחיפה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בחיפה"]}]}],["$","li","/שכפול-מפתח-לרכב-בירושלים",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-לרכב-בירושלים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בירושלים"]}]}],["$","li","/שכפול-מפתח-לרכב-בבאר-שבע",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-לרכב-בבאר-שבע","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בבאר שבע"]}]}],["$","li","/שכפול-מפתח-לרכב-ברחובות",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-לרכב-ברחובות","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ברחובות"]}]}],["$","li","/שכפול-מפתח-לרכב-בנתניה",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-לרכב-בנתניה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בנתניה"]}]}],["$","li","/שכפול-מפתח-לרכב-ברמת-גן",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-לרכב-ברמת-גן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ברמת גן"]}]}]]}]]}],["$","div","שכפול מפתח לפי דגם",{"className":"card overflow-hidden","children":["$Lf","$L10"]}]]]}]}]
+a:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white py-8 text-center","dir":"rtl","children":["$","div",null,{"className":"max-w-xl mx-auto px-4","children":[["$","p",null,{"className":"font-bold text-lg mb-4","children":"צריכים עזרה? אנחנו כאן 24/7"}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-3 justify-center","children":["$","a",null,{"href":"tel:033822752","className":"btn-primary text-base px-8","children":"03-382-2752"}]}]]}]}]
+b:["$","script","script-0",{"src":"/_next/static/chunks/1leulq3_ixpp7.js","async":true}]
+c:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+f:["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שכפול מפתח לפי דגם"}]
+10:["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לטויוטה",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-לטויוטה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לטויוטה"]}]}],["$","li","/שכפול-מפתח-ליונדאי",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-ליונדאי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ליונדאי"]}]}],["$","li","/שכפול-מפתח-למאזדה",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-למאזדה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח למאזדה"]}]}],["$","li","/שכפול-מפתח-לניסאן",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-לניסאן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לניסאן"]}]}],["$","li","/שכפול-מפתח-לרנו",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-לרנו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרנו"]}]}],["$","li","/שכפול-מפתח-לשברולט",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-לשברולט","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לשברולט"]}]}],["$","li","/שכפול-מפתח-לפורד",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-לפורד","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לפורד"]}]}],["$","li","/שכפול-מפתח-לפיגו",{"children":["$","$L2",null,{"href":"/שכפול-מפתח-לפיגו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לפיגו"]}]}]]}]
+13:null

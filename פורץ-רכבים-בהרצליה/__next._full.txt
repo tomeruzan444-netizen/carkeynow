@@ -1,0 +1,440 @@
+1:"$Sreact.fragment"
+3:I[70119,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+4:I[39756,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+5:I[37457,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+6:I[22016,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],""]
+7:I[18794,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+12:I[68027,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
+:HL["/_next/static/chunks/0mm5ldk5w9ygh.css","style"]
+:HL["/_next/static/media/87c7f5b5afcd23bd-s.p.0kf5m0zv7sxld.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/c9f6ebf08ddd616b-s.p.0sv86lbjkn8rn.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:T4c6,{"@context":"https://schema.org","@type":"LocalBusiness","@id":"https://carkeynow.co.il/#organization","name":"מפתח עכשיו","url":"https://carkeynow.co.il","logo":"https://carkeynow.co.il/wp-images/מפתח-עכשיו-לוגו.webp","image":"https://carkeynow.co.il/wp-images/שכפול-מפתחות-לרכב-מפתח-עכשיו.webp","telephone":"033822752","email":"carkeynow@gmail.com","founder":[{"@type":"Person","@id":"https://carkeynow.co.il/#amir","name":"דורון","jobTitle":"מנעולן רכב מומחה"},{"@type":"Person","@id":"https://carkeynow.co.il/#ronen","name":"רונן","jobTitle":"מייסד שותף"}],"sameAs":["https://www.facebook.com/carkeynow/"],"address":{"@type":"PostalAddress","addressCountry":"IL"},"areaServed":{"@type":"Country","name":"Israel"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},"priceRange":"₪₪","description":"מנעולן רכב מקצועי בפריסה ארצית. שכפול מפתחות, שחזור מפתח לרכב, תיקון סוויץ, פורץ רכבים ועוד. זמינות 24/7 כולל שבתות."}0:{"P":null,"c":["","%D7%A4%D7%95%D7%A8%D7%A5-%D7%A8%D7%9B%D7%91%D7%99%D7%9D-%D7%91%D7%94%D7%A8%D7%A6%D7%9C%D7%99%D7%94",""],"q":"","i":false,"f":[[["",{"children":[["slug","%D7%A4%D7%95%D7%A8%D7%A5-%D7%A8%D7%9B%D7%91%D7%99%D7%9D-%D7%91%D7%94%D7%A8%D7%A6%D7%9C%D7%99%D7%94","d",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0mm5ldk5w9ygh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3m_tmw4-ippmj.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"he","dir":"rtl","className":"rubik_22d5fcb7-module__WPi2ta__variable","children":[["$","head",null,{"children":["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}]}],["$","body",null,{"className":"font-sans antialiased bg-white text-gray-900 min-h-screen flex flex-col","children":[["$","$L3",null,{}],["$","main",null,{"className":"flex-1 pb-6","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"min-h-[60vh] flex flex-col items-center justify-center text-center px-4","dir":"rtl","children":[["$","h1",null,{"className":"text-5xl font-bold text-blue-700 mb-4","children":"404"}],["$","h2",null,{"className":"text-2xl font-semibold text-gray-800 mb-2","children":"הדף לא נמצא"}],["$","p",null,{"className":"text-gray-500 mb-8","children":"הדף שחיפשתם אינו קיים. נסו לחזור לדף הבית."}],["$","div",null,{"className":"flex gap-4","children":[["$","$L6",null,{"href":"/","className":"bg-blue-700 text-white px-6 py-3 rounded-xl font-bold hover:bg-blue-800 transition","children":"דף הבית"}],["$","a",null,{"href":"tel:033822752","className":"bg-gray-100 text-gray-800 px-6 py-3 rounded-xl font-bold hover:bg-gray-200 transition","children":"03-382-2752"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"dir":"rtl","style":{"background":"#111827"},"className":"text-gray-400 text-sm","children":[["$","$L7",null,{}],["$","div",null,{"style":{"background":"#0d1320","borderBottom":"1px solid #1f2937"},"children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6","children":["$","div",null,{"className":"grid grid-cols-1 sm:grid-cols-2 gap-5","children":[["$","div",null,{"className":"flex items-start gap-3","children":[["$","svg",null,{"className":"w-7 h-7 shrink-0","viewBox":"0 0 24 24","fill":"none","stroke":"#e8751a","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":[["$","circle",null,{"cx":"12","cy":"12","r":"9"}],["$","path",null,{"d":"M12 7v5l3 2"}]]}],["$","div",null,{"children":[["$","div",null,{"className":"text-white font-bold","children":"שירות חירום 24/7 - כולל לילות ושבתות"}],["$","div",null,{"className":"mt-0.5","children":"אנחנו זמינים מסביב לשעון, גם בלילה, בשבתות ובחגים - מתי שאתם נתקעים, אנחנו יוצאים אליכם."}]]}]]}],"$L8"]}]}]}],"$L9","$La","$Lb"]}],"$Lc","$Ld"]}]]}]]}],{"children":["$Le",{"children":["$Lf",{},null,false,null]},null,false,"$@10"]},null,false,null],"$L11",false]],"m":"$undefined","G":["$12",["$L13"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TFfI33juvlz9FBwsp3OJz"}
+1b:I[95848,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+1c:I[79520,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],""]
+1e:I[97367,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+22:I[97367,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+24:I[97367,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+8:["$","div",null,{"className":"flex items-start gap-3","children":[["$","svg",null,{"className":"w-7 h-7 shrink-0","viewBox":"0 0 24 24","fill":"none","stroke":"#e8751a","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":[["$","path",null,{"d":"M1 3h15v13H1z"}],["$","path",null,{"d":"M16 8h4l3 3v5h-7V8z"}],["$","circle",null,{"cx":"5.5","cy":"18.5","r":"2.5"}],["$","circle",null,{"cx":"18.5","cy":"18.5","r":"2.5"}]]}],["$","div",null,{"children":[["$","div",null,{"className":"text-white font-bold","children":"מעבדה ניידת עד לבית הלקוח"}],["$","div",null,{"className":"mt-0.5","children":"אנחנו מגיעים עם מעבדה ניידת הכוללת את כל הציוד המקצועי - עד הבית, מקום העבודה או כל מקום שהרכב נמצא בו."}]]}]]}]
+9:["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","div",null,{"className":"grid grid-cols-2 md:grid-cols-4 gap-8","children":[["$","div",null,{"children":[["$","h4",null,{"className":"text-white font-bold mb-4 text-sm uppercase tracking-wide","children":"ניווט באתר"}],["$","ul",null,{"className":"space-y-2","children":[["$","li",null,{"children":["$","$L6",null,{"href":"/","className":"hover:text-white transition","children":"עמוד הבית"}]}],[["$","li","/אודות",{"children":["$","$L6",null,{"href":"/אודות","className":"hover:text-white transition","children":"אודות"}]}],["$","li","/צרו-קשר",{"children":["$","$L6",null,{"href":"/צרו-קשר","className":"hover:text-white transition","children":"צרו קשר"}]}],["$","li","/מדיניות-פרטיות",{"children":["$","$L6",null,{"href":"/מדיניות-פרטיות","className":"hover:text-white transition","children":"מדיניות פרטיות"}]}],["$","li","/תנאי-שימוש",{"children":["$","$L6",null,{"href":"/תנאי-שימוש","className":"hover:text-white transition","children":"תנאי שימוש"}]}],["$","li","/הצהרת-נגישות",{"children":["$","$L6",null,{"href":"/הצהרת-נגישות","className":"hover:text-white transition","children":"הצהרת נגישות"}]}]]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"text-white font-bold mb-4 text-sm uppercase tracking-wide","children":"מפתחות לרכבים"}],["$","ul",null,{"className":"space-y-2","children":[["$","li","/שכפול-מפתח-לבמוושכפול מפתחות לבמו",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לבמוו","className":"hover:text-white transition","children":"שכפול מפתחות לבמו"}]}],["$","li","/שכפול-מפתח-לסוזוקישכפול מפתחות לסוזוקי",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לסוזוקי","className":"hover:text-white transition","children":"שכפול מפתחות לסוזוקי"}]}],["$","li","/שכפול-מפתח-ליונדאישכפול מפתחות ליונדאי",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-ליונדאי","className":"hover:text-white transition","children":"שכפול מפתחות ליונדאי"}]}],["$","li","/שכפול-מפתח-לפורדשכפול מפתחות לפורד",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לפורד","className":"hover:text-white transition","children":"שכפול מפתחות לפורד"}]}],["$","li","/שכפול-מפתח-להונדהשכפול מפתחות להונדה",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-להונדה","className":"hover:text-white transition","children":"שכפול מפתחות להונדה"}]}],["$","li","/שכפול-מפתח-לסקודהשכפול מפתחות לסקודה",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לסקודה","className":"hover:text-white transition","children":"שכפול מפתחות לסקודה"}]}],["$","li","/שכפול-מפתח-לסובארושכפול מפתחות לסובארו",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לסובארו","className":"hover:text-white transition","children":"שכפול מפתחות לסובארו"}]}],["$","li","/שכפול-מפתח-לוולוושכפול מפתחות לוולוו",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לוולוו","className":"hover:text-white transition","children":"שכפול מפתחות לוולוו"}]}],["$","li","/שכפול-מפתח-לאופלשכפול מפתחות לאופל",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לאופל","className":"hover:text-white transition","children":"שכפול מפתחות לאופל"}]}],["$","li","/שכפול-מפתח-לשברולטשכפול מפתחות לשברולט",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לשברולט","className":"hover:text-white transition","children":"שכפול מפתחות לשברולט"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"text-white font-bold mb-4 text-sm uppercase tracking-wide","children":"אזורים נפוצים"}],["$","ul",null,{"className":"space-y-2","children":[[["$","li","/שכפול-מפתח-לרכב-בירושלים",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-בירושלים","className":"hover:text-white transition","children":"שכפול מפתחות לרכב בירושלים"}]}],["$","li","/שכפול-מפתח-לרכב-בחולון",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-בחולון","className":"hover:text-white transition","children":"שכפול מפתחות לרכב בחולון"}]}],["$","li","/שכפול-מפתח-לרכב-במודיעין",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-במודיעין","className":"hover:text-white transition","children":"שכפול מפתחות לרכב במודיעין"}]}],["$","li","/שכפול-מפתח-לרכב-בחדרה",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-בחדרה","className":"hover:text-white transition","children":"שכפול מפתחות לרכב בחדרה"}]}],["$","li","/שכפול-מפתח-לרכב-בראשון-לציון",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-בראשון-לציון","className":"hover:text-white transition","children":"שכפול מפתחות לרכב בראשון לציון"}]}],"$L14"],"$L15","$L16","$L17","$L18","$L19"]}]]}],"$L1a"]}]}]
+a:["$","div",null,{"style":{"background":"#0d1320","borderTop":"1px solid #1f2937"},"className":"py-5","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","div",null,{"className":"flex items-center gap-3","children":[["$","a",null,{"href":"https://www.facebook.com/carkeynow","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-semibold transition hover:opacity-90","style":{"background":"#1877F2","color":"#fff"},"children":[["$","svg",null,{"className":"w-4 h-4 shrink-0","fill":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"d":"M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"}]}],"פייסבוק"]}],["$","a",null,{"href":"https://easy.co.il/page/10161378","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-semibold transition hover:opacity-90","style":{"background":"#ff6600","color":"#fff"},"children":[["$","svg",null,{"className":"w-4 h-4 shrink-0","fill":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"d":"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"}]}],"המלצות באיזי"]}]]}],["$","div",null,{"className":"text-xs text-gray-500 text-center sm:text-right","children":[["$","div",null,{"children":"© 2026 מפתח עכשיו"}],["$","div",null,{"className":"mt-0.5 flex flex-wrap gap-3 justify-center sm:justify-end","children":[["$","a",null,{"href":"tel:033822752","className":"hover:text-white","children":"03-382-2752"}],["$","a",null,{"href":"mailto:carkeynow@gmail.com","className":"hover:text-white","children":"carkeynow@gmail.com"}]]}]]}]]}]}]}]
+b:["$","div",null,{"style":{"background":"#0a0f1a","borderTop":"1px solid #1f2937"},"className":"py-4","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-sm text-gray-500","children":[["$","span",null,{"children":"האתר מאוחסן ומתוחזק באהבה על ידי"}],["$","a",null,{"href":"https://brandli.co.il/","target":"_blank","rel":"noopener noreferrer","className":"inline-flex items-center gap-2 font-semibold text-gray-400 transition hover:text-white","children":[["$","img",null,{"src":"/wp-images/brandli-B-logo.webp","alt":"לוגו ברנדלי","width":22,"height":22,"loading":"lazy","className":"w-[22px] h-[22px] rounded-full shrink-0"}],"ברנדלי"]}]]}]}]}]
+c:["$","$L1b",null,{}]
+d:["$","$L1c",null,{"src":"https://zflsdipkqpivtbydexoa.supabase.co/storage/v1/object/public/leadradar/tracker.js","data-site":"ste_fcoi6dfd","strategy":"afterInteractive"}]
+e:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+f:["$","$1","c",{"children":["$L1d",[["$","script","script-0",{"src":"/_next/static/chunks/1leulq3_ixpp7.js","async":true,"nonce":"$undefined"}]],["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]]}]
+21:[]
+10:"$W21"
+11:["$","$1","h",{"children":[null,["$","$L22",null,{"children":"$L23"}],["$","div",null,{"hidden":true,"children":["$","$L24",null,{"children":["$","$1f",null,{"name":"Next.Metadata","children":"$L25"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0mm5ldk5w9ygh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+14:["$","li","/שכפול-מפתח-לרכב-ברמת-גן",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-ברמת-גן","className":"hover:text-white transition","children":"שכפול מפתחות לרכב ברמת גן"}]}]
+15:["$","li",null,{"className":"pt-1","children":["$","$L6",null,{"href":"/אודות","className":"hover:text-white transition","children":"אודות"}]}]
+16:["$","li",null,{"children":["$","$L6",null,{"href":"/צרו-קשר","className":"hover:text-white transition","children":"יצירת קשר"}]}]
+17:["$","li",null,{"children":["$","$L6",null,{"href":"/תנאי-שימוש","className":"hover:text-white transition","children":"תנאי השימוש"}]}]
+18:["$","li",null,{"children":["$","$L6",null,{"href":"/מדיניות-פרטיות","className":"hover:text-white transition","children":"מדיניות הפרטיות"}]}]
+19:["$","li",null,{"children":["$","$L6",null,{"href":"/הצהרת-נגישות","className":"hover:text-white transition","children":"הצהרת נגישות"}]}]
+1a:["$","div",null,{"children":[["$","h4",null,{"className":"text-white font-bold mb-4 text-sm uppercase tracking-wide","children":"שירותים"}],["$","ul",null,{"className":"space-y-2","children":[["$","li","/שחזור-מפתח-לרכב",{"children":["$","$L6",null,{"href":"/שחזור-מפתח-לרכב","className":"hover:text-white transition","children":"שחזור מפתח לרכב"}]}],["$","li","/שכפול-מפתח-לרכב",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב","className":"hover:text-white transition","children":"שכפול מפתח לרכב"}]}],["$","li","/התקנת-קודן-לרכב",{"children":["$","$L6",null,{"href":"/התקנת-קודן-לרכב","className":"hover:text-white transition","children":"התקנת קודן לרכב"}]}],["$","li","/תיקון-קודן-לרכב",{"children":["$","$L6",null,{"href":"/תיקון-קודן-לרכב","className":"hover:text-white transition","children":"תיקון קודן לרכב"}]}],["$","li","/קודן-לרכב-מצפצף-2",{"children":["$","$L6",null,{"href":"/קודן-לרכב-מצפצף-2","className":"hover:text-white transition","children":"קודן לרכב מצפצף"}]}],["$","li","/ניתוק-קודן-לרכב",{"children":["$","$L6",null,{"href":"/ניתוק-קודן-לרכב","className":"hover:text-white transition","children":"ניתוק קודן לרכב"}]}],["$","li","/תיקון-שלט-לרכב",{"children":["$","$L6",null,{"href":"/תיקון-שלט-לרכב","className":"hover:text-white transition","children":"תיקון שלט לרכב"}]}],["$","li","/שכפול-שלט-לרכב",{"children":["$","$L6",null,{"href":"/שכפול-שלט-לרכב","className":"hover:text-white transition","children":"שכפול שלט לרכב"}]}],["$","li","/קידוד-שלט-לרכב",{"children":["$","$L6",null,{"href":"/קידוד-שלט-לרכב","className":"hover:text-white transition","children":"קידוד שלט לרכב"}]}],["$","li","/תיקון-סוויץ-לרכב",{"children":["$","$L6",null,{"href":"/תיקון-סוויץ-לרכב","className":"hover:text-white transition","children":"תיקון סוויץ לרכב"}]}],["$","li","/מפתח-תקוע-בסוויץ",{"children":["$","$L6",null,{"href":"/מפתח-תקוע-בסוויץ","className":"hover:text-white transition","children":"מפתח תקוע בסוויץ"}]}],["$","li","/פורץ-רכבים",{"children":["$","$L6",null,{"href":"/פורץ-רכבים","className":"hover:text-white transition","children":"פורץ רכבים"}]}],["$","li","/אבד-מפתח-לרכב",{"children":["$","$L6",null,{"href":"/אבד-מפתח-לרכב","className":"hover:text-white transition","children":"אבד מפתח לרכב"}]}],["$","li","/שחזור-מפתח-לאופנוע",{"children":["$","$L6",null,{"href":"/שחזור-מפתח-לאופנוע","className":"hover:text-white transition","children":"שחזור מפתח לאופנוע"}]}],["$","li","/פריצת-כיסא-אופנוע",{"children":["$","$L6",null,{"href":"/פריצת-כיסא-אופנוע","className":"hover:text-white transition","children":"פריצת כיסא אופנוע"}]}]]}]]}]
+26:T10d2,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"כמה עולה פתיחת רכב נעול?","acceptedAnswer":{"@type":"Answer","text":"פתיחת רכב רגיל: 250-350 שקל. רכב יוקרה או חכם: 400-600 שקל. פתיחת תא מטען בנפרד: 200-300 שקל. תוספת לילה: 100-120 שקל. תוספת שבת וחג: 60-100 שקל. אלו מחירים סופיים."}},{"@type":"Question","name":"כמה מהר מגיעים לפתיחת רכב?","acceptedAnswer":{"@type":"Answer","text":"בערים הגדולות - 15 עד 25 דקות. באזורים פריפריאליים - 35 עד 60 דקות. אנחנו תמיד אומרים לכם זמן ריאלי בטלפון. ניסיון הוא לא רק בפתיחת רכבים - הוא גם בניהול ציפיות."}},{"@type":"Question","name":"האם הפתיחה גורמת נזק לרכב?","acceptedAnswer":{"@type":"Answer","text":"לא, אם עושים את זה נכון. אנחנו משתמשים בכלים מקצועיים שפותחים את הרכב בלי שריטות, בלי שבירת זגוגית, בלי עיוות של המסגרת. כלי לחץ אוויר מאפשרים לנו ליצור פתח מילימטרי שמספיק לשחרר את הנועל."}},{"@type":"Question","name":"מה אם ננעלתי עם הרכב דולק?","acceptedAnswer":{"@type":"Answer","text":"זה מצב שקורה יותר ממה שחושבים, בעיקר עם רכבי Keyless. אנחנו מגיעים ופותחים בדיוק אותה פרוצדורה. הרכב פשוט המשיך לרוץ עד שהגעתי - אין בעיה מיוחדת."}},{"@type":"Question","name":"מה אם היה ילד בפנים הרכב?","acceptedAnswer":{"@type":"Answer","text":"זו קריאת חירום. אם יש ילד בפנים - התקשרו ל-100 מיד. אם כבר התקשרתם אלינו - תגידו לנו את זה ואנחנו מגיעים תוך דקות. בחלק מהמקרים שבירת חלון היא הפתרון הנכון - אנחנו לא נהסס."}},{"@type":"Question","name":"האם יש בעיה עם החוק בפתיחת רכב?","acceptedAnswer":{"@type":"Answer","text":"אנחנו לא פותחים רכב בלי שהאדם שפנה אלי מוכיח שהוא הבעלים או שיש לו הרשאה. תעודת זהות ורישיון רכב. זה מגן על כולם ולא מכשיל לקוחות לגיטימיים."}},{"@type":"Question","name":"ננעלתי בלי טלפון - מה עושים?","acceptedAnswer":{"@type":"Answer","text":"פנו לבית קפה או לחנות סמוכה, בקשו להשתמש בטלפון לדקה. כל אחד יבין. שוטר גם יכול לעזור בהעברת הודעה."}},{"@type":"Question","name":"ננעלתי בלילה - האם אתם מגיעים?","acceptedAnswer":{"@type":"Answer","text":"כן, 24/7 ללא יוצא מן הכלל. תוספת לילה (23:00-7:00): 100-120 שקל. אנחנו מבינים שאם ננעלתם בלילה - אתם לא רוצים לשמוע \"תחכו לבוקר\"."}},{"@type":"Question","name":"מה כדאי לעשות כדי למנוע ננעלות בעתיד?","acceptedAnswer":{"@type":"Answer","text":"מפתח כפילאה אצל בן משפחה - הפתרון הטוב ביותר. לרכבים ישנים - אפשר להוסיף מנעול קוד קטן לדלת. עוד טיפ: שמרו תמיד מפתח רזרבי בארנק עם נרתיק דק."}},{"@type":"Question","name":"האם ניתן לפתוח רכב ישן בקלות יחסית?","acceptedAnswer":{"@type":"Answer","text":"רכבים ישנים (לפני 2000) - כן, מהר יחסית. רכבים מודרניים עם נועלי אוויר - קשה יותר אבל אפשרי. רכבים חכמים עם Smart Key - דורשים ציוד ספציפי. לכל סוג יש גישה שונה."}},{"@type":"Question","name":"האם אתם פותחים גם רכבים מסחריים?","acceptedAnswer":{"@type":"Answer","text":"כן, כולל משאיות קלות, ואנים, ורכבי עבודה. לרכב מסחרי יש לפעמים מנגנון נעילה שונה - אנחנו מגיעים עם ציוד מתאים לאחר שתיארו לי את הרכב בטלפון."}}]}1d:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://carkeynow.co.il\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"פורץ רכבים בהרצליה - מחירון בפנים\",\"item\":\"https://carkeynow.co.il/פורץ-רכבים-בהרצליה/\"}]}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://carkeynow.co.il/פורץ-רכבים-בהרצליה/\",\"name\":\"פורץ רכבים בהרצליה - צפו במחירים\",\"description\":\"כשאתם עומדים ליד הרכב ומגלים שהמפתח נשאר בפנים או שהרכב נעול ואין דרך להיכנס, תחושת החרדה מיידית. אנחנו ב מפתח עכשיו מכירים את התחושה הזו היטב, ולכן...\",\"url\":\"https://carkeynow.co.il/פורץ-רכבים-בהרצליה/\",\"isPartOf\":{\"@id\":\"https://carkeynow.co.il/#website\"},\"inLanguage\":\"he\"}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$26"}}],"$L27","$L28",false,"$L29","$L2a"]
+2b:I[55132,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"TableOfContents"]
+2c:I[92711,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+27:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"@id\":\"https://carkeynow.co.il/#amir\",\"name\":\"דורון\",\"jobTitle\":\"מנעולן רכב מומחה\",\"image\":\"https://carkeynow.co.il/wp-images/דורון-מנעולן-רכב.webp\",\"worksFor\":{\"@id\":\"https://carkeynow.co.il/#organization\"}}"}}]
+28:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white","dir":"rtl","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6","children":[["$","nav",null,{"className":"text-xs mb-2 opacity-70 flex items-center gap-1","children":[["$","$L6",null,{"href":"/","className":"hover:opacity-100","children":"דף הבית"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"opacity-100","children":"פורץ רכבים בהרצליה - מחירון בפנים"}]]}],"$undefined",["$","h1",null,{"className":"text-xl sm:text-2xl md:text-3xl font-bold leading-snug","children":"פורץ רכבים בהרצליה - מחירון בפנים"}]]}]}]
+2d:T43e1,<p>כשאתם עומדים ליד הרכב ומגלים שהמפתח נשאר בפנים או שהרכב נעול ואין דרך להיכנס, תחושת החרדה מיידית. אנחנו ב<a href="/">מפתח עכשיו</a> מכירים את התחושה הזו היטב, ולכן אנחנו כאן בשבילכם עם שירות פריצת רכבים מקצועי בהרצליה.</p>
+<p> </p>
+<p>אנחנו מצוידים בציוד הכי מתקדם שיש בשוק, עם מחשבי אבחון ומכשירים טכנולוגיים שמאפשרים לנו לפתוח כל סוג רכב ללא נזק. העבודה שלנו מבוצעת ברמה הגבוהה ביותר, תוך שמירה על שלמות הרכב והמנעולים.</p>
+<p> </p>
+<h2 id="sec-0">טבלת מחירים לפריצת רכב בהרצליה</h2>
+<table style="0width: 100%;">
+<tbody>
+<tr>
+<th>סוג השירות</th>
+<th>מחיר ממוצע</th>
+<th>זמן ביצוע</th>
+</tr>
+<tr>
+<td>פריצת רכב סטנדרטי</td>
+<td>250-350 ₪</td>
+<td>15-25 דקות</td>
+</tr>
+<tr>
+<td>פריצת רכב יוקרה</td>
+<td>500-800 ₪</td>
+<td>20-35 דקות</td>
+</tr>
+<tr>
+<td>פתיחת תא מטען</td>
+<td>200-300 ₪</td>
+<td>10-20 דקות</td>
+</tr>
+<tr>
+<td>פריצה בשעות לילה</td>
+<td>תוספת 100-150 ₪</td>
+<td>כזמן רגיל</td>
+</tr>
+<tr>
+<td>הגעה דחופה (עד 20 דקות)</td>
+<td>תוספת 50-100 ₪</td>
+<td>15-20 דקות</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<div><strong>חשוב לדעת:</strong> כל המחירים כוללים הגעה לכתובת בהרצליה ופתיחת הרכב ללא נזק. אנחנו לא גובים תשלום נוסף על אבחון או ניסיונות פתיחה.</div>
+<p> </p>
+<h2 id="sec-1">סיפור מהשטח - מקרה מאתגר שטיפלנו בו בהרצליה</h2>
+<p>לפני כמה חודשים קיבלנו קריאה דחופה מלקוחה מהרצליה פיתוח. היא הייתה בדרך לחתונה עם כל הילדים, והמפתח נשאר בתוך הרכב עם המנוע דולק. הרכב - יונדאי טוסון 2022 עם מערכת נעילה חכמה מתקדמת.</p>
+<p> </p>
+<p>המצב היה מורכב במיוחד כי הרכב היה נעול אוטומטית, המנוע המשיך לפעול, והילדים היו בחוץ מתחילים להיכנס לפאניקה. הגענו תוך 12 דקות עם הציוד המתאים.</p>
+<p> </p>
+<p>השתמשנו במערכת <a href="/%d7%a4%d7%95%d7%a8%d7%a5-%d7%a8%d7%9b%d7%91%d7%99%d7%9d/">פריצת רכב</a> מתקדמת שמתממשקת עם המחשב של הרכב. תוך 18 דקות הצלחנו לפתוח את הרכב בלי לפגוע במערכות, והלקוחה הספיקה להגיע לחתונה בזמן. היא הייתה כל כך מרוצה שהמליצה עלינו לכל המשפחה.</p>
+<p> </p>
+<h3>למה המחיר משתנה בין רכבים שונים?</h3>
+<p>השאלה הכי נפוצה שאנחנו מקבלים היא למה יש הבדל במחיר בין דגם רכב לדגם. התשובה קשורה ישירות לטכנולוגיה.</p>
+<p> </p>
+<p>רכבים ישנים יותר עם מנעולים מכניים פשוטים נפתחים מהר יותר עם כלים בסיסיים. רכבים חדשים, במיוחד מותגי יוקרה, מצוידים במערכות אבטחה מתקדמות שדורשות ציוד מיוחד וידע מקצועי גבוה יותר.</p>
+<p> </p>
+<p>לדוגמה, <a href="/%d7%a7%d7%95%d7%93%d7%9f-%d7%9c%d7%a8%d7%9b%d7%91-%d7%91%d7%9e%d7%95%d7%93%d7%99%d7%a2%d7%99%d7%9f/">קודן לרכב בהרצליה</a> ברכבים חדשים מחובר למערכת אלקטרונית מורכבת שמונעת פתיחה פשוטה. אנחנו צריכים להשתמש במחשבי אבחון ובתוכנות מיוחדות כדי לעקוף את המערכת בלי לפגוע בה.</p>
+<p> </p>
+<h2 id="sec-2">מחירון מפורט לסוגי רכבים שונים</h2>
+<table style="0width: 100%;">
+<tbody>
+<tr>
+<th>יצרן ודגם</th>
+<th>מחיר פריצה</th>
+<th>רמת קושי</th>
+</tr>
+<tr>
+<td>טויוטה קורולה / יאריס</td>
+<td>250-300 ₪</td>
+<td>בסיסית</td>
+</tr>
+<tr>
+<td>מאזדה 3 / CX5</td>
+<td>280-350 ₪</td>
+<td>בינונית</td>
+</tr>
+<tr>
+<td>יונדאי / קיה (עד 2018)</td>
+<td>270-330 ₪</td>
+<td>בינונית</td>
+</tr>
+<tr>
+<td>יונדאי / קיה (2019 ומעלה)</td>
+<td>300-400 ₪</td>
+<td>מתקדמת</td>
+</tr>
+<tr>
+<td>BMW / מרצדס / אאודי</td>
+<td>500-900 ₪</td>
+<td>גבוהה</td>
+</tr>
+<tr>
+<td>טסלה / רכבים חשמליים</td>
+<td>500-700 ₪</td>
+<td>גבוהה מאוד</td>
+</tr>
+<tr>
+<td>פיג'ו / רנו / סיטרואן</td>
+<td>280-380 ₪</td>
+<td>בינונית-גבוהה</td>
+</tr>
+</tbody>
+</table>
+<!-- Pricing Disclaimer -->
+
+<style>
+  .pd-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 16px auto 0 auto;
+    font-family: 'Heebo', 'Rubik', sans-serif;
+    direction: rtl;
+    text-align: right;
+    box-sizing: border-box;
+    line-height: normal;
+  }
+
+  .pd-container {
+    position: relative;
+    background: #1e4a72;
+    border-radius: 10px;
+    padding: 24px 28px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(23, 55, 87, 0.12);
+    box-sizing: border-box;
+    border-right: 4px solid #F5A927;
+  }
+
+  .pd-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    background: rgba(245, 169, 39, 0.12);
+    border: 1px solid rgba(245, 169, 39, 0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon-svg {
+    width: 18px;
+    height: 18px;
+    fill: #F5A927;
+  }
+
+  .pd-text-block {
+    flex: 1;
+    min-width: 180px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-main-text {
+    font-family: 'Rubik', 'Heebo', sans-serif;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-highlight {
+    color: #F5A927;
+    font-weight: 600;
+  }
+
+  .pd-sub-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.5;
+    margin: 8px 0 0 0;
+    padding: 0;
+  }
+
+  .pd-divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(245, 169, 39, 0.15);
+    margin: 14px 0 0 0;
+    padding: 0;
+    border: none;
+  }
+
+  .pd-date-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 12px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-date-icon {
+    width: 12px;
+    height: 12px;
+    fill: #F5A927;
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .pd-date-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-date-value {
+    color: rgba(245, 169, 39, 0.8);
+    font-weight: 500;
+  }
+
+  @media (max-width: 600px) {
+    .pd-container {
+      padding: 20px 20px;
+      border-radius: 8px;
+    }
+
+    .pd-content {
+      gap: 14px;
+    }
+
+    .pd-icon {
+      width: 32px;
+      height: 32px;
+    }
+
+    .pd-icon-svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .pd-main-text {
+      font-size: 13.5px;
+    }
+
+    .pd-sub-text {
+      font-size: 12px;
+    }
+
+    .pd-date-text {
+      font-size: 11px;
+    }
+  }
+</style>
+
+<!-- HTML -->
+<div class="pd-wrapper" id="pd-wrapper">
+  <div class="pd-container" id="pd-container">
+    <div class="pd-content" id="pd-content">
+      
+      <div class="pd-icon" id="pd-icon">
+        <svg class="pd-icon-svg" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+        </svg>
+      </div>
+
+      <div class="pd-text-block" id="pd-text-block">
+        <div class="pd-main-text" id="pd-main-text">
+          כל המחירים המוצגים <span class="pd-highlight">אינם כוללים מע״מ</span> (18%)
+        </div>
+
+        <div class="pd-sub-text" id="pd-sub-text">
+          המחירים המופיעים בטבלה הם משוערים ומשתנים לפי דגם הרכב, שנת הייצור וסוג המפתח
+        </div>
+
+        <div class="pd-divider" id="pd-divider"></div>
+
+        <div class="pd-date-badge" id="pd-date-badge">
+          <svg class="pd-date-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM9 10H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"></path>
+          </svg>
+          <span class="pd-date-text" id="pd-date-text">
+            מעודכן ל: <span class="pd-date-value" id="pd-date-value"></span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var hebrewMonths = [
+      'ינואר', 'פברואר', 'מרץ', 'אפריל', 'מאי', 'יוני',
+      'יולי', 'אוגוסט', 'ספטמבר', 'אוקטובר', 'נובמבר', 'דצמבר'
+    ];
+    var now = new Date();
+    var month = hebrewMonths[now.getMonth()];
+    var year = now.getFullYear();
+    var el = document.getElementById('pd-date-value');
+    if (el) {
+      el.textContent = month + ' ' + year;
+    }
+  })();
+</script>
+<p> </p>
+<div><strong>טיפ מקצועי:</strong> אם יש לכם מפתח רזרבי בבית, לפעמים כדאי יותר להזמין מונית לבית ולחזור עם המפתח במקום לשלם על פריצה. זה תלוי במרחק ובמחיר המונית.</div>
+<p> </p>
+<h3>איך עובדת פתיחת רכב נעול בצורה מקצועית?</h3>
+<p>יש כמה שיטות שאנחנו משתמשים בהן, תלוי בסוג הרכב ובמצב. השיטה הכי נפוצה היא שימוש בכלי Air Wedge - כרית אוויר מיוחדת שמכניסים בין הדלת למסגרת הרכב.</p>
+<p> </p>
+<p>אחרי שיוצרים רווח קטן, אנחנו משתמשים במוט ארוך ומיוחד כדי ללחוץ על כפתור הנעילה מבפנים או למשוך את ידית הדלת. כל התהליך נעשה בעדינות מרבית כדי לא לפגוע בצבע או במנעול.</p>
+<p> </p>
+<p>ברכבים חדשים יותר, במיוחד אלה עם מערכות חכמות, אנחנו משתמשים במחשבי אבחון שמתחברים לרכב ומאפשרים לנו לפתוח את המנעולים אלקטרונית. זה דורש הכשרה מקצועית מיוחדת וציוד שעולה עשרות אלפי שקלים.</p>
+<p> </p>
+<h2 id="sec-3">מחירים לשירותים נוספים בהרצליה</h2>
+<p>בנוסף לפריצת רכבים, אנחנו מציעים מגוון שירותים נוספים שלעיתים נדרשים באותו הרגע:</p>
+<p> </p>
+<ul>
+<li>שכפול מפתח במקום - במקרים שבהם המפתח היחיד נשבר או אבד</li>
+<li>החלפת סוללה לשלט רכב - כשהשלט לא עובד בגלל סוללה חלשה</li>
+<li>תיקון סוויץ' שנשבר - כשהמפתח תקוע או הסוויץ' לא מסתובב</li>
+<li>קידוד מפתח חדש - יצירת מפתח שמתחבר למערכת הקודן של הרכב</li>
+<li>פתיחת תא מטען - כשהמנעול של המטען תקוע ולא נפתח</li>
+</ul>
+<p> </p>
+<h3>כמה זמן לוקח להגיע ולפתוח את הרכב? השפעה על המחיר</h3>
+<p>אנחנו ממוקמים אסטרטגית באזור המרכז עם מספר ניידות שמכסות את הרצליה וסביבתה. זמן ההגעה הממוצע שלנו להרצליה הוא 15-25 דקות, תלוי בשעה ובמיקום המדויק.</p>
+<p> </p>
+<p>בשעות העומס או במקרים דחופים במיוחד, אנחנו מפעילים מערך מיוחד שמאפשר הגעה תוך 10-15 דקות בתוספת תשלום קטנה. אחרי ההגעה, תהליך הפתיחה עצמו לוקח בדרך כלל 10-20 דקות ברכבים רגילים, ועד 35 דקות ברכבים מורכבים במיוחד.</p>
+<p> </p>
+<p>לאורך השנים פיתחנו מערכת לוגיסטית מתקדמת שמאפשרת לנו לתת זמני הגעה מדויקים ולעמוד בהם ב-95% מהמקרים. אנחנו שולחים לכם הודעת SMS עם הזמן המשוער וקישור למעקב אחר המנעולן בזמן אמת.</p>
+<p> </p>
+<div><strong>שימו לב:</strong> אם הילד או בעל חיים נעולים ברכב במזג אוויר חם - זו חירום רפואי! התקשרו מיד גם למד"א (101) וגם אלינו. במקרים כאלה אנחנו נותנים עדיפות מוחלטת ומגיעים תוך דקות ספורות.</div>
+<p> </p>
+<h2 id="sec-4">איזורים בהרצליה שאנחנו משרתים - מחירון אחיד</h2>
+<p>אנחנו נותנים שירות לכל אזורי הרצליה ללא תוספת מחיר:</p>
+<p> </p>
+<p><strong>הרצליה פיתוח:</strong> האזור העסקי והטכנולוגי - אנחנו מגיעים לכל חניוני המשרדים, מרכזי הקניות והמלונות. מטפלים בהרבה קריאות מאזור זה במיוחד בשעות העבודה.</p>
+<p> </p>
+<p><strong>מרכז העיר והשכונות הוותיקות:</strong> רחובות צרים ותנועה צפופה לא מעכבים אותנו. אנחנו מכירים כל סמטה ויודעים איך להגיע מהר.</p>
+<p> </p>
+<p><strong>שכונת נוה עמל ושכונת יד התשעה:</strong> אזורי מגורים שבהם אנחנו מטפלים בהרבה קריאות בערבים ובסופי שבוע.</p>
+<p> </p>
+<p><strong>הרצליה הירוקה ונווה ישראל:</strong> אזורי מגורים שקטים עם בתים פרטיים - אנחנו מגיעים גם לחניות פרטיות ולחניונים תת קרקעיים.</p>
+<p> </p>
+<h3>מה קובע את המחיר הסופי לפריצת רכב?</h3>
+<p>יש מספר גורמים שמשפיעים על התעריף הסופי שלכם:</p>
+<p> </p>
+<p><strong>סוג הרכב:</strong> כפי שהסברנו, רכבים עם מערכות אבטחה מתקדמות דורשים ציוד ומיומנות ברמה גבוהה יותר, מה שמשפיע על המחיר.</p>
+<p> </p>
+<p><strong>שעת הקריאה:</strong> בשעות הלילה (22:00-06:00) ובשבתות וחגים יש תוספת של 100-150 ש"ח. זה מכסה את העלויות הנוספות של עבודה בשעות אלה.</p>
+<p> </p>
+<p><strong>דחיפות ההגעה:</strong> הגעה רגילה (20-30 דקות) כלולה במחיר. הגעה מהירה במיוחד (עד 15 דקות) כרוכה בתוספת קטנה.</p>
+<p> </p>
+<p><strong>מיקום הרכב:</strong> רכב בחניון תת קרקעי או במקום מסובך עלול לדרוש זמן נוסף, אבל בדרך כלל זה לא משפיע על המחיר בהרצליה.</p>
+<p> </p>
+<h2 id="sec-5">השוואת מחירים - האם אנחנו הכי זולים?</h2>
+<p>אנחנו לא מתחייבים להיות הכי זולים בשוק, אבל אנחנו מתחייבים להיות הכי שקופים והוגנים. המחירים שלנו נקבעים על בסיס העלויות האמיתיות - ציוד מתקדם, הכשרה מקצועית מתמדת, ביטוחים מקיפים, וזמינות 24/7.</p>
+<p> </p>
+<p>אנחנו רואים הרבה מודעות של \"פורץ רכבים ב-150 ש\"ח\" - ברוב המקרים מדובר בפרסום מטעה. כשהמנעולן מגיע, הוא \"מגלה\" שהרכב שלכם מורכב יותר והמחיר קופץ פי 2-3. אנחנו נותנים לכם מחיר מדויק מראש בטלפון, ולא משנים אותו בשטח.</p>
+<p> </p>
+<p>בנוסף, אנחנו עובדים רק עם ציוד שלא פוגע ברכב ועם ביטוח מקיף. ראינו לא מעט מקרים של נזקים שנגרמו על ידי \"פורצים\" לא מקצועיים - דלתות שרוטות, מנעולים שבורים, צבע פגום. התיקון עולה לסוף הרבה יותר מההבדל במחיר.</p>
+<p> </p>
+<p>לסיכום, אנחנו ב-מפתח עכשיו כאן בשבילכם בכל שעה, עם השירות הכי מקצועי ושקוף שיש. המומחיות שלנו בפריצת רכבים נעולים ובטיפול במערכות אבטחה מתקדמות מבטיחה שהרכב שלכם ייפתח מהר, בטוח, וללא נזק.</p>
+29:["$","div",null,{"className":"max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8","dir":"rtl","children":["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 items-start","children":[["$","div",null,{"id":"page-article","className":"min-w-0","children":[["$","$L2b",null,{"items":[{"id":"sec-0","text":"טבלת מחירים לפריצת רכב בהרצליה"},{"id":"sec-1","text":"סיפור מהשטח - מקרה מאתגר שטיפלנו בו בהרצליה"},{"id":"sec-2","text":"מחירון מפורט לסוגי רכבים שונים"},{"id":"sec-3","text":"מחירים לשירותים נוספים בהרצליה"},{"id":"sec-4","text":"איזורים בהרצליה שאנחנו משרתים - מחירון אחיד"},{"id":"sec-5","text":"השוואת מחירים - האם אנחנו הכי זולים?"},{"id":"sec-6","text":"הציוד שאנחנו מגיעים עם"},{"id":"sec-7","text":"מקרה שימוש אמיתי"},{"id":"sec-8","text":"שאלות נפוצות"}]}],["$","div",null,{"className":"p-1 sm:card sm:p-6 md:p-8","children":[["$","div",null,{"dir":"rtl","className":"flex items-center gap-3 mb-5 pb-4 border-b border-gray-100","children":[["$","img",null,{"src":"/wp-images/דורון-מנעולן-רכב.webp","alt":"דורון - מנעולן רכב מומחה","width":40,"height":40,"loading":"lazy","className":"w-10 h-10 rounded-full object-cover shrink-0 ring-1 ring-black/5"}],["$","div",null,{"className":"text-sm leading-tight","children":[["$","span",null,{"className":"block text-gray-500","children":"נכתב ונבדק על ידי"}],["$","span",null,{"className":"block font-bold","style":{"color":"var(--primary)"},"children":["דורון"," · ","מנעולן רכב מומחה"]}]]}]]}],["$","$L2c",null,{"html":"$2d"}],null,false]}],"$L2e","$L2f",["$L30","$L31","$L32"],"$L33"]}],"$L34"]}]}]
+2a:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white py-8 text-center","dir":"rtl","children":["$","div",null,{"className":"max-w-xl mx-auto px-4","children":[["$","p",null,{"className":"font-bold text-lg mb-4","children":"צריכים עזרה? אנחנו כאן 24/7"}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-3 justify-center","children":["$","a",null,{"href":"tel:033822752","className":"btn-primary text-base px-8","children":"03-382-2752"}]}]]}]}]
+35:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"StatsBanner"]
+36:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"FeatureCards"]
+37:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"CaseStudyTabs"]
+38:I[46042,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+39:I[33128,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+2e:null
+2f:null
+30:["$","div","0",{"id":"$undefined","children":["$","$L35",null,{"stats":[{"value":"99%","label":"ללא נזק לרכב","sub":"פתיחה מקצועית בלבד"},{"value":"8 דק׳","label":"זמן פתיחה ממוצע","sub":"מרגע ההגעה"},{"value":"24/7","label":"זמינות","sub":"כולל שבתות"},{"value":"₪250","label":"מחיר מתחיל","sub":"רכב פרטי רגיל"}]}]}]
+31:["$","div","1",{"id":"sec-6","children":["$","$L36",null,{"heading":"הציוד שאנחנו מגיעים עם","cards":[{"title":"כלי לחץ אוויר","desc":"יוצר פתח של מילימטרים בין הדלת והמסגרת - מאפשר הכנסת מוט ללא שריטה."},{"title":"מוטות מקצועיים","desc":"סדרה של מוטות בצורות שונות לשחרור נועלים ולחצנים פנימיים מכל זווית."},{"title":"מכשיר קידוד OBD","desc":"לרכבים חכמים עם Keyless - שחרור הנועל דרך מחשב הרכב ישירות."},{"title":"ציוד הגנה","desc":"פדים גומי ובד מגן למניעת שריטות על הרכב בזמן הפתיחה."}],"cols":2}]}]
+32:["$","div","2",{"id":"sec-7","children":["$","$L37",null,{"heading":"מקרה שימוש אמיתי","tabs":[{"label":"רקע","content":"פתיחת רכב נעול היא אחד המצבים הנפוצים שאנחנו נקראים אליהם. בין אם שכחתם את המפתח בפנים, המפתח נשבר בגוש, או ילד נלכד בתוך הרכב - יש לנו פתרון מהיר לכל מקרה. אנחנו מגיעים עם ציוד מקצועי שפותח כל רכב ללא נזק."},{"label":"אתגר","content":"כל רכב הוא עולם בפני עצמו. רכב ישן עם מנעול מכאני פשוט לפתיחה. רכב מודרני עם נועלים חשמליים ואבטחה מתקדמת - דורש ידע וציוד שונה לחלוטין. הניסיון שלנו עם מגוון דגמים מאפשר לנו לזהות מהר את הגישה הנכונה."},{"label":"פתרון","content":"אנחנו משתמשים בשלושה כלים עיקריים: כלי לחץ אוויר ליצירת פתח מינימלי, מוטות מקצועיים לשחרור הנועל, ומכשירי קידוד לרכבים חכמים. כל הפעולות מבוצעות ללא שריטות, ללא שבירה, ועם מינימום זמן פתיחה."},{"label":"תוצאות","content":"ממוצע פתיחה של 8-15 דקות מרגע ההגעה. ב-99% מהמקרים - ללא שום נזק לרכב. הלקוח ממשיך בדרכו תוך פחות מחצי שעה מרגע הפנייה."}]}]}]
+33:["$","div",null,{"id":"sec-8","className":"mt-6","children":["$","$L38",null,{"items":[{"q":"כמה עולה פתיחת רכב נעול?","a":"פתיחת רכב רגיל: 250-350 שקל. רכב יוקרה או חכם: 400-600 שקל. פתיחת תא מטען בנפרד: 200-300 שקל. תוספת לילה: 100-120 שקל. תוספת שבת וחג: 60-100 שקל. אלו מחירים סופיים."},{"q":"כמה מהר מגיעים לפתיחת רכב?","a":"בערים הגדולות - 15 עד 25 דקות. באזורים פריפריאליים - 35 עד 60 דקות. אנחנו תמיד אומרים לכם זמן ריאלי בטלפון. ניסיון הוא לא רק בפתיחת רכבים - הוא גם בניהול ציפיות."},{"q":"האם הפתיחה גורמת נזק לרכב?","a":"לא, אם עושים את זה נכון. אנחנו משתמשים בכלים מקצועיים שפותחים את הרכב בלי שריטות, בלי שבירת זגוגית, בלי עיוות של המסגרת. כלי לחץ אוויר מאפשרים לנו ליצור פתח מילימטרי שמספיק לשחרר את הנועל."},{"q":"מה אם ננעלתי עם הרכב דולק?","a":"זה מצב שקורה יותר ממה שחושבים, בעיקר עם רכבי Keyless. אנחנו מגיעים ופותחים בדיוק אותה פרוצדורה. הרכב פשוט המשיך לרוץ עד שהגעתי - אין בעיה מיוחדת."},{"q":"מה אם היה ילד בפנים הרכב?","a":"זו קריאת חירום. אם יש ילד בפנים - התקשרו ל-100 מיד. אם כבר התקשרתם אלינו - תגידו לנו את זה ואנחנו מגיעים תוך דקות. בחלק מהמקרים שבירת חלון היא הפתרון הנכון - אנחנו לא נהסס."},{"q":"האם יש בעיה עם החוק בפתיחת רכב?","a":"אנחנו לא פותחים רכב בלי שהאדם שפנה אלי מוכיח שהוא הבעלים או שיש לו הרשאה. תעודת זהות ורישיון רכב. זה מגן על כולם ולא מכשיל לקוחות לגיטימיים."},{"q":"ננעלתי בלי טלפון - מה עושים?","a":"פנו לבית קפה או לחנות סמוכה, בקשו להשתמש בטלפון לדקה. כל אחד יבין. שוטר גם יכול לעזור בהעברת הודעה."},{"q":"ננעלתי בלילה - האם אתם מגיעים?","a":"כן, 24/7 ללא יוצא מן הכלל. תוספת לילה (23:00-7:00): 100-120 שקל. אנחנו מבינים שאם ננעלתם בלילה - אתם לא רוצים לשמוע \"תחכו לבוקר\"."},{"q":"מה כדאי לעשות כדי למנוע ננעלות בעתיד?","a":"מפתח כפילאה אצל בן משפחה - הפתרון הטוב ביותר. לרכבים ישנים - אפשר להוסיף מנעול קוד קטן לדלת. עוד טיפ: שמרו תמיד מפתח רזרבי בארנק עם נרתיק דק."},{"q":"האם ניתן לפתוח רכב ישן בקלות יחסית?","a":"רכבים ישנים (לפני 2000) - כן, מהר יחסית. רכבים מודרניים עם נועלי אוויר - קשה יותר אבל אפשרי. רכבים חכמים עם Smart Key - דורשים ציוד ספציפי. לכל סוג יש גישה שונה."},{"q":"האם אתם פותחים גם רכבים מסחריים?","a":"כן, כולל משאיות קלות, ואנים, ורכבי עבודה. לרכב מסחרי יש לפעמים מנגנון נעילה שונה - אנחנו מגיעים עם ציוד מתאים לאחר שתיארו לי את הרכב בטלפון."}]}]}]
+34:["$","div",null,{"children":["$","aside",null,{"className":"space-y-4","dir":"rtl","children":[["$","$L39",null,{"compact":true}],["$","div",null,{"className":"card p-4 text-sm text-center","dir":"rtl","children":[["$","p",null,{"className":"font-bold mb-1","style":{"color":"var(--primary)"},"children":"מנעולן רכב 24/7"}],["$","p",null,{"className":"text-gray-400 text-xs mb-3","children":"הגעה תוך 20 דקות בממוצע"}],["$","a",null,{"href":"tel:033822752","className":"block w-full py-2 rounded font-bold text-white text-sm","style":{"background":"var(--accent)"},"children":"03-382-2752"}]]}],[["$","div","פורץ רכבים לפי ערים נוספות",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"פורץ רכבים לפי ערים נוספות"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/פורץ-רכבים-בתל-אביב",{"children":["$","$L6",null,{"href":"/פורץ-רכבים-בתל-אביב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"פורץ רכבים בתל אביב"]}]}],["$","li","/פורץ-רכבים-בראשון-לציון",{"children":["$","$L6",null,{"href":"/פורץ-רכבים-בראשון-לציון","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"פורץ רכבים בראשון לציון"]}]}],["$","li","/פורץ-רכבים-ברחובות",{"children":["$","$L6",null,{"href":"/פורץ-רכבים-ברחובות","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"פורץ רכבים ברחובות"]}]}],["$","li","/פורץ-רכבים-בבאר-שבע",{"children":["$","$L6",null,{"href":"/פורץ-רכבים-בבאר-שבע","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"פורץ רכבים בבאר שבע"]}]}],["$","li","/פורץ-רכבים-ברמת-גן",{"children":["$","$L6",null,{"href":"/פורץ-רכבים-ברמת-גן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"פורץ רכבים ברמת גן"]}]}],["$","li","/פורץ-רכבים-בנתניה",{"children":["$","$L6",null,{"href":"/פורץ-רכבים-בנתניה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"פורץ רכבים בנתניה"]}]}],["$","li","/פורץ-רכבים-בקריות",{"children":["$","$L6",null,{"href":"/פורץ-רכבים-בקריות","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"פורץ רכבים בקריות"]}]}]]}]]}],["$","div","שירותים קשורים",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שירותים קשורים"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/אבד-מפתח-לרכב",{"children":["$","$L6",null,{"href":"/אבד-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"אבד מפתח לרכב"]}]}],["$","li","/שחזור-מפתח-לרכב",{"children":["$","$L6",null,{"href":"/שחזור-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שחזור מפתח לרכב"]}]}],["$","li","/שכפול-מפתח-לרכב",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרכב"]}]}],["$","li","/תיקון-סוויץ-לרכב",{"children":["$","$L6",null,{"href":"/תיקון-סוויץ-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"תיקון סוויץ לרכב"]}]}],["$","li","/פורץ-רכבים",{"children":["$","$L6",null,{"href":"/פורץ-רכבים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"פורץ רכבים"]}]}]]}]]}],["$","div","שכפול מפתח לפי עיר",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שכפול מפתח לפי עיר"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לרכב-בגני-תקווה",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-בגני-תקווה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בגני תקווה"]}]}],["$","li","/שכפול-מפתח-לרכב-בתל-אביב",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-בתל-אביב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בתל אביב"]}]}],["$","li","/שכפול-מפתח-לרכב-בחיפה",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-בחיפה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בחיפה"]}]}],["$","li","/שכפול-מפתח-לרכב-בירושלים",{"children":"$L3a"}],"$L3b","$L3c"]}]]}]]]}]}]
+3a:["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-בירושלים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בירושלים"]}]
+3b:["$","li","/שכפול-מפתח-לרכב-בבאר-שבע",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-בבאר-שבע","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בבאר שבע"]}]}]
+3c:["$","li","/שכפול-מפתח-לרכב-ברחובות",{"children":["$","$L6",null,{"href":"/שכפול-מפתח-לרכב-ברחובות","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ברחובות"]}]}]
+23:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+3d:I[27201,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
+20:null
+25:[["$","title","0",{"children":"פורץ רכבים בהרצליה - צפו במחירים"}],["$","meta","1",{"name":"description","content":"כשאתם עומדים ליד הרכב ומגלים שהמפתח נשאר בפנים או שהרכב נעול ואין דרך להיכנס, תחושת החרדה מיידית. אנחנו ב מפתח עכשיו מכירים את התחושה הזו היטב, ולכן..."}],["$","link","2",{"rel":"author","href":"https://carkeynow.co.il"}],["$","meta","3",{"name":"author","content":"מפתח עכשיו"}],["$","meta","4",{"name":"keywords","content":"מנעולן רכב,שכפול מפתח לרכב,שחזור מפתח,פורץ רכבים,תיקון סוויץ,קודן לרכב,מפתח לרכב"}],["$","meta","5",{"name":"creator","content":"מפתח עכשיו"}],["$","meta","6",{"name":"publisher","content":"מפתח עכשיו"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","link","8",{"rel":"canonical","href":"https://carkeynow.co.il/%D7%A4%D7%95%D7%A8%D7%A5-%D7%A8%D7%9B%D7%91%D7%99%D7%9D-%D7%91%D7%94%D7%A8%D7%A6%D7%9C%D7%99%D7%94/"}],["$","meta","9",{"name":"google-site-verification","content":"q4xZPZp-Ai1FndL_qFZGDIojKzmEye2_T7xYM6grpnk"}],["$","meta","10",{"property":"og:title","content":"פורץ רכבים בהרצליה - צפו במחירים"}],["$","meta","11",{"property":"og:description","content":"כשאתם עומדים ליד הרכב ומגלים שהמפתח נשאר בפנים או שהרכב נעול ואין דרך להיכנס, תחושת החרדה מיידית. אנחנו ב מפתח עכשיו מכירים את התחושה הזו היטב, ולכן..."}],["$","meta","12",{"property":"og:url","content":"https://carkeynow.co.il/%D7%A4%D7%95%D7%A8%D7%A5-%D7%A8%D7%9B%D7%91%D7%99%D7%9D-%D7%91%D7%94%D7%A8%D7%A6%D7%9C%D7%99%D7%94/"}],["$","meta","13",{"property":"og:site_name","content":"מפתח עכשיו"}],["$","meta","14",{"property":"og:locale","content":"he_IL"}],["$","meta","15",{"property":"og:image","content":"https://carkeynow.co.il/og-carkeynow.jpg"}],["$","meta","16",{"property":"og:image:width","content":"1200"}],["$","meta","17",{"property":"og:image:height","content":"630"}],["$","meta","18",{"property":"og:image:alt","content":"פורץ רכבים בהרצליה - צפו במחירים"}],["$","meta","19",{"property":"og:type","content":"website"}],["$","meta","20",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","21",{"name":"twitter:title","content":"פורץ רכבים בהרצליה - צפו במחירים"}],["$","meta","22",{"name":"twitter:description","content":"כשאתם עומדים ליד הרכב ומגלים שהמפתח נשאר בפנים או שהרכב נעול ואין דרך להיכנס, תחושת החרדה מיידית. אנחנו ב מפתח עכשיו מכירים את התחושה הזו היטב, ולכן..."}],["$","meta","23",{"name":"twitter:image","content":"https://carkeynow.co.il/og-carkeynow.jpg"}],["$","link","24",{"rel":"shortcut icon","href":"/favicon-48.png"}],["$","link","25",{"rel":"icon","href":"/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","26",{"rel":"icon","href":"/favicon.svg","type":"image/svg+xml"}],["$","link","27",{"rel":"icon","href":"/favicon-32.png","sizes":"32x32","type":"image/png"}],["$","link","28",{"rel":"icon","href":"/favicon-48.png","sizes":"48x48","type":"image/png"}],["$","link","29",{"rel":"apple-touch-icon","href":"/favicon-192.png","sizes":"192x192"}],["$","$L3d","30",{}]]

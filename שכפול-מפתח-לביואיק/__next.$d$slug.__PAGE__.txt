@@ -1,0 +1,380 @@
+1:"$Sreact.fragment"
+3:I[22016,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],""]
+8:I[55132,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"TableOfContents"]
+9:I[92711,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+12:I[97367,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+13:"$Sreact.suspense"
+15:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"ProcessSteps"]
+16:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"FeatureCards"]
+17:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"ComparisonTable"]
+18:I[46042,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+19:I[33128,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+2:T7d9,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"כמה עולה שכפול מפתח לביואיק?","acceptedAnswer":{"@type":"Answer","text":"מפתח לביואיק עולה 800-1,600 שקל, תלוי בדגם. ביואיק היא מותג GM, והמחיר כולל הגעה, קידוד ובדיקה."}},{"@type":"Question","name":"אפשר בכלל לשכפל מפתח לביואיק בישראל?","acceptedAnswer":{"@type":"Answer","text":"כן. ביואיק נמכרת בעיקר בארצות הברית ולכן פחות מוכרת כאן, אבל מערכת האבטחה שלה זהה לזו של שברולט ומשפחת GM. אנחנו משתמשים באותו ציוד ומטפלים בה בקלות."}},{"@type":"Question","name":"כמה זמן לוקח שכפול מפתח לביואיק?","acceptedAnswer":{"@type":"Answer","text":"מפתח עם שלט: 45-70 דקות, כולל קריאת קוד האבטחה של GM וקידוד."}},{"@type":"Question","name":"אפשר לשחזר מפתח לביואיק ללא מקור?","acceptedAnswer":{"@type":"Answer","text":"כן. אנחנו שולפים את קוד האבטחה ממחשב הרכב ומייצרים מפתח חדש. עולה 1,000-1,800 שקל, דורש הוכחת בעלות."}},{"@type":"Question","name":"אתם מטפלים באנקלייב ובלקרוס?","acceptedAnswer":{"@type":"Answer","text":"כן. אנחנו מטפלים בכל דגמי ביואיק כולל Enclave, Encore, LaCrosse ו-Regal, בשטח."}},{"@type":"Question","name":"שכפול מפתח לביואיק פוגע באחריות?","acceptedAnswer":{"@type":"Answer","text":"לא. הקידוד מבוצע מול מחשב הרכב ואינו פוגע באחריות היצרן."}},{"@type":"Question","name":"אתם מגיעים עד הרכב?","acceptedAnswer":{"@type":"Answer","text":"כן, אנחנו מגיעים עד אליכם בכל הארץ, 24/7, בלי צורך בסוכנות אמריקאית."}}]}0:{"rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://carkeynow.co.il\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"שכפול מפתח לרכב ביואיק - צפו במחירים\",\"item\":\"https://carkeynow.co.il/שכפול-מפתח-לביואיק/\"}]}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://carkeynow.co.il/שכפול-מפתח-לביואיק/\",\"name\":\"שכפול מפתח לרכב ביואיק - צפו במחירים\",\"description\":\"שכפול מפתחות לביואיק עד הבית או מקום העבודה - מפתח מכני, שלט ומפתח חכם. מחיר החל מ-150 ₪, הגעה מהירה, זמינים 24/7. התקשרו עכשיו.\",\"url\":\"https://carkeynow.co.il/שכפול-מפתח-לביואיק/\",\"isPartOf\":{\"@id\":\"https://carkeynow.co.il/#website\"},\"inLanguage\":\"he\"}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"@id\":\"https://carkeynow.co.il/#amir\",\"name\":\"דורון\",\"jobTitle\":\"מנעולן רכב מומחה\",\"image\":\"https://carkeynow.co.il/wp-images/דורון-מנעולן-רכב.webp\",\"worksFor\":{\"@id\":\"https://carkeynow.co.il/#organization\"}}"}}],["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white","dir":"rtl","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6","children":[["$","nav",null,{"className":"text-xs mb-2 opacity-70 flex items-center gap-1","children":[["$","$L3",null,{"href":"/","className":"hover:opacity-100","children":"דף הבית"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"opacity-100","children":"שכפול מפתח לרכב ביואיק - צפו במחירים"}]]}],"$undefined",["$","h1",null,{"className":"text-xl sm:text-2xl md:text-3xl font-bold leading-snug","children":"שכפול מפתח לרכב ביואיק - צפו במחירים"}]]}]}],false,["$","div",null,{"className":"max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8","dir":"rtl","children":"$L4"}],"$L5"],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TFfI33juvlz9FBwsp3OJz"}
+a:T4597,<p style="margin-bottom: 20px;">אנחנו במפתח עכשיו מתמחים בשכפול מפתח לרכב ביואיק עם הציוד והטכנולוגיה המתקדמים ביותר. כמנעולני רכב מקצועיים, אנחנו מבינים שאובדן מפתח או צורך בשכפול מפתח נוסף יכולים לגרום לאי נוחות רבה. לכן אנחנו מציעים שירות מהיר, אמין ומקצועי לכל דגמי ביואיק. שכפול מפתחות לביואיק מתבצע עם ציוד קידוד ייחודי ל-GM, ישירות ברכב.</p>
+<p>&nbsp;</p>
+<p style="margin-bottom: 20px;">שכפול מפתחות לביואיק נעשה עם ציוד GM לדגמים כמו אנקור וריגאל, לרוב עם מפתח חכם. שכפול מפתחות לביואיק אצלנו כולל חיתוך, קידוד ובדיקת תקינות מלאה במקום.</p>
+<p>&nbsp;</p>
+<h2 id="sec-0" style="margin-bottom: 15px;">מחירון שכפול מפתח לביואיק</h2>
+<p style="margin-bottom: 20px;">המחירים משתנים בהתאם לדגם הרכב, שנת הייצור וסוג המפתח. להלן טבלת מחירים מפורטת:</p>
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 25px;">
+<thead>
+<tr style="background-color: #ff8c00; color: white;">
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">סוג המפתח</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">דגמים רלוונטיים</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">מחיר (₪)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">מפתח רגיל מכני</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">ביואיק עד שנת 2000</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">150-250</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">מפתח טרנספונדר</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">ביואיק 2001-2010</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">300-400</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">מפתח חכם/ריחוק</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">ביואיק 2011 ומעלה</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">550-1,100</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">קידוד מפתח נוסף</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">כל הדגמים</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">300-400</td>
+</tr>
+</tbody>
+</table>
+<div style="border-right: 4px solid #FF8C00; background: #FFF5EB; padding: 15px; margin: 20px 0; border-radius: 4px;"><strong>חשוב לדעת:</strong> המחירים כוללים הגעה למקום, קידוד המפתח והתאמה מלאה לרכב. אנחנו עובדים עם ציוד מקורי והמחשבים המתקדמים ביותר כדי להבטיח תוצאה מושלמת.</div>
+<!-- Pricing Disclaimer -->
+
+<style>
+  .pd-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 16px auto 0 auto;
+    font-family: 'Heebo', 'Rubik', sans-serif;
+    direction: rtl;
+    text-align: right;
+    box-sizing: border-box;
+    line-height: normal;
+  }
+
+  .pd-container {
+    position: relative;
+    background: #1e4a72;
+    border-radius: 10px;
+    padding: 24px 28px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(23, 55, 87, 0.12);
+    box-sizing: border-box;
+    border-right: 4px solid #F5A927;
+  }
+
+  .pd-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    background: rgba(245, 169, 39, 0.12);
+    border: 1px solid rgba(245, 169, 39, 0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon-svg {
+    width: 18px;
+    height: 18px;
+    fill: #F5A927;
+  }
+
+  .pd-text-block {
+    flex: 1;
+    min-width: 180px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-main-text {
+    font-family: 'Rubik', 'Heebo', sans-serif;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-highlight {
+    color: #F5A927;
+    font-weight: 600;
+  }
+
+  .pd-sub-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.5;
+    margin: 8px 0 0 0;
+    padding: 0;
+  }
+
+  .pd-divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(245, 169, 39, 0.15);
+    margin: 14px 0 0 0;
+    padding: 0;
+    border: none;
+  }
+
+  .pd-date-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 12px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-date-icon {
+    width: 12px;
+    height: 12px;
+    fill: #F5A927;
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .pd-date-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-date-value {
+    color: rgba(245, 169, 39, 0.8);
+    font-weight: 500;
+  }
+
+  @media (max-width: 600px) {
+    .pd-container {
+      padding: 20px 20px;
+      border-radius: 8px;
+    }
+
+    .pd-content {
+      gap: 14px;
+    }
+
+    .pd-icon {
+      width: 32px;
+      height: 32px;
+    }
+
+    .pd-icon-svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .pd-main-text {
+      font-size: 13.5px;
+    }
+
+    .pd-sub-text {
+      font-size: 12px;
+    }
+
+    .pd-date-text {
+      font-size: 11px;
+    }
+  }
+</style>
+
+<!-- HTML -->
+<div class="pd-wrapper" id="pd-wrapper">
+  <div class="pd-container" id="pd-container">
+    <div class="pd-content" id="pd-content">
+      
+      <div class="pd-icon" id="pd-icon">
+        <svg class="pd-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+        </svg>
+      </div>
+
+      <div class="pd-text-block" id="pd-text-block">
+        <div class="pd-main-text" id="pd-main-text">
+          כל המחירים המוצגים <span class="pd-highlight">אינם כוללים מע״מ</span> (18%)
+        </div>
+
+        <div class="pd-sub-text" id="pd-sub-text">
+          המחירים המופיעים בטבלה הם משוערים ומשתנים לפי דגם הרכב, שנת הייצור וסוג המפתח
+        </div>
+
+        <div class="pd-divider" id="pd-divider"></div>
+
+        <div class="pd-date-badge" id="pd-date-badge">
+          <svg class="pd-date-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM9 10H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"/>
+          </svg>
+          <span class="pd-date-text" id="pd-date-text">
+            מעודכן ל: <span class="pd-date-value" id="pd-date-value"></span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var hebrewMonths = [
+      'ינואר', 'פברואר', 'מרץ', 'אפריל', 'מאי', 'יוני',
+      'יולי', 'אוגוסט', 'ספטמבר', 'אוקטובר', 'נובמבר', 'דצמבר'
+    ];
+    var now = new Date();
+    var month = hebrewMonths[now.getMonth()];
+    var year = now.getFullYear();
+    var el = document.getElementById('pd-date-value');
+    if (el) {
+      el.textContent = month + ' ' + year;
+    }
+  })();
+</script>
+<p>&nbsp;</p>
+<h2 id="sec-1" style="margin-bottom: 15px;">סוגי מפתחות לרכבי ביואיק</h2>
+<p style="margin-bottom: 20px;">רכבי ביואיק משתמשים במספר סוגי מפתחות לאורך השנים. הבנת ההבדלים חשובה לתהליך השכפול:</p>
+<h3 style="margin-bottom: 12px;">מפתחות מכניים (דגמים ישנים יותר)</h3>
+<p style="margin-bottom: 20px;">דגמי ביואיק ישנים יותר משתמשים במפתח מכני פשוט ללא שבב אלקטרוני. השכפול שלהם פשוט יחסית ומהיר. אנחנו חותכים את המפתח בדיוק מירבי ומוודאים שהוא פועל חלק בכל הדלתות ובמתג ההתנעה.</p>
+<h3 style="margin-bottom: 12px;">מפתחות עם טרנספונדר (Transponder)</h3>
+<p style="margin-bottom: 20px;">רוב דגמי ביואיק מהעשור האחרון והיותר מצוידים במערכת טרנספונדר. מדובר בשבב אלקטרוני קטן המשודר בתדר מסוים למערכת האימוביליזר ברכב. אנחנו משתמשים בציוד מתקדם לקידוד השבב והתאמתו למערכת הרכב.</p>
+<h3 style="margin-bottom: 12px;">מפתחות חכמים ומפתחות ריחוק</h3>
+<p style="margin-bottom: 20px;">דגמי ביואיק חדשים יותר מצוידים במפתחות חכמים (Smart Key) או מפתחות עם שלט ריחוק משולב. מפתחות אלה דורשים קידוד מתקדם ואנחנו מצוידים בכלים המקצועיים הדרושים לכך.</p>
+<p>&nbsp;</p>
+<h2 id="sec-2" style="margin-bottom: 15px;">תהליך שכפול המפתח שלנו</h2>
+<p style="margin-bottom: 20px;">אנחנו במפתח עכשיו עובדים בתהליך מסודר ומקצועי:</p>
+<ul style="margin-bottom: 20px; padding-right: 20px;">
+<li style="margin-bottom: 10px;">בדיקה ראשונית של סוג המפתח והרכב</li>
+<li style="margin-bottom: 10px;">חיתוך מדויק של להב המפתח במכונות ממוחשבות</li>
+<li style="margin-bottom: 10px;">קידוד השבב האלקטרוני למערכת הרכב</li>
+<li style="margin-bottom: 10px;">סנכרון השלט (במידת הצורך)</li>
+<li style="margin-bottom: 10px;">בדיקת תקינות מלאה של המפתח החדש</li>
+</ul>
+<p>&nbsp;</p>
+<div style="border-right: 4px solid #FF8C00; background: #FFF5EB; padding: 15px; margin: 20px 0; border-radius: 4px;"><strong>טיפ מקצועי:</strong> מומלץ לשכפל מפתח גיבוי גם אם אתם לא זקוקים לו כרגע. זה ימנע ממכם עלויות גבוהות והמתנה ממושכת במקרה של אובדן או נעילה ברכב.</div>
+<h2></h2>
+<h2 id="sec-3" style="margin-bottom: 15px;">דגמי ביואיק נפוצים בישראל</h2>
+<p style="margin-bottom: 20px;">אנחנו עובדים עם כל דגמי ביואיק הנפוצים בישראל:</p>
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 25px;">
+<thead>
+<tr style="background-color: #ff8c00; color: white;">
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">דגם</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">שנות ייצור נפוצות</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">סוג מפתח</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">זמן טיפול משוער</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">ביואיק אנקלייב</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">2008-2017</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">טרנספונדר/ריחוק</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">45-60 דקות</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">ביואיק ריגל</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">1988-2004</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">מכני/טרנספונדר</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">30-45 דקות</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">ביואיק לה סייבר</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">1992-2005</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">טרנספונדר</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">40-50 דקות</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">ביואיק לוצרן</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">2006-2011</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">טרנספונדר/ריחוק</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">45-60 דקות</td>
+</tr>
+</tbody>
+</table>
+<h2></h2>
+<h2 id="sec-4" style="margin-bottom: 15px;">למה לבחור במפתח עכשיו?</h2>
+<p style="margin-bottom: 20px;">אנחנו מציעים מספר יתרונות משמעותיים:</p>
+<p style="margin-bottom: 20px;"><strong>ציוד מתקדם ומקורי</strong><br />
+אנחנו משקיעים בציוד המתקדם ביותר בשוק. המחשבים והמכונות שלנו מאפשרים לנו לעבוד עם כל סוגי המפתחות והדגמים.</p>
+<p style="margin-bottom: 20px;"><strong>ניסיון רב שנים</strong><br />
+אנחנו עובדים עם רכבי ביואיק במשך שנים רבות ומכירים לעומק את המערכות השונות של החברה. הניסיון שלנו מאפשר לנו לפתור כל בעיה ביעילות.</p>
+<p style="margin-bottom: 20px;"><strong>שירות מהיר וזמין</strong><br />
+אנחנו מגיעים אליכם למקום בו נמצא הרכב ומבצעים את העבודה על אתר. אין צורך לגרור את הרכב או להמתין ימים לקבלת מפתח.</p>
+<p style="margin-bottom: 20px;"><strong>מחירים הוגנים ושקופים</strong><br />
+אנחנו מאמינים בשקיפות מלאה. המחיר שאנחנו מציעים בשיחת הטלפון הראשונית הוא המחיר הסופי - ללא הפתעות.</p>
+<p>&nbsp;</p>
+<h2 id="sec-5" style="margin-bottom: 15px;">מצבים נפוצים שדורשים שכפול מפתח</h2>
+<p style="margin-bottom: 20px;">אנחנו נתקלים בסיטואציות שונות המצריכות שכפול מפתח:</p>
+<p style="margin-bottom: 20px;"><strong>אובדן מפתח</strong><br />
+כשמאבדים את המפתח היחיד, אנחנו יכולים ליצור מפתח חדש לחלוטין, כולל קידוד מלא למערכת הרכב.</p>
+<p style="margin-bottom: 20px;"><strong>מפתח גיבוי</strong><br />
+הרבה בעלי רכב מעדיפים להחזיק מפתח נוסף למקרי חירום. זה חכם במיוחד עם רכבי ביואיק מודרניים שעלות המפתח בהם גבוהה יותר.</p>
+<p style="margin-bottom: 20px;"><strong>מפתח שבור או פגום</strong><br />
+לפעמים המפתח נשבר או השבב האלקטרוני מפסיק לעבוד. אנחנו מייצרים מפתח חדש ומתכנתים אותו מחדש.</p>
+<p style="margin-bottom: 20px;"><strong>רכישת רכב יד שנייה</strong><br />
+כשקונים רכב משומש מומלץ לשכפל מפתח חדש, גם אם המוכר מסר את כל המפתחות. זה מבטיח שאין מפתחות נוספים בחוץ.</p>
+<p>&nbsp;</p>
+<h2 id="sec-6" style="margin-bottom: 15px;">שאלות נפוצות</h2>
+<p style="margin-bottom: 20px;"><strong>כמה זמן לוקח שכפול מפתח לביואיק?</strong><br />
+התהליך בדרך כלל אורך בין 30 ל-60 דקות, תלוי בסוג המפתח והדגם. מפתחות מכניים פשוטים יותר מהירים יותר, בעוד מפתחות חכמים דורשים יותר זמן.</p>
+<p style="margin-bottom: 20px;"><strong>האם אתם מגיעים לכל מקום?</strong><br />
+כן, אנחנו מציעים שירות נייד ומגיעים אליכם לבית, למשרד או לכל מקום שבו נמצא הרכב.</p>
+<p style="margin-bottom: 20px;"><strong>מה צריך כדי לשכפל מפתח?</strong><br />
+צריך את המפתח המקורי (אם קיים), תעודת זהות ורישיון הרכב. במקרה של אובדן מפתח, נדרש אימות בעלות על הרכב.</p>
+<p style="margin-bottom: 20px;"><strong>האם המפתח המשוכפל יעבוד בכל התפקודים?</strong><br />
+בהחלט. אנחנו מוודאים שהמפתח החדש עובד בכל הדלתות, בתא המטען ובהתנעה, וכן שהשלט (אם קיים) פועל תקין.</p>
+<p style="margin-bottom: 20px;">אנחנו במפתח עכשיו גאים במקצועיות ובשירות שאנחנו מעניקים. אם אתם זקוקים לשכפול מפתח לרכב ביואיק, אנחנו כאן כדי לעזור. צרו קשר עכשיו וקבלו שירות מהיר, אמין ובמחיר הוגן.</p>
+4:["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 items-start","children":[["$","div",null,{"id":"page-article","className":"min-w-0","children":[["$","$L8",null,{"items":[{"id":"sec-0","text":"מחירון שכפול מפתח לביואיק"},{"id":"sec-1","text":"סוגי מפתחות לרכבי ביואיק"},{"id":"sec-2","text":"תהליך שכפול המפתח שלנו"},{"id":"sec-3","text":"דגמי ביואיק נפוצים בישראל"},{"id":"sec-4","text":"למה לבחור במפתח עכשיו?"},{"id":"sec-5","text":"מצבים נפוצים שדורשים שכפול מפתח"},{"id":"sec-6","text":"שאלות נפוצות"},{"id":"sec-7","text":"דגמי ביואיק שאנחנו מטפלים בהם"},{"id":"sec-8","text":"סיפור מהשטח: ביואיק אנקלייב מיובא 2016 - קידוד לרכב GM נדיר בירושלים"},{"id":"sec-9","text":"איך אנחנו משכפלים מפתח - 5 שלבים"},{"id":"sec-10","text":"סוגי המפתחות שאנחנו משכפלים"},{"id":"sec-11","text":"אנחנו מול הסוכנות הרשמית"},{"id":"sec-12","text":"שאלות נפוצות"}]}],["$","div",null,{"className":"p-1 sm:card sm:p-6 md:p-8","children":[["$","div",null,{"dir":"rtl","className":"flex items-center gap-3 mb-5 pb-4 border-b border-gray-100","children":[["$","img",null,{"src":"/wp-images/דורון-מנעולן-רכב.webp","alt":"דורון - מנעולן רכב מומחה","width":40,"height":40,"loading":"lazy","className":"w-10 h-10 rounded-full object-cover shrink-0 ring-1 ring-black/5"}],["$","div",null,{"className":"text-sm leading-tight","children":[["$","span",null,{"className":"block text-gray-500","children":"נכתב ונבדק על ידי"}],["$","span",null,{"className":"block font-bold","style":{"color":"var(--primary)"},"children":["דורון"," · ","מנעולן רכב מומחה"]}]]}]]}],["$","$L9",null,{"html":"$a"}],null,false]}],"$Lb","$Lc",["$Ld","$Le","$Lf"],"$L10"]}],"$L11"]}]
+5:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white py-8 text-center","dir":"rtl","children":["$","div",null,{"className":"max-w-xl mx-auto px-4","children":[["$","p",null,{"className":"font-bold text-lg mb-4","children":"צריכים עזרה? אנחנו כאן 24/7"}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-3 justify-center","children":["$","a",null,{"href":"tel:033822752","className":"btn-primary text-base px-8","children":"03-382-2752"}]}]]}]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/1leulq3_ixpp7.js","async":true}]
+7:["$","$L12",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@14"}]}]
+b:["$","div",null,{"id":"sec-7","children":["$","div",null,{"dir":"rtl","className":"card p-6 mt-6","children":[["$","div",null,{"className":"flex items-center gap-3 mb-3","children":[["$","div",null,{"className":"w-1 h-7 rounded-full shrink-0","style":{"background":"var(--accent)"}}],["$","h2",null,{"className":"text-lg sm:text-xl font-bold","style":{"color":"var(--primary)"},"children":["דגמי ","ביואיק"," שאנחנו מטפלים בהם"]}]]}],["$","p",null,{"className":"text-gray-700 leading-relaxed","children":["אנחנו משכפלים ומקדדים מפתחות לכל דגמי ","ביואיק"," הנפוצים בישראל, בהם: ","אנקלייב (Enclave), אנקור (Encore), אנקור GX (Encore GX), אנוויז'ן (Envision), לקרוס (LaCrosse), ריגאל (Regal), ואראנו (Verano), קסקדה (Cascada), לוצרן (Lucerne)","."," ","לכל דגם מערכת מפתח וקידוד ייחודית, ואנחנו מגיעים עם הציוד המתאים לכל אחד - מדגמים ותיקים ועד החדשים ביותר."]}]]}]}]
+c:["$","div",null,{"id":"sec-8","children":["$","div",null,{"dir":"rtl","className":"card p-6 mt-6","children":[["$","div",null,{"className":"flex items-center gap-3 mb-3","children":[["$","div",null,{"className":"w-1 h-7 rounded-full shrink-0","style":{"background":"var(--accent)"}}],["$","h2",null,{"className":"text-lg sm:text-xl font-bold","style":{"color":"var(--primary)"},"children":["סיפור מהשטח: ","ביואיק אנקלייב מיובא 2016 - קידוד לרכב GM נדיר בירושלים"]}]]}],["$","p",null,{"className":"text-gray-700 leading-relaxed","children":"בעל Buick Enclave 2016 מיובא אישית פנה אלינו בירושלים אחרי שכמה גורמים אמרו לו שאי אפשר לשכפל מפתח לרכב 'אמריקאי נדיר'. ביואיק היא מותג GM שנמכר בעיקר בארצות הברית ולכן פחות מוכר בישראל - אבל מערכת האבטחה שלו זהה לזו של שברולט ושל משפחת GM. השתמשנו באותו ציוד שמכסה את GM, שלפנו את קוד האבטחה וייצרנו מפתח חכם חדש. סיימנו תוך 75 דקות, במחיר 1,150 שקל. לא צריך סוכנות אמריקאית - צריך את הציוד הנכון ואת הידע שביואיק היא GM."}]]}]}]
+d:["$","div","0",{"id":"sec-9","children":["$","$L15",null,{"heading":"איך אנחנו משכפלים מפתח - 5 שלבים","steps":[{"title":"זיהוי המפתח והרכב","desc":"בודקים את מספר השלדה, דגם הרכב ושנת הייצור כדי לזהות את סוג המפתח הנדרש בדיוק.","duration":"5 דק׳"},{"title":"חיתוך הלהב","desc":"מכונת חיתוך ממוחשבת חותכת את הלהב לפי קוד הרכב עם דיוק של מילימטר.","duration":"5-10 דק׳"},{"title":"קידוד השבב","desc":"מחשב האימוביליזר של הרכב מקבל את קוד השבב החדש בתהליך קידוד ייחודי לדגם.","duration":"10-30 דק׳"},{"title":"קידוד השלט","desc":"השלט מסונכרן עם מחשב הרכב ורולינג-קוד מוגדר למניעת שכפול לא מורשה.","duration":"5 דק׳"},{"title":"בדיקת תקינות מלאה","desc":"בודקים הצתה, נעילה/פתיחה ופונקציות השלט לפניכם לפני שאנחנו עוזבים.","duration":"5 דק׳"}]}]}]
+e:["$","div","1",{"id":"sec-10","children":["$","$L16",null,{"heading":"סוגי המפתחות שאנחנו משכפלים","cards":[{"title":"מפתח מכאני","desc":"מפתח פיזי ללא אלקטרוניקה. הנפוץ ברכבים לפני 2000. חיתוך פשוט ומהיר תוך 10 דקות."},{"title":"מפתח טרנספונדר","desc":"שבב אלקטרוני מוטמע במפתח מתקשר עם האימוביליזר. רוב הרכבים מ-2000 ואילך."},{"title":"מפתח הפוך (Flip)","desc":"שילוב של מפתח פיזי ושלט בגוף אחד מתקפל. נפוץ בפולקסווגן, אאודי, סקודה ועוד."},{"title":"Smart Key","desc":"כניסה וגם הצתה ללא הכנסת מפתח. תקשורת Keyless Entry/Go. דורש ציוד קידוד מתקדם."},{"title":"מפתח Proximity","desc":"מפתח קרבה - הרכב מזהה אתכם כשמתקרבים. נפוץ בלקסוס, BMW, מרצדס חדשים."},{"title":"מפתח אופנוע","desc":"מפתחות לאופנועים - עם ובלי אימוביליזר. מטפלים בכל המותגים הנפוצים בישראל."}],"cols":3}]}]
+f:["$","div","2",{"id":"sec-11","children":["$","$L17",null,{"heading":"אנחנו מול הסוכנות הרשמית","colUs":"מפתח עכשיו","colAlt":"סוכנות","rows":[{"criterion":"זמן המתנה","us":"20-60 דקות","usColor":"green","alt":"3-7 ימים","altColor":"red"},{"criterion":"הגעה לבית/עבודה","us":"כן, תמיד","usColor":"green","alt":"לא","altColor":"red"},{"criterion":"עלות מפתח שבב","us":"₪400-₪700","usColor":"green","alt":"₪800-₪2,000","altColor":"red"},{"criterion":"עלות Smart Key","us":"₪800-₪1,500","usColor":"green","alt":"₪1,500-₪3,000","altColor":"red"},{"criterion":"אחריות","us":"בכתב 30 יום","usColor":"green","alt":"אחריות יצרן","altColor":"blue"},{"criterion":"זמינות","us":"24/7","usColor":"green","alt":"שעות סוכנות","altColor":"orange"}]}]}]
+10:["$","div",null,{"id":"sec-12","className":"mt-6","children":["$","$L18",null,{"items":[{"q":"כמה עולה שכפול מפתח לביואיק?","a":"מפתח לביואיק עולה 800-1,600 שקל, תלוי בדגם. ביואיק היא מותג GM, והמחיר כולל הגעה, קידוד ובדיקה."},{"q":"אפשר בכלל לשכפל מפתח לביואיק בישראל?","a":"כן. ביואיק נמכרת בעיקר בארצות הברית ולכן פחות מוכרת כאן, אבל מערכת האבטחה שלה זהה לזו של שברולט ומשפחת GM. אנחנו משתמשים באותו ציוד ומטפלים בה בקלות."},{"q":"כמה זמן לוקח שכפול מפתח לביואיק?","a":"מפתח עם שלט: 45-70 דקות, כולל קריאת קוד האבטחה של GM וקידוד."},{"q":"אפשר לשחזר מפתח לביואיק ללא מקור?","a":"כן. אנחנו שולפים את קוד האבטחה ממחשב הרכב ומייצרים מפתח חדש. עולה 1,000-1,800 שקל, דורש הוכחת בעלות."},{"q":"אתם מטפלים באנקלייב ובלקרוס?","a":"כן. אנחנו מטפלים בכל דגמי ביואיק כולל Enclave, Encore, LaCrosse ו-Regal, בשטח."},{"q":"שכפול מפתח לביואיק פוגע באחריות?","a":"לא. הקידוד מבוצע מול מחשב הרכב ואינו פוגע באחריות היצרן."},{"q":"אתם מגיעים עד הרכב?","a":"כן, אנחנו מגיעים עד אליכם בכל הארץ, 24/7, בלי צורך בסוכנות אמריקאית."}]}]}]
+11:["$","div",null,{"children":["$","aside",null,{"className":"space-y-4","dir":"rtl","children":[["$","$L19",null,{"compact":true}],["$","div",null,{"className":"card p-4 text-sm text-center","dir":"rtl","children":[["$","p",null,{"className":"font-bold mb-1","style":{"color":"var(--primary)"},"children":"מנעולן רכב 24/7"}],["$","p",null,{"className":"text-gray-400 text-xs mb-3","children":"הגעה תוך 20 דקות בממוצע"}],["$","a",null,{"href":"tel:033822752","className":"block w-full py-2 rounded font-bold text-white text-sm","style":{"background":"var(--accent)"},"children":"03-382-2752"}]]}],[["$","div","שכפול מפתח לדגמים נוספים",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שכפול מפתח לדגמים נוספים"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לטויוטה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לטויוטה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לטויוטה"]}]}],["$","li","/שכפול-מפתח-ליונדאי",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-ליונדאי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ליונדאי"]}]}],["$","li","/שכפול-מפתח-למאזדה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-למאזדה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח למאזדה"]}]}],["$","li","/שכפול-מפתח-לניסאן",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לניסאן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לניסאן"]}]}],["$","li","/שכפול-מפתח-לרנו",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרנו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרנו"]}]}],["$","li","/שכפול-מפתח-לשברולט",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לשברולט","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לשברולט"]}]}],["$","li","/שכפול-מפתח-לפורד",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לפורד","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לפורד"]}]}],["$","li","/שכפול-מפתח-לפיגו",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לפיגו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לפיגו"]}]}],["$","li","/שכפול-מפתח-לקיה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לקיה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לקיה"]}]}],["$","li","/שכפול-מפתח-לסוזוקי",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לסוזוקי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לסוזוקי"]}]}],["$","li","/שכפול-מפתח-למיצובישי",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-למיצובישי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח למיצובישי"]}]}],["$","li","/שכפול-מפתח-לסיטרואן",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לסיטרואן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לסיטרואן"]}]}],["$","li","/שכפול-מפתח-לפיאט",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לפיאט","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לפיאט"]}]}],["$","li","/שכפול-מפתח-למרצדס",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-למרצדס","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח למרצדס"]}]}],["$","li","/שכפול-מפתח-לגילי",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לגילי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לגי'לי"]}]}],["$","li","/שכפול-מפתח-לדייהטסו",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לדייהטסו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לדייהטסו"]}]}],["$","li","/שכפול-מפתח-לאינפיניטי",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לאינפיניטי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לאינפיניטי"]}]}],["$","li","/שכפול-מפתח-לבמוו",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לבמוו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ל-BMW"]}]}],["$","li","/שכפול-מפתח-להונדה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-להונדה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח להונדה"]}]}],"$L1a","$L1b","$L1c","$L1d","$L1e","$L1f"]}]]}],"$L20","$L21"]]}]}]
+14:null
+1a:["$","li","/שכפול-מפתח-לסקודה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לסקודה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לסקודה"]}]}]
+1b:["$","li","/שכפול-מפתח-לסובארו",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לסובארו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לסובארו"]}]}]
+1c:["$","li","/שכפול-מפתח-לוולוו",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לוולוו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לוולוו"]}]}]
+1d:["$","li","/שכפול-מפתח-לגיפ",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לגיפ","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לג'יפ"]}]}]
+1e:["$","li","/שכפול-מפתח-לדאציה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לדאציה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לדאצ'יה"]}]}]
+1f:["$","li","/שכפול-מפתח-לסיאט",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לסיאט","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לסיאט"]}]}]
+20:["$","div","שכפול מפתח לפי עיר",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שכפול מפתח לפי עיר"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לרכב-בגני-תקווה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בגני-תקווה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בגני תקווה"]}]}],["$","li","/שכפול-מפתח-לרכב-בתל-אביב",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בתל-אביב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בתל אביב"]}]}],["$","li","/שכפול-מפתח-לרכב-בחיפה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בחיפה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בחיפה"]}]}],["$","li","/שכפול-מפתח-לרכב-בירושלים",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בירושלים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בירושלים"]}]}],["$","li","/שכפול-מפתח-לרכב-בבאר-שבע",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בבאר-שבע","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בבאר שבע"]}]}],["$","li","/שכפול-מפתח-לרכב-ברחובות",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-ברחובות","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ברחובות"]}]}],["$","li","/שכפול-מפתח-לרכב-בנתניה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בנתניה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בנתניה"]}]}],["$","li","/שכפול-מפתח-לרכב-ברמת-גן",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-ברמת-גן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ברמת גן"]}]}],["$","li","/שכפול-מפתח-לרכב-בהרצליה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בהרצליה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בהרצליה"]}]}],["$","li","/שכפול-מפתח-לרכב-בהוד-השרון",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בהוד-השרון","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בהוד השרון"]}]}]]}]]}]
+21:["$","div","שירותים קשורים",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שירותים קשורים"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לרכב",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרכב"]}]}],["$","li","/שחזור-מפתח-לרכב",{"children":["$","$L3",null,{"href":"/שחזור-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שחזור מפתח לרכב"]}]}],["$","li","/אבד-מפתח-לרכב",{"children":["$","$L3",null,{"href":"/אבד-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"אבד מפתח לרכב"]}]}],["$","li","/שכפול-שלט-לרכב",{"children":["$","$L3",null,{"href":"/שכפול-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול שלט לרכב"]}]}],["$","li","/תיקון-שלט-לרכב",{"children":["$","$L3",null,{"href":"/תיקון-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"תיקון שלט לרכב"]}]}],["$","li","/פורץ-רכבים",{"children":["$","$L3",null,{"href":"/פורץ-רכבים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"פורץ רכבים"]}]}]]}]]}]

@@ -1,0 +1,379 @@
+1:"$Sreact.fragment"
+3:I[22016,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],""]
+8:I[55132,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"TableOfContents"]
+9:I[92711,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+12:I[97367,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+13:"$Sreact.suspense"
+15:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"ProcessSteps"]
+16:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"FeatureCards"]
+17:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"ComparisonTable"]
+18:I[46042,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+19:I[33128,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+2:T821,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"כמה עולה שכפול מפתח לאינפיניטי?","acceptedAnswer":{"@type":"Answer","text":"מפתח חכם (Intelligent Key) לאינפיניטי עולה 900-1,800 שקל, תלוי בדגם. המחיר כולל הגעה, קידוד ובדיקה."}},{"@type":"Question","name":"אינפיניטי היא ניסאן?","acceptedAnswer":{"@type":"Answer","text":"כן, אינפיניטי היא מותג היוקרה של ניסאן. המפתח החכם עובד עם מערכת NATS ומודול BCM של ניסאן, ולכן אותו ציוד מטפל בשניהם - עובדה שחלק מהמנעולנים מפספסים בגלל הלוגו."}},{"@type":"Question","name":"כמה זמן לוקח שכפול מפתח לאינפיניטי?","acceptedAnswer":{"@type":"Answer","text":"Intelligent Key לדגמי Q50, Q30 או QX: 50-75 דקות, כולל קידוד כל פונקציות הכניסה וההתנעה."}},{"@type":"Question","name":"אפשר לשחזר מפתח לאינפיניטי ללא מקור?","acceptedAnswer":{"@type":"Answer","text":"כן. אנחנו קוראים את קוד ה-BCM ממחשב הרכב ומייצרים Intelligent Key חדש. עולה 1,200-2,000 שקל, דורש הוכחת בעלות."}},{"@type":"Question","name":"שכפול מפתח לאינפיניטי פוגע באחריות?","acceptedAnswer":{"@type":"Answer","text":"לא. הקידוד מבוצע מול מחשב הרכב ואינו פוגע באחריות היצרן."}},{"@type":"Question","name":"למה הסוכנות יקרה יותר?","acceptedAnswer":{"@type":"Answer","text":"סוכנות אינפיניטי מזמינה מפתח מהיבואן עם המתנה ומחיר גבוה. אנחנו מגיעים עד אליכם ומבצעים את העבודה בשטח."}},{"@type":"Question","name":"אתם מגיעים עד הרכב?","acceptedAnswer":{"@type":"Answer","text":"כן, אנחנו מגיעים עד אליכם בכל הארץ, 24 שעות ביממה."}}]}0:{"rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://carkeynow.co.il\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"שכפול מפתח לרכב אינפיניטי - מחירון בפנים\",\"item\":\"https://carkeynow.co.il/שכפול-מפתח-לאינפיניטי/\"}]}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://carkeynow.co.il/שכפול-מפתח-לאינפיניטי/\",\"name\":\"שכפול מפתח לרכב אינפיניטי - למחירים\",\"description\":\"שכפול מפתחות לאינפיניטי עד הבית או מקום העבודה - מפתח מכני, שלט ומפתח חכם. מחיר החל מ-150 ₪, הגעה מהירה, זמינים 24/7. התקשרו עכשיו.\",\"url\":\"https://carkeynow.co.il/שכפול-מפתח-לאינפיניטי/\",\"isPartOf\":{\"@id\":\"https://carkeynow.co.il/#website\"},\"inLanguage\":\"he\"}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"@id\":\"https://carkeynow.co.il/#amir\",\"name\":\"דורון\",\"jobTitle\":\"מנעולן רכב מומחה\",\"image\":\"https://carkeynow.co.il/wp-images/דורון-מנעולן-רכב.webp\",\"worksFor\":{\"@id\":\"https://carkeynow.co.il/#organization\"}}"}}],["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white","dir":"rtl","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6","children":[["$","nav",null,{"className":"text-xs mb-2 opacity-70 flex items-center gap-1","children":[["$","$L3",null,{"href":"/","className":"hover:opacity-100","children":"דף הבית"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"opacity-100","children":"שכפול מפתח לרכב אינפיניטי - מחירון בפנים"}]]}],"$undefined",["$","h1",null,{"className":"text-xl sm:text-2xl md:text-3xl font-bold leading-snug","children":"שכפול מפתח לרכב אינפיניטי - מחירון בפנים"}]]}]}],false,"$L4","$L5"],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TFfI33juvlz9FBwsp3OJz"}
+a:T4728,<p style="margin-bottom: 20px;">אנחנו ב'מפתח עכשיו' מתמחים בשכפול מפתח לרכב אינפיניטי עם הטכנולוגיה המתקדמת ביותר בשוק. כמנעולני רכב מקצועיים, אנחנו מבינים שאיבוד מפתח או צורך בשכפול מפתח נוסף יכולים לגרום לאי נוחות משמעותית, ולכן אנחנו מציעים שירות מהיר, יעיל ומקצועי שמגיע אליכם לכל מקום. שכפול מפתחות לאינפיניטי מחייב ציוד ייחודי לפרוטוקולי Nissan/Infiniti, ציוד שנמצא ברכב המנעולן שלנו.</p>
+<p style="margin-bottom: 20px;">רכבי אינפיניטי מצוידים במערכות אבטחה מתקדמות ומפתחות חכמים עם שבב קידוד ייחודי. אנחנו משתמשים בציוד מקורי ומחשוב מתקדם שמאפשר לנו לבצע שכפול מפתח לאינפיניטי באופן מקצועי ומדויק.</p>
+<p>&nbsp;</p>
+<p style="margin-bottom: 20px;">שכפול מפתחות לאינפיניטי מבוסס על טכנולוגיית ניסאן-אינפיניטי, בדגמים כמו Q50, QX50 ו-QX70 עם I-Key. אנחנו מבצעים שכפול מפתחות לאינפיניטי בשטח, כולל קידוד מפתח חכם מלא.</p>
+<p>&nbsp;</p>
+<h2 id="sec-0" style="margin-top: 30px; margin-bottom: 15px;">מחירון שכפול מפתח לאינפיניטי</h2>
+<p style="margin-bottom: 20px;">אנחנו מאמינים בשקיפות מלאה מול לקוחותינו. להלן מחירון מפורט לשירותי שכפול מפתח לרכבי אינפיניטי:</p>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background-color: #ff8c00; color: white;">
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">סוג השירות</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">תיאור</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">מחיר משוער</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">שכפול מפתח רגיל</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">מפתח מכני ללא שבב</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">150-250 ₪</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">שכפול מפתח חכם</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">מפתח עם שבב קידוד</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">300-400 ₪</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">מפתח חכם עם שלט</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">מפתח מלא עם Proximity</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">550-1,100 ₪</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">קידוד מפתח קיים</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">קידוד מפתח שקנייתם</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">600-900 ₪</td>
+</tr>
+</tbody>
+</table>
+<div style="border-right: 4px solid #FF8C00; background: #FFF5EB; padding: 15px; margin: 20px 0; border-radius: 4px;"><strong>חשוב לדעת:</strong> מחירי השכפול משתנים בהתאם לדגם הרכב והשנה. דגמי אינפיניטי חדשים יותר עם מערכות אבטחה מתקדמות עשויים לדרוש קידוד מורכב יותר. אנחנו ממליצים ליצור קשר לקבלת הצעת מחיר מדויקת לדגם הספציפי שלכם.</div>
+<!-- Pricing Disclaimer -->
+
+<style>
+  .pd-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 16px auto 0 auto;
+    font-family: 'Heebo', 'Rubik', sans-serif;
+    direction: rtl;
+    text-align: right;
+    box-sizing: border-box;
+    line-height: normal;
+  }
+
+  .pd-container {
+    position: relative;
+    background: #1e4a72;
+    border-radius: 10px;
+    padding: 24px 28px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(23, 55, 87, 0.12);
+    box-sizing: border-box;
+    border-right: 4px solid #F5A927;
+  }
+
+  .pd-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    background: rgba(245, 169, 39, 0.12);
+    border: 1px solid rgba(245, 169, 39, 0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon-svg {
+    width: 18px;
+    height: 18px;
+    fill: #F5A927;
+  }
+
+  .pd-text-block {
+    flex: 1;
+    min-width: 180px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-main-text {
+    font-family: 'Rubik', 'Heebo', sans-serif;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-highlight {
+    color: #F5A927;
+    font-weight: 600;
+  }
+
+  .pd-sub-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.5;
+    margin: 8px 0 0 0;
+    padding: 0;
+  }
+
+  .pd-divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(245, 169, 39, 0.15);
+    margin: 14px 0 0 0;
+    padding: 0;
+    border: none;
+  }
+
+  .pd-date-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 12px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-date-icon {
+    width: 12px;
+    height: 12px;
+    fill: #F5A927;
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .pd-date-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-date-value {
+    color: rgba(245, 169, 39, 0.8);
+    font-weight: 500;
+  }
+
+  @media (max-width: 600px) {
+    .pd-container {
+      padding: 20px 20px;
+      border-radius: 8px;
+    }
+
+    .pd-content {
+      gap: 14px;
+    }
+
+    .pd-icon {
+      width: 32px;
+      height: 32px;
+    }
+
+    .pd-icon-svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .pd-main-text {
+      font-size: 13.5px;
+    }
+
+    .pd-sub-text {
+      font-size: 12px;
+    }
+
+    .pd-date-text {
+      font-size: 11px;
+    }
+  }
+</style>
+
+<!-- HTML -->
+<div class="pd-wrapper" id="pd-wrapper">
+  <div class="pd-container" id="pd-container">
+    <div class="pd-content" id="pd-content">
+      
+      <div class="pd-icon" id="pd-icon">
+        <svg class="pd-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+        </svg>
+      </div>
+
+      <div class="pd-text-block" id="pd-text-block">
+        <div class="pd-main-text" id="pd-main-text">
+          כל המחירים המוצגים <span class="pd-highlight">אינם כוללים מע״מ</span> (18%)
+        </div>
+
+        <div class="pd-sub-text" id="pd-sub-text">
+          המחירים המופיעים בטבלה הם משוערים ומשתנים לפי דגם הרכב, שנת הייצור וסוג המפתח
+        </div>
+
+        <div class="pd-divider" id="pd-divider"></div>
+
+        <div class="pd-date-badge" id="pd-date-badge">
+          <svg class="pd-date-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM9 10H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"/>
+          </svg>
+          <span class="pd-date-text" id="pd-date-text">
+            מעודכן ל: <span class="pd-date-value" id="pd-date-value"></span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var hebrewMonths = [
+      'ינואר', 'פברואר', 'מרץ', 'אפריל', 'מאי', 'יוני',
+      'יולי', 'אוגוסט', 'ספטמבר', 'אוקטובר', 'נובמבר', 'דצמבר'
+    ];
+    var now = new Date();
+    var month = hebrewMonths[now.getMonth()];
+    var year = now.getFullYear();
+    var el = document.getElementById('pd-date-value');
+    if (el) {
+      el.textContent = month + ' ' + year;
+    }
+  })();
+</script>
+<p>&nbsp;</p>
+<h2 id="sec-1" style="margin-top: 30px; margin-bottom: 15px;">התהליך המקצועי שלנו לשכפול מפתח אינפיניטי</h2>
+<p style="margin-bottom: 20px;">אנחנו ב'מפתח עכשיו' מבצעים את תהליך השכפול בשלבים מדויקים:</p>
+<p style="margin-bottom: 20px;"><strong>שלב ראשון - אבחון והזמנה:</strong><br />
+אנחנו מזהים את דגם האינפיניטי המדויק, שנת הייצור, וסוג המפתח הנדרש. כל דגם דורש גישה שונה ומפתחות ייחודיים.</p>
+<p style="margin-bottom: 20px;"><strong>שלב שני - הגעה ואימות:</strong><br />
+המנעולן שלנו מגיע אליכם עם כל הציוד הדרוש. אנחנו מאמתים בעלות על הרכב ומבצעים סריקה של המערכת הקיימת.</p>
+<p style="margin-bottom: 20px;"><strong>שלב שלישי - קידוד וסנכרון:</strong><br />
+אנחנו משתמשים במחשוב מקורי לקידוד השבב ולסנכרן את המפתח עם מערכת האימוביליזר של הרכב. זהו שלב קריטי שדורש מומחיות וציוד מתקדם.</p>
+<p style="margin-bottom: 20px;"><strong>שלב רביעי - בדיקות ואישור:</strong><br />
+אנחנו בודקים את המפתח החדש בכל הפונקציות - נעילה, פתיחה, התנעה ושלט רחוק, ומוודאים שהכול עובד בצורה מושלמת.</p>
+<p>&nbsp;</p>
+<h2 id="sec-2" style="margin-top: 30px; margin-bottom: 15px;">סוגי מפתחות לרכבי אינפיניטי</h2>
+<p style="margin-bottom: 20px;">רכבי אינפיניטי משתמשים במגוון סוגי מפתחות, בהתאם לדגם ושנת הייצור:</p>
+<ul style="margin-bottom: 20px; margin-right: 20px;">
+<li style="margin-bottom: 10px;">מפתח מכני מסורתי - בדגמים ישנים יותר</li>
+<li style="margin-bottom: 10px;">מפתח עם שבב אימוביליזר - הסטנדרט בדגמים מ-2000 ואילך</li>
+<li style="margin-bottom: 10px;">מפתח חכם Intelligent Key - טכנולוגיית Proximity בדגמים חדשים</li>
+<li style="margin-bottom: 10px;">מפתח שלט רחוק משולב - שילוב של שבב ושלט</li>
+</ul>
+<p>&nbsp;</p>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background-color: #ff8c00; color: white;">
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">דגם אינפיניטי</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">שנים</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">סוג מפתח</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">זמן קידוד משוער</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">Q50</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">2014-2024</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">Intelligent Key</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">45-60 דקות</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">QX60</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">2013-2024</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">Intelligent Key</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">50-70 דקות</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">G37</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">2008-2013</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">מפתח חכם</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">40-50 דקות</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">FX35/FX37</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">2003-2013</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">מפתח עם שבב</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">35-45 דקות</td>
+</tr>
+</tbody>
+</table>
+<div style="border-right: 4px solid #FF8C00; background: #FFF5EB; padding: 15px; margin: 20px 0; border-radius: 4px;"><strong>טיפ מקצועי:</strong> אם יש לכם רק מפתח אחד לרכב האינפיניטי, אנחנו ממליצים בחום לשכפל מפתח נוסף עוד לפני שאתם מאבדים את המפתח היחיד. שכפול כשיש מפתח מקורי זול ומהיר יותר מאשר ייצור מפתח חדש לחלוטין ללא מפתח קיים.</div>
+<h2></h2>
+<h2 id="sec-3" style="margin-top: 30px; margin-bottom: 15px;">היתרונות שלנו בשכפול מפתחות אינפיניטי</h2>
+<p style="margin-bottom: 20px;">אנחנו ב'מפתח עכשיו' מציעים מספר יתרונות משמעותיים:</p>
+<p style="margin-bottom: 20px;"><strong>ציוד מתקדם ומקורי:</strong><br />
+אנחנו משקיעים בציוד המתקדם ביותר בשוק, כולל מכשירי קידוד מקוריים של יצרני הרכב ומערכות אבחון מקצועיות.</p>
+<p style="margin-bottom: 20px;"><strong>ניסיון עשיר:</strong><br />
+אנחנו עובדים עם רכבי אינפיניטי מזה שנים ומכירים לעומק את המערכות והאתגרים הייחודיים של כל דגם.</p>
+<p style="margin-bottom: 20px;"><strong>שירות מהיר:</strong><br />
+אנחנו מבינים שהזמן שלכם יקר. לכן אנחנו מתחייבים לזמני הגעה קצרים ולביצוע עבודה יעיל במקום.</p>
+<p style="margin-bottom: 20px;"><strong>זמינות 24/7:</strong><br />
+אנחנו זמינים לשירות גם בשעות הלילה, בסופי שבוע ובחגים, כי אנחנו יודעים שבעיות עם מפתחות לא מתחשבות בשעון.</p>
+<p>&nbsp;</p>
+<h2 id="sec-4" style="margin-top: 30px; margin-bottom: 15px;">מתי כדאי לשכפל מפתח לאינפיניטי?</h2>
+<p style="margin-bottom: 20px;">יש מספר מצבים שבהם אנחנו ממליצים לשכפל מפתח:</p>
+<ul style="margin-bottom: 20px; margin-right: 20px;">
+<li style="margin-bottom: 10px;"><strong>רכב חדש עם מפתח אחד:</strong> רכבים משומשים לעיתים מגיעים עם מפתח יחיד בלבד</li>
+<li style="margin-bottom: 10px;"><strong>מפתח בלוי או פגום:</strong> כשהמפתח מתחיל להתקשות בפתיחה או בהתנעה</li>
+<li style="margin-bottom: 10px;"><strong>גיבוי למניעת צרות:</strong> תמיד כדאי לשמור מפתח נוסף במקום בטוח</li>
+<li style="margin-bottom: 10px;"><strong>נהג נוסף במשפחה:</strong> כשיש יותר ממשתמש אחד לרכב</li>
+</ul>
+<p style="margin-bottom: 20px;"><strong>חשוב לזכור:</strong><br />
+כל עיכוב בשכפול מפתח כשיש לכם מפתח מקורי עלול להוביל למצב שבו תאבדו את המפתח היחיד, והתהליך יהיה מורכב ויקר יותר. אנחנו ממליצים להקדים תרופה למכה.</p>
+<p>&nbsp;</p>
+<h2 id="sec-5" style="margin-top: 30px; margin-bottom: 15px;">שאלות נפוצות על שכפול מפתח אינפיניטי</h2>
+<p style="margin-bottom: 20px;"><strong>כמה זמן לוקח שכפול מפתח?</strong><br />
+התהליך הממוצע לוקח בין 40 ל-70 דקות, תלוי בדגם ובסוג המפתח. דגמים חדשים יותר עם מערכות אבטחה מתקדמות עשויים לדרוש זמן נוסף.</p>
+<p style="margin-bottom: 20px;"><strong>האם אתם מגיעים לכל מקום?</strong><br />
+כן, אנחנו מספקים שירות ניידי לכל הארץ. המנעולן מגיע אליכם עם כל הציוד הדרוש לביצוע העבודה במקום.</p>
+<p style="margin-bottom: 20px;"><strong>מה צריך להכין לפני ההגעה?</strong><br />
+אנחנו צריכים את המפתח המקורי של הרכב, תעודת זהות של הבעלים, ורישיון הרכב לאימות בעלות. גם טעינת הסוללה של הרכב צריכה להיות מלאה.</p>
+<p style="margin-bottom: 20px;"><strong>האם יש אחריות על העבודה?</strong><br />
+בהחלט. אנחנו נותנים אחריות מלאה על העבודה ועל המפתח החדש, כי אנחנו בטוחים באיכות השירות שלנו.</p>
+<p style="margin-bottom: 20px;">אנחנו ב'מפתח עכשיו' מזמינים אתכם ליצור קשר ולקבל שירות מקצועי, מהיר ואמין. הצוות שלנו עומד לרשותכם לכל שאלה או בעיה הקשורה למפתחות הרכב שלכם.</p>
+4:["$","div",null,{"className":"max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8","dir":"rtl","children":["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 items-start","children":[["$","div",null,{"id":"page-article","className":"min-w-0","children":[["$","$L8",null,{"items":[{"id":"sec-0","text":"מחירון שכפול מפתח לאינפיניטי"},{"id":"sec-1","text":"התהליך המקצועי שלנו לשכפול מפתח אינפיניטי"},{"id":"sec-2","text":"סוגי מפתחות לרכבי אינפיניטי"},{"id":"sec-3","text":"היתרונות שלנו בשכפול מפתחות אינפיניטי"},{"id":"sec-4","text":"מתי כדאי לשכפל מפתח לאינפיניטי?"},{"id":"sec-5","text":"שאלות נפוצות על שכפול מפתח אינפיניטי"},{"id":"sec-6","text":"דגמי אינפיניטי שאנחנו מטפלים בהם"},{"id":"sec-7","text":"סיפור מהשטח: אינפיניטי Q50 2015 - Intelligent Key ומערכת ניסאן באשדוד"},{"id":"sec-8","text":"איך אנחנו משכפלים מפתח - 5 שלבים"},{"id":"sec-9","text":"סוגי המפתחות שאנחנו משכפלים"},{"id":"sec-10","text":"אנחנו מול הסוכנות הרשמית"},{"id":"sec-11","text":"שאלות נפוצות"}]}],["$","div",null,{"className":"p-1 sm:card sm:p-6 md:p-8","children":[["$","div",null,{"dir":"rtl","className":"flex items-center gap-3 mb-5 pb-4 border-b border-gray-100","children":[["$","img",null,{"src":"/wp-images/דורון-מנעולן-רכב.webp","alt":"דורון - מנעולן רכב מומחה","width":40,"height":40,"loading":"lazy","className":"w-10 h-10 rounded-full object-cover shrink-0 ring-1 ring-black/5"}],["$","div",null,{"className":"text-sm leading-tight","children":[["$","span",null,{"className":"block text-gray-500","children":"נכתב ונבדק על ידי"}],["$","span",null,{"className":"block font-bold","style":{"color":"var(--primary)"},"children":["דורון"," · ","מנעולן רכב מומחה"]}]]}]]}],["$","$L9",null,{"html":"$a"}],null,false]}],"$Lb","$Lc",["$Ld","$Le","$Lf"],"$L10"]}],"$L11"]}]}]
+5:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white py-8 text-center","dir":"rtl","children":["$","div",null,{"className":"max-w-xl mx-auto px-4","children":[["$","p",null,{"className":"font-bold text-lg mb-4","children":"צריכים עזרה? אנחנו כאן 24/7"}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-3 justify-center","children":["$","a",null,{"href":"tel:033822752","className":"btn-primary text-base px-8","children":"03-382-2752"}]}]]}]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/1leulq3_ixpp7.js","async":true}]
+7:["$","$L12",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@14"}]}]
+b:["$","div",null,{"id":"sec-6","children":["$","div",null,{"dir":"rtl","className":"card p-6 mt-6","children":[["$","div",null,{"className":"flex items-center gap-3 mb-3","children":[["$","div",null,{"className":"w-1 h-7 rounded-full shrink-0","style":{"background":"var(--accent)"}}],["$","h2",null,{"className":"text-lg sm:text-xl font-bold","style":{"color":"var(--primary)"},"children":["דגמי ","אינפיניטי"," שאנחנו מטפלים בהם"]}]]}],["$","p",null,{"className":"text-gray-700 leading-relaxed","children":["אנחנו משכפלים ומקדדים מפתחות לכל דגמי ","אינפיניטי"," הנפוצים בישראל, בהם: ","Q30, Q50, Q60, Q70, QX30, QX50, QX55, QX60, QX70, QX80, FX, EX, G37, M","."," ","לכל דגם מערכת מפתח וקידוד ייחודית, ואנחנו מגיעים עם הציוד המתאים לכל אחד - מדגמים ותיקים ועד החדשים ביותר."]}]]}]}]
+c:["$","div",null,{"id":"sec-7","children":["$","div",null,{"dir":"rtl","className":"card p-6 mt-6","children":[["$","div",null,{"className":"flex items-center gap-3 mb-3","children":[["$","div",null,{"className":"w-1 h-7 rounded-full shrink-0","style":{"background":"var(--accent)"}}],["$","h2",null,{"className":"text-lg sm:text-xl font-bold","style":{"color":"var(--primary)"},"children":["סיפור מהשטח: ","אינפיניטי Q50 2015 - Intelligent Key ומערכת ניסאן באשדוד"]}]]}],["$","p",null,{"className":"text-gray-700 leading-relaxed","children":"בעל Infiniti Q50 2015 באשדוד נשאר עם מפתח יחיד לרכב יוקרה וביקש גיבוי. אינפיניטי היא מותג היוקרה של ניסאן, והמפתח החכם (Intelligent Key) עובד עם מערכת NATS ומודול BCM של ניסאן - עובדה שחלק מהמנעולנים מפספסים כי הלוגו מטעה. קראנו את קוד ה-BCM, ייצרנו Intelligent Key חדש וקידדנו את כל פונקציות הכניסה ללא מפתח וההתנעה בכפתור. סיימנו תוך 70 דקות, במחיר 1,250 שקל מול 2,400 שקל בסוכנות. הבנת הקשר בין אינפיניטי לניסאן היא המפתח לעבודה כזו."}]]}]}]
+d:["$","div","0",{"id":"sec-8","children":["$","$L15",null,{"heading":"איך אנחנו משכפלים מפתח - 5 שלבים","steps":[{"title":"זיהוי המפתח והרכב","desc":"בודקים את מספר השלדה, דגם הרכב ושנת הייצור כדי לזהות את סוג המפתח הנדרש בדיוק.","duration":"5 דק׳"},{"title":"חיתוך הלהב","desc":"מכונת חיתוך ממוחשבת חותכת את הלהב לפי קוד הרכב עם דיוק של מילימטר.","duration":"5-10 דק׳"},{"title":"קידוד השבב","desc":"מחשב האימוביליזר של הרכב מקבל את קוד השבב החדש בתהליך קידוד ייחודי לדגם.","duration":"10-30 דק׳"},{"title":"קידוד השלט","desc":"השלט מסונכרן עם מחשב הרכב ורולינג-קוד מוגדר למניעת שכפול לא מורשה.","duration":"5 דק׳"},{"title":"בדיקת תקינות מלאה","desc":"בודקים הצתה, נעילה/פתיחה ופונקציות השלט לפניכם לפני שאנחנו עוזבים.","duration":"5 דק׳"}]}]}]
+e:["$","div","1",{"id":"sec-9","children":["$","$L16",null,{"heading":"סוגי המפתחות שאנחנו משכפלים","cards":[{"title":"מפתח מכאני","desc":"מפתח פיזי ללא אלקטרוניקה. הנפוץ ברכבים לפני 2000. חיתוך פשוט ומהיר תוך 10 דקות."},{"title":"מפתח טרנספונדר","desc":"שבב אלקטרוני מוטמע במפתח מתקשר עם האימוביליזר. רוב הרכבים מ-2000 ואילך."},{"title":"מפתח הפוך (Flip)","desc":"שילוב של מפתח פיזי ושלט בגוף אחד מתקפל. נפוץ בפולקסווגן, אאודי, סקודה ועוד."},{"title":"Smart Key","desc":"כניסה וגם הצתה ללא הכנסת מפתח. תקשורת Keyless Entry/Go. דורש ציוד קידוד מתקדם."},{"title":"מפתח Proximity","desc":"מפתח קרבה - הרכב מזהה אתכם כשמתקרבים. נפוץ בלקסוס, BMW, מרצדס חדשים."},{"title":"מפתח אופנוע","desc":"מפתחות לאופנועים - עם ובלי אימוביליזר. מטפלים בכל המותגים הנפוצים בישראל."}],"cols":3}]}]
+f:["$","div","2",{"id":"sec-10","children":["$","$L17",null,{"heading":"אנחנו מול הסוכנות הרשמית","colUs":"מפתח עכשיו","colAlt":"סוכנות","rows":[{"criterion":"זמן המתנה","us":"20-60 דקות","usColor":"green","alt":"3-7 ימים","altColor":"red"},{"criterion":"הגעה לבית/עבודה","us":"כן, תמיד","usColor":"green","alt":"לא","altColor":"red"},{"criterion":"עלות מפתח שבב","us":"₪400-₪700","usColor":"green","alt":"₪800-₪2,000","altColor":"red"},{"criterion":"עלות Smart Key","us":"₪800-₪1,500","usColor":"green","alt":"₪1,500-₪3,000","altColor":"red"},{"criterion":"אחריות","us":"בכתב 30 יום","usColor":"green","alt":"אחריות יצרן","altColor":"blue"},{"criterion":"זמינות","us":"24/7","usColor":"green","alt":"שעות סוכנות","altColor":"orange"}]}]}]
+10:["$","div",null,{"id":"sec-11","className":"mt-6","children":["$","$L18",null,{"items":[{"q":"כמה עולה שכפול מפתח לאינפיניטי?","a":"מפתח חכם (Intelligent Key) לאינפיניטי עולה 900-1,800 שקל, תלוי בדגם. המחיר כולל הגעה, קידוד ובדיקה."},{"q":"אינפיניטי היא ניסאן?","a":"כן, אינפיניטי היא מותג היוקרה של ניסאן. המפתח החכם עובד עם מערכת NATS ומודול BCM של ניסאן, ולכן אותו ציוד מטפל בשניהם - עובדה שחלק מהמנעולנים מפספסים בגלל הלוגו."},{"q":"כמה זמן לוקח שכפול מפתח לאינפיניטי?","a":"Intelligent Key לדגמי Q50, Q30 או QX: 50-75 דקות, כולל קידוד כל פונקציות הכניסה וההתנעה."},{"q":"אפשר לשחזר מפתח לאינפיניטי ללא מקור?","a":"כן. אנחנו קוראים את קוד ה-BCM ממחשב הרכב ומייצרים Intelligent Key חדש. עולה 1,200-2,000 שקל, דורש הוכחת בעלות."},{"q":"שכפול מפתח לאינפיניטי פוגע באחריות?","a":"לא. הקידוד מבוצע מול מחשב הרכב ואינו פוגע באחריות היצרן."},{"q":"למה הסוכנות יקרה יותר?","a":"סוכנות אינפיניטי מזמינה מפתח מהיבואן עם המתנה ומחיר גבוה. אנחנו מגיעים עד אליכם ומבצעים את העבודה בשטח."},{"q":"אתם מגיעים עד הרכב?","a":"כן, אנחנו מגיעים עד אליכם בכל הארץ, 24 שעות ביממה."}]}]}]
+11:["$","div",null,{"children":["$","aside",null,{"className":"space-y-4","dir":"rtl","children":[["$","$L19",null,{"compact":true}],["$","div",null,{"className":"card p-4 text-sm text-center","dir":"rtl","children":[["$","p",null,{"className":"font-bold mb-1","style":{"color":"var(--primary)"},"children":"מנעולן רכב 24/7"}],["$","p",null,{"className":"text-gray-400 text-xs mb-3","children":"הגעה תוך 20 דקות בממוצע"}],["$","a",null,{"href":"tel:033822752","className":"block w-full py-2 rounded font-bold text-white text-sm","style":{"background":"var(--accent)"},"children":"03-382-2752"}]]}],[["$","div","שכפול מפתח לדגמים נוספים",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שכפול מפתח לדגמים נוספים"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לטויוטה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לטויוטה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לטויוטה"]}]}],["$","li","/שכפול-מפתח-ליונדאי",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-ליונדאי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ליונדאי"]}]}],["$","li","/שכפול-מפתח-למאזדה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-למאזדה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח למאזדה"]}]}],["$","li","/שכפול-מפתח-לניסאן",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לניסאן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לניסאן"]}]}],["$","li","/שכפול-מפתח-לרנו",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרנו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרנו"]}]}],["$","li","/שכפול-מפתח-לשברולט",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לשברולט","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לשברולט"]}]}],["$","li","/שכפול-מפתח-לפורד",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לפורד","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לפורד"]}]}],["$","li","/שכפול-מפתח-לפיגו",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לפיגו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לפיגו"]}]}],["$","li","/שכפול-מפתח-לקיה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לקיה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לקיה"]}]}],["$","li","/שכפול-מפתח-לסוזוקי",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לסוזוקי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לסוזוקי"]}]}],["$","li","/שכפול-מפתח-למיצובישי",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-למיצובישי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח למיצובישי"]}]}],["$","li","/שכפול-מפתח-לסיטרואן",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לסיטרואן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לסיטרואן"]}]}],["$","li","/שכפול-מפתח-לפיאט",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לפיאט","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לפיאט"]}]}],["$","li","/שכפול-מפתח-למרצדס",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-למרצדס","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח למרצדס"]}]}],["$","li","/שכפול-מפתח-לגילי",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לגילי","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לגי'לי"]}]}],["$","li","/שכפול-מפתח-לדייהטסו",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לדייהטסו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לדייהטסו"]}]}],["$","li","/שכפול-מפתח-לביואיק",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לביואיק","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לביואיק"]}]}],["$","li","/שכפול-מפתח-לבמוו",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לבמוו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ל-BMW"]}]}],["$","li","/שכפול-מפתח-להונדה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-להונדה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח להונדה"]}]}],"$L1a","$L1b","$L1c","$L1d","$L1e","$L1f"]}]]}],"$L20","$L21"]]}]}]
+14:null
+1a:["$","li","/שכפול-מפתח-לסקודה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לסקודה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לסקודה"]}]}]
+1b:["$","li","/שכפול-מפתח-לסובארו",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לסובארו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לסובארו"]}]}]
+1c:["$","li","/שכפול-מפתח-לוולוו",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לוולוו","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לוולוו"]}]}]
+1d:["$","li","/שכפול-מפתח-לגיפ",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לגיפ","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לג'יפ"]}]}]
+1e:["$","li","/שכפול-מפתח-לדאציה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לדאציה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לדאצ'יה"]}]}]
+1f:["$","li","/שכפול-מפתח-לסיאט",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לסיאט","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לסיאט"]}]}]
+20:["$","div","שכפול מפתח לפי עיר",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שכפול מפתח לפי עיר"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לרכב-בגני-תקווה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בגני-תקווה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בגני תקווה"]}]}],["$","li","/שכפול-מפתח-לרכב-בתל-אביב",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בתל-אביב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בתל אביב"]}]}],["$","li","/שכפול-מפתח-לרכב-בחיפה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בחיפה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בחיפה"]}]}],["$","li","/שכפול-מפתח-לרכב-בירושלים",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בירושלים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בירושלים"]}]}],["$","li","/שכפול-מפתח-לרכב-בבאר-שבע",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בבאר-שבע","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בבאר שבע"]}]}],["$","li","/שכפול-מפתח-לרכב-ברחובות",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-ברחובות","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ברחובות"]}]}],["$","li","/שכפול-מפתח-לרכב-בנתניה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בנתניה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בנתניה"]}]}],["$","li","/שכפול-מפתח-לרכב-ברמת-גן",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-ברמת-גן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח ברמת גן"]}]}],["$","li","/שכפול-מפתח-לרכב-בהרצליה",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בהרצליה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בהרצליה"]}]}],["$","li","/שכפול-מפתח-לרכב-בהוד-השרון",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב-בהוד-השרון","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח בהוד השרון"]}]}]]}]]}]
+21:["$","div","שירותים קשורים",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שירותים קשורים"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לרכב",{"children":["$","$L3",null,{"href":"/שכפול-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרכב"]}]}],["$","li","/שחזור-מפתח-לרכב",{"children":["$","$L3",null,{"href":"/שחזור-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שחזור מפתח לרכב"]}]}],["$","li","/אבד-מפתח-לרכב",{"children":["$","$L3",null,{"href":"/אבד-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"אבד מפתח לרכב"]}]}],["$","li","/שכפול-שלט-לרכב",{"children":["$","$L3",null,{"href":"/שכפול-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול שלט לרכב"]}]}],["$","li","/תיקון-שלט-לרכב",{"children":["$","$L3",null,{"href":"/תיקון-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"תיקון שלט לרכב"]}]}],["$","li","/פורץ-רכבים",{"children":["$","$L3",null,{"href":"/פורץ-רכבים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"פורץ רכבים"]}]}]]}]]}]

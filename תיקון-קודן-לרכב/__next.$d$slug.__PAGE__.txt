@@ -1,0 +1,383 @@
+1:"$Sreact.fragment"
+9:I[22016,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],""]
+a:I[55132,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"TableOfContents"]
+b:I[92711,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+c:I[31179,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+15:I[97367,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+16:"$Sreact.suspense"
+18:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"ToolGrid"]
+19:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"ProcessSteps"]
+1a:I[71539,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"StatsBanner"]
+1b:I[46042,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+1c:I[33128,["/_next/static/chunks/3m_tmw4-ippmj.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1leulq3_ixpp7.js"],"default"]
+2:T13ab,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"כמה עולה ניתוק קודן לרכב?","acceptedAnswer":{"@type":"Answer","text":"ניתוק קודן מרכב פרטי: 800-1,200 שקל. רכב יוקרה: 1,500-2,500 שקל. מסחרי: 1,000-1,800 שקל. המחיר כולל הגעה, אבחון, ניתוק ובדיקת תקינות הרכב לאחר מכן."}},{"@type":"Question","name":"מתי צריך לנתק קודן לרכב?","acceptedAnswer":{"@type":"Answer","text":"ניתקנו קודנים הרבה פעמים בגלל: קודן שמתקלקל ומונע הפעלת הרכב, אובדן שלטים מקוריים, קניית רכב יד שנייה ללא שלטים תואמים, רצון לשדרג מערכת חדשה, ובעיות חשמל שמקורן בקודן ישן."}},{"@type":"Question","name":"האם ניתוק קודן חוקי?","acceptedAnswer":{"@type":"Answer","text":"כן, לגמרי. ניתוק קודן מרכב שבבעלותכם חוקי לחלוטין. אנחנו עובדים עם תעודות זהות ורישיון רכב - אנחנו לא מנתקים קודן לאף מישהו שלא הוכיח לנו שהוא הבעלים."}},{"@type":"Question","name":"הקודן שלי מצפצף ללא הפסקה - מה עושים?","acceptedAnswer":{"@type":"Answer","text":"ראשית בדקו שלא לחצתם בטעות על כפתור חירום בשלט. אם לא - יכול להיות: סוללה חלשה בשלט, חיישן שנגע בדלת, מגע חשמלי רעוע, או תקלה בלוח. התקשרו - אנחנו מאבחנים טלפונית ויכולים לומר אם זה משהו שתוכלו לעשות לבד."}},{"@type":"Question","name":"יכולים לתקן קודן שאין לו שלט?","acceptedAnswer":{"@type":"Answer","text":"כן. אנחנו יכולים לתכנת שלט חדש לרוב המערכות הקיימות, עולה 200-350 שקל. אם המערכת מיושנת מאוד ואין לה תמיכה - אמליץ להחליף למערכת חדשה."}},{"@type":"Question","name":"האם קודן ישן יכול לגרום לתקלות חשמל ברכב?","acceptedAnswer":{"@type":"Answer","text":"כן - ראינו את זה לא מעט פעמים. קודן שמתיישן יכול ליצור בעיות בזרם החשמל, לגרום לתאורה מהבהבת, לחיפושים אחר תקלות \"מסתוריות\". לפעמים ניתוק הקודן פותר בעיה שחנות לא הצליחה."}},{"@type":"Question","name":"קניתי רכב יד שנייה ואין לו שלטים - מה עושים?","acceptedAnswer":{"@type":"Answer","text":"מצב נפוץ. שתי אפשרויות: לתכנת שלט חדש לקודן הקיים (200-350 שקל אם אפשרי), או לנתק את הקודן הקיים ולהתקין חדש (700-1,200 שקל). אנחנו בודקים מה האפשרות הזולה והנכונה לרכב הספציפי."}},{"@type":"Question","name":"כמה מהר תגיעו לקודן שמונע הפעלת הרכב?","acceptedAnswer":{"@type":"Answer","text":"קריאת חירום כזו היא עדיפות אצלנו. בערים הגדולות - עד 30 דקות. בפריפריה - עד שעה. תוספת שירות חירום: 100-150 שקל נוסף למחיר הרגיל."}},{"@type":"Question","name":"כמה זמן לוקח ניתוק קודן?","acceptedAnswer":{"@type":"Answer","text":"בין שעה לשעתיים, תלוי בדגם הרכב ובסוג הקודן. מערכות ישנות - מהיר יותר. מערכות מורכבות עם חיבורים רבים - לוקח יותר. אנחנו עושים את זה בקפידה כי לא כדאי למהר עם חיווט."}},{"@type":"Question","name":"האם חברות הביטוח מכירות בקודן שהתקנתם?","acceptedAnswer":{"@type":"Answer","text":"כן, בדרך כלל. אנחנו מוציאים מסמך עבודה עם פרטי המערכת שהותקנה. חברות הביטוח מקבלות מסמכים ממנעולנים מוסמכים. כדאי לבדוק עם הסוכן שלכם אם יש דרישות ספציפיות."}},{"@type":"Question","name":"האם אפשר להוסיף GPS לקודן קיים?","acceptedAnswer":{"@type":"Answer","text":"כן, יש מערכות GPS שמשתלבות עם קודן קיים. עולה 400-800 שקל להוספת GPS. זה נותן לכם שכבה נוספת - גם אבטחה מנועה וגם מעקב מיקום בזמן אמת."}},{"@type":"Question","name":"מה ההבדל בין קודן קוברה לקודן רגיל?","acceptedAnswer":{"@type":"Answer","text":"קובראות הן בדרך כלל מערכות מתקדמות יותר עם יותר חיישנים, אנטנה חזקה יותר, ולעיתים GPS מובנה. קודן רגיל - בסיסי ויעיל לרוב הצרכים. אנחנו מסבירים את ההבדלים ועוזר לבחור לפי הצורך והתקציב."}}]}0:{"rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://carkeynow.co.il\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"תיקון קודן לרכב - מחירון בפנים\",\"item\":\"https://carkeynow.co.il/תיקון-קודן-לרכב/\"}]}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://carkeynow.co.il/תיקון-קודן-לרכב/\",\"name\":\"תיקון קודן לרכב - מחירון בפנים | מפתח עכשיו\",\"description\":\"אנחנו ממפתח עכשיו מתמחים בתיקון קודן לרכב במקום, עם הציוד והמחשוב המתקדמים ביותר בשוק. כשהקודן של הרכב שלכם מפסיק לעבוד, זה יכול להיות מתסכל ולעיתים...\",\"url\":\"https://carkeynow.co.il/תיקון-קודן-לרכב/\",\"isPartOf\":{\"@id\":\"https://carkeynow.co.il/#website\"},\"inLanguage\":\"he\"}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4",false,"$L5","$L6"],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TFfI33juvlz9FBwsp3OJz"}
+3:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"@id\":\"https://carkeynow.co.il/#amir\",\"name\":\"דורון\",\"jobTitle\":\"מנעולן רכב מומחה\",\"image\":\"https://carkeynow.co.il/wp-images/דורון-מנעולן-רכב.webp\",\"worksFor\":{\"@id\":\"https://carkeynow.co.il/#organization\"}}"}}]
+4:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white","dir":"rtl","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6","children":[["$","nav",null,{"className":"text-xs mb-2 opacity-70 flex items-center gap-1","children":[["$","$L9",null,{"href":"/","className":"hover:opacity-100","children":"דף הבית"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"opacity-100","children":"תיקון קודן לרכב - מחירון בפנים"}]]}],"$undefined",["$","h1",null,{"className":"text-xl sm:text-2xl md:text-3xl font-bold leading-snug","children":"תיקון קודן לרכב - מחירון בפנים"}]]}]}]
+d:T50cc,
+<p style="margin-bottom: 20px;">הקודן הוא המפתח האלקטרוני המודרני שמאפשר לכם לנעול ולפתוח את הרכב ממרחק, ולעיתים גם להתניע אותו. כשהוא מתקלקל, אתם זקוקים לשירות מקצועי שיודע לטפל בכל סוגי הבעיות.</p>
+<p>&nbsp;</p>
+<h2 id="sec-0" style="margin-top: 30px; margin-bottom: 15px;">מחירון תיקון קודן לרכב</h2>
+<p style="margin-bottom: 20px;">אנחנו מציעים מחירים הוגנים ושקופים לכל שירותי הקודנים שלנו. הנה פירוט המחירים:</p>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background-color: #ff8c00; color: white;">
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">סוג השירות</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">מחיר משוער</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">זמן ביצוע</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">תיקון קודן קיים - החלפת סוללה</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">150-250 ₪</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">10-15 דקות</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">תיקון קודן - תיקון כפתורים</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">200-400 ₪</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">20-30 דקות</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">שכפול קודן חדש</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">400-800 ₪</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">30-45 דקות</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">תיכנות קודן מאפס</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">400-550 ₪</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">45-90 דקות</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">תיקון מעטפת קודן (חיצוני)</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">150-300 ₪</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">15-25 דקות</td>
+</tr>
+</tbody>
+</table>
+<div style="border-right: 4px solid #FF8C00; background: #FFF5EB; padding: 15px; margin: 20px 0; border-radius: 4px;"><strong>חשוב לדעת:</strong> המחירים משתנים בין יצרני רכב שונים ודגמים שונים. רכבים מתקדמים יותר עם מערכות אבטחה מורכבות עשויים לדרוש תיכנות מיוחד שעלול להיות יקר יותר. אנחנו תמיד נותנים הצעת מחיר מדויקת לפני תחילת העבודה.</div>
+<!-- Pricing Disclaimer -->
+
+<style>
+  .pd-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 16px auto 0 auto;
+    font-family: 'Heebo', 'Rubik', sans-serif;
+    direction: rtl;
+    text-align: right;
+    box-sizing: border-box;
+    line-height: normal;
+  }
+
+  .pd-container {
+    position: relative;
+    background: #1e4a72;
+    border-radius: 10px;
+    padding: 24px 28px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(23, 55, 87, 0.12);
+    box-sizing: border-box;
+    border-right: 4px solid #F5A927;
+  }
+
+  .pd-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    background: rgba(245, 169, 39, 0.12);
+    border: 1px solid rgba(245, 169, 39, 0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-icon-svg {
+    width: 18px;
+    height: 18px;
+    fill: #F5A927;
+  }
+
+  .pd-text-block {
+    flex: 1;
+    min-width: 180px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-main-text {
+    font-family: 'Rubik', 'Heebo', sans-serif;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-highlight {
+    color: #F5A927;
+    font-weight: 600;
+  }
+
+  .pd-sub-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.5;
+    margin: 8px 0 0 0;
+    padding: 0;
+  }
+
+  .pd-divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(245, 169, 39, 0.15);
+    margin: 14px 0 0 0;
+    padding: 0;
+    border: none;
+  }
+
+  .pd-date-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 12px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pd-date-icon {
+    width: 12px;
+    height: 12px;
+    fill: #F5A927;
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .pd-date-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-date-value {
+    color: rgba(245, 169, 39, 0.8);
+    font-weight: 500;
+  }
+
+  @media (max-width: 600px) {
+    .pd-container {
+      padding: 20px 20px;
+      border-radius: 8px;
+    }
+
+    .pd-content {
+      gap: 14px;
+    }
+
+    .pd-icon {
+      width: 32px;
+      height: 32px;
+    }
+
+    .pd-icon-svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .pd-main-text {
+      font-size: 13.5px;
+    }
+
+    .pd-sub-text {
+      font-size: 12px;
+    }
+
+    .pd-date-text {
+      font-size: 11px;
+    }
+  }
+</style>
+
+<!-- HTML -->
+<div class="pd-wrapper" id="pd-wrapper">
+  <div class="pd-container" id="pd-container">
+    <div class="pd-content" id="pd-content">
+      
+      <div class="pd-icon" id="pd-icon">
+        <svg class="pd-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+        </svg>
+      </div>
+
+      <div class="pd-text-block" id="pd-text-block">
+        <div class="pd-main-text" id="pd-main-text">
+          כל המחירים המוצגים <span class="pd-highlight">אינם כוללים מע״מ</span> (18%)
+        </div>
+
+        <div class="pd-sub-text" id="pd-sub-text">
+          המחירים המופיעים בטבלה הם משוערים ומשתנים לפי דגם הרכב, שנת הייצור וסוג המפתח
+        </div>
+
+        <div class="pd-divider" id="pd-divider"></div>
+
+        <div class="pd-date-badge" id="pd-date-badge">
+          <svg class="pd-date-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM9 10H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"/>
+          </svg>
+          <span class="pd-date-text" id="pd-date-text">
+            מעודכן ל: <span class="pd-date-value" id="pd-date-value"></span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var hebrewMonths = [
+      'ינואר', 'פברואר', 'מרץ', 'אפריל', 'מאי', 'יוני',
+      'יולי', 'אוגוסט', 'ספטמבר', 'אוקטובר', 'נובמבר', 'דצמבר'
+    ];
+    var now = new Date();
+    var month = hebrewMonths[now.getMonth()];
+    var year = now.getFullYear();
+    var el = document.getElementById('pd-date-value');
+    if (el) {
+      el.textContent = month + ' ' + year;
+    }
+  })();
+</script>
+<p>&nbsp;</p>
+<h2 id="sec-1" style="margin-top: 30px; margin-bottom: 15px;">מהן הבעיות הנפוצות בקודן לרכב?</h2>
+<p style="margin-bottom: 20px;">במהלך שנות הניסיון שלנו, אנחנו נתקלים במגוון רחב של בעיות שקשורות לקודן רכב. הכרת הבעיות הנפוצות יכולה לעזור לכם להבין מתי צריך לפנות לשירות מקצועי:</p>
+<ul style="margin-bottom: 20px; margin-right: 20px;">
+<li style="margin-bottom: 10px;"><strong>סוללה חלשה או ריקה</strong> - הבעיה הנפוצה ביותר, שמתבטאת בטווח פעולה מצומצם או אי תגובה של הקודן</li>
+<li style="margin-bottom: 10px;"><strong>כפתורים שבורים או תקועים</strong> - שחיקה או נזק פיזי לכפתורים</li>
+<li style="margin-bottom: 10px;"><strong>בעיות בתקשורת</strong> - הקודן לא מתחבר למערכת הרכב</li>
+<li style="margin-bottom: 10px;"><strong>נזק למעטפת</strong> - סדקים או שבירה של המעטפת החיצונית</li>
+<li style="margin-bottom: 10px;"><strong>בעיות במעגל האלקטרוני</strong> - נזק פנימי למעגל הדפוס</li>
+</ul>
+<p>&nbsp;</p>
+<h3 style="margin-top: 25px; margin-bottom: 15px;">איך אנחנו מאבחנים את התקלה?</h3>
+<p style="margin-bottom: 20px;">אנחנו משתמשים בציוד מחשוב מתקדם כדי לאבחן במדויק את הבעיה בקודן שלכם. התהליך כולל:</p>
+<p style="margin-bottom: 20px;">ראשית, אנחנו בודקים את הסוללה עם מד מתח מדויק. זו הבעיה הפשוטה ביותר לתיקון ולעיתים קרובות היא הגורם היחיד לתקלה.</p>
+<p style="margin-bottom: 20px;">לאחר מכן, אנחנו בוחנים את הכפתורים ומוודאים שהמגעים החשמליים תקינים. במידת הצורך, אנחנו מחליפים כפתורים פגומים.</p>
+<p style="margin-bottom: 20px;">אם הבעיה מורכבת יותר, אנחנו מחברים את הקודן למחשב האבחון המתקדם שלנו שבודק את התקשורת עם מערכת הרכב ומזהה בעיות תוכנה או חומרה.</p>
+<p>&nbsp;</p>
+<div style="border-right: 4px solid #FF8C00; background: #FFF5EB; padding: 15px; margin: 20px 0; border-radius: 4px;"><strong>טיפ מקצועי:</strong> אם הקודן שלכם מפסיק לעבוד פתאום, נסו להחליף את הסוללה לפני שאתם פונים לשירות. זה עשוי לחסוך לכם זמן וכסף. עם זאת, אם החלפת הסוללה לא פתרה את הבעיה, צרו איתנו קשר לאבחון מקצועי.</div>
+<h2></h2>
+<h2 id="sec-2" style="margin-top: 30px; margin-bottom: 15px;">תיכנות ושכפול קודן לרכב</h2>
+<p style="margin-bottom: 20px;">אחד מהשירותים המרכזיים שלנו הוא תיכנות ושכפול קודנים לרכב. זה תהליך מורכב שדורש ציוד מקצועי וידע מעמיק במערכות האבטחה של יצרני רכב שונים.</p>
+<p style="margin-bottom: 20px;">אנחנו עובדים עם מגוון רחב של יצרנים כולל טויוטה, הונדה, מזדה, סובארו, ניסאן, יונדאי, קיה, פולקסווגן, סקודה, סיאט, רנו, פיג'ו, סיטרואן, פורד, שברולט ועוד.</p>
+<p>&nbsp;</p>
+<h3 style="margin-top: 25px; margin-bottom: 15px;">תהליך התיכנות המקצועי שלנו</h3>
+<p style="margin-bottom: 20px;">כשאתם מגיעים אלינו לתיכנות קודן חדש, אנחנו עוברים תהליך מקיף:</p>
+<p style="margin-bottom: 20px;"><strong>שלב 1:</strong> זיהוי הרכב והמערכת - אנחנו מזהים את דגם הרכב ואת סוג מערכת האבטחה המותקנת בו.</p>
+<p style="margin-bottom: 20px;"><strong>שלב 2:</strong> חיבור למערכת האבטחה - באמצעות ציוד מחשוב מתקדם, אנחנו מתחברים למערכת האבטחה של הרכב.</p>
+<p style="margin-bottom: 20px;"><strong>שלב 3:</strong> תיכנות הקודן החדש - אנחנו מתכנתים את הקודן החדש למערכת הרכב תוך שמירה על רמת האבטחה המקורית.</p>
+<p style="margin-bottom: 20px;"><strong>שלב 4:</strong> בדיקה מקיפה - אנחנו בודקים את כל הפונקציות של הקודן החדש ומוודאים שהוא עובד בצורה מושלמת.</p>
+<p>&nbsp;</p>
+<h3>כמה עולה להחליף קודן לרכב?</h3>
+<p>החלפת קודן לרכב עולה 700 עד 1,400 שקל, והמחיר תלוי בסוג המערכת החדשה ובמצב שבו הישנה מותקנת. החלפה של קודן בסיסי בקודן בסיסי אחר עולה 700 עד 950 שקל, ומעבר לקודן עם GSM ואיתור עולה 1,100 עד 1,400 שקל. אם הקודן הקיים שרוף או שהחיווט שלו פוזר בהתקנה קודמת, מתווספות 30 עד 60 דקות עבודה ו-150 עד 300 שקל. לפני שאנחנו ממליצים על החלפה אנחנו בודקים אם התקלה בכלל במערכת עצמה, כי בחלק לא קטן מהמקרים מדובר בסוללת גיבוי מרוקנת או במגע שהתרופף, ואז התיקון עולה פחות ממחצית מהחלפה.</p>
+<h2 id="sec-3" style="margin-top: 30px; margin-bottom: 15px;">השוואת עלויות תיקון קודן לעומת קודן חדש</h2>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background-color: #ff8c00; color: white;">
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">סוג הפתרון</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">עלות ממוצעת</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">יתרונות</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: right;">חסרונות</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">תיקון קודן קיים</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">150-400 ₪</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">חסכוני, מהיר, שומר על הקודן המקורי</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">לא תמיד אפשרי, תלוי בסוג הנזק</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">שכפול קודן אצל מנעולן</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">400-800 ₪</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">מהיר, זול יותר מהסוכנות</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">דורש קודן אחד תקין</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">קודן חדש מסוכנות רשמית</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">800-2000 ₪</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">מקורי, אחריות מלאה</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">יקר מאוד, זמן המתנה ארוך</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">קודן תחליפי + תיכנות</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">500-1000 ₪</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">מחיר הוגן, פתרון מלא</td>
+<td style="border: 1px solid #ddd; padding: 10px; text-align: right;">לא מקורי מהיצרן</td>
+</tr>
+</tbody>
+</table>
+<h2></h2>
+<h2 id="sec-4" style="margin-top: 30px; margin-bottom: 15px;">למה לבחור במפתח עכשיו לתיקון הקודן?</h2>
+<p style="margin-bottom: 20px;">אנחנו מבינים שיש לכם אפשרויות רבות לתיקון או החלפת הקודן של הרכב. הנה מה שמייחד אותנו:</p>
+<p style="margin-bottom: 20px;"><strong>ציוד מתקדם ביותר:</strong> אנחנו משקיעים בציוד המחשוב והתוכנה המתקדמים ביותר בשוק. זה מאפשר לנו לטפל בכל סוגי הרכבים והדגמים, כולל רכבים חדשים עם מערכות אבטחה מורכבות.</p>
+<p style="margin-bottom: 20px;"><strong>ניסיון וידע רב:</strong> המנעולנים שלנו עוברים הכשרה מתמדת ומתעדכנים בטכנולוגיות החדשות ביותר. אנחנו יודעים לטפל בכל בעיה, מהפשוטה ועד המורכבת ביותר.</p>
+<p style="margin-bottom: 20px;"><strong>שירות במקום:</strong> אנחנו מגיעים אליכם לכל מקום - לבית, למשרד או לכל מיקום שנוח לכם. אין צורך לגרור את הרכב או לחכות תורים ארוכים.</p>
+<p style="margin-bottom: 20px;"><strong>מחירים הוגנים:</strong> אנחנו מציעים מחירים תחרותיים ושקופים, בלי הפתעות. אתם תמיד תדעו מראש כמה העבודה תעלה.</p>
+<p>&nbsp;</p>
+<h3 style="margin-top: 25px; margin-bottom: 15px;">מתי כדאי לתקן ומתי להחליף?</h3>
+<p style="margin-bottom: 20px;">זו שאלה שהרבה לקוחות שואלים אותנו. התשובה תלויה במצב הקודן ובסוג הבעיה:</p>
+<p style="margin-bottom: 20px;">אם הבעיה היא רק סוללה חלשה או כפתור שבור, תיקון הוא כמעט תמיד האופציה הכדאית. זה זול, מהיר ופותר את הבעיה לחלוטין.</p>
+<p style="margin-bottom: 20px;">אם המעטפת של הקודן שבורה אבל הרכיבים הפנימיים תקינים, אפשר להחליף רק את המעטפת - זה פתרון חסכוני מאוד.</p>
+<p style="margin-bottom: 20px;">אם יש נזק למעגל האלקטרוני הפנימי או בעיות תוכנה מורכבות, לעיתים השכפול או הרכשת קודן חדש עשויים להיות הפתרון הכדאי.</p>
+<p style="margin-bottom: 20px;">אנחנו תמיד נבדוק את הקודן שלכם ונמליץ על הפתרון המשתלם והמתאים ביותר לצרכים שלכם.</p>
+<p>&nbsp;</p>
+<h2 id="sec-5" style="margin-top: 30px; margin-bottom: 15px;">שאלות נפוצות על תיקון קודן לרכב</h2>
+<p style="margin-bottom: 20px;"><strong>כמה זמן לוקח תיקון קודן?</strong><br />
+רוב התיקונים הפשוטים כמו החלפת סוללה או תיקון כפתור לוקחים בין 10 ל-30 דקות. תיכנות קודן חדש יכול לקחת בין 30 ל-90 דקות, תלוי בדגם הרכב.</p>
+<p style="margin-bottom: 20px;"><strong>האם אתם מגיעים לכל מקום?</strong><br />
+כן, אנחנו מספקים שירות ניידת ומגיעים לכל מיקום נוח לכם - בית, משרד, חניון או כל מקום אחר.</p>
+<p style="margin-bottom: 20px;"><strong>מה קורה אם הקודן לא עובד אחרי התיקון?</strong><br />
+אנחנו מספקים אחריות מלאה על העבודה שלנו. אם יש בעיה, אנחנו חוזרים ומתקנים בחינם.</p>
+<p style="margin-bottom: 20px;"><strong>האם אפשר לתקן קודן ישן מאוד?</strong><br />
+זה תלוי במצב הקודן ובזמינות החלפים. במרבית המקרים אנחנו יכולים למצוא פתרון, גם לדגמים ישנים.</p>
+<p style="margin-bottom: 20px;">אם אתם זקוקים לתיקון קודן לרכב, אנחנו ממפתח עכשיו כאן כדי לעזור. צרו איתנו קשר ונגיע אליכם במהירות עם הציוד המתקדם ביותר לפתרון כל בעיה. אנחנו מתחייבים לשירות מקצועי, מהיר ובמחירים הוגנים.</p>
+5:["$","div",null,{"className":"max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8","dir":"rtl","children":["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 items-start","children":[["$","div",null,{"id":"page-article","className":"min-w-0","children":[["$","$La",null,{"items":[{"id":"sec-0","text":"מחירון תיקון קודן לרכב"},{"id":"sec-1","text":"מהן הבעיות הנפוצות בקודן לרכב?"},{"id":"sec-2","text":"תיכנות ושכפול קודן לרכב"},{"id":"sec-3","text":"השוואת עלויות תיקון קודן לעומת קודן חדש"},{"id":"sec-4","text":"למה לבחור במפתח עכשיו לתיקון הקודן?"},{"id":"sec-5","text":"שאלות נפוצות על תיקון קודן לרכב"},{"id":"sec-6","text":"סוגי מערכות שאנחנו מטפלים בהן"},{"id":"sec-7","text":"תהליך הטיפול בקודן"},{"id":"sec-8","text":"שאלות נפוצות"}]}],["$","div",null,{"className":"p-1 sm:card sm:p-6 md:p-8","children":[["$","div",null,{"dir":"rtl","className":"flex items-center gap-3 mb-5 pb-4 border-b border-gray-100","children":[["$","img",null,{"src":"/wp-images/דורון-מנעולן-רכב.webp","alt":"דורון - מנעולן רכב מומחה","width":40,"height":40,"loading":"lazy","className":"w-10 h-10 rounded-full object-cover shrink-0 ring-1 ring-black/5"}],["$","div",null,{"className":"text-sm leading-tight","children":[["$","span",null,{"className":"block text-gray-500","children":"נכתב ונבדק על ידי"}],["$","span",null,{"className":"block font-bold","style":{"color":"var(--primary)"},"children":["דורון"," · ","מנעולן רכב מומחה"]}]]}]]}],[["$","$Lb",null,{"html":"<p style=\"margin-bottom: 20px;\">אנחנו ממפתח עכשיו מתמחים בתיקון קודן לרכב במקום, עם הציוד והמחשוב המתקדמים ביותר בשוק. כשהקודן של הרכב שלכם מפסיק לעבוד, זה יכול להיות מתסכל ולעיתים אפילו למנוע מכם לנסוע. אנחנו מציעים פתרון מקצועי ומהיר לכל בעיה הקשורה לקודנים של רכב.</p>"}],false,["$","$Lc",null,{"gallery":{"heading":"כך נראה קודן לרכב במציאות","sub":"שתי מערכות קודן שטיפלנו בהן, כולל מיקום ההתקנה וסימני הבלאי","images":[{"src":"/wp-images/קודן-לרכב-בלאי.webp","w":253,"h":246,"caption":"קודן עם ספרות שחוקות - הסימן המובהק לבלאי שגורם לתקלות זיהוי","alt":"קודן לרכב בן תשעה כפתורים מותקן על לוח המחוונים, הספרות שחוקות משימוש - תיקון קודן לרכב"},{"src":"/wp-images/קודן-לרכב-תקול.webp","w":252,"h":214,"caption":"קודן ארבע ספרות ליד עמוד ההגה, המיקום הנפוץ להתקנה","alt":"קודן לרכב בן ארבעה כפתורים מותקן ליד עמוד ההגה מתחת למתגי התאורה - תיקון קודן לרכב"}]}}],["$","$Lb",null,{"html":"$d"}]],false,false]}],"$Le","$Lf",["$L10","$L11","$L12"],"$L13"]}],"$L14"]}]}]
+6:["$","div",null,{"style":{"background":"var(--primary)"},"className":"text-white py-8 text-center","dir":"rtl","children":["$","div",null,{"className":"max-w-xl mx-auto px-4","children":[["$","p",null,{"className":"font-bold text-lg mb-4","children":"צריכים עזרה? אנחנו כאן 24/7"}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-3 justify-center","children":["$","a",null,{"href":"tel:033822752","className":"btn-primary text-base px-8","children":"03-382-2752"}]}]]}]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/1leulq3_ixpp7.js","async":true}]
+8:["$","$L15",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]
+e:null
+f:null
+10:["$","div","0",{"id":"sec-6","children":["$","$L18",null,{"heading":"סוגי מערכות שאנחנו מטפלים בהן","tools":[{"name":"קודן בסיסי","dot":"#3b82f6","desc":"חיישן + סירנה, הגנה בסיסית"},{"name":"קודן עם GPS","dot":"#22c55e","desc":"מעקב מיקום בזמן אמת"},{"name":"קודן קוברה","dot":"#f59e0b","desc":"מערכת מתקדמת + חיישנים נוספים"},{"name":"אימוביליזר","dot":"#8b5cf6","desc":"מובנה ברכב, מונע הנעה"},{"name":"קודן ניטרול","dot":"#ef4444","desc":"מנתק מנוע מרחוק"},{"name":"Keyless Entry","dot":"#06b6d4","desc":"כניסה חכמה ללא מפתח"}]}]}]
+11:["$","div","1",{"id":"sec-7","children":["$","$L19",null,{"heading":"תהליך הטיפול בקודן","steps":[{"title":"בחירת המערכת הנכונה","desc":"לא כל קודן מתאים לכל רכב. בוחרים לפי גיל הרכב, חניה, ותקציב - ולא לפי הכי יקר.","duration":"5 דק׳"},{"title":"בדיקת חיווט הרכב","desc":"כל דגם עובד עם פרוטוקול חיווט שונה. ממפים את נקודות החיבור המדויקות לפני שמתחילים.","duration":"10 דק׳"},{"title":"התקנה מדויקת","desc":"מחברים ללא חיתוך חוטים - שימוש בתפסנים מקצועיים. הרכב חוזר לחיווטו המקורי בכל עת.","duration":"30-60 דק׳"},{"title":"קידוד ושלטים","desc":"מתכנתים את השלטים, מגדירים קודי אבטחה ובודקים כל פונקציה.","duration":"15 דק׳"},{"title":"הדרכה ובדיקה","desc":"מסבירים לכם איך לעבוד עם המערכת ובודקים את כל הפונקציות יחד.","duration":"10 דק׳"}]}]}]
+12:["$","div","2",{"children":["$","$L1a",null,{"stats":[{"value":"8-15","label":"שנות חיי קודן","sub":"עם תחזוקה נכונה"},{"value":"₪400","label":"מחיר התקנה","sub":"בסיסי כולל ציוד"},{"value":"45 דק׳","label":"זמן התקנה","sub":"ממוצע לקודן רגיל"},{"value":"0 נזק","label":"לחיווט מקורי","sub":"ללא חיתוך חוטים"}]}]}]
+13:["$","div",null,{"id":"sec-8","className":"mt-6","children":["$","$L1b",null,{"items":[{"q":"כמה עולה ניתוק קודן לרכב?","a":"ניתוק קודן מרכב פרטי: 800-1,200 שקל. רכב יוקרה: 1,500-2,500 שקל. מסחרי: 1,000-1,800 שקל. המחיר כולל הגעה, אבחון, ניתוק ובדיקת תקינות הרכב לאחר מכן."},{"q":"מתי צריך לנתק קודן לרכב?","a":"ניתקנו קודנים הרבה פעמים בגלל: קודן שמתקלקל ומונע הפעלת הרכב, אובדן שלטים מקוריים, קניית רכב יד שנייה ללא שלטים תואמים, רצון לשדרג מערכת חדשה, ובעיות חשמל שמקורן בקודן ישן."},{"q":"האם ניתוק קודן חוקי?","a":"כן, לגמרי. ניתוק קודן מרכב שבבעלותכם חוקי לחלוטין. אנחנו עובדים עם תעודות זהות ורישיון רכב - אנחנו לא מנתקים קודן לאף מישהו שלא הוכיח לנו שהוא הבעלים."},{"q":"הקודן שלי מצפצף ללא הפסקה - מה עושים?","a":"ראשית בדקו שלא לחצתם בטעות על כפתור חירום בשלט. אם לא - יכול להיות: סוללה חלשה בשלט, חיישן שנגע בדלת, מגע חשמלי רעוע, או תקלה בלוח. התקשרו - אנחנו מאבחנים טלפונית ויכולים לומר אם זה משהו שתוכלו לעשות לבד."},{"q":"יכולים לתקן קודן שאין לו שלט?","a":"כן. אנחנו יכולים לתכנת שלט חדש לרוב המערכות הקיימות, עולה 200-350 שקל. אם המערכת מיושנת מאוד ואין לה תמיכה - אמליץ להחליף למערכת חדשה."},{"q":"האם קודן ישן יכול לגרום לתקלות חשמל ברכב?","a":"כן - ראינו את זה לא מעט פעמים. קודן שמתיישן יכול ליצור בעיות בזרם החשמל, לגרום לתאורה מהבהבת, לחיפושים אחר תקלות \"מסתוריות\". לפעמים ניתוק הקודן פותר בעיה שחנות לא הצליחה."},{"q":"קניתי רכב יד שנייה ואין לו שלטים - מה עושים?","a":"מצב נפוץ. שתי אפשרויות: לתכנת שלט חדש לקודן הקיים (200-350 שקל אם אפשרי), או לנתק את הקודן הקיים ולהתקין חדש (700-1,200 שקל). אנחנו בודקים מה האפשרות הזולה והנכונה לרכב הספציפי."},{"q":"כמה מהר תגיעו לקודן שמונע הפעלת הרכב?","a":"קריאת חירום כזו היא עדיפות אצלנו. בערים הגדולות - עד 30 דקות. בפריפריה - עד שעה. תוספת שירות חירום: 100-150 שקל נוסף למחיר הרגיל."},{"q":"כמה זמן לוקח ניתוק קודן?","a":"בין שעה לשעתיים, תלוי בדגם הרכב ובסוג הקודן. מערכות ישנות - מהיר יותר. מערכות מורכבות עם חיבורים רבים - לוקח יותר. אנחנו עושים את זה בקפידה כי לא כדאי למהר עם חיווט."},{"q":"האם חברות הביטוח מכירות בקודן שהתקנתם?","a":"כן, בדרך כלל. אנחנו מוציאים מסמך עבודה עם פרטי המערכת שהותקנה. חברות הביטוח מקבלות מסמכים ממנעולנים מוסמכים. כדאי לבדוק עם הסוכן שלכם אם יש דרישות ספציפיות."},{"q":"האם אפשר להוסיף GPS לקודן קיים?","a":"כן, יש מערכות GPS שמשתלבות עם קודן קיים. עולה 400-800 שקל להוספת GPS. זה נותן לכם שכבה נוספת - גם אבטחה מנועה וגם מעקב מיקום בזמן אמת."},{"q":"מה ההבדל בין קודן קוברה לקודן רגיל?","a":"קובראות הן בדרך כלל מערכות מתקדמות יותר עם יותר חיישנים, אנטנה חזקה יותר, ולעיתים GPS מובנה. קודן רגיל - בסיסי ויעיל לרוב הצרכים. אנחנו מסבירים את ההבדלים ועוזר לבחור לפי הצורך והתקציב."}]}]}]
+14:["$","div",null,{"children":["$","aside",null,{"className":"space-y-4","dir":"rtl","children":[["$","$L1c",null,{"compact":true}],["$","div",null,{"className":"card p-4 text-sm text-center","dir":"rtl","children":[["$","p",null,{"className":"font-bold mb-1","style":{"color":"var(--primary)"},"children":"מנעולן רכב 24/7"}],["$","p",null,{"className":"text-gray-400 text-xs mb-3","children":"הגעה תוך 20 דקות בממוצע"}],["$","a",null,{"href":"tel:033822752","className":"block w-full py-2 rounded font-bold text-white text-sm","style":{"background":"var(--accent)"},"children":"03-382-2752"}]]}],[["$","div","שירותי קודן לרכב",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שירותי קודן לרכב"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/התקנת-קודן-לרכב",{"children":["$","$L9",null,{"href":"/התקנת-קודן-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"התקנת קודן לרכב"]}]}],["$","li","/ניתוק-קודן-לרכב",{"children":["$","$L9",null,{"href":"/ניתוק-קודן-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"ניתוק קודן לרכב"]}]}],["$","li","/איפוס-קודן-לרכב",{"children":["$","$L9",null,{"href":"/איפוס-קודן-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"איפוס קודן לרכב"]}]}],["$","li","/קודן-לרכב-מצפצף-2",{"children":["$","$L9",null,{"href":"/קודן-לרכב-מצפצף-2","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב מצפצף"]}]}]]}]]}],["$","div","קודן לרכב לפי עיר",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"קודן לרכב לפי עיר"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/קודן-לרכב-בתל-אביב",{"children":["$","$L9",null,{"href":"/קודן-לרכב-בתל-אביב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בתל אביב"]}]}],["$","li","/קודן-לרכב-בחיפה",{"children":["$","$L9",null,{"href":"/קודן-לרכב-בחיפה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בחיפה"]}]}],["$","li","/קודן-לרכב-בירושלים",{"children":["$","$L9",null,{"href":"/קודן-לרכב-בירושלים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בירושלים"]}]}],["$","li","/קודן-לרכב-בבאר-שבע",{"children":["$","$L9",null,{"href":"/קודן-לרכב-בבאר-שבע","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בבאר שבע"]}]}],["$","li","/קודן-לרכב-ברמת-גן",{"children":["$","$L9",null,{"href":"/קודן-לרכב-ברמת-גן","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב ברמת גן"]}]}],["$","li","/קודן-לרכב-במודיעין",{"children":["$","$L9",null,{"href":"/קודן-לרכב-במודיעין","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב במודיעין"]}]}],["$","li","/קודן-לרכב-בפתח-תקווה",{"children":["$","$L9",null,{"href":"/קודן-לרכב-בפתח-תקווה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בפתח תקווה"]}]}],["$","li","/קודן-לרכב-בכפר-סבא",{"children":["$","$L9",null,{"href":"/קודן-לרכב-בכפר-סבא","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בכפר סבא"]}]}],["$","li","/קודן-לרכב-ברעננה",{"children":["$","$L9",null,{"href":"/קודן-לרכב-ברעננה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב ברעננה"]}]}],["$","li","/קודן-לרכב-בחדרה",{"children":["$","$L9",null,{"href":"/קודן-לרכב-בחדרה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בחדרה"]}]}],["$","li","/קודן-לרכב-בגבעתיים",{"children":["$","$L9",null,{"href":"/קודן-לרכב-בגבעתיים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בגבעתיים"]}]}],["$","li","/קודן-לרכב-בבאר-יעקב",{"children":["$","$L9",null,{"href":"/קודן-לרכב-בבאר-יעקב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בבאר יעקב"]}]}],["$","li","/קודן-לרכב-במודיעין-2",{"children":["$","$L9",null,{"href":"/קודן-לרכב-במודיעין-2","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב במודיעין 2"]}]}],["$","li","/קודן-לרכב-בבת-ים",{"children":["$","$L9",null,{"href":"/קודן-לרכב-בבת-ים","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב בבת ים"]}]}],"$L1d","$L1e"]}]]}],"$L1f"]]}]}]
+17:null
+1d:["$","li","/קודן-לרכב-ביהוד",{"children":["$","$L9",null,{"href":"/קודן-לרכב-ביהוד","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב ביהוד"]}]}]
+1e:["$","li","/קודן-לרכב-באבן-יהודה",{"children":["$","$L9",null,{"href":"/קודן-לרכב-באבן-יהודה","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"קודן לרכב באבן יהודה"]}]}]
+1f:["$","div","שירותים קשורים",{"className":"card overflow-hidden","children":[["$","div",null,{"className":"px-4 py-2.5 text-white text-sm font-bold","style":{"background":"var(--primary)"},"children":"שירותים קשורים"}],["$","ul",null,{"className":"divide-y","style":{"borderColor":"var(--border)"},"children":[["$","li","/שכפול-מפתח-לרכב",{"children":["$","$L9",null,{"href":"/שכפול-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול מפתח לרכב"]}]}],["$","li","/שחזור-מפתח-לרכב",{"children":["$","$L9",null,{"href":"/שחזור-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שחזור מפתח לרכב"]}]}],["$","li","/אבד-מפתח-לרכב",{"children":["$","$L9",null,{"href":"/אבד-מפתח-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"אבד מפתח לרכב"]}]}],["$","li","/שכפול-שלט-לרכב",{"children":["$","$L9",null,{"href":"/שכפול-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"שכפול שלט לרכב"]}]}],["$","li","/תיקון-שלט-לרכב",{"children":["$","$L9",null,{"href":"/תיקון-שלט-לרכב","className":"sidebar-link flex items-center gap-1.5 ","children":[false,"תיקון שלט לרכב"]}]}]]}]]}]
