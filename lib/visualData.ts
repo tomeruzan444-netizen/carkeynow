@@ -141,6 +141,25 @@ export const switchNetanyaProcess: Step[] = [
   { title: 'קידוד ובדיקה', desc: 'מקודדים מול האימובילייזר במידת הצורך, ומנסים חמש התנעות רצופות לפני שאנחנו עוזבים.', duration: '10-15 דק׳' },
 ];
 
+// ─── KEY DUP · TIRAT CARMEL (חלופות למפתח מקורי ברכב ותיק) ───────────
+
+export const tcAltCards: FeatCard[] = [
+  { title: 'מפתח תואם', desc: 'מארז שאינו של היצרן, זול ב-20 עד 35 אחוז. עובד כמעט תמיד ברכבים מלפני 2015.' },
+  { title: 'המגבלה של תואם', desc: 'דגמים חדשים יותר לא מקבלים מארז שאינו מקורי, ואז זו לא חלופה אלא בזבוז זמן.' },
+  { title: 'שלט משומש מקודד מחדש', desc: 'בדגמים יפניים וקוריאניים רבים מלפני 2015 אפשר לאפס את השבב ולרשום מחדש.' },
+  { title: 'המגבלה של משומש', desc: 'במערכות רבות השלט נצרב לרכב הראשון שלו ולא ניתן לשחרור. לבדוק לפני שקונים.' },
+  { title: 'שבב בלי כפתורי שלט', desc: 'מתניע ופותח מכנית, בלי נעילה מרחוק. חוסך 200 עד 400 שקל.' },
+  { title: 'מתי לא לחסוך', desc: 'כשעלות המפתח מתחת לעשירית משווי הרכב, המקורי כמעט תמיד עדיף.' },
+];
+
+export const tcProcess: Step[] = [
+  { title: 'שלוש שאלות בטלפון', desc: 'יצרן ודגם, שנת ייצור, והאם יש כרגע מפתח שעובד. מהן נגזרים גם המחיר וגם החלופות.', duration: '3 דק׳' },
+  { title: 'החלטה על סוג המפתח', desc: 'אומרים לכם מראש מה עולה מקורי, מה עולה תואם, ומה כל חלופה מוותרת עליו.', duration: '2 דק׳' },
+  { title: 'קריאת המערכת', desc: 'מתחברים לשקע האבחון ובודקים כמה מפתחות רשומים ברכב, לא רק כמה יש בידכם.', duration: '10 דק׳' },
+  { title: 'חיתוך וקידוד', desc: 'חותכים לפי קוד המנעול ומקודדים מול הרכב. ברכב ותיק בלי שבב אין שלב קידוד בכלל.', duration: '15-50 דק׳' },
+  { title: 'מחיקה לפי בחירה', desc: 'אם התגלו מפתחות שאינם ברשותכם, מוחקים הכול ורושמים מחדש רק את שלכם.', duration: '10-20 דק׳' },
+];
+
 // ─── KEY DUP · GANEI TIKVA (מחיקה או הוספה) ──────────────────────────
 
 export const gtEraseCards: FeatCard[] = [
@@ -383,6 +402,15 @@ export interface ImageData { src: string; alt: string; maxWidth?: number }
 // ─── DISPATCHER ──────────────────────────────────────────────────────
 
 export function getVisualSections(slug: string): VisualSection[] {
+  // Tirat Carmel - alternatives to an OEM key on an older car
+  if (slug === 'שכפול-מפתח-לרכב-בטירת-הכרמל') {
+    return [
+      { type: 'features', heading: 'שלוש חלופות למפתח מקורי, ומה המגבלה של כל אחת', sub: 'מה חוסכים ועל מה מוותרים', data: { cards: tcAltCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'איך נראית קריאה בטירת הכרמל', data: tcProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   // Ganei Tikva - erase or add, and what a private driveway changes
   if (slug === 'שכפול-מפתח-לרכב-בגני-תקווה') {
     return [
