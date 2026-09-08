@@ -405,7 +405,7 @@ export function getVisualSections(slug: string): VisualSection[] {
   // Tirat Carmel - alternatives to an OEM key on an older car
   if (slug === 'שכפול-מפתח-לרכב-בטירת-הכרמל') {
     return [
-      { type: 'features', heading: 'שלוש חלופות למפתח מקורי, ומה המגבלה של כל אחת', sub: 'מה חוסכים ועל מה מוותרים', data: { cards: tcAltCards, cols: 3 as 3 } },
+      { type: 'features', heading: 'החלופות זו מול זו: מה חוסכים ועל מה מוותרים', sub: 'שישה שיקולים שקובעים איזו חלופה מתאימה לרכב שלכם', data: { cards: tcAltCards, cols: 3 as 3 } },
       { type: 'process',  heading: 'איך נראית קריאה בטירת הכרמל', data: tcProcess },
       { type: 'stats',    data: keyStats },
     ];
