@@ -141,6 +141,25 @@ export const switchNetanyaProcess: Step[] = [
   { title: 'קידוד ובדיקה', desc: 'מקודדים מול האימובילייזר במידת הצורך, ומנסים חמש התנעות רצופות לפני שאנחנו עוזבים.', duration: '10-15 דק׳' },
 ];
 
+// ─── BRAND · SKYWELL (מותג חשמלי חדש, בדיקת היתכנות) ────────────────
+
+export const swFeasCards: FeatCard[] = [
+  { title: 'שנת ייצור', desc: 'גרסאות שונות של אותו דגם נושאות מערכות בקרה שונות, וזה מה שקובע תמיכה.' },
+  { title: 'מספר שלדה', desc: '17 תווים שמקודדים את תצורת הייצור המדויקת. בלעדיו הבדיקה היא ניחוש.' },
+  { title: 'האם נשאר מפתח עובד', desc: 'השאלה הקובעת. הוספת שלט והייצור מאפס הם שתי עבודות שונות לגמרי.' },
+  { title: 'מצב מצבר 12 וולט', desc: 'מתח לא יציב עוצר תכנות באמצע. ברכב חשמלי זה משאיר מצב גרוע מבהתחלה.' },
+  { title: 'מה שהציוד תומך בו', desc: 'במותג צעיר התמיכה בציוד עצמאי מתעדכנת בגלים ולא מכסה כל גרסה.' },
+  { title: 'מתי התשובה שלילית', desc: 'יש מצבים שבהם העבודה עוברת דרך היבואן. נאמר לכם את זה בטלפון.' },
+];
+
+export const swProcess: Step[] = [
+  { title: 'בדיקת היתכנות', desc: 'שנת ייצור, מספר שלדה, והאם יש מפתח עובד. ללא עלות וללא התחייבות.', duration: '5-10 דק׳' },
+  { title: 'מחיר מדויק מראש', desc: 'רק אחרי שידוע שהעבודה אפשרית. לא מגיעים כדי לגלות במקום שאי אפשר.', duration: 'מיידי' },
+  { title: 'בדיקת מתח לפני הכול', desc: 'מוודאים מצבר 12 וולט יציב. חלק מהפניות נפתרות כאן בלי מפתח חדש.', duration: '5 דק׳' },
+  { title: 'קידוד השלט', desc: 'תקשורת מוצפנת מול מחשב הרכב. אין צילינדר ואין חיתוך מכני.', duration: '30-70 דק׳' },
+  { title: 'בדיקה מלאה', desc: 'נעילה, שחרור, זיהוי קרבה והתנעה. בודקים כל פונקציה לפני שעוזבים.', duration: '10 דק׳' },
+];
+
 // ─── KEY DUP · KIRYAT MOTZKIN (מפתח שאבד רחוק מהרכב) ─────────────────
 
 export const kmOwnerCards: FeatCard[] = [
@@ -421,6 +440,15 @@ export interface ImageData { src: string; alt: string; maxWidth?: number }
 // ─── DISPATCHER ──────────────────────────────────────────────────────
 
 export function getVisualSections(slug: string): VisualSection[] {
+  // Skywell - a young EV brand, feasibility before price
+  if (slug === 'שכפול-מפתח-לסקייוול') {
+    return [
+      { type: 'features', heading: 'מה קובע אם אפשר לשכפל, ומה עוד לא', sub: 'שישה נתונים שנבדקים לפני שנוקבים במחיר', data: { cards: swFeasCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'מבדיקת ההיתכנות ועד מפתח שעובד', data: swProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   // Kiryat Motzkin - key lost far from the car, and proving ownership
   if (slug === 'שכפול-מפתח-לרכב-בקריית-מוצקין') {
     return [
