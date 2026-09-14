@@ -141,6 +141,25 @@ export const switchNetanyaProcess: Step[] = [
   { title: 'קידוד ובדיקה', desc: 'מקודדים מול האימובילייזר במידת הצורך, ומנסים חמש התנעות רצופות לפני שאנחנו עוזבים.', duration: '10-15 דק׳' },
 ];
 
+// ─── KODAN · YAVNE (מערכת בלי תיעוד) ─────────────────────────────────
+
+export const yvIdentifyCards: FeatCard[] = [
+  { title: 'מיקום היחידה', desc: 'לרוב מתחת ללוח המחוונים בצד הנהג. המיקום מרמז על תקופת ההתקנה.' },
+  { title: 'סימון על המארז', desc: 'מדבקת יצרן או מספר דגם. גם כשהיא דהתה, הצורה והגודל מספרים משהו.' },
+  { title: 'צבעי החיווט', desc: 'לכל יצרן סכמה משלו. צבע של חוט אחד לפעמים סוגר את הזיהוי.' },
+  { title: 'דפוס הצפצוף והנורית', desc: 'צפצוף בדפוס קבוע הוא קוד תקלה, לא אזעקה. לכל יצרן שפה משלו.' },
+  { title: 'איפה החיווט נוגע', desc: 'זה מה שקובע אם ניתוק הוא עבודה של חצי שעה או של שעתיים.' },
+  { title: 'למה גובים על אבחון', desc: 'כדי שההמלצה לא תהיה תלויה בעבודה שתבוא אחריה.' },
+];
+
+export const yvProcess: Step[] = [
+  { title: 'תיאור התסמין בטלפון', desc: 'מה המערכת עושה בפועל, מתי זה התחיל, ומה השתנה ברכב מאז.', duration: '3 דק׳' },
+  { title: 'זיהוי פיזי', desc: 'מאתרים את היחידה, קוראים סימונים וחיווט, ומזהים את הדגם בלי תיעוד.', duration: '20-30 דק׳' },
+  { title: 'בחירת מסלול', desc: 'איפוס, תיקון או ניתוק. אומרים לכם מה אפשרי ומה לא לפני שממשיכים.', duration: '5 דק׳' },
+  { title: 'ביצוע', desc: 'העבודה עצמה, 15 עד 90 דקות לפי המסלול ולפי מצב החיווט המקורי.', duration: '15-90 דק׳' },
+  { title: 'בדיקת זרם שארית', desc: 'אחרי ניתוק מוודאים שלא נשאר מעגל פעיל שימשיך לרוקן את המצבר.', duration: '10 דק׳' },
+];
+
 // ─── BRAND · SKYWELL (מותג חשמלי חדש, בדיקת היתכנות) ────────────────
 
 export const swFeasCards: FeatCard[] = [
@@ -440,6 +459,15 @@ export interface ImageData { src: string; alt: string; maxWidth?: number }
 // ─── DISPATCHER ──────────────────────────────────────────────────────
 
 export function getVisualSections(slug: string): VisualSection[] {
+  // Yavne - a codan nobody has papers for
+  if (slug === 'קודן-לרכב-ביבנה') {
+    return [
+      { type: 'features', heading: 'חמישה סימנים שמזהים מערכת בלי תיעוד', sub: 'ולמה האבחון מתומחר בנפרד', data: { cards: yvIdentifyCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'מהתסמין ועד ההחלטה', data: yvProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   // Skywell - a young EV brand, feasibility before price
   if (slug === 'שכפול-מפתח-לסקייוול') {
     return [
