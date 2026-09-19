@@ -458,6 +458,25 @@ export interface ImageData { src: string; alt: string; maxWidth?: number }
 
 // ─── DISPATCHER ──────────────────────────────────────────────────────
 
+// ─── KEY DUP · BEIT SHEMESH (אין סוכנות בעיר, המסלול הרשמי מתחיל בגרר) ─
+
+export const bsRouteCards: FeatCard[] = [
+  { title: "המפתח עצמו", desc: "900 עד 2,000 שקל במסלול הרשמי, מול 350 עד 1,500 שקל בעבודה ליד הרכב, לפי סוג המפתח." },
+  { title: "איך הרכב מגיע", desc: "רכב בלי מפתח אינו נוסע. המסלול הרשמי מתחיל בגרר של 350 עד 650 שקל לכיוון אחד." },
+  { title: "כמה פעמים גוררים", desc: "אם המפתח מוזמן והרכב נשאר שם עד שיגיע, משלמים על גרירה שנייה בחזרה." },
+  { title: "ימים בלי רכב", desc: "3 עד 7 ימי עסקים מול אותו יום. זה המספר שהכי קשה לתמחר ושהכי מורגש בבית." },
+  { title: "שעות שאפשר לפנות", desc: "שעות הסוכנות בלבד מול 24 שעות ביממה, כולל מוצאי שבת וערבי חג." },
+  { title: "חניון נמוך", desc: "מתחת ל-2.2 מטר משאית גרר אינה נכנסת. עבודה במקום אינה מושפעת מגובה התקרה." },
+];
+
+export const bsProcess: Step[] = [
+  { title: "בירור בטלפון", desc: "יצרן, דגם, שנה, והאם נשאר מפתח שעובד. מהתשובות נגזר מחיר מדויק ולא טווח כללי.", duration: "3 דק׳" },
+  { title: "הגעה לפי נקודת ציון", desc: "בשכונות החדשות לפי נקודת ציון ומספר קומה, ולא לפי כתובת שהניווט לא תמיד מכיר.", duration: "25-45 דק׳" },
+  { title: "פתיחה ואימות בעלות", desc: "פתיחה בלי נזק אם הרכב נעול, ואז רישיון מול תעודה מזהה או מספר שלדה מול הרישום.", duration: "5-20 דק׳" },
+  { title: "בדיקת מתח", desc: "מייצב מתח לפני התכנות, ובדגמים חדשים גם הערת יחידת הבקרה מחיסכון עמוק.", duration: "5-10 דק׳" },
+  { title: "ייצור, קידוד ובדיקה", desc: "חיתוך, קידוד מול מחשב הרכב, ובדיקת נעילה, פתיחה והתנעה לפניכם לפני שאנחנו עוזבים.", duration: "20-60 דק׳" },
+];
+
 export function getVisualSections(slug: string): VisualSection[] {
   // Yavne - a codan nobody has papers for
   if (slug === 'קודן-לרכב-ביבנה') {
@@ -473,6 +492,15 @@ export function getVisualSections(slug: string): VisualSection[] {
     return [
       { type: 'features', heading: 'מה קובע אם אפשר לשכפל, ומה עוד לא', sub: 'שישה נתונים שנבדקים לפני שנוקבים במחיר', data: { cards: swFeasCards, cols: 3 as 3 } },
       { type: 'process',  heading: 'מבדיקת ההיתכנות ועד מפתח שעובד', data: swProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
+  // Beit Shemesh - no importer service centre in town, the official route starts with a tow
+  if (slug === 'שכפול-מפתח-לרכב-בבית-שמש') {
+    return [
+      { type: 'features', heading: 'שישה הבדלים בין שני המסלולים', sub: 'מה באמת מרכיב את העלות, מעבר למחיר המפתח', data: { cards: bsRouteCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'חמישה שלבים בעבודה בבית שמש', data: bsProcess },
       { type: 'stats',    data: keyStats },
     ];
   }
