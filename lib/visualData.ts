@@ -496,9 +496,37 @@ export const rhaProcess: Step[] = [
   { title: "כיול ומדידת זרם מנוחה", desc: "מכוונים רגישות שלא תיצור התראות שווא, ומודדים צריכה כדי שהרכב יתניע אחרי ימי עמידה.", duration: "10-15 דק׳" },
 ];
 
+// ─── KODAN · KIRYAT ONO (חניון תת-קרקעי, שכבות עצירה במקום סירנה) ────
+
+export const onoStopCards: FeatCard[] = [
+  { title: "סירנה", desc: "מנגנון חברתי ולא מכני. עובדת ברחוב, כמעט חסרת תועלת בחניון סגור בלי עוברי אורח." },
+  { title: "ניתוק מעגל התנעה", desc: "ממסר שמונע התנעה כשהמערכת חמושה. זול ופשוט, אבל מעגל אחד ומוכר." },
+  { title: "אימובילייזר נוסף", desc: "יחידה עצמאית עם משדר נפרד. השכבה היעילה ביותר בחניון, לא תלויה ברעש." },
+  { title: "מפסק סתר", desc: "ניתוק מכני שדורש ידיעה מוקדמת. חסין לציוד עקיפה, אבל תלוי בכך שתזכרו אותו." },
+  { title: "חיישן הטיה", desc: "מזהה הרמה על ג׳ק או גרירה. קריטי בחניית רחוב, לרוב מיותר בחניון עם שער." },
+  { title: "התראה לנייד", desc: "שווה בדיוק כמה שהקליטה שם מאפשרת. נבדק במקום החניה לפני שממליצים." },
+];
+
+export const onoProcess: Step[] = [
+  { title: "בירור בטלפון", desc: "סוג הרכב, מה מותקן היום, באיזו קומה הרכב חונה והאם יש אזעקות שווא. משם נגזרת ההמלצה.", duration: "3 דק׳" },
+  { title: "האזנה בחניון עצמו", desc: "מחמשים את המערכת ומקשיבים. חלק מהתקלות מתגלות כאן ולא בשום בדיקה אחרת.", duration: "10 דק׳" },
+  { title: "בדיקת קליטה ומיקום", desc: "מודדים קליטה סלולרית בנקודת החניה ובודקים את המרחק משער החניון.", duration: "5-10 דק׳" },
+  { title: "התקנה או כיול", desc: "לפי מה שנמצא: כיול מחדש, החלפת חיישן, או הוספת שכבת עצירה למערכת.", duration: "30-70 דק׳" },
+  { title: "מדידת זרם מנוחה", desc: "מוודאים שהרכב יתניע גם אחרי כמה ימי עמידה בחניון, ומתאימים הגדרות.", duration: "10 דק׳" },
+];
+
 export function getVisualSections(slug: string): VisualSection[] {
   // Yavne - a codan nobody has papers for
   // Rosh HaAyin - work vehicles, where the cargo bay is a separate protection zone
+  // Kiryat Ono - closed private garage: nobody hears the siren, so stop the car instead
+  if (slug === 'קודן-לרכב-בקרית-אונו') {
+    return [
+      { type: 'features', heading: 'שש שכבות עצירה, ומה המגבלה של כל אחת', sub: 'ולמה סדר העדיפויות בחניון סגור הפוך מזה שברחוב', data: { cards: onoStopCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'חמישה שלבים בהתקנה בחניון תת-קרקעי', data: onoProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   if (slug === 'קודן-לרכב-בראש-העין') {
     return [
       { type: 'features', heading: 'שישה אזורים ומה מגן על כל אחד', sub: 'ולמה מערכת סטנדרטית מכסה בדרך כלל רק את הראשון', data: { cards: rhaZoneCards, cols: 3 as 3 } },
