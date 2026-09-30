@@ -10,32 +10,70 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
-$to      = 'ben3n4456@gmail.com';
-$name    = htmlspecialchars(trim($_POST['name']    ?? ''));
-$phone   = htmlspecialchars(trim($_POST['phone']   ?? ''));
-$city    = htmlspecialchars(trim($_POST['city']    ?? ''));
-$service = htmlspecialchars(trim($_POST['service'] ?? ''));
-$message = htmlspecialchars(trim($_POST['message'] ?? ''));
+$to = 'ben3n4456@gmail.com';
 
-if (empty($name) || empty($phone)) {
+// Plain-text email: strip CR/LF so nothing can break the body or headers,
+// but do NOT html-escape - that turned quotes into &quot; inside the mail.
+function clean($v, $max = 400) {
+    $v = str_replace(["\r", "\n"], ' ', (string) $v);
+    return mb_substr(trim($v), 0, $max);
+}
+
+function multiline($v, $max = 2000) {
+    $v = str_replace("\r\n", "\n", (string) $v);
+    return mb_substr(trim($v), 0, $max);
+}
+
+$name    = clean($_POST['name']    ?? '', 120);
+$phone   = clean($_POST['phone']   ?? '', 40);
+$city    = clean($_POST['city']    ?? '', 120);
+$service = clean($_POST['service'] ?? '', 120);
+$source  = clean($_POST['source']  ?? '', 60);
+$page    = clean($_POST['page']    ?? '', 300);
+$message = multiline($_POST['message'] ?? '');
+
+if ($name === '' || $phone === '') {
     http_response_code(400);
     echo json_encode(['success' => false, 'error' => 'Missing required fields']);
     exit;
 }
 
-$subject = "🔑 ליד חדש | מפתח עכשיו | {$name} | {$phone}";
+// Which page the lead came from. The form now posts a decoded path; the referrer
+// is the fallback and arrives percent-encoded, so decode it before printing.
+if ($page === '') {
+    $ref = $_SERVER['HTTP_REFERER'] ?? '';
+    if ($ref !== '') {
+        $path = parse_url($ref, PHP_URL_PATH);
+        $page = clean(rawurldecode($path !== null ? $path : $ref), 300);
+    }
+}
+if ($page === '') $page = 'לא ידוע';
+
+$forms = [
+    'page-form'      => 'טופס בגוף העמוד',
+    'sidebar-form'   => 'טופס בסייד-בר',
+    'floating-form'  => 'טופס צף (השאירו פרטים)',
+];
+$source_label = $forms[$source] ?? ($source !== '' ? $source : 'לא ידוע');
+
+// City goes in the subject too, so it shows in the inbox list without opening.
+$where   = $city !== '' ? $city : 'עיר לא צוינה';
+$subject = "🔑 ליד חדש | {$where} | {$name} | {$phone}";
 
 $body  = "================================================\n";
 $body .= "   ליד חדש מאתר מפתח עכשיו - carkeynow.co.il  \n";
 $body .= "================================================\n\n";
 $body .= "שם:      {$name}\n";
 $body .= "טלפון:   {$phone}\n";
-if ($city)    $body .= "עיר:     {$city}\n";
-if ($service) $body .= "שירות:   {$service}\n";
-if ($message) $body .= "הודעה:   {$message}\n";
+// Always printed, even when empty, so an empty field is distinguishable
+// from a broken one.
+$body .= "עיר:     " . ($city !== '' ? $city : 'לא צוין') . "\n";
+if ($service !== '') $body .= "שירות:   {$service}\n";
+if ($message !== '') $body .= "הודעה:   {$message}\n";
 $body .= "\n------------------------------------------------\n";
 $body .= "מקור:    carkeynow.co.il\n";
-$body .= "עמוד:    " . ($_SERVER['HTTP_REFERER'] ?? 'לא ידוע') . "\n";
+$body .= "עמוד:    {$page}\n";
+$body .= "טופס:    {$source_label}\n";
 $body .= "זמן:     " . date('d/m/Y H:i:s') . "\n";
 $body .= "================================================\n";
 

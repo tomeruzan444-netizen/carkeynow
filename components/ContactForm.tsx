@@ -28,6 +28,8 @@ export default function ContactForm({ heading = 'הזמן מנעולן רכב', 
     try {
       const body = new FormData();
       Object.entries(form).forEach(([k, v]) => body.append(k, v));
+      body.append('source', compact ? 'sidebar-form' : 'page-form');
+      body.append('page', typeof window === 'undefined' ? '' : decodeURIComponent(window.location.pathname));
 
       const res = await fetch('/form-handler.php', { method: 'POST', body });
       const data = await res.json().catch(() => ({}));
@@ -117,9 +119,9 @@ export default function ContactForm({ heading = 'הזמן מנעולן רכב', 
 
         {/* City */}
         <div>
-          <label className="block text-xs font-semibold text-gray-600 mb-1">עיר / אזור</label>
+          <label className="block text-xs font-semibold text-gray-600 mb-1">עיר / אזור *</label>
           <input
-            type="text" value={form.city}
+            type="text" required value={form.city}
             onChange={e => set('city', e.target.value)}
             placeholder="תל אביב, חיפה, ירושלים..."
             className="w-full border rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 transition"

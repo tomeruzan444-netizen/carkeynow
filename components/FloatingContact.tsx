@@ -8,7 +8,7 @@ type Status = 'idle' | 'loading' | 'success' | 'error';
 export default function FloatingContact() {
   const [open, setOpen] = useState(false);
   const [status, setStatus] = useState<Status>('idle');
-  const [form, setForm] = useState({ name: '', phone: '', message: '' });
+  const [form, setForm] = useState({ name: '', phone: '', city: '', message: '' });
 
   function set(field: string, value: string) {
     setForm(prev => ({ ...prev, [field]: value }));
@@ -21,6 +21,7 @@ export default function FloatingContact() {
       const body = new FormData();
       Object.entries(form).forEach(([k, v]) => body.append(k, v));
       body.append('source', 'floating-form');
+      body.append('page', typeof window === 'undefined' ? '' : decodeURIComponent(window.location.pathname));
       const res = await fetch('/form-handler.php', { method: 'POST', body });
       const data = await res.json().catch(() => ({}));
       setStatus(res.ok && data.success ? 'success' : 'error');
@@ -101,7 +102,7 @@ export default function FloatingContact() {
                 </div>
                 <p className="font-bold text-base mb-1" style={{ color: 'var(--primary)' }}>הפרטים התקבלו!</p>
                 <p className="text-sm text-gray-500 mb-4">נחזור אליכם בהקדם</p>
-                <button onClick={() => { setOpen(false); setStatus('idle'); setForm({ name: '', phone: '', message: '' }); }}
+                <button onClick={() => { setOpen(false); setStatus('idle'); setForm({ name: '', phone: '', city: '', message: '' }); }}
                   className="btn-primary text-sm px-5">סגירה</button>
               </div>
             ) : (
@@ -123,6 +124,15 @@ export default function FloatingContact() {
                       className="w-full border rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2"
                       style={{ borderColor: 'var(--border)' }} />
                   </div>
+                </div>
+
+                <div>
+                  <label className="block text-xs font-semibold text-gray-600 mb-1">עיר / אזור</label>
+                  <input type="text" value={form.city}
+                    onChange={e => set('city', e.target.value)}
+                    placeholder="תל אביב, חיפה, ירושלים..."
+                    className="w-full border rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2"
+                    style={{ borderColor: 'var(--border)' }} />
                 </div>
 
                 <div>
