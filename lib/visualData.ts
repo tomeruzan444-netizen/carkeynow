@@ -515,10 +515,38 @@ export const onoProcess: Step[] = [
   { title: "מדידת זרם מנוחה", desc: "מוודאים שהרכב יתניע גם אחרי כמה ימי עמידה בחניון, ומתאימים הגדרות.", duration: "10 דק׳" },
 ];
 
+// ─── KODAN · NES TZIONA (כשלים שקטים ובדיקה עצמית) ───────────────────
+
+export const nzSilentCards: FeatCard[] = [
+  { title: "סוללת גיבוי לסירנה", desc: "מתכלה, 3 עד 5 שנים. מתנפחת ומפסיקה להחזיק מתח, והסירנה עדיין מצפצפת מהמצבר." },
+  { title: "מתג דלת שהתרופף", desc: "המערכת ממשיכה לעבוד בלי אותו מתג. הדלת הזאת פשוט מפסיקה להיות מוגנת." },
+  { title: "רגישות שנדדה", desc: "החיישן לא מתקלקל, הוא מגיב פחות. הנקודה שבה חדל להגיב אינה מסומנת בשום מקום." },
+  { title: "שלט שנועל ולא מחמש", desc: "שני פיקודים נפרדים במערכות מסוימות. הצפצוף מאשר נעילה, לא חימוש." },
+  { title: "נורית חיווי שנשרפה", desc: "הדרך היחידה לדעת אם המערכת חמושה. בלעדיה אבד החוש שהיה מגלה את כל השאר." },
+  { title: "קליפס שהשתחרר", desc: "חיווט בן עשר שנים שהחל להישפשף. עובד עד היום שבו מפסיק, בלי שלב ביניים." },
+];
+
+export const nzProcess: Step[] = [
+  { title: "בדיקת חימוש", desc: "נועלים ומודדים שנורית החיווי מהבהבת בקצב קבוע. אם לא, כל השאר לא רלוונטי.", duration: "3 דק׳" },
+  { title: "חמישה מתגים בנפרד", desc: "ארבע דלתות, מכסה מנוע ותא מטען. כל אחד נבדק לחוד, לא ביחד.", duration: "8 דק׳" },
+  { title: "רגישות החיישן", desc: "בודקים תגובה לדפיקה מבוקרת ומכיילים לפי מקום החניה בפועל.", duration: "5-10 דק׳" },
+  { title: "סירנה וסוללת גיבוי", desc: "עוצמה בפועל, ומצב הסוללה המתכלה שאחראית לעבודה בלי מצבר.", duration: "5 דק׳" },
+  { title: "מדידת זרם מנוחה", desc: "המספר שבדיקה עצמית אינה יכולה לגלות, וזה שמרוקן מצבר ברכב שעומד.", duration: "10 דק׳" },
+];
+
 export function getVisualSections(slug: string): VisualSection[] {
   // Yavne - a codan nobody has papers for
   // Rosh HaAyin - work vehicles, where the cargo bay is a separate protection zone
   // Kiryat Ono - closed private garage: nobody hears the siren, so stop the car instead
+  // Nes Tziona - the alarm is the one system nobody tests, so it fails silently
+  if (slug === 'קודן-לרכב-בנס-ציונה') {
+    return [
+      { type: 'features', heading: 'שש תקלות שקטות שלא תשימו לב אליהן', sub: 'בכל אחת מהן הרכב ממשיך להיראות ולהישמע בדיוק כרגיל', data: { cards: nzSilentCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'חמישה שלבים בבדיקת מערכת קיימת', data: nzProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   if (slug === 'קודן-לרכב-בקרית-אונו') {
     return [
       { type: 'features', heading: 'שש שכבות עצירה, ומה המגבלה של כל אחת', sub: 'ולמה סדר העדיפויות בחניון סגור הפוך מזה שברחוב', data: { cards: onoStopCards, cols: 3 as 3 } },
