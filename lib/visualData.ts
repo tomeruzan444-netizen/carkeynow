@@ -534,11 +534,39 @@ export const nzProcess: Step[] = [
   { title: "מדידת זרם מנוחה", desc: "המספר שבדיקה עצמית אינה יכולה לגלות, וזה שמרוקן מצבר ברכב שעומד.", duration: "10 דק׳" },
 ];
 
+// ─── KODAN · BNEI BRAK (אזעקה שצועקת בשבת, עיר צפופה) ────────────────
+
+export const bbPresetCards: FeatCard[] = [
+  { title: "מספר מחזורי התראה", desc: "ההגדרה המרכזית. שלושה מחזורים ואז השתקה עצמית, בלי לאבד חימוש." },
+  { title: "רגישות חיישן הזעזועים", desc: "מכוילת ליד הרכב במקום החניה האמיתי שלו, לא לפי ערך ברירת מחדל." },
+  { title: "ניתוק מכני ומיקומו", desc: "הדרך היחידה לעצור מערכת בלי שלט ובלי אלקטרוניקה. שווה שתדעו איפה הוא." },
+  { title: "מי עוד מחזיק שלט", desc: "שלט פעיל אצל יותר מאדם אחד. שלט במגירה שאיש לא ניסה אינו גיבוי." },
+  { title: "סוג החיישן", desc: "בחניה צמודה חיישן הטיה סובל פחות מרעידות מהסביבה מחיישן זעזועים." },
+  { title: "זרם מנוחה", desc: "נמדד לפני סיום, כדי שרכב שעומד יממה שלמה יתניע גם אחר כך." },
+];
+
+export const bbProcess: Step[] = [
+  { title: "בירור בטלפון", desc: "איזו מערכת, מאיזו שנה, ומה בדיוק היא עושה. גם אם הרכב חסום, כדי שנגיע ערוכים.", duration: "3 דק׳" },
+  { title: "בדיקה חיצונית לפני הכול", desc: "סימני פריצה, שריטות סביב מנעול, נזק לגומיות. קודם שוללים אירוע אמיתי.", duration: "5 דק׳" },
+  { title: "מה היה הטריגר", desc: "בודקים את הסביבה בפועל: צמידות לרכבים אחרים, מעבר רגלי, מרחק משער או ממנוע.", duration: "10 דק׳" },
+  { title: "השתקה והגדרת מחזורים", desc: "מחזירים את המערכת למצב תקין ומגבילים את מספר ההתראות, לרוב לשלוש.", duration: "15-25 דק׳" },
+  { title: "כיול במקום החניה", desc: "מכוונים רגישות במקום שבו הרכב עומד בפועל, ומראים איפה הניתוק המכני.", duration: "10 דק׳" },
+];
+
 export function getVisualSections(slug: string): VisualSection[] {
   // Yavne - a codan nobody has papers for
   // Rosh HaAyin - work vehicles, where the cargo bay is a separate protection zone
   // Kiryat Ono - closed private garage: nobody hears the siren, so stop the car instead
   // Nes Tziona - the alarm is the one system nobody tests, so it fails silently
+  // Bnei Brak - an alarm that starts cycling on Shabbat, in the densest city in Israel
+  if (slug === 'קודן-לרכב-בבני-ברק') {
+    return [
+      { type: 'features', heading: 'שש הגדרות שנקבעות מראש', sub: 'שלוש מהן לוקחות דקות, והן מה שמפריד בין מערכת שמגנה לבין מערכת שמציקה', data: { cards: bbPresetCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'חמישה שלבים בקריאת מוצאי שבת', data: bbProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   if (slug === 'קודן-לרכב-בנס-ציונה') {
     return [
       { type: 'features', heading: 'שש תקלות שקטות שלא תשימו לב אליהן', sub: 'בכל אחת מהן הרכב ממשיך להיראות ולהישמע בדיוק כרגיל', data: { cards: nzSilentCards, cols: 3 as 3 } },
