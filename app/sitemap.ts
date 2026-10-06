@@ -7,9 +7,13 @@ export const dynamic = 'force-static';
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
 
+  /* שלושת העמודים הסטטיים מוגשים בכתובת עברית דרך rewrite ב-.htaccess,
+     ולכן הם נרשמים כאן בכתובת העברית ולא בשם תיקיית הבנייה האנגלית. */
   const home: MetadataRoute.Sitemap = [
     { url: `${SITE.url}/`,               lastModified: now, changeFrequency: 'weekly',  priority: 1.0 },
     { url: `${SITE.url}/אזורי-שירות/`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${SITE.url}/שירותים/`,      lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${SITE.url}/סוגי-מפתחות/`,  lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
   ];
 
   const dynamic: MetadataRoute.Sitemap = WP_PAGES.map((page) => ({
