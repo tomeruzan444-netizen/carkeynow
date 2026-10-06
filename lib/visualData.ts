@@ -553,12 +553,40 @@ export const bbProcess: Step[] = [
   { title: "כיול במקום החניה", desc: "מכוונים רגישות במקום שבו הרכב עומד בפועל, ומראים איפה הניתוק המכני.", duration: "10 דק׳" },
 ];
 
+// ─── KODAN · RAMAT HASHARON (רכב אחד, שתי מערכות מיגון) ──────────────
+
+export const rhsConflictCards: FeatCard[] = [
+  { title: "חימוש חלקי", desc: "נעילה בשלט המקורי מחמשת אחת ולא בהכרח את השתיים. הצפצוף מטעה." },
+  { title: "חימוש פסיבי", desc: "המערכת הנוספת מחמשת את עצמה אחרי זמן קצוב, גם כשהרכב לא נעול." },
+  { title: "שני ממסרים, מעגל אחד", desc: "ממסר הניתוק על מעגל שהמקורית מנטרת. מכאן תקלות שנראות אקראיות." },
+  { title: "זרם מנוחה מצטבר", desc: "שתי יחידות יחד 45 עד 60 מיליאמפר, מול 15 עד 25 ביחידה אחת." },
+  { title: "שתי סירנות, שני חיוויים", desc: "לכל מערכת צליל ונורית משלה. בלי להפריד ביניהם אין אבחון." },
+  { title: "מצבר חלש כגורם מתחזה", desc: "מתח נמוך מייצר תסמינים שנראים כמו תקלת מיגון. נמדד תחילה." },
+];
+
+export const rhsProcess: Step[] = [
+  { title: "בירור בטלפון", desc: "איזה רכב, איזו מערכת נוספת, מתי הותקנה ועל ידי מי. ומה התסמין בפועל.", duration: "3 דק׳" },
+  { title: "מתח מצבר לפני הכול", desc: "בדיקה של דקה שמונעת חיפוש תקלה במערכת שבכלל אינה האשמה.", duration: "2 דק׳" },
+  { title: "הפרדה בין החיוויים", desc: "משמיעים כל סירנה בנפרד ומאתרים את שתי הנוריות. הבעלים מזהה את ההבדל.", duration: "10 דק׳" },
+  { title: "קריאת מחשב הרכב", desc: "שקע האבחון מראה אם המערכת המקורית רשמה אירוע. שקט שלה מצביע על הנוספת.", duration: "10 דק׳" },
+  { title: "נטרול זמני של אחת", desc: "הבדיקה המכריעה: מנטרלים את הנוספת ובודקים אם התסמין נעלם.", duration: "15-25 דק׳" },
+];
+
 export function getVisualSections(slug: string): VisualSection[] {
   // Yavne - a codan nobody has papers for
   // Rosh HaAyin - work vehicles, where the cargo bay is a separate protection zone
   // Kiryat Ono - closed private garage: nobody hears the siren, so stop the car instead
   // Nes Tziona - the alarm is the one system nobody tests, so it fails silently
   // Bnei Brak - an alarm that starts cycling on Shabbat, in the densest city in Israel
+  // Ramat HaSharon - one car with two security systems that do not know about each other
+  if (slug === 'קודן-לרכב-ברמת-השרון') {
+    return [
+      { type: 'features', heading: 'שש נקודות שבהן שתי מערכות מתנגשות', sub: 'בכל אחת מהן שתי המערכות תקינות בנפרד, וההתנגשות היא בנקודת המפגש', data: { cards: rhsConflictCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'חמישה שלבים באבחון רכב עם שתי מערכות', data: rhsProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   if (slug === 'קודן-לרכב-בבני-ברק') {
     return [
       { type: 'features', heading: 'שש הגדרות שנקבעות מראש', sub: 'שלוש מהן לוקחות דקות, והן מה שמפריד בין מערכת שמגנה לבין מערכת שמציקה', data: { cards: bbPresetCards, cols: 3 as 3 } },
