@@ -572,6 +572,25 @@ export const rhsProcess: Step[] = [
   { title: "נטרול זמני של אחת", desc: "הבדיקה המכריעה: מנטרלים את הנוספת ובודקים אם התסמין נעלם.", duration: "15-25 דק׳" },
 ];
 
+// ─── KODAN · ZICHRON YAAKOV (חיישן הטיה על שיפוע) ────────────────────
+
+export const zySettleCards: FeatCard[] = [
+  { title: "נקודת הייחוס", desc: "נקבעת ברגע החימוש. כל מה שקורה לזווית אחריה נראה למערכת כניסיון הרמה." },
+  { title: "התיישבות המתלים", desc: "נמשכת דקות אחרי שעזבתם. במשטח ישר כמעט בלי השפעה, בשיפוע מדידה." },
+  { title: "גלישה כנגד בלם היד", desc: "מילימטרים ספורים קדימה או אחורה. בשיפוע זה משנה גם את הזווית." },
+  { title: "הסף עצמו", desc: "0.3 עד 0.8 מעלות ברוב המערכות. התיישבות מייצרת 0.3 עד 0.5, בדיוק בטווח." },
+  { title: "השהיית חימוש", desc: "60 עד 120 שניות לערוץ ההטיה. הייחוס נלקח אחרי ההתיישבות, הסף נשאר." },
+  { title: "העלאת הסף", desc: "מפסיקה את הצפצופים ומבטלת גם זיהוי הרמה על ג׳ק. לא תיקון." },
+];
+
+export const zyProcess: Step[] = [
+  { title: "בירור בטלפון", desc: "באיזה רחוב הרכב חונה, ובאיזה טווח זמן אחרי החניה זה קורה. השתיים האלה מכריעות.", duration: "3 דק׳" },
+  { title: "מתח מצבר לפני הכול", desc: "בדיקה של דקה שמונעת חיפוש תקלה במערכת שאינה האשמה.", duration: "2 דק׳" },
+  { title: "חימוש והאזנה עם מד זווית", desc: "מחמשים ומודדים את הזווית בפועל במשך 15 עד 20 דקות. כאן זה מתגלה.", duration: "15-20 דק׳" },
+  { title: "קריאת ההגדרות הקיימות", desc: "בודקים מה הסף, והאם קיימת בכלל אפשרות להשהות את ערוץ ההטיה.", duration: "5-10 דק׳" },
+  { title: "הגדרה ובדיקה חוזרת", desc: "קובעים השהיית חימוש, משאירים את הסף, ובודקים שוב מול הרכב שחונה.", duration: "15-25 דק׳" },
+];
+
 export function getVisualSections(slug: string): VisualSection[] {
   // Yavne - a codan nobody has papers for
   // Rosh HaAyin - work vehicles, where the cargo bay is a separate protection zone
@@ -579,6 +598,15 @@ export function getVisualSections(slug: string): VisualSection[] {
   // Nes Tziona - the alarm is the one system nobody tests, so it fails silently
   // Bnei Brak - an alarm that starts cycling on Shabbat, in the densest city in Israel
   // Ramat HaSharon - one car with two security systems that do not know about each other
+  // Zichron Yaakov - a steep street moves the tilt sensor's reference after you leave
+  if (slug === 'קודן-לרכב-בזכרון-יעקב') {
+    return [
+      { type: 'features', heading: 'שש נקודות שמשפיעות על חיישן הטיה בשיפוע', sub: 'הסף נמדד בשברי מעלה, וההתיישבות של הרכב נופלת בדיוק באותו טווח', data: { cards: zySettleCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'חמישה שלבים בכיול חיישן הטיה', data: zyProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   if (slug === 'קודן-לרכב-ברמת-השרון') {
     return [
       { type: 'features', heading: 'שש נקודות שבהן שתי מערכות מתנגשות', sub: 'בכל אחת מהן שתי המערכות תקינות בנפרד, וההתנגשות היא בנקודת המפגש', data: { cards: rhsConflictCards, cols: 3 as 3 } },
