@@ -39,14 +39,45 @@ export default function FloatingContact() {
           50%       { box-shadow: 0 0 0 8px rgba(232,117,26,0), 0 4px 15px rgba(232,117,26,0.3); }
         }
         .cta-pulse { animation: cta-pulse 2s infinite; }
+
+        /* טבעת סביב כפתור ההתקשרות. מכוונת להיות מורגשת ולא בוהקת:
+           מחזור של 2.6 שניות, אטי מכפתור הכתום, אטימות התחלה 0.4,
+           ו-ease-out כך שהיא נפתחת ונרגעת במקום לפעום. */
+        @keyframes call-ring {
+          0% {
+            box-shadow: 0 0 0 0 rgba(var(--call-glow), 0.40),
+                        0 4px 14px rgba(var(--call-glow), 0.30);
+          }
+          70% {
+            box-shadow: 0 0 0 10px rgba(var(--call-glow), 0),
+                        0 4px 14px rgba(var(--call-glow), 0.30);
+          }
+          100% {
+            box-shadow: 0 0 0 0 rgba(var(--call-glow), 0),
+                        0 4px 14px rgba(var(--call-glow), 0.30);
+          }
+        }
+        .call-ring { animation: call-ring 2.6s cubic-bezier(0.16, 0.8, 0.3, 1) infinite; }
+
+        /* הצבע נקבע במחלקה ולא ב-style מוטבע, אחרת ה-hover לא היה יכול
+           לדרוס אותו ב-CSS והיה נדרש מטפל ב-JS. */
+        .call-btn       { background: var(--call); }
+        .call-btn:hover { background: var(--call-dark); }
+
+        /* מי שביקש הפחתת אנימציות במערכת ההפעלה מקבל את הכפתור בלי הבהוב,
+           עם צל ירוק קבוע. הצבע והבולטות נשמרים. */
+        @media (prefers-reduced-motion: reduce) {
+          .call-ring, .cta-pulse { animation: none; }
+          .call-ring { box-shadow: 0 4px 14px rgba(var(--call-glow), 0.35); }
+        }
       `}</style>
 
       {/* Phone button - bottom right */}
       <a
         href={`tel:${SITE.phone}`}
         dir="rtl"
-        className="fixed bottom-6 right-5 z-40 flex items-center gap-2 text-white font-bold text-sm px-4 py-3 rounded-2xl shadow-xl hover:opacity-90 transition-transform hover:scale-105 active:scale-95 whitespace-nowrap"
-        style={{ background: 'var(--primary)' }}
+        aria-label={`התקשרו אלינו ${SITE.phoneDisplay}`}
+        className="call-btn call-ring fixed bottom-6 right-5 z-40 flex items-center gap-2 text-white font-bold text-sm px-4 py-3 rounded-2xl transition-transform hover:scale-105 active:scale-95 whitespace-nowrap"
       >
         <svg className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
