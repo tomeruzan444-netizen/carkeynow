@@ -591,6 +591,25 @@ export const zyProcess: Step[] = [
   { title: "הגדרה ובדיקה חוזרת", desc: "קובעים השהיית חימוש, משאירים את הסף, ובודקים שוב מול הרכב שחונה.", duration: "15-25 דק׳" },
 ];
 
+// ─── KODAN · KARMIEL (מה חוזר לא מחובר אחרי פחחות) ───────────────────
+
+export const krmReturnCards: FeatCard[] = [
+  { title: "מתג דלת", desc: "הנפוץ ביותר. פאנל שהורד וחזר, והמתג נשאר מנותק. הנעילה עובדת כרגיל." },
+  { title: "מתג מכסה המנוע", desc: "יורד בכל עבודה בחזית ולרוב לא חוזר. גם המתג שאיש לא בודק." },
+  { title: "מוליך סוללת הגיבוי", desc: "הסירנה מצפצפת ונשמעת תקינה. מה שלא חובר הוא היכולת לעבוד בלי מצבר." },
+  { title: "חיווט שנלחץ", desc: "היחיד שלא מתגלה מיד. נשחק חודשים ואז נראה כתקלה חשמלית אקראית." },
+  { title: "יחידת הבקרה שהוזזה", desc: "למקום נוח לגישה ולא מוגן ממים ומחום. לא פוגע היום, מקצר שנים." },
+  { title: "חיישן שמיקומו הוזז", desc: "הרגישות משתנה, ומכאן התראות שווא שהתחילו בדיוק אחרי התיקון." },
+];
+
+export const krmProcess: Step[] = [
+  { title: "בירור בטלפון", desc: "מה בדיוק נעשה ברכב, מתי, ואילו פאנלים הורדו. ברדיוס הזה זה מה שקובע אם ביקור אחד יספיק.", duration: "5 דק׳" },
+  { title: "חימוש ובדיקת נורית", desc: "מוודאים שהמערכת בכלל מתחמשת. אם לא, כל השאר לא רלוונטי.", duration: "3 דק׳" },
+  { title: "חמש נקודות כניסה בנפרד", desc: "ארבע דלתות, מכסה מנוע ותא מטען. כל אחת לחוד ולא ביחד. כאן זה מתגלה.", duration: "10-15 דק׳" },
+  { title: "סירנה ומוליך הגיבוי", desc: "בודקים עוצמה בפועל, ושהמוליך שמאפשר עבודה בלי מצבר באמת מחובר.", duration: "5 דק׳" },
+  { title: "חיווט מאחורי הפאנלים", desc: "מחפשים צרור שנלחץ. זה החלק שלא מתגלה בשום בדיקה אחרת.", duration: "10-20 דק׳" },
+];
+
 export function getVisualSections(slug: string): VisualSection[] {
   // Yavne - a codan nobody has papers for
   // Rosh HaAyin - work vehicles, where the cargo bay is a separate protection zone
@@ -599,6 +618,15 @@ export function getVisualSections(slug: string): VisualSection[] {
   // Bnei Brak - an alarm that starts cycling on Shabbat, in the densest city in Israel
   // Ramat HaSharon - one car with two security systems that do not know about each other
   // Zichron Yaakov - a steep street moves the tilt sensor's reference after you leave
+  // Karmiel - what comes back disconnected after body work, while locking still works
+  if (slug === 'קודן-לרכב-בכרמיאל') {
+    return [
+      { type: 'features', heading: 'שש נקודות שנפגעות בעבודת פחחות', sub: 'באף אחת מהן הנעילה וצפצוף האישור אינם משתנים, ולכן שום דבר לא נראה שונה', data: { cards: krmReturnCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'חמישה שלבים בבדיקה אחרי מוסך', data: krmProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   if (slug === 'קודן-לרכב-בזכרון-יעקב') {
     return [
       { type: 'features', heading: 'שש נקודות שמשפיעות על חיישן הטיה בשיפוע', sub: 'הסף נמדד בשברי מעלה, וההתיישבות של הרכב נופלת בדיוק באותו טווח', data: { cards: zySettleCards, cols: 3 as 3 } },
