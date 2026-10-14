@@ -610,6 +610,25 @@ export const krmProcess: Step[] = [
   { title: "חיווט מאחורי הפאנלים", desc: "מחפשים צרור שנלחץ. זה החלק שלא מתגלה בשום בדיקה אחרת.", duration: "10-20 דק׳" },
 ];
 
+// ─── KODAN · OR AKIVA (על מה שווה לשלם ועל מה לא) ────────────────────
+
+export const oaValueCards: FeatCard[] = [
+  { title: "ניתוק מעגל התנעה", desc: "התוספת היחידה שהופכת מודיע למונע. 250-400 שקל. הראשונה שנמליץ עליה." },
+  { title: "סירנה עם סוללת גיבוי", desc: "עובדת גם אם נותק המצבר. קריטית בחניית רחוב, פחות בחצר מגודרת." },
+  { title: "זמן התקנה", desc: "לא רכיב בכלל, והפריט שהכי קל לחסוך בו. 90 דקות מול 45 לא נראות ביום ההתקנה." },
+  { title: "שלט מעל שניים", desc: "150-250 שקל לשלט שיישאר במגירה. הגיוני רק אם יש שלושה נהגים ומעלה." },
+  { title: "מודול GSM ומנוי", desc: "ערכו בשחזור אחרי גניבה. 1,000-2,000 שקל מנוי בשלוש שנים, לפי מקום החניה." },
+  { title: "סירנה חזקה יותר", desc: "מעל רמה מסוימת דציבלים לא מוסיפים הגנה, רק מטרד וסיכוי שתכבו אותה." },
+];
+
+export const oaProcess: Step[] = [
+  { title: "שלוש שאלות בטלפון", desc: "איפה הרכב ישן, מה שוויו, ומה מדאיג אתכם. השלישית היא המכריעה.", duration: "3 דק׳" },
+  { title: "בדיקת מה כבר מותקן", desc: "לפעמים התשובה היא תיקון ולא התקנה, וזה חוסך את רוב העלות.", duration: "10 דק׳" },
+  { title: "הרכבת תצורה מול המחירון", desc: "עוברים שורה שורה ואומרים על מה לא כדאי לשלם. אתם בוחרים.", duration: "5 דק׳" },
+  { title: "התקנה ומיפוי חיווט", desc: "ממפים לפני שמחברים. זה ההפרש בין 90 דקות ל-45, והוא לא נראה אחר כך.", duration: "45-90 דק׳" },
+  { title: "זרם מנוחה וחמש נקודות", desc: "מודדים צריכה ובודקים כל נקודת כניסה בנפרד לפני שעוזבים.", duration: "15 דק׳" },
+];
+
 export function getVisualSections(slug: string): VisualSection[] {
   // Yavne - a codan nobody has papers for
   // Rosh HaAyin - work vehicles, where the cargo bay is a separate protection zone
@@ -619,6 +638,15 @@ export function getVisualSections(slug: string): VisualSection[] {
   // Ramat HaSharon - one car with two security systems that do not know about each other
   // Zichron Yaakov - a steep street moves the tilt sensor's reference after you leave
   // Karmiel - what comes back disconnected after body work, while locking still works
+  // Or Akiva - the buying decision: what each price range buys, and which upsells do not earn it
+  if (slug === 'קודן-לרכב-באור-עקיבא') {
+    return [
+      { type: 'features', heading: 'שש תוספות, ומה כל אחת באמת נותנת', sub: 'שלוש מהן מחזירות את העלות שלהן ושלוש ברוב המקרים לא', data: { cards: oaValueCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'חמישה שלבים בבחירת תצורה', data: oaProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   if (slug === 'קודן-לרכב-בכרמיאל') {
     return [
       { type: 'features', heading: 'שש נקודות שנפגעות בעבודת פחחות', sub: 'באף אחת מהן הנעילה וצפצוף האישור אינם משתנים, ולכן שום דבר לא נראה שונה', data: { cards: krmReturnCards, cols: 3 as 3 } },
