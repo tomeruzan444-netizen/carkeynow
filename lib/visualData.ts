@@ -629,6 +629,25 @@ export const oaProcess: Step[] = [
   { title: "זרם מנוחה וחמש נקודות", desc: "מודדים צריכה ובודקים כל נקודת כניסה בנפרד לפני שעוזבים.", duration: "15 דק׳" },
 ];
 
+// ─── KODAN · PARDES HANNA (טווח שלט והפרעות רדיו בחצר) ───────────────
+
+export const phkRangeCards: FeatCard[] = [
+  { title: "מתכת בדרך", desc: "שער הזזה מפח חוסם אות ולא רק מחליש. 30 מטר בשדה פתוח הופכים ל-8 דרך שער." },
+  { title: "מיקום המקלט", desc: "לרוב מתחת ללוח המחוונים: נוח להתקנה וגרוע לקליטה. הגורם שאפשר לשנות." },
+  { title: "חוט אנטנה מגולגל", desc: "חוט כרוך בטבעת מאבד יעילות. פרישה בקו ישר, חמש דקות עבודה." },
+  { title: "ממיר סולארי", desc: "המקור הנפוץ כאן. פועל רק כשיש שמש, ומכאן הסימן המזהה שלו." },
+  { title: "בקר שער ופנסי LED", desc: "ניזונים גם במנוחה, ויושבים בדיוק בנקודה שממנה לוחצים." },
+  { title: "בקר השקיה ומשאבות", desc: "פועלים בשעות קבועות, ולכן ההפרעה נראית אקראית עד שמשווים שעות." },
+];
+
+export const phkProcess: Step[] = [
+  { title: "שאלה אחת בטלפון", desc: "לא אם השלט עובד אלא מתי הוא לא עובד. התשובה קובעת מה לוקחים.", duration: "2 דק׳" },
+  { title: "מדידת טווח מהנקודה שלכם", desc: "מודדים מהמקום שממנו אתם לוחצים בפועל, ולא ליד הרכב.", duration: "10 דק׳" },
+  { title: "כיבוי חשודים בזה אחר זה", desc: "ממיר, בקר שער, פנסים. מודדים אחרי כל אחד באותה נקודה בדיוק.", duration: "10-15 דק׳" },
+  { title: "הזזת מקלט ופרישת אנטנה", desc: "לבסיס השמשה, ופרישת החוט בקו ישר. כאן מתקבל רוב השיפור.", duration: "20-40 דק׳" },
+  { title: "מדידה חוזרת עם הרעש פועל", desc: "מחזירים את הממיר לעבודה ומודדים שוב. בלי זה לא יודעים אם זה נפתר.", duration: "5 דק׳" },
+];
+
 export function getVisualSections(slug: string): VisualSection[] {
   // Yavne - a codan nobody has papers for
   // Rosh HaAyin - work vehicles, where the cargo bay is a separate protection zone
@@ -639,6 +658,15 @@ export function getVisualSections(slug: string): VisualSection[] {
   // Zichron Yaakov - a steep street moves the tilt sensor's reference after you leave
   // Karmiel - what comes back disconnected after body work, while locking still works
   // Or Akiva - the buying decision: what each price range buys, and which upsells do not earn it
+  // Pardes Hanna - remote range: receiver placement and RF noise in a large private yard
+  if (slug === 'קודן-לרכב-בפרדס-חנה-כרכור') {
+    return [
+      { type: 'features', heading: 'שש השפעות על טווח השלט', sub: 'אחת מהן פועלת רק כשיש שמש, וזה הסימן המזהה שלה', data: { cards: phkRangeCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'חמישה שלבים באבחון טווח', data: phkProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   if (slug === 'קודן-לרכב-באור-עקיבא') {
     return [
       { type: 'features', heading: 'שש תוספות, ומה כל אחת באמת נותנת', sub: 'שלוש מהן מחזירות את העלות שלהן ושלוש ברוב המקרים לא', data: { cards: oaValueCards, cols: 3 as 3 } },
