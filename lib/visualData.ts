@@ -648,6 +648,25 @@ export const phkProcess: Step[] = [
   { title: "מדידה חוזרת עם הרעש פועל", desc: "מחזירים את הממיר לעבודה ומודדים שוב. בלי זה לא יודעים אם זה נפתר.", duration: "5 דק׳" },
 ];
 
+// ─── KODAN · REHOVOT (יומן אירועים ותיעוד אחרי אירוע) ────────────────
+
+export const rvLogCards: FeatCard[] = [
+  { title: "דריכה ונטרול", desc: "מתי המערכת נדרכה ומתי נוטרלה, עם שעה. זו התשובה לשאלה הראשונה." },
+  { title: "התראה ומקורה", desc: "מתי הייתה התראה ומאיזה חיישן. דרוכה והתריעה הן שתי שאלות נפרדות." },
+  { title: "מספר מחזורים", desc: "כמה זמן הסירנה פעלה. זה מסביר למה שכן לא שמע, בלי שזו תקלה." },
+  { title: "תקופת שמירה", desc: "7 עד 30 יום באפליקציה, 20 עד 50 רשומות בזיכרון מקומי. ברירת המחדל נמוכה." },
+  { title: "מה אין בו", desc: "מי היה שם, ומה נלקח. היומן הוא מה שהמערכת חשה, לא מה שקרה." },
+  { title: "דיוק השעון", desc: "יכול לסטות דקות לאורך חודשים בלי סנכרון זמן. חשוב רק בחלון זמן צר." },
+];
+
+export const rvProcess: Step[] = [
+  { title: "שתי שאלות בטלפון", desc: "האם יש מודול תקשורת, ומתי גיליתם. הראשונה קובעת אם יש מה לשלוף.", duration: "3 דק׳" },
+  { title: "צילום לפני נגיעה", desc: "הנזק כפי שהוא. זה המסמך שמשלים את מה שהיומן לא מראה.", duration: "5 דק׳" },
+  { title: "שליפת היומן", desc: "מתחברים ליחידה ומוציאים את הרשומות הרלוונטיות לחלון הזמן.", duration: "15-25 דק׳" },
+  { title: "פירוש ודוח בכתב", desc: "מה כל רשומה אומרת בפועל, בעברית. מתעדים ולא טוענים בשמכם.", duration: "15 דק׳" },
+  { title: "הארכת תקופת השמירה", desc: "למקסימום שהיחידה תומכת, כדי שבפעם הבאה לא תהיה מלכודת.", duration: "5-10 דק׳" },
+];
+
 export function getVisualSections(slug: string): VisualSection[] {
   // Yavne - a codan nobody has papers for
   // Rosh HaAyin - work vehicles, where the cargo bay is a separate protection zone
@@ -659,6 +678,15 @@ export function getVisualSections(slug: string): VisualSection[] {
   // Karmiel - what comes back disconnected after body work, while locking still works
   // Or Akiva - the buying decision: what each price range buys, and which upsells do not earn it
   // Pardes Hanna - remote range: receiver placement and RF noise in a large private yard
+  // Rehovot - what the system can tell you after an event, and the log's retention trap
+  if (slug === 'קודן-לרכב-ברחובות') {
+    return [
+      { type: 'features', heading: 'שש רשומות שיומן אירועים שומר', sub: 'שתיים מהן עונות על מה שנשאל אחרי אירוע, ושתיים מסבירות מה הוא לא יכול להוכיח', data: { cards: rvLogCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'חמישה שלבים בשליפת יומן אחרי אירוע', data: rvProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   if (slug === 'קודן-לרכב-בפרדס-חנה-כרכור') {
     return [
       { type: 'features', heading: 'שש השפעות על טווח השלט', sub: 'אחת מהן פועלת רק כשיש שמש, וזה הסימן המזהה שלה', data: { cards: phkRangeCards, cols: 3 as 3 } },
