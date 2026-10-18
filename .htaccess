@@ -22,6 +22,20 @@ AddDefaultCharset UTF-8
   RewriteCond %{REQUEST_FILENAME} -f
   RewriteRule ^ - [L]
 
+  # הפניית 301 מ-/path ל-/path/ כשמדובר בתיקייה אמיתית.
+  # בלי זה שתי הצורות מחזירות 200 עם אותו תוכן, וגוגל סורק כל עמוד פעמיים
+  # ומדווח עליו כ"דף חלופי עם תג קנוני תקין". זה תקין אבל מבזבז תקציב סריקה.
+  #
+  # שלוש הערות על הכלל הזה:
+  # 1. הוא חייב לבוא אחרי "Serve exact file", אחרת קבצים כמו robots.txt
+  #    ו-sitemap.xml היו נתפסים בו.
+  # 2. התנאי !/$ מונע לולאת הפניות, וגם מחריג את דף הבית.
+  # 3. NE חיוני: %{REQUEST_URI} כבר מקודד, ובלעדיו סימני ה-% בכתובות
+  #    העבריות היו מקודדים שוב ל-%25 והכתובת הייתה נשברת.
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteRule ^ %{REQUEST_URI}/ [R=301,L,NE]
+
   # Serve directory index.html
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteCond %{REQUEST_FILENAME}/index.html -f
