@@ -112,27 +112,41 @@ const days = files.map((file) => {
   const src = readFileSync(resolve(LOGS, file), 'utf8');
   const date = file.replace('.md', '');
 
-  const head = src.split(/\n---/)[0];
-  const summary = head.split('\n').slice(1)
-    .filter((l) => l.trim() && !/^קומיט/.test(l.trim()))
-    .join(' ').replace(/\s+/g, ' ').trim();
+  /* יום אחד יכול לכלול יותר משיחה אחת, וכל אחת פותחת ב-H1 משלה. בלי
+     הפיצול הזה סקשן 1 השני נבלע, וזה קרה ב-2026-10-22. */
+  const sessions = src.split(/\n(?=#\s+\d{4}-\d{2}-\d{2})/).filter((x) => x.trim());
 
-  const commits = [...src.matchAll(/`([0-9a-f]{7,40})`/g)].map((m) => m[1]);
-  const uniqCommits = [...new Set(commits)];
+  const summaries = [];
+  const requests = [];
+  let pending = '';
+  let closed = '';
 
-  const sec1 = src.match(/##\s*1\.\s*מה ביקשת([\s\S]*?)(?=\n---|\n##\s*2\.)/);
-  const requests = sec1 ? splitRequests(sec1[1]).map(strip) : [];
+  for (const sec of sessions) {
+    const head = sec.split(/\n---/)[0];
+    const sum = head.split('\n').slice(1)
+      .filter((l) => l.trim() && !/^קומיט/.test(l.trim()))
+      .join(' ').replace(/\s+/g, ' ').trim();
+    if (sum) summaries.push(sum);
 
-  const live = [...src.matchAll(/(https:\/\/carkeynow\.co\.il\/[^\s)]+)/g)].map((m) => m[1]);
-  const pending = (src.match(/\*\*ממתין להחלטה שלך:\*\*([\s\S]*?)(?=\n\n|\n\*\*)/) || [])[1];
-  const closed = (src.match(/\*\*נסגר היום:\*\*([\s\S]*?)(?=\n\n|\n\*\*)/) || [])[1];
+    const s1 = sec.match(/##\s*1\.\s*מה ביקשת([\s\S]*?)(?=\n---|\n##\s*2\.)/);
+    if (s1) requests.push(...splitRequests(s1[1]).map(strip));
+
+    /* הניסוח אינו זהה בכל יום, למשל "ממתין להחלטה שלך, ובראש
+       הרשימה:", ולכן הביטוי הקבוע בלבד מחוייב. */
+    const p = (sec.match(/\*\*ממתין להחלטה שלך[^*]*:\*\*([\s\S]*?)(?=\n\n|\n\*\*)/) || [])[1];
+    const c = (sec.match(/\*\*נסגר היום:\*\*([\s\S]*?)(?=\n\n|\n\*\*)/) || [])[1];
+    if (p) pending = p.replace(/\s+/g, ' ').trim();
+    if (c) closed = c.replace(/\s+/g, ' ').trim();
+  }
+
+  const commits = [...new Set([...src.matchAll(/`([0-9a-f]{7,40})`/g)].map((m) => m[1]))];
+  const live = [...new Set(
+    [...src.matchAll(/(https:\/\/carkeynow\.co\.il\/[^\s)]+)/g)].map((m) => m[1]),
+  )];
 
   return {
-    date, file, summary, requests,
-    commits: uniqCommits,
-    live: [...new Set(live)],
-    pending: pending ? pending.replace(/\s+/g, ' ').trim() : '',
-    closed: closed ? closed.replace(/\s+/g, ' ').trim() : '',
+    date, file, requests, commits, live, pending, closed,
+    summary: summaries.join(' '),
   };
 });
 
