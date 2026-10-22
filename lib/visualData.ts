@@ -667,6 +667,25 @@ export const rvProcess: Step[] = [
   { title: "הארכת תקופת השמירה", desc: "למקסימום שהיחידה תומכת, כדי שבפעם הבאה לא תהיה מלכודת.", duration: "5-10 דק׳" },
 ];
 
+// ─── KODAN · GANEI TIKVA (מצב שירות ומסירת הרכב לידיים אחרות) ────────
+
+export const gtkValetCards: FeatCard[] = [
+  { title: "מה מצב שירות משבית", desc: "חיישנים וחסימת התנעה. בדיוק מה שצריך כדי שמישהו יזיז את הרכב." },
+  { title: "מה הוא משאיר פעיל", desc: "נעילה, צפצוף אישור ולרוב גם הנורית. לכן שום דבר לא נראה שונה." },
+  { title: "קוד ולט", desc: "ארבע ספרות לעקיפה ולאיפוס, לשימוש חד פעמי. לא אותו דבר כמו המצב." },
+  { title: "מצב ולט", desc: "מצב פעולה מתמשך שנשאר דולק עד שמכבים. אפשר להיכנס אליו בלי שום קוד." },
+  { title: "הבדיקה של חמש שניות", desc: "לנעול, להמתין דקה, לפתוח דלת במפתח המכני. יש תגובה או אין." },
+  { title: "מה לא לעשות", desc: "לא למסור את השלט הראשי. הוא גם מה שמאפשר לרשום שלטים נוספים." },
+];
+
+export const gtkProcess: Step[] = [
+  { title: "שאלה אחת בטלפון", desc: "מתי זה התחיל, והאם הרכב היה במוסך או בשטיפה לאחרונה. זה לרוב מספיק.", duration: "2 דק׳" },
+  { title: "בדיקת מצב המערכת", desc: "קוראים אם היא במצב שירות לפני שבודקים רכיבים. זה הסדר הנכון.", duration: "10 דק׳" },
+  { title: "כיבוי והחזרה למצב רגיל", desc: "הפעולה עצמה לוקחת שניות. זה לא מה שמתומחר.", duration: "1 דק׳" },
+  { title: "בדיקת חמש נקודות הכניסה", desc: "ארבע דלתות ומכסה מנוע, אחת אחת, כדי לוודא שהכול חזר.", duration: "10-15 דק׳" },
+  { title: "ללמד את הבדיקה", desc: "מראים לכם את בדיקת חמש השניות כדי שלא תצטרכו אותנו בפעם הבאה.", duration: "3 דק׳" },
+];
+
 export function getVisualSections(slug: string): VisualSection[] {
   // Yavne - a codan nobody has papers for
   // Rosh HaAyin - work vehicles, where the cargo bay is a separate protection zone
@@ -679,6 +698,15 @@ export function getVisualSections(slug: string): VisualSection[] {
   // Or Akiva - the buying decision: what each price range buys, and which upsells do not earn it
   // Pardes Hanna - remote range: receiver placement and RF noise in a large private yard
   // Rehovot - what the system can tell you after an event, and the log's retention trap
+  // Ganei Tikva - service mode: the car looks fully protected and is not
+  if (slug === 'קודן-לרכב-בגני-תקווה') {
+    return [
+      { type: 'features', heading: 'שש נקודות על מצב שירות', sub: 'מה הוא משבית, מה הוא משאיר פעיל, ולמה שני דברים שונים נקראים בישראל אותו שם', data: { cards: gtkValetCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'חמישה שלבים בבדיקה אחרי מסירת הרכב', data: gtkProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   if (slug === 'קודן-לרכב-ברחובות') {
     return [
       { type: 'features', heading: 'שש רשומות שיומן אירועים שומר', sub: 'שתיים מהן עונות על מה שנשאל אחרי אירוע, ושתיים מסבירות מה הוא לא יכול להוכיח', data: { cards: rvLogCards, cols: 3 as 3 } },
