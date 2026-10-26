@@ -94,11 +94,6 @@ export default function Header() {
       {/* ── Trust signals strip ── */}
       <div className="hidden sm:flex items-center justify-center gap-6 py-1.5 text-xs font-medium"
         style={{ background: '#f0f4f9', color: 'var(--primary)', borderBottom: '1px solid var(--border)' }}>
-        <span className="flex items-center gap-1.5">
-          <span className="font-bold">דירוג 4.7</span>
-          <span className="opacity-60">| 418 דירוגים</span>
-        </span>
-        <span className="w-px h-3 bg-gray-300" />
         <span>זמינות <strong>24/7</strong> כולל שבתות</span>
         <span className="w-px h-3 bg-gray-300" />
         <span>הגעה תוך <strong>20 דקות</strong></span>
