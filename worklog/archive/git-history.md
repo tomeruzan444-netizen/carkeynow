@@ -6,7 +6,7 @@
 > מה בדיוק התבקש ואילו בדיקות הורצו - המידע הזה לא נשמר בזמן אמת.
 > ליומנים המלאים ראו `worklog/YYYY-MM-DD.md`.
 
-טווח: 2026-06-02 עד 2026-10-26 | 231 קומיטים ב-77 ימי עבודה
+טווח: 2026-06-02 עד 2026-10-26 | 233 קומיטים ב-77 ימי עבודה
 
 ## סיכום חודשי
 
@@ -16,17 +16,19 @@
 | 2026-07 | 23 | 53 |
 | 2026-08 | 12 | 19 |
 | 2026-09 | 14 | 36 |
-| 2026-10 | 12 | 33 |
+| 2026-10 | 12 | 35 |
 
 ## פירוט לפי יום
 
 ### 2026-10-26
 
-3 קומיטים | 6 קבצים | רכיבים, תבנית ועיצוב, תיעוד
+5 קומיטים | 12 קבצים | ניווט וקישורים, רכיבים, שאלות ותשובות, תבנית ועיצוב, תוכן עמודים, תיעוד, תשתית
 
 - `c35ff7a` 09:08 - feat(contact): embed the business map on the contact page *(1 קבצים)*
 - `49ca24a` 09:10 - docs(worklog): log the contact-page map embed *(4 קבצים)*
 - `6744686` 09:20 - chore(header): remove the rating from the trust strip *(1 קבצים)*
+- `28fca02` 09:21 - docs(worklog): log the rating removal and two findings from the same strip *(4 קבצים)*
+- `d98e7ea` 22:56 - feat(blog): add a blog section and publish the first post *(7 קבצים)*
 
 ### 2026-10-25
 
