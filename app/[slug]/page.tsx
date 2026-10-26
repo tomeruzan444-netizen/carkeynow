@@ -16,6 +16,8 @@ import { CaseStudyBlock } from '@/components/CaseStudy';
 import { BrandModelsBlock } from '@/components/BrandModels';
 import { getBrandModels } from '@/lib/brandModels';
 import { getCaseStudy } from '@/lib/caseStudies';
+import { BLOG_SLUG, getBlogPost } from '@/lib/blog';
+import { BlogList, BlogPostMeta } from '@/components/BlogList';
 import { TableOfContents } from '@/components/TableOfContents';
 import { processContentH2, type TocItem } from '@/lib/toc';
 import { getTitleOverride } from '@/lib/titleOverrides';
@@ -61,7 +63,9 @@ export async function generateMetadata({
       url: canonical,
       siteName: SITE.name,
       locale: 'he_IL',
-      type: 'website',
+      ...(getBlogPost(page.slug)
+        ? { type: 'article' as const, publishedTime: getBlogPost(page.slug)!.date }
+        : { type: 'website' as const }),
       images: [{ url: ogImg, width: 1200, height: 630, alt: fullTitle }],
     },
     twitter: {
@@ -101,7 +105,8 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
   const group = detectGroup(page.slug);
   // עמוד "צרו קשר" לא מציג accordion FAQ, ולכן גם לא פולט סכמת FAQPage
   // (מונע אי-התאמה בין ה-Schema לתוכן הנראה)
-  const faqItems = page.slug === 'צרו-קשר' ? [] : getFaqsForSlug(page.slug);
+  const faqItems = page.slug === 'צרו-קשר' || page.slug === BLOG_SLUG
+    ? [] : getFaqsForSlug(page.slug);
   const visualSections = getVisualSections(page.slug);
   const displayTitle = page.title
     .replace(/\s*\|.*$/, '')
@@ -113,6 +118,9 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
   const brand = getBrandLogo(page.slug);
 
   const isContactPage = page.slug === 'צרו-קשר';
+  // ── בלוג: עמוד הרשימה ופוסט בודד ──
+  const isBlogIndex = page.slug === BLOG_SLUG;
+  const blogPost = getBlogPost(page.slug);
   // העמוד הראשי "שכפול-מפתח-לרכב" - סליידר בראש העמוד (כפי שהיה)
   const isMainCarKeyPage = page.slug === 'שכפול-מפתח-לרכב';
   // עמודי הערים "שכפול-מפתח-לרכב-ב..." - סליידר משובץ מתחת לפסקת הפתיחה
@@ -174,10 +182,16 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
       <JsonLd data={{
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'דף הבית', item: SITE.url },
-          { '@type': 'ListItem', position: 2, name: displayTitle, item: `${SITE.url}/${page.slug}/` },
-        ],
+        itemListElement: blogPost
+          ? [
+            { '@type': 'ListItem', position: 1, name: 'דף הבית', item: SITE.url },
+            { '@type': 'ListItem', position: 2, name: 'הבלוג', item: `${SITE.url}/${BLOG_SLUG}/` },
+            { '@type': 'ListItem', position: 3, name: displayTitle, item: `${SITE.url}/${page.slug}/` },
+          ]
+          : [
+            { '@type': 'ListItem', position: 1, name: 'דף הבית', item: SITE.url },
+            { '@type': 'ListItem', position: 2, name: displayTitle, item: `${SITE.url}/${page.slug}/` },
+          ],
       }} />
 
       {/* WebPage */}
@@ -191,6 +205,27 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
         isPartOf: { '@id': `${SITE.url}/#website` },
         inLanguage: 'he',
       }} />
+
+      {/* BlogPosting - רק בפוסט, וכל שדה בו נראה גם בעמוד עצמו */}
+      {blogPost && (
+        <JsonLd data={{
+          '@context': 'https://schema.org',
+          '@type': 'BlogPosting',
+          headline: displayTitle,
+          description: page.metaDesc,
+          datePublished: blogPost.date,
+          dateModified: blogPost.date,
+          inLanguage: 'he',
+          mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE.url}/${page.slug}/` },
+          author: { '@type': 'Person', name: AUTHOR.name, jobTitle: AUTHOR.jobTitle },
+          publisher: {
+            '@type': 'Organization',
+            name: SITE.name,
+            url: SITE.url,
+            logo: { '@type': 'ImageObject', url: `${SITE.url}/logo.svg` },
+          },
+        }} />
+      )}
 
       {/* FAQPage schema */}
       {faqItems.length > 0 && (
@@ -301,6 +336,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
             <div id="page-article" className="min-w-0">
               {showToc && <TableOfContents items={tocItems} />}
               <div className="p-1 sm:card sm:p-6 md:p-8">
+                {blogPost && <BlogPostMeta post={blogPost} />}
                 {showByline && <AuthorByline />}
                 {hasSplit ? (
                   <>
@@ -316,6 +352,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
                   <PhotoSlider gallery={gallery} />
                 )}
                 {isAbout && <FounderCard />}
+                {isBlogIndex && <BlogList />}
               </div>
 
               {/* דגמים שאנחנו מטפלים בהם - רשימה דו-לשונית */}

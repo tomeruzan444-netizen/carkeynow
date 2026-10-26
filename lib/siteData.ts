@@ -98,6 +98,7 @@ export const NAV_SERVICES = [
 // ── Footer links ──────────────────────────────────────────────────────────
 export const FOOTER_LINKS = [
   { label: 'אודות',             href: '/אודות' },
+  { label: 'הבלוג',             href: '/בלוג' },
   { label: 'צרו קשר',          href: '/צרו-קשר' },
   { label: 'מדיניות פרטיות',   href: '/מדיניות-פרטיות' },
   { label: 'תנאי שימוש',       href: '/תנאי-שימוש' },

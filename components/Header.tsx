@@ -14,12 +14,13 @@ const NAV_CONFIG = [
   { key: 'brands'   as DropKey, label: 'סוגי מפתחות', items: NAV_BRANDS   },
 ];
 
-// Quick links - direct pages only, no blog
+// Quick links - direct pages, including the blog
 const QUICK_LINKS = [
   { label: 'ראשי',                 href: '/' },
   { label: 'פורץ רכבים',           href: '/פורץ-רכבים' },
   { label: 'התקנת קודנים לרכב',    href: '/התקנת-קודן-לרכב' },
   { label: 'שכפול מפתחות לאופנוע', href: '/שחזור-מפתח-לאופנוע' },
+  { label: 'הבלוג',                href: '/בלוג' },
 ];
 
 export default function Header() {
