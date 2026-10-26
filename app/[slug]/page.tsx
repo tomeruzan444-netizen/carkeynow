@@ -271,6 +271,29 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
                 style={{ color: 'var(--accent)' }}>{SITE.phoneDisplay}</a>
               <p className="text-sm text-gray-400 mt-1">זמינות 24/7 כולל שבתות וחגים</p>
             </div>
+
+            {/* ── מפת העסק. הטמעה של Google Maps, עטופה ביחס 4:3 כדי
+                 שלא תגלוש במסך צר, ועם title לקורא מסך ── */}
+            <div className="card mt-6 p-4 sm:p-6">
+              <h2 className="text-lg font-bold mb-1" style={{ color: 'var(--primary)' }}>
+                מפתח עכשיו במפה
+              </h2>
+              <p className="text-sm text-gray-500 mb-4">
+                שירות נייד, אנחנו מגיעים עד הרכב
+              </p>
+              <div className="relative w-full overflow-hidden rounded-lg"
+                style={{ aspectRatio: '4 / 3' }}>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d216431.11959158213!2d34.84527155!3d32.04932995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa51c9437527e7b6b%3A0x7bb2ce9e2ae88aa2!2z157XpNeq15cg16LXm9ep15nXlSAtINep15vXpNeV15wg157XpNeq15cg15zXqNeb15E!5e0!3m2!1siw!2sil!4v1792997976643!5m2!1siw!2sil"
+                  title="מפה: מפתח עכשיו, שכפול מפתח לרכב"
+                  className="absolute inset-0 h-full w-full"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                />
+              </div>
+            </div>
           </div>
         ) : (
           <div className="grid lg:grid-cols-[1fr_300px] gap-8 items-start">
