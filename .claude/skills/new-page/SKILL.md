@@ -83,6 +83,16 @@ node scripts/content-gate.mjs <draft.json>
 `lib/caseStudies.ts`, `lib/visualData.ts` (קבועים + ענף),
 `lib/siteData.ts`, `components/Sidebar.tsx` (**בסוף** המערך).
 
+**להעתיק כל עוגן מהקובץ, לא לכתוב אותו מהזיכרון:**
+
+```bash
+grep -n '<היצרן או העיר>' lib/siteData.ts components/Sidebar.tsx
+```
+
+שתי רשימות הניווט מנסחות את אותו פריט אחרת. (2026-10-29: `siteData`
+כותב "שכפול מפתח לרכב סיאט" ו-Sidebar כותב "שכפול מפתח לסיאט",
+ושני עוגנים לא נמצאו בהרצה הראשונה.)
+
 להריץ עם `PYTHONIOENCODING=utf-8`, ו**לכתוב את הסקריפט לקובץ ולא
 ב-heredoc** אם יש בו regex. שני החסמים האלה נתפסו שוב השבוע.
 
