@@ -9,7 +9,9 @@
     "start": "next start",
     "start:local": "cross-env NEXT_DIST_DIR=.build next start",
     "lint": "eslint",
-    "worklog": "node scripts/worklog-requests.mjs && node scripts/worklog-git.mjs"
+    "worklog": "node scripts/worklog-requests.mjs && node scripts/worklog-git.mjs",
+    "gate": "node scripts/content-gate.mjs",
+    "verify-page": "node scripts/content-verify.mjs"
   },
   "dependencies": {
     "next": "16.2.7",
