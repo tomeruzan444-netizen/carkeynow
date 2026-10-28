@@ -705,6 +705,25 @@ export const ashProcess: Step[] = [
   { title: "בדיקה מולכם לפני שאנחנו עוזבים", desc: "בודקים התנעה, נעילה ופתיחה, כפתור תא מטען ולחיצת מצוקה אם קיימת, ומוודאים שגם המפתח הקיים ממשיך לעבוד. רק אז מסיימים את הקריאה.", duration: "5-10 דקות" },
 ];
 
+// ─── BRAND · LAND ROVER (קוד אבטחה ו-Activity Key) ───────────────────
+
+export const lrCards: FeatCard[] = [
+  { title: "קוד אבטחה לפני תכנות", desc: "המודול אינו מקבל מפתח חדש עד שמוצג לו קוד שנגזר מנתוני הרכב. הקוד אינו כתוב ברישיון ולא על המפתח, ויש להפיק אותו מהרכב." },
+  { title: "חלון המתנה כפוי", desc: "בחלק מהדגמים המערכת מחייבת המתנה לפני אישור התכנות. זו הגנה מכוונת, והיא הסיבה שהעבודה ארוכה יותר מרכב משפחתי." },
+  { title: "Activity Key בלי סוללה", desc: "הצמיד עובד בטכנולוגיה פסיבית, ולכן אין לו נורית ואין דרך לדעת שהוא תקין עד שמנסים. הוא נקרא באזור מסומן בדלת האחורית." },
+  { title: "הצמיד משבית את המפתח", desc: "זה מכוון: מפתח חכם שנשאר בתוך הרכב מושבת כל עוד הצמיד פעיל, כדי שלא יימצא מפתח עובד בפנים." },
+  { title: "השנתון קובע, לא הדגם", desc: "אותו שם מסחרי בשתי שנים שונות יכול לשאת שתי מערכות שונות. זה מה שמזיז את המחיר בתוך הטווח." },
+  { title: "גלם נייטרלי מול מפתח מהיצרן", desc: "בסוכנות המפתח מגיע עם נתוני הרכב בתוכו. אצלנו הוא נייטרלי ואנחנו מבצעים את ההתאמה בשטח. התוצאה ברכב זהה." },
+];
+
+export const lrProcess: Step[] = [
+  { title: "שיחה: שנתון, מפתחות קיימים, צמיד", desc: "שואלים שנתון מדויק, כמה מפתחות קיימים וכמה מתניעים, והאם יש Activity Key ברכב. שלושת הפרטים קובעים ציוד, גלם וזמן.", duration: "3-5 דקות" },
+  { title: "זיהוי דור המערכת ברכב", desc: "מחברים מחשב אבחון, מזהים את סוג המודול ואת גרסת התוכנה. כאן מתברר אם מדובר במערכת שדורשת חלון המתנה ובאיזה אורך.", duration: "10-20 דקות" },
+  { title: "הפקת קוד האבטחה", desc: "קוראים את הנתונים מהמודול ומפיקים מהם את הקוד שמאפשר להוסיף מפתח. זה השלב שמייחד את לנד רובר, והוא זה שלוקח את רוב הזמן.", duration: "20-40 דקות" },
+  { title: "חיתוך וקידוד ליד הרכב", desc: "חותכים להב במכונה שבעמדה הניידת, מקודדים את המפתח למערכת, וממתינים את חלון האבטחה אם הדגם דורש אותו.", duration: "20-40 דקות" },
+  { title: "בדיקה מולכם לפני סיום", desc: "בודקים התנעה, נעילה, פתיחה ותא מטען, מוודאים שהמפתח הקיים ממשיך לעבוד, ואם יש צמיד מראים את הנקודה המדויקת שבה הוא נקרא.", duration: "5-10 דקות" },
+];
+
 export function getVisualSections(slug: string): VisualSection[] {
   // Yavne - a codan nobody has papers for
   // Rosh HaAyin - work vehicles, where the cargo bay is a separate protection zone
@@ -826,6 +845,15 @@ export function getVisualSections(slug: string): VisualSection[] {
   // Beit Shemesh - no importer service centre in town, the official route starts with a tow
   // Ashdod - cars that entered through the port on personal import, with no
   // record at the official importer
+  // Land Rover - security code before programming, and the Activity Key
+  if (slug === 'שכפול-מפתח-ללנד-רובר') {
+    return [
+      { type: 'features', heading: 'שש נקודות על מפתח של לנד רובר', sub: 'מה שונה בארכיטקטורה של היצרן, ומה זה אומר על זמן העבודה', data: { cards: lrCards, cols: 3 as 3 } },
+      { type: 'process',  heading: 'חמישה שלבים בשכפול מפתח ללנד רובר', data: lrProcess },
+      { type: 'stats',    data: keyStats },
+    ];
+  }
+
   if (slug === 'שכפול-מפתח-לרכב-באשדוד') {
     return [
       { type: 'features', heading: 'שש נקודות על מפתח לרכב שהגיע ביבוא אישי', sub: 'מה שונה ברכב שלא נמכר בישראל, ומה דווקא זהה לכל רכב אחר', data: { cards: ashImportCards, cols: 3 as 3 } },
