@@ -6,7 +6,7 @@
 > מה בדיוק התבקש ואילו בדיקות הורצו - המידע הזה לא נשמר בזמן אמת.
 > ליומנים המלאים ראו `worklog/YYYY-MM-DD.md`.
 
-טווח: 2026-06-02 עד 2026-10-27 | 237 קומיטים ב-78 ימי עבודה
+טווח: 2026-06-02 עד 2026-10-28 | 239 קומיטים ב-79 ימי עבודה
 
 ## סיכום חודשי
 
@@ -16,17 +16,24 @@
 | 2026-07 | 23 | 53 |
 | 2026-08 | 12 | 19 |
 | 2026-09 | 14 | 36 |
-| 2026-10 | 13 | 39 |
+| 2026-10 | 14 | 41 |
 
 ## פירוט לפי יום
 
+### 2026-10-28
+
+1 קומיטים | 6 קבצים | סקריפטים, תיעוד, תשתית
+
+- `95083c4` 16:07 - feat(skills): three working procedures, with the checks moved into the repo *(6 קבצים)*
+
 ### 2026-10-27
 
-3 קומיטים | 11 קבצים | סקריפטים, תיעוד
+4 קומיטים | 12 קבצים | סקריפטים, תיעוד
 
 - `985b748` 08:41 - docs: add GMB_GUIDE.md and log the Google Business Profile post *(6 קבצים)*
 - `0e6e576` 08:53 - docs: save Google's content guidelines as their own file *(5 קבצים)*
 - `f7a9e4a` 09:01 - docs(content-guide): the three numbers stay, and all three are minimums *(5 קבצים)*
+- `0f20102` 09:16 - docs(worklog): content audit of all 147 pages against Google's guidelines *(4 קבצים)*
 
 ### 2026-10-26
 
