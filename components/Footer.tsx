@@ -74,7 +74,9 @@ export default function Footer() {
 
           {/* Column 2: מפתחות לרכבים */}
           <div>
-            <h4 className="text-white font-bold mb-4 text-sm uppercase tracking-wide">מפתחות לרכבים</h4>
+            <h4 className="text-white font-bold mb-4 text-sm uppercase tracking-wide">
+              <Link href="/סוגי-מפתחות" className="hover:text-white transition">מפתחות לרכבים</Link>
+            </h4>
             <ul className="space-y-2">
               {FOOTER_BRANDS.map((b) => (
                 <li key={b.href + b.label}>
@@ -86,7 +88,9 @@ export default function Footer() {
 
           {/* Column 3: אזורים נפוצים */}
           <div>
-            <h4 className="text-white font-bold mb-4 text-sm uppercase tracking-wide">אזורים נפוצים</h4>
+            <h4 className="text-white font-bold mb-4 text-sm uppercase tracking-wide">
+              <Link href="/אזורי-שירות" className="hover:text-white transition">אזורים נפוצים</Link>
+            </h4>
             <ul className="space-y-2">
               {FOOTER_AREAS.map((a) => (
                 <li key={a.href}>
@@ -113,7 +117,9 @@ export default function Footer() {
 
           {/* Column 4: שירותים */}
           <div>
-            <h4 className="text-white font-bold mb-4 text-sm uppercase tracking-wide">שירותים</h4>
+            <h4 className="text-white font-bold mb-4 text-sm uppercase tracking-wide">
+              <Link href="/שירותים" className="hover:text-white transition">שירותים</Link>
+            </h4>
             <ul className="space-y-2">
               {NAV_SERVICES.map((s) => (
                 <li key={s.href}>

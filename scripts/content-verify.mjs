@@ -93,13 +93,24 @@ const sitemap = readFileSync(resolve(OUT, 'sitemap.xml'), 'utf8');
 ck('העמוד ב-sitemap', sitemap.includes(slug),
   `${(sitemap.match(/<loc>/g) || []).length} כתובות`);
 
-/* 8. העמוד נגיש מניווט כלשהו, כדי שלא ייוולד יתום */
-const home = readFileSync(resolve(OUT, 'index.html'), 'utf8');
-ck('מקושר מדף הבית', home.includes(`/${slug}`), 'ניווט או סיידבר');
+/* 8. העמוד מקושר מעמוד אחר באתר, כדי שלא ייוולד יתום.
+   עד 2026-10-29 הבדיקה חיפשה את הסלאג בדף הבית בלבד. לכן כל עמודי
+   הקודן לפי עיר נכשלו בה אף שהם מקושרים מהסיידבר, ו-11 עמודים שלא
+   היו מקושרים מאף מקום עברו אותה. */
+const dirs = readdirSync(OUT, { withFileTypes: true })
+  .filter((d) => d.isDirectory() && existsSync(resolve(OUT, d.name, 'index.html')));
 
-const pages = readdirSync(OUT, { withFileTypes: true })
-  .filter((d) => d.isDirectory() && existsSync(resolve(OUT, d.name, 'index.html'))).length;
-ck('מספר העמודים באתר', pages > 100, `${pages}`);
+const href = `href="/${slug}/"`;
+const hrefEnc = `href="/${encodeURI(slug)}/"`;
+const linksHere = (html) => html.includes(href) || html.includes(hrefEnc);
+
+const linkers = [
+  resolve(OUT, 'index.html'),
+  ...dirs.filter((d) => d.name !== slug).map((d) => resolve(OUT, d.name, 'index.html')),
+].filter((f) => linksHere(readFileSync(f, 'utf8'))).length;
+ck('מקושר מעמוד אחר באתר', linkers > 0, `${linkers} עמודים מקשרים`);
+
+ck('מספר העמודים באתר', dirs.length > 100, `${dirs.length}`);
 
 const failed = checks.filter((c) => !c.ok);
 const pad = (s, n) => s + ' '.repeat(Math.max(0, n - [...s].length));

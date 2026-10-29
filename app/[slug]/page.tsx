@@ -245,7 +245,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
         <JsonLd data={{
           '@context': 'https://schema.org',
           '@type': 'Person',
-          '@id': `${SITE.url}/#amir`,
+          '@id': `${SITE.url}/#doron`,
           name: AUTHOR.name,
           jobTitle: AUTHOR.jobTitle,
           image: `${SITE.url}${AUTHOR.photo}`,

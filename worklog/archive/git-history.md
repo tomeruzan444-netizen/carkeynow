@@ -6,7 +6,7 @@
 > מה בדיוק התבקש ואילו בדיקות הורצו - המידע הזה לא נשמר בזמן אמת.
 > ליומנים המלאים ראו `worklog/YYYY-MM-DD.md`.
 
-טווח: 2026-06-02 עד 2026-10-28 | 242 קומיטים ב-79 ימי עבודה
+טווח: 2026-06-02 עד 2026-10-28 | 243 קומיטים ב-79 ימי עבודה
 
 ## סיכום חודשי
 
@@ -16,18 +16,19 @@
 | 2026-07 | 23 | 53 |
 | 2026-08 | 12 | 19 |
 | 2026-09 | 14 | 36 |
-| 2026-10 | 14 | 44 |
+| 2026-10 | 14 | 45 |
 
 ## פירוט לפי יום
 
 ### 2026-10-28
 
-4 קומיטים | 15 קבצים | בלוקים ויזואליים, ניווט וקישורים, סקריפטים, שאלות ותשובות, תוכן עמודים, תיעוד, תשתית
+5 קומיטים | 16 קבצים | בלוקים ויזואליים, ניווט וקישורים, סקריפטים, שאלות ותשובות, תוכן עמודים, תיעוד, תשתית
 
 - `95083c4` 16:07 - feat(skills): three working procedures, with the checks moved into the repo *(6 קבצים)*
 - `2267727` 16:08 - docs(worklog): record why the three skills were built and what they cover *(3 קבצים)*
 - `fcb71fa` 16:20 - feat(content): add the Land Rover brand page *(6 קבצים)*
 - `34464c2` 16:21 - docs(skills): copy navigation anchors from the file, never from memory *(1 קבצים)*
+- `03486a7` 16:21 - docs(worklog): the Land Rover page, first one built with the skills *(3 קבצים)*
 
 ### 2026-10-27
 

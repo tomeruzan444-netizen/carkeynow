@@ -91,7 +91,7 @@ function OrganizationSchema() {
           founder: [
             {
               '@type': 'Person',
-              '@id': `${SITE.url}/#amir`,
+              '@id': `${SITE.url}/#doron`,
               name: AUTHOR.name,
               jobTitle: AUTHOR.jobTitle,
             },
