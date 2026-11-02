@@ -7,6 +7,21 @@ export interface TocItem {
   text: string;
 }
 
+/* ישות HTML בתוך H2 חייבת פענוח לפני שהיא הופכת לטקסט של טבלת התוכן.
+   הכותרת עצמה מרונדרת כ-HTML ולכן היא נראית תקינה, אבל פריט בטבלת
+   התוכן מרונדר כטקסט של React, וזה הפך את &quot; ל-&amp;quot; שמוצג
+   כמו שהוא. נתפס ב-2026-11-02, והיה חי בעמוד אשדוד בשני פריטים.
+   &amp; מפוענח אחרון, אחרת הוא היה יוצר ישות חדשה מתוך הטקסט. */
+export function decodeEntities(s: string): string {
+  return s
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&quot;/g, '"')
+    .replace(/&#(\d+);/g, (_, n: string) => String.fromCodePoint(Number(n)))
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&');
+}
+
 export function processContentH2(
   html: string,
   startIdx = 0,
@@ -16,9 +31,7 @@ export function processContentH2(
   const out = html.replace(
     /<h2(\s[^>]*)?>([\s\S]*?)<\/h2>/g,
     (full: string, attrs: string, inner: string) => {
-      const text = String(inner)
-        .replace(/<[^>]+>/g, '')
-        .replace(/&nbsp;/g, ' ')
+      const text = decodeEntities(String(inner).replace(/<[^>]+>/g, ''))
         .replace(/\s+/g, ' ')
         .trim();
       if (!text) return full;
