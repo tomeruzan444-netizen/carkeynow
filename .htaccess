@@ -18,6 +18,12 @@ AddDefaultCharset UTF-8
   RewriteCond %{REQUEST_URI} ^/%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D
   RewriteRule .* /services/index.html [L]
 
+  # 301: שם העיר בסלאג היה משובש, באש-העין במקום בראש-העין.
+  # הכתובת הישנה נסרקה ודורגה, ולכן ההפניה נשארת כאן לצמיתות.
+  RewriteCond %{REQUEST_URI} ^/%D7%A9%D7%9B%D7%A4%D7%95%D7%9C-%D7%9E%D7%A4%D7%AA%D7%97-%D7%9C%D7%A8%D7%9B%D7%91-%D7%91%D7%90%D7%A9-%D7%94%D7%A2%D7%99%D7%9F
+  RewriteRule .* /%D7%A9%D7%9B%D7%A4%D7%95%D7%9C-%D7%9E%D7%A4%D7%AA%D7%97-%D7%9C%D7%A8%D7%9B%D7%91-%D7%91%D7%A8%D7%90%D7%A9-%D7%94%D7%A2%D7%99%D7%9F/ [R=301,L,NE]
+  RewriteRule ^שכפול-מפתח-לרכב-באש-העין(/)?$ /שכפול-מפתח-לרכב-בראש-העין/ [R=301,L,NE]
+
   # Serve exact file
   RewriteCond %{REQUEST_FILENAME} -f
   RewriteRule ^ - [L]
