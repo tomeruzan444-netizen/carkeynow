@@ -27,6 +27,7 @@ import {
 } from '@/components/VisualBlocks';
 import { getVisualSections } from '@/lib/visualData';
 import { SITE } from '@/lib/siteData';
+import { cityForPage } from '@/lib/cityService';
 import { getFaqsForSlug } from '@/lib/faqData';
 
 export function generateStaticParams() {
@@ -113,6 +114,10 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
     .replace(/&#8211;/g, '-')
     .replace(/&amp;/g, '&')
     .replace(/&#8217;/g, "'");
+
+  /* שם העיר לסכמת Service. null בכל עמוד שאינו עמוד עיר.
+     מפיל את הבנייה אם הסלאג והכותרת חלוקים על שם העיר. */
+  const cityName = cityForPage(page.slug, page.title);
 
   // לוגו היצרן - מוצג ממורכז בראש העמוד בעמודי "שכפול מפתח ל<יצרן>"
   const brand = getBrandLogo(page.slug);
@@ -237,6 +242,32 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
             name: f.q,
             acceptedAnswer: { '@type': 'Answer', text: f.a },
           })),
+        }} />
+      )}
+
+      {/* Service schema - עמודי "שכפול מפתח לרכב ב[עיר]".
+          ישות שירות ברמת העמוד. provider מצביע ב-@id על העסק היחיד
+          שמוגדר ב-layout, ולכן לא נוצרת כאן ישות עסק שנייה ואין רמז
+          לסניף פיזי בעיר. areaServed מתאר לאן הניידת מגיעה. */}
+      {cityName && (
+        <JsonLd data={{
+          '@context': 'https://schema.org',
+          '@type': 'Service',
+          '@id': `${SITE.url}/${page.slug}/#service`,
+          name: `שכפול מפתח לרכב ב${cityName}`,
+          serviceType: 'שכפול מפתח לרכב',
+          provider: { '@id': `${SITE.url}/#organization` },
+          areaServed: {
+            '@type': 'City',
+            name: cityName,
+            containedInPlace: { '@type': 'Country', name: 'IL' },
+          },
+          url: `${SITE.url}/${page.slug}/`,
+          availableChannel: {
+            '@type': 'ServiceChannel',
+            serviceUrl: `${SITE.url}/${page.slug}/`,
+            servicePhone: SITE.phone,
+          },
         }} />
       )}
 

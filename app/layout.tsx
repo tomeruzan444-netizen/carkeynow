@@ -80,7 +80,9 @@ function OrganizationSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           '@context': 'https://schema.org',
-          '@type': 'LocalBusiness',
+          // Locksmith הוא תת-סוג של LocalBusiness ומדויק יותר לעסק הזה.
+          // Thing > Organization > LocalBusiness > HomeAndConstructionBusiness > Locksmith
+          '@type': 'Locksmith',
           '@id': `${SITE.url}/#organization`,
           name: SITE.name,
           url: SITE.url,
