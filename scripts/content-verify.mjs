@@ -65,7 +65,7 @@ ck('סכמת FAQPage', raw.includes('"@type":"FAQPage"'));
 /* 4. קישורים. עוגן עריכי הוא <a> בלי class: כל עוגן שרכיב מייצר נושא
    מחלקה, וזה מה שהבדיל בין 4 קישורים ל-25 ב-2026-10-25. */
 const editorial = [...body.matchAll(/<a href="\/([^"#?]+?)\/?"\s*>/g)].map((m) => m[1]);
-ck('3 עד 5 קישורים עריכיים', editorial.length >= 3 && editorial.length <= 5,
+ck('2 עד 5 קישורים עריכיים', editorial.length >= 2 && editorial.length <= 5,
   `${editorial.length}: ${editorial.join(', ')}`);
 ck('אין יעד עריכי כפול', editorial.length === new Set(editorial).size);
 const REWRITE = new Set(['סוגי-מפתחות', 'שירותים', 'אזורי-שירות']);

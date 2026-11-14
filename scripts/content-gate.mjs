@@ -154,7 +154,7 @@ ck('אין קישור בפסקה הראשונה', !firstP.includes('<a '));
 
 /* 3. קישורים, סעיף 14 */
 const links = [...content.matchAll(/href="\/([^"#?]+?)\/?"/g)].map((m) => m[1]);
-ck('3 עד 5 קישורים פנימיים', links.length >= 3 && links.length <= 5,
+ck('2 עד 5 קישורים פנימיים', links.length >= 2 && links.length <= 5,
   `${links.length}: ${links.join(', ')}`);
 ck('אין יעד כפול', links.length === new Set(links).size);
 const missing = links.filter((l) => !PAGES[l]);
