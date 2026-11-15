@@ -53,21 +53,42 @@ function loadPages() {
   const en = gen.indexOf('\n];', st);
   for (const p of JSON.parse(escapeControl(gen.slice(st, en + 2)))) pages[p.slug] = p;
 
+  /* manual-pages.ts שמור ב-CRLF, ועמודים שנוספו בסקריפט שמורים
+     בגרשיים כפולים ולא ב-backtick. הגרסה הקודמת חיפשה את סוף התוכן
+     אחרי "\n    metaTitle" בלי CR, וקיבלה -1 בכל 56 העמודים: התוכן
+     של כל עמוד ידני נקרא עד סוף הקובץ, ולכן בדיקת הייחודיות מולם
+     הייתה חסרת משמעות. בנוסף עמודי MG וסביון לא זוהו כלל (15.11.2026). */
   const man = readFileSync(resolve(ROOT, 'lib/manual-pages.ts'), 'utf8');
   const BT = String.fromCharCode(96);
-  const re = /slug: '([^']+)',\s*\n\s*title:/g;
+  const slugRe = /slug: (['"])([^'"]+)\1,\s*title:/g;
   let m;
-  while ((m = re.exec(man))) {
-    const ci = man.indexOf('content: ' + BT, m.index) + ('content: ' + BT).length;
-    const ce = man.indexOf(BT + ',\n    metaTitle', ci);
+  while ((m = slugRe.exec(man))) {
+    const slug = m[2];
+    const key = man.indexOf('content: ', m.index);
+    if (key < 0) continue;
+    const delim = man[key + 'content: '.length];
+    if (delim !== BT && delim !== '"') continue;
+    const ci = key + 'content: '.length + 1;
+    const term = delim + ',';
+    let ce = -1;
+    for (let i = ci; (i = man.indexOf(term, i)) >= 0; i += term.length) {
+      if (/^\s*metaTitle/.test(man.slice(i + term.length, i + term.length + 24))) {
+        ce = i;
+        break;
+      }
+    }
+    if (ce < 0) continue;
+    const raw = man.slice(ci, ce);
     const block = man.slice(m.index, ce);
     const field = (name) => {
-      const g = block.match(new RegExp(name + ": '([^']*)'"))
-        || block.match(new RegExp(name + ': "([^"]*)"'));
-      return g ? g[1] : '';
+      const s = block.match(new RegExp(name + ": '([^']*)'"));
+      if (s) return s[1];
+      const d = block.match(new RegExp(name + ': "((?:[^"\\\\]|\\\\.)*)"'));
+      return d ? JSON.parse('"' + d[1] + '"') : '';
     };
-    pages[m[1]] = {
-      slug: m[1], content: man.slice(ci, ce),
+    pages[slug] = {
+      slug,
+      content: delim === BT ? raw : JSON.parse('"' + raw + '"'),
       title: field('title'), metaTitle: field('metaTitle'), metaDesc: field('metaDesc'),
     };
   }
