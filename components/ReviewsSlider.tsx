@@ -2,43 +2,114 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 
+/* ביקורות אמיתיות מפרופיל העסק בגוגל, מועתקות מילה במילה (כולל כתיב
+   ופיסוק של הכותבים). אין לערוך את הטקסט ואין להוסיף ביקורת שלא
+   הופיעה בפרופיל. החודש מחושב מהתאריך היחסי שגוגל הציג ב-27.11.2026.
+   בכוונה אין סכמת Review: גוגל אינו מציג כוכבים לביקורות שעסק מפרסם
+   על עצמו באתר שלו. */
+
+export const GOOGLE_PROFILE_URL = 'https://www.google.com/maps?cid=8913413791239670434';
+
 interface Review {
   name: string;
+  meta: string;
+  date: string;
   text: string;
+  color: string;
+  tag?: string;
 }
 
 const REVIEWS: Review[] = [
-  { name: 'יובל כהן', text: `איבדתי את המפתח בקניון ביום שישי, בדיוק כשכולם ממהרים הביתה. הייתי בטוח שהלך לי כל הסופ"ש. התקשרתי למפתח עכשיו, דורון חזר אליי תוך כמה דקות והגיע יחסית מהר. הוא שיחזר לי מפתח במקום, הסביר מה הוא עושה תוך כדי ולא הרגשתי שמנסים "לנפח" את הסיפור. הכל עבד בסוף כמו שצריך. באמת אחלה שירות.` },
-  { name: 'מאיה לוי', text: `כבר כמעט השלמתי עם זה שאצטרך לגרור את הרכב למוסך. דיברתי עם כמה בעלי מקצוע לפני, וכל אחד זרק מחיר אחר וסיפור אחר. במפתח עכשיו קודם שאלו כמה שאלות, הבינו מה הבעיה ורק אז נתנו הצעת מחיר. בסוף בכלל לא היה צריך להחליף את כל מה שחשבו. שמחה שהגעתי אליהם.` },
-  { name: 'אלון פרץ', text: `המפתח של היונדאי התחיל לעשות קטעים, פעם עובד ופעם לא. דורון בדק אותו כמה דקות ואמר שהבעיה בכלל לא במה שחשבתי. תיקן במקום, בדק כמה פעמים שהכל עובד ורק אז נסע. אהבתי בעיקר את זה שלא ניסה למכור לי משהו שלא הייתי צריך.` },
-  { name: 'שני אברהם', text: `לאבד את המפתח היחיד לרכב זה אחד הדברים הכי מבאסים שקרו לי. הייתי בטוחה שזה הולך לקחת ימים. בפועל, באותו יום כבר היה לי מפתח חדש. כל ההתנהלות הייתה רגועה, בלי לחץ ובלי הבטחות מוגזמות. פשוט עשו את העבודה.` },
-  { name: 'רועי חדד', text: `כבר חודש הייתי צריך לשחק עם המפתח כל פעם כדי שהרכב יניע. בסוף נשבר לי והתקשרתי למפתח עכשיו. דורון הסתכל על הסוויץ', אמר מה לדעתו הבעיה ותיקן אותה במקום. מאז כבר כמה שבועות שהכל עובד חלק.` },
-  { name: 'נופר בן דוד', text: `לא היה לי זמן להסתובב בין חנויות בגלל העבודה, אז קבענו שיגיעו אליי. דורון הגיע בזמן, שכפל את המפתח ליד הרכב והראה לי שהכל עובד לפני שהוא הלך. חסך לי לא מעט כאב ראש.` },
-  { name: 'עידו שרון', text: `אני בדרך כלל בודק ביקורות לפני שאני מזמין בעל מקצוע, והפעם הן באמת היו מוצדקות. הכל היה פשוט - ענו מהר, הגיעו בזמן, עשו את העבודה וזהו. בלי סיפורים ובלי למרוח זמן.` },
-  { name: 'גלית מזרחי', text: `איבדתי את המפתח של האופנוע והייתי בטוחה שזה יהיה סיפור מסובך. בפועל זה היה הרבה יותר פשוט ממה שחשבתי. קבעו איתי, הגיעו, שיחזרו את המפתח והאופנוע הניע בלי בעיות. תודה רבה.` },
-  { name: 'ברק רוזן', text: `המפתח פשוט הפסיק להגיב כשסיימתי פגישה. לא ידעתי אם הבעיה במפתח או ברכב. דורון הגיע, בדק כמה דברים ותוך זמן קצר כבר סידר את זה. הכי אהבתי שהוא הסביר מה הייתה התקלה ולא רק תיקן והלך.` },
-  { name: 'ליאור ביטון', text: `יש בעלי מקצוע שאתה מסיים לעבוד איתם ונשאר עם סימני שאלה. פה היה בדיוק הפוך. הכל היה ברור מההתחלה - מה עושים, כמה זה עולה וכמה זמן זה ייקח. מבחינתי זה לא פחות חשוב מהעבודה עצמה.` },
-  { name: 'שקד אמסלם', text: `מהשיחה הראשונה קיבלתי תחושה טובה. לא ניסו להלחיץ אותי ולא אמרו ישר "צריך להחליף הכל". בדקו קודם את הרכב, הסבירו מה באמת צריך לעשות ובזה זה נגמר. שירות הוגן וזה נדיר היום.` },
-  { name: 'אופיר אוחנה', text: `יש לי רכב שלא כל אחד יודע לשכפל לו מפתח. כבר שמעתי יותר מפעם אחת "אנחנו לא מתעסקים עם הדגם הזה". דורון דווקא אמר שיבדוק, הגיע עם הציוד המתאים ותוך פחות משעה יצאתי עם מפתח חדש שעובד מצוין.` },
-  { name: 'קרן ישראלי', text: `האמת שנכנסתי ללחץ כשהבנתי שאין לי בכלל מפתח ספייר. במפתח עכשיו הרגיעו אותי כבר בטלפון, קבעו איתי מהר ובסוף הכל הסתדר הרבה יותר מהר ממה שחשבתי. ממליצה.` },
-  { name: 'תומר גבאי', text: `אני כמעט אף פעם לא משאיר ביקורות, אבל במקרה הזה באמת מגיע. דורון היה סבלני, לא מיהר, בדק כמה פעמים שהמפתח עובד גם בפתיחה וגם בהתנעה. שירות טוב ופשוט בן אדם נחמד.` },
-  { name: 'מורן דיין', text: `הקודן ברכב התחיל לעשות בעיות והייתי בטוחה שזה הולך לעלות לי המון כסף. בסוף התברר שהפתרון היה הרבה יותר פשוט. אהבתי את הכנות ואת זה שלא ניסו להגדיל את התיקון סתם.` },
-  { name: 'אלי סוויסה', text: `מצאתי את מפתח עכשיו במקרה דרך גוגל. בדרך כלל אני קצת סקפטי לגבי בעלי מקצוע מהאינטרנט, אבל הפעם באמת יצא טוב. הגיעו בזמן, עשו עבודה מסודרת והמחיר היה בדיוק כמו שסוכם בטלפון.` },
-  { name: 'ספיר מלול', text: `רציתי רק לשכפל מפתח נוסף כדי שלא אתקע בעתיד. כל התהליך לקח פחות זמן ממה שחשבתי. דורון אפילו נתן לי כמה טיפים איך לשמור על המפתח כדי שלא ייהרס. שירות קטן אבל מאוד נחמד.` },
-  { name: 'איילת ברק', text: `מה שהיה לי חשוב זה שמישהו יגיע מהר ולא אתחיל לרדוף אחרי בעלי מקצוע. דורון הגיע בזמן, עבד בשקט, בלי לחץ, ובסוף בדק איתי שהכל עובד לפני שנסע. בדיוק השירות שקיוויתי לקבל.` },
-  { name: 'מתן אשכנזי', text: `התקשרתי בערב די מאוחר, לא באמת חשבתי שמישהו יענה. לשמחתי חזרו אליי מהר וקבענו. כבר באותו ערב סידרו לי את המפתח וחסכו לי יום שלם בלי רכב. שירות מצוין.` },
-  { name: 'הדס בן עמי', text: `בסוף, מה שאני הכי זוכרת מכל הסיפור זה היחס. לא הרגשתי שמדברים אליי כמו עוד לקוחה בדרך. דורון היה סבלני, הסביר כל דבר, ענה גם על שאלות שלא ממש היו קשורות לתיקון עצמו. כשהכל נגמר הרגשתי שקיבלתי בדיוק את מה שהבטיחו לי, בלי הפתעות ובלי שטיקים.` },
+  { name: 'רון הרמות', meta: 'מדריך מקומי · 9 ביקורות', date: 'נובמבר 2026', color: '#ef6c00',
+    text: 'חייב לכתוב המלצה חמה על מנעולן רכב מפתח עכשיו שהגיעו תוך דקות לבצע שחזור מפתח לרכב שלי ונתנו שירות מכל הלב והנשמה במחיר מדהים ממש תודה ממליץ למי שצריך מנעולן סמכותי ובעל ניסיון במחיר טוב' },
+  { name: 'SHiputzman', meta: 'ביקורת אחת', date: 'נובמבר 2026', color: '#6d4c41',
+    text: 'ממליץ בחום על מפתח עכשיו שירות זול ומקצועי' },
+  { name: 'MASTER EDITOR', meta: '5 ביקורות', date: 'נובמבר 2026', color: '#00796b',
+    text: 'דורון מצוות מפתח עכשיו הגיע תוך 20 דקות ושחזר לי מפתח בבית במקצועיות אני מאוד מרוצה מהשירות תודה!' },
+  { name: 'Yatir Management', meta: '3 ביקורות', date: 'נובמבר 2026', color: '#7e57c2',
+    text: 'שירות מומלץ מאוד, שכפלו לי מפתח במקום, בבאר שבע - אדיבות ומקצועיות, שירות מצויין בכללי' },
+  { name: 'Shlomi Evgi', meta: '8 ביקורות', date: 'נובמבר 2026', color: '#2e7d32', tag: 'מחיר מעולה · 400-500 ₪',
+    text: 'דורון מצוות מפתח עכשיו ענה לי לטלפון תחילה והגיע תוך 20 דקות לשחזר לי מפתח מ 0 כשלא היו בכלל מפתחות לרכב שלי, ללא ספק שירות מקצועי ואדיב ממליץ בחום למי שמחפש בעל מקצוע מקצועי מאוד במחיר מעולה' },
+  { name: 'Moshe Yohananov', meta: '4 ביקורות', date: 'נובמבר 2026', color: '#5d4037',
+    text: 'מומלץ ביותר, שירות אמין ומקצועי עד בית הלקוח ומנעולן רכב שלגמרי אפשר לסמוך עליו בעבודה הזאת אין כמוכם!' },
+  { name: 'Tomer U', meta: 'ביקורת אחת', date: 'נובמבר 2026', color: '#0097a7',
+    text: 'דורון ענה לנו מיד ועזר לנו דרך הטלפון לנתק את הקודן לרכב ובסוף אפילו לא לקח תשלום! אין על החברה האלה ממליץ בחום ובאהבה' },
+  { name: 'Meitar Mayo', meta: '7 ביקורות', date: 'אוקטובר 2026', color: '#f4511e',
+    text: 'ממליצה מאוד! מנעולן רכב שהגיע תוך 20 דקות לשחזר מפתח ליונדאי שלי, אין כמו מפתח עכשיו' },
+  { name: 'Alon Tsoran', meta: 'מדריך מקומי · 32 ביקורות', date: 'אוקטובר 2026', color: '#455a64',
+    text: '' },
 ];
 
-function FiveStars({ size = 15 }: { size?: number }) {
+function Stars({ size = 15 }: { size?: number }) {
   return (
-    <div style={{ display: 'flex', gap: 1.5 }} aria-label="דירוג 5 מתוך 5 כוכבים" role="img">
+    <span className="gr-stars" aria-label="5 מתוך 5 כוכבים" role="img">
       {[0, 1, 2, 3, 4].map((i) => (
-        <svg key={i} width={size} height={size} viewBox="0 0 20 20" fill="#f5a927" aria-hidden="true">
+        <svg key={i} width={size} height={size} viewBox="0 0 20 20" fill="#fbbc04" aria-hidden="true">
           <path d="M10 1.6l2.47 5.01 5.53.8-4 3.9.94 5.5L10 14.2l-4.94 2.6.94-5.5-4-3.9 5.53-.8z" />
         </svg>
       ))}
-    </div>
+    </span>
+  );
+}
+
+function GoogleG({ size = 18 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 48 48" aria-hidden="true">
+      <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z" />
+      <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z" />
+      <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z" />
+      <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z" />
+    </svg>
+  );
+}
+
+function ReviewCard({ r }: { r: Review }) {
+  const [open, setOpen] = useState(false);
+  const [long, setLong] = useState(false);
+  const textRef = useRef<HTMLParagraphElement>(null);
+
+  /* "להמשך קריאה" מופיע רק כשהטקסט באמת נחתך ברוחב הנוכחי */
+  useEffect(() => {
+    const el = textRef.current;
+    if (!el || open) return;
+    const check = () => setLong(el.scrollHeight > el.clientHeight + 2);
+    check();
+    window.addEventListener('resize', check);
+    return () => window.removeEventListener('resize', check);
+  }, [open]);
+  return (
+    <article className="gr-card">
+      <header className="gr-card-head">
+        <span className="gr-avatar" style={{ background: r.color }} aria-hidden="true">
+          {r.name.charAt(0).toUpperCase()}
+        </span>
+        <span className="gr-who">
+          <span className="gr-name" dir="auto">{r.name}</span>
+          <span className="gr-meta">{r.meta}</span>
+        </span>
+        <span className="gr-g"><GoogleG size={18} /></span>
+      </header>
+
+      <div className="gr-rating">
+        <Stars />
+        <span className="gr-date">{r.date}</span>
+      </div>
+
+      {r.tag && <span className="gr-tag">{r.tag}</span>}
+
+      {r.text ? (
+        <>
+          <p ref={textRef} className={`gr-text${open ? '' : ' gr-text--clamp'}`}>{r.text}</p>
+          {(long || open) && (
+            <button type="button" className="gr-more" aria-expanded={open} onClick={() => setOpen(!open)}>
+              {open ? 'הצגה מקוצרת' : 'להמשך קריאה'}
+            </button>
+          )}
+        </>
+      ) : (
+        <p className="gr-text gr-text--empty">דירוג 5 כוכבים, בלי טקסט.</p>
+      )}
+    </article>
   );
 }
 
@@ -77,56 +148,41 @@ export default function ReviewsSlider() {
   };
 
   return (
-    <section dir="rtl" style={{ background: '#0d1320', borderBottom: '1px solid #1f2937' }}>
+    <section dir="rtl" aria-labelledby="gr-title" style={{ background: '#0d1320', borderBottom: '1px solid #1f2937' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-12">
-        {/* כותרת + כוכבים */}
-        <div className="text-center mb-6 md:mb-8">
-          <h2 className="text-white font-extrabold text-2xl md:text-3xl">חלק מהממליצים עלינו</h2>
-          <div className="flex justify-center mt-3">
-            <FiveStars size={20} />
+        <div className="gr-top">
+          <div className="gr-badge">
+            <GoogleG size={30} />
+            <div>
+              <h2 id="gr-title" className="gr-title">מה לקוחות כתבו עלינו בגוגל</h2>
+              <div className="gr-sub">
+                <Stars size={17} />
+                <span>ביקורות מפרופיל העסק בגוגל</span>
+              </div>
+            </div>
           </div>
+          <a href={GOOGLE_PROFILE_URL} target="_blank" rel="noopener noreferrer" className="gr-cta">
+            לכל הביקורות בגוגל
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"
+              strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6" /></svg>
+          </a>
         </div>
 
         <div className="relative">
-          {/* חץ אחורה (ימין ב-RTL) */}
-          <button
-            type="button"
-            aria-label="ביקורות קודמות"
-            onClick={() => scroll('prev')}
-            disabled={!canPrev}
-            className="brand-arrow brand-arrow--prev"
-          >
+          <button type="button" aria-label="ביקורות קודמות" onClick={() => scroll('prev')}
+            disabled={!canPrev} className="brand-arrow brand-arrow--prev gr-arrow">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M9 6l6 6-6 6" />
             </svg>
           </button>
 
-          {/* מסילת הביקורות */}
-          <div ref={trackRef} className="brand-slider-track flex gap-4 overflow-x-auto py-2 px-1">
-            {REVIEWS.map((r, i) => (
-              <article key={i} className="review-card">
-                <FiveStars />
-                <p className="review-card-text">{r.text}</p>
-                <div className="review-card-author">
-                  <span className="review-card-avatar" aria-hidden="true">{r.name.charAt(0)}</span>
-                  <span>
-                    <span className="review-card-name">{r.name}</span>
-                    <span className="review-card-role">לקוח/ה מרוצה</span>
-                  </span>
-                </div>
-              </article>
-            ))}
+          <div ref={trackRef} className="brand-slider-track gr-track flex gap-4 overflow-x-auto py-2">
+            {REVIEWS.map((r) => <ReviewCard key={r.name} r={r} />)}
           </div>
 
-          {/* חץ קדימה (שמאל ב-RTL) */}
-          <button
-            type="button"
-            aria-label="ביקורות נוספות"
-            onClick={() => scroll('next')}
-            disabled={!canNext}
-            className="brand-arrow brand-arrow--next"
-          >
+          <button type="button" aria-label="ביקורות נוספות" onClick={() => scroll('next')}
+            disabled={!canNext} className="brand-arrow brand-arrow--next gr-arrow">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M15 6l-6 6 6 6" />
