@@ -2,7 +2,12 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import ContactForm from '@/components/ContactForm';
-import { SITE, NAV_SERVICES, NAV_CITIES, NAV_BRANDS } from '@/lib/siteData';
+import { SITE, NAV_SERVICES, NAV_BRANDS } from '@/lib/siteData';
+import { CITY_REGIONS, citySlug, assertCityRegions } from '@/lib/cityRegions';
+import { WP_PAGES } from '@/lib/wp-pages';
+
+/* מפיל את הבנייה אם עמוד עיר חסר במפת האזורים או אם שכן לא קיים */
+assertCityRegions(WP_PAGES.map((p) => p.slug));
 
 export const metadata: Metadata = {
   title: { absolute: 'מפתח עכשיו - מנעולן רכב 24/7 | שכפול מפתחות, שחזור ופריצת רכב בכל הארץ' },
@@ -226,12 +231,27 @@ export default function HomePage() {
             כל האזורים
           </Link>
         </div>
-        <div className="flex flex-wrap gap-2">
-          {NAV_CITIES.map((c) => (
-            <Link key={c.href} href={c.href} className="pill-primary">
-              {c.label}
-            </Link>
+        <p className="text-sm text-gray-600 mb-5">שכפול מפתח לרכב לפי עיר, מחולק לפי אזורים:</p>
+        <div className="columns-1 sm:columns-2 lg:columns-3 gap-5">
+          {CITY_REGIONS.map((r) => (
+            <div key={r.name} className="card overflow-hidden mb-5" style={{ breakInside: 'avoid' }}>
+              <h3 className="px-4 py-2.5 font-bold text-white text-sm" style={{ background: 'var(--primary)' }}>
+                {r.name}
+              </h3>
+              <ul className="p-2">
+                {r.cities.map((c) => (
+                  <li key={c}>
+                    <Link href={`/${citySlug(c)}`} className="home-city-link">
+                      שכפול מפתח לרכב ב{c}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           ))}
+        </div>
+        <div className="mt-5">
+          <Link href="/מנעולן-רכב-בתל-אביב" className="pill-primary">מנעולן רכב בתל אביב</Link>
         </div>
       </section>
 

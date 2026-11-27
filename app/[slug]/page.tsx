@@ -29,6 +29,7 @@ import { getVisualSections } from '@/lib/visualData';
 import { SITE } from '@/lib/siteData';
 import { cityForPage } from '@/lib/cityService';
 import { getFaqsForSlug } from '@/lib/faqData';
+import NearbyCities from '@/components/NearbyCities';
 
 export function generateStaticParams() {
   return WP_PAGES.map((p) => ({ slug: p.slug }));
@@ -427,6 +428,9 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
                 if (!el) return null;
                 return <div key={i} id={visualSecIds[i] || undefined}>{el}</div>;
               })}
+
+              {/* קישורים לעמודי שכפול מפתח בערים השכנות (רק בעמודי ערים) */}
+              {isCityCarKeyPage && <NearbyCities slug={page.slug} />}
 
               {faqItems.length > 0 && (
                 <div id={faqSecId || undefined} className="mt-6">
